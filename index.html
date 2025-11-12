@@ -1,1109 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afrobeats Playlist Gatekeeping Observatory</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
-    <style>
-        :root {
-            --bg-gradient-start: #020308;
-            --bg-gradient-end: #0b1224;
-            --card-bg: rgba(17, 24, 39, 0.82);
-            --border-color: rgba(148, 163, 184, 0.18);
-            --text-primary: #E2E8F0;
-            --text-secondary: #94A3B8;
-            --accent-gold: #F6C344;
-            --accent-violet: #5B5FE4;
-            --accent-amber: #F59E0B;
-            --accent-emerald: #34D399;
-            --accent-muted: rgba(148, 163, 184, 0.35);
-            --radius-lg: 18px;
-            --radius-sm: 10px;
-            --shadow-elevated: 0 24px 48px rgba(8, 10, 19, 0.65);
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: 'DM Sans', sans-serif;
-            background: radial-gradient(circle at 20% 20%, #1d2a52, transparent 45%),
-                        radial-gradient(circle at 80% 0%, #301a68, transparent 40%),
-                        linear-gradient(160deg, var(--bg-gradient-start), var(--bg-gradient-end));
-            color: var(--text-primary);
-            min-height: 100vh;
-            padding: 48px clamp(16px, 4vw, 56px);
-        }
-
-        main {
-            max-width: 1280px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: minmax(260px, 320px) 1fr;
-            gap: clamp(24px, 3vw, 40px);
-        }
-
-        @media (max-width: 1024px) {
-            main {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        header.hero {
-            grid-column: 1 / -1;
-            margin-bottom: 8px;
-        }
-
-        header.hero h1 {
-            font-size: clamp(2rem, 4vw, 2.9rem);
-            margin: 0;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
-
-        header.hero p {
-            margin-top: 10px;
-            max-width: 760px;
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            line-height: 1.6;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-lg);
-            padding: clamp(18px, 2vw, 24px);
-            backdrop-filter: blur(18px);
-            box-shadow: var(--shadow-elevated);
-        }
-
-        .filters-panel {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            position: sticky;
-            top: 32px;
-            align-self: start;
-            min-height: 100%;
-        }
-
-        .panel-title {
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-            color: var(--accent-amber);
-            margin-bottom: 18px;
-        }
-
-        .search-group label,
-        .filters-panel label {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        .search-group input[type="text"] {
-            width: 100%;
-            padding: 12px 16px;
-            border-radius: var(--radius-sm);
-            border: 1px solid rgba(148, 163, 184, 0.25);
-            background: rgba(15, 23, 42, 0.65);
-            color: var(--text-primary);
-            font-size: 0.95rem;
-        }
-
-        .badge-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .filter-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: rgba(51, 65, 85, 0.5);
-            border-radius: 999px;
-            padding: 8px 14px;
-            font-size: 0.85rem;
-            border: 1px solid transparent;
-            cursor: pointer;
-            transition: border-color 0.2s ease;
-        }
-
-        .filter-badge input {
-            appearance: none;
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            border: 1px solid rgba(148, 163, 184, 0.45);
-            display: grid;
-            place-items: center;
-        }
-
-        .filter-badge input:checked::before {
-            content: "";
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--accent-violet);
-        }
-
-        .filter-badge input:checked + span,
-        .filter-badge input:checked ~ span {
-            color: var(--text-primary);
-        }
-
-        .filter-badge input:focus-visible {
-            outline: 2px solid var(--accent-violet);
-            outline-offset: 4px;
-        }
-
-        .range-inputs {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            align-items: center;
-        }
-
-        .range-inputs input[type="range"] {
-            width: 100%;
-        }
-
-        .range-display {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-        }
-
-        .toggle {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px 16px;
-            border-radius: var(--radius-sm);
-            background: rgba(30, 41, 59, 0.55);
-        }
-
-        .toggle input {
-            width: 44px;
-            height: 22px;
-            border-radius: 999px;
-            appearance: none;
-            position: relative;
-            background: rgba(148, 163, 184, 0.35);
-            cursor: pointer;
-            transition: background 0.2s ease;
-        }
-
-        .toggle input::before {
-            content: "";
-            position: absolute;
-            left: 4px;
-            top: 4px;
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: var(--text-primary);
-            transition: transform 0.25s ease;
-        }
-
-        .toggle input:checked {
-            background: rgba(91, 95, 228, 0.55);
-        }
-
-        .toggle input:checked::before {
-            transform: translateX(20px);
-        }
-
-        button.reset {
-            margin-top: 8px;
-            padding: 10px 14px;
-            border-radius: var(--radius-sm);
-            background: rgba(91, 95, 228, 0.12);
-            border: 1px solid rgba(91, 95, 228, 0.4);
-            color: var(--accent-violet);
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: background 0.2s ease;
-        }
-
-        button.reset:hover {
-            background: rgba(91, 95, 228, 0.25);
-        }
-
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 18px;
-            margin-bottom: clamp(24px, 3vw, 40px);
-        }
-
-        .metric-card h3 {
-            font-size: 0.8rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            margin: 0 0 10px 0;
-        }
-
-        .metric-card .value {
-            font-size: clamp(1.6rem, 3vw, 2.2rem);
-            font-weight: 600;
-            margin: 0 0 6px 0;
-        }
-
-        .metric-card .meta {
-            font-size: 0.8rem;
-            color: var(--accent-muted);
-        }
-
-        .charts-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-bottom: clamp(24px, 3.5vw, 48px);
-        }
-
-        .chart-card h3 {
-            font-size: 0.9rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--text-secondary);
-            margin: 0 0 14px 0;
-        }
-
-        .chart-card canvas {
-            max-width: 100%;
-            height: 220px;
-        }
-
-        .table-card {
-            overflow: hidden;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            color: var(--text-primary);
-            font-size: 0.9rem;
-        }
-
-        thead {
-            color: var(--text-secondary);
-            font-size: 0.75rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            background: rgba(15, 23, 42, 0.6);
-        }
-
-        thead th {
-            padding: 14px 18px;
-            text-align: left;
-            white-space: nowrap;
-        }
-
-        tbody tr {
-            border-top: 1px solid rgba(148, 163, 184, 0.12);
-            transition: background 0.2s ease;
-        }
-
-        tbody tr:hover {
-            background: rgba(30, 41, 59, 0.45);
-        }
-
-        tbody td {
-            padding: 16px 18px;
-            vertical-align: middle;
-        }
-
-        .playlist-name {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .playlist-name span {
-            font-weight: 600;
-            font-size: 1rem;
-        }
-
-        .tag {
-            align-self: flex-start;
-            font-size: 0.7rem;
-            padding: 4px 10px;
-            border-radius: 999px;
-            background: rgba(246, 195, 68, 0.15);
-            color: var(--accent-gold);
-            border: 1px solid rgba(246, 195, 68, 0.3);
-        }
-
-        .pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 0.8rem;
-            padding: 6px 12px;
-            border-radius: 999px;
-            background: rgba(91, 95, 228, 0.15);
-            color: var(--accent-violet);
-        }
-
-        .footnote {
-            grid-column: 1 / -1;
-            margin-top: 32px;
-            color: var(--accent-muted);
-            font-size: 0.8rem;
-            line-height: 1.5;
-        }
-
-        .empty-state {
-            padding: 24px;
-            text-align: center;
-            color: var(--text-secondary);
-        }
-
-        a.reference-link {
-            color: var(--accent-violet);
-            text-decoration: none;
-        }
-
-        a.reference-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afrobeats Playlist Gatekeeping Observatory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="data/scripts/style.css" />
 </head>
 <body>
-    <header class="hero">
-        <h1>Afrobeats Playlist Gatekeeping Observatory</h1>
-        <p>Explore how Spotify playlists shape the global identity of Afrobeats. Filter the dataset to benchmark regional representation, curator concentration, and sonic profiles across influential playlists. Surface signals of gatekeeping and bias with transparent, data-driven insights.</p>
-    </header>
+  <header>
+    <h1>Afrobeats Playlist Gatekeeping Observatory</h1>
+    <p>
+      Explore how Spotify playlists shape the global identity of Afrobeats. Benchmark regional representation,
+      curator influence, and sonic diversity across influential playlists to surface signals of gatekeeping and bias.
+    </p>
+  </header>
 
-    <main>
-        <aside class="filters-panel card" aria-label="Playlist filters">
-            <div>
-                <div class="panel-title">Search playlist</div>
-                <div class="search-group">
-                    <label for="search-input">Type a playlist name</label>
-                    <input id="search-input" type="text" placeholder="e.g. African Heat">
-                </div>
-            </div>
+  <main>
+    <aside id="filters" class="panel" aria-label="Dashboard filters">
+      <div class="filter-group">
+        <h3>Search playlist</h3>
+        <input type="search" id="search" placeholder="Type a playlist name" aria-label="Search playlists" />
+      </div>
 
-            <div>
-                <div class="panel-title">Curator type</div>
-                <div id="curator-type-options" class="badge-group" role="group" aria-label="Filter by curator type"></div>
-            </div>
+      <div class="filter-group">
+        <h3>Curator type</h3>
+        <div id="curator-types" class="checkbox-list"></div>
+      </div>
 
-            <div>
-                <div class="panel-title">Release year range</div>
-                <div class="range-display"><span id="min-year-display"></span><span id="max-year-display"></span></div>
-                <div class="range-inputs">
-                    <input type="range" id="year-min" aria-label="Minimum playlist year">
-                    <input type="range" id="year-max" aria-label="Maximum playlist year">
-                </div>
-            </div>
+      <div class="filter-group">
+        <h3>Release year range</h3>
+        <label>
+          From
+          <input type="number" id="min-year" min="2005" max="2030" step="1" />
+        </label>
+        <label>
+          To
+          <input type="number" id="max-year" min="2005" max="2030" step="1" />
+        </label>
+      </div>
 
-            <div class="toggle">
-                <div>
-                    <div style="font-size:0.9rem; font-weight:600;">Diaspora focus</div>
-                    <small style="color:var(--text-secondary);">Highlight diaspora-led playlists only</small>
-                </div>
-                <input type="checkbox" id="diaspora-toggle" aria-label="Toggle diaspora playlists">
-            </div>
+      <div class="filter-group">
+        <h3>Diaspora focus</h3>
+        <label>
+          <input type="checkbox" id="diaspora-only" /> Highlight diaspora-led tracks
+        </label>
+      </div>
 
-            <button type="button" class="reset" id="reset-filters">Reset filters</button>
-        </aside>
+      <button id="reset-filters" type="button">Reset filters</button>
+    </aside>
 
-        <section>
-            <div class="metrics-grid" aria-live="polite">
-                <div class="card metric-card">
-                    <h3>Playlists analysed</h3>
-                    <p class="value" id="metric-playlists">0</p>
-                    <p class="meta">After filters</p>
-                </div>
-                <div class="card metric-card">
-                    <h3>Tracks analysed</h3>
-                    <p class="value" id="metric-tracks">0</p>
-                    <p class="meta">Unique recordings</p>
-                </div>
-                <div class="card metric-card">
-                    <h3>Regional diversity</h3>
-                    <p class="value" id="metric-diversity">0</p>
-                    <p class="meta">Avg. unique regions per playlist</p>
-                </div>
-                <div class="card metric-card">
-                    <h3>Nigeria share</h3>
-                    <p class="value" id="metric-nigeria">0%</p>
-                    <p class="meta">Share of tracks</p>
-                </div>
-                <div class="card metric-card">
-                    <h3>Diaspora representation</h3>
-                    <p class="value" id="metric-diaspora">0%</p>
-                    <p class="meta">Share of tracks</p>
-                </div>
-            </div>
+    <section class="dashboard-grid">
+      <section class="cards" aria-label="Key metrics">
+        <article class="card">
+          <h4>Playlists analysed</h4>
+          <strong id="playlist-count">0</strong>
+          <span class="card-subtitle">after filters</span>
+        </article>
+        <article class="card">
+          <h4>Tracks analysed</h4>
+          <strong id="track-count">0</strong>
+          <span class="card-subtitle">unique recordings</span>
+        </article>
+        <article class="card">
+          <h4>Nigeria share</h4>
+          <strong id="nigeria-share">0%</strong>
+          <span class="card-subtitle">of tracks</span>
+        </article>
+        <article class="card">
+          <h4>Diaspora representation</h4>
+          <strong id="diaspora-share">0%</strong>
+          <span class="card-subtitle">of tracks</span>
+        </article>
+        <article class="card">
+          <h4>Regional diversity</h4>
+          <strong id="diversity-score">0</strong>
+          <span class="card-subtitle">avg. unique regions per playlist</span>
+        </article>
+      </section>
 
-            <div class="charts-grid">
-                <div class="card chart-card">
-                    <h3>Regional representation</h3>
-                    <canvas id="regional-chart" aria-label="Regional representation chart" role="img"></canvas>
-                </div>
-                <div class="card chart-card">
-                    <h3>Audio profile</h3>
-                    <canvas id="audio-chart" aria-label="Audio profile radar chart" role="img"></canvas>
-                </div>
-                <div class="card chart-card">
-                    <h3>Curator concentration</h3>
-                    <canvas id="curator-chart" aria-label="Curator concentration chart" role="img"></canvas>
-                </div>
-            </div>
+      <section class="visualisation" aria-label="Charts">
+        <article class="chart-panel">
+          <div>
+            <h3>Regional representation</h3>
+            <p>Distribution of artist origins across the filtered playlists. Hover to inspect counts.</p>
+          </div>
+          <canvas id="region-chart" aria-label="Regional representation chart" role="img"></canvas>
+        </article>
+        <article class="chart-panel">
+          <div>
+            <h3>Audio profile</h3>
+            <p>Mean danceability, energy, valence, tempo, and acousticness for the filtered selection.</p>
+          </div>
+          <canvas id="audio-chart" aria-label="Audio profile radar" role="img"></canvas>
+        </article>
+        <article class="chart-panel">
+          <div>
+            <h3>Curator concentration</h3>
+            <p>Share of Nigerian artists per curator category. Lower values signal broader regional coverage.</p>
+          </div>
+          <canvas id="curator-chart" aria-label="Curator concentration chart" role="img"></canvas>
+        </article>
+      </section>
 
-            <div class="card table-card">
-                <h2 style="margin:0 0 18px 0; font-size:1.2rem;">Playlist breakdown</h2>
-                <p style="margin:0 0 20px 0; color:var(--text-secondary); font-size:0.9rem;">Compare playlists on reach, regional diversity, and diaspora visibility. Metrics reflect the tracks matching the current filter set.</p>
-                <div style="overflow-x:auto;">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Playlist</th>
-                                <th>Curator</th>
-                                <th>Followers</th>
-                                <th>Unique regions</th>
-                                <th>Diaspora share</th>
-                                <th>Nigeria share</th>
-                                <th>Energy</th>
-                                <th>Danceability</th>
-                            </tr>
-                        </thead>
-                        <tbody id="playlist-table-body"></tbody>
-                    </table>
-                </div>
-                <div id="table-empty" class="empty-state" hidden>No playlists match the current filters. Try broadening your selection.</div>
-            </div>
-        </section>
+      <section class="panel" aria-label="Playlist breakdown">
+        <div style="margin-bottom: 1rem;">
+          <h2 style="margin: 0 0 0.5rem 0;">Playlist breakdown</h2>
+          <p style="margin: 0; color: var(--muted); font-size: 0.9rem;">
+            Compare reach, regional diversity, and diaspora visibility. Metrics reflect the current filter selection.
+          </p>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Playlist</th>
+                <th>Curator</th>
+                <th>Followers</th>
+                <th>Unique regions</th>
+                <th>Diaspora share</th>
+                <th>Nigeria share</th>
+                <th>Energy</th>
+                <th>Danceability</th>
+              </tr>
+            </thead>
+            <tbody id="playlist-table"></tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state" hidden>
+          No playlists match the filters. Adjust the search to see results.
+        </div>
+      </section>
+    </section>
+  </main>
 
-        <p class="footnote">Data synthesised from Spotify playlists for prototyping purposes. Replace <code>data/playlists.js</code> with API-driven data for live research workflows. References: Maasø &amp; Spilker (2022), Aguiar &amp; Waldfogel (2021), Bonini &amp; Gandini (2019), Centre for Data Ethics and Innovation (2022). For methodology notes and literature, see accompanying dissertation documentation.</p>
-    </main>
+  <footer>
+    Data synthesised from Spotify playlists for prototyping only. Replace <code>data.js</code> with live API output for
+    production research. Methods reference research into algorithmic gatekeeping.
+  </footer>
 
-    <script>
-        const playlists = [
-            {
-                name: 'African Heat',
-                curator: 'Spotify',
-                curatorType: 'Spotify Editorial',
-                followers: 1400000,
-                launched: 2015,
-                trackCount: 105,
-                uniqueRegions: 4,
-                diasporaShare: 0.25,
-                nigeriaShare: 0.63,
-                energy: 0.66,
-                danceability: 0.75,
-                valence: 0.72,
-                tempo: 104,
-                acousticness: 0.21,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 66, Ghana: 14, 'East Africa': 12, Diaspora: 13 }
-            },
-            {
-                name: 'Afrobeats Hits',
-                curator: 'Sony Music Africa',
-                curatorType: 'Major Label',
-                followers: 420000,
-                launched: 2013,
-                trackCount: 78,
-                uniqueRegions: 1,
-                diasporaShare: 0.0,
-                nigeriaShare: 0.63,
-                energy: 0.73,
-                danceability: 0.74,
-                valence: 0.7,
-                tempo: 105,
-                acousticness: 0.18,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 49, Ghana: 12, 'East Africa': 8, Diaspora: 9 }
-            },
-            {
-                name: 'Alté Cruise',
-                curator: 'NATIVE Sound System',
-                curatorType: 'Independent Curator',
-                followers: 186000,
-                launched: 2017,
-                trackCount: 62,
-                uniqueRegions: 3,
-                diasporaShare: 0.5,
-                nigeriaShare: 0.75,
-                energy: 0.6,
-                danceability: 0.71,
-                valence: 0.61,
-                tempo: 98,
-                acousticness: 0.27,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 46, Ghana: 4, Diaspora: 12 }
-            },
-            {
-                name: 'Ghana Bounce',
-                curator: '@afrovibes_gh',
-                curatorType: 'User Generated',
-                followers: 82000,
-                launched: 2018,
-                trackCount: 54,
-                uniqueRegions: 2,
-                diasporaShare: 0.13,
-                nigeriaShare: 0.13,
-                energy: 0.76,
-                danceability: 0.75,
-                valence: 0.64,
-                tempo: 107,
-                acousticness: 0.16,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 7, Ghana: 31, 'East Africa': 6, Diaspora: 10 }
-            },
-            {
-                name: 'Naija Next Gen',
-                curator: 'Spotify',
-                curatorType: 'Spotify Editorial',
-                followers: 240000,
-                launched: 2019,
-                trackCount: 68,
-                uniqueRegions: 1,
-                diasporaShare: 0.0,
-                nigeriaShare: 1,
-                energy: 0.65,
-                danceability: 0.74,
-                valence: 0.57,
-                tempo: 102,
-                acousticness: 0.14,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 68 }
-            },
-            {
-                name: 'Afro-Fusion Lab',
-                curator: 'OkayAfrica',
-                curatorType: 'Independent Curator',
-                followers: 132000,
-                launched: 2018,
-                trackCount: 70,
-                uniqueRegions: 4,
-                diasporaShare: 0.36,
-                nigeriaShare: 0.38,
-                energy: 0.67,
-                danceability: 0.77,
-                valence: 0.68,
-                tempo: 101,
-                acousticness: 0.23,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 27, Ghana: 14, 'East Africa': 10, Diaspora: 19 }
-            },
-            {
-                name: 'Diaspora Wave',
-                curator: 'AfroNation',
-                curatorType: 'Brand Curated',
-                followers: 98000,
-                launched: 2019,
-                trackCount: 60,
-                uniqueRegions: 2,
-                diasporaShare: 0.5,
-                nigeriaShare: 0.5,
-                energy: 0.66,
-                danceability: 0.75,
-                valence: 0.64,
-                tempo: 103,
-                acousticness: 0.2,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 30, Diaspora: 30 }
-            },
-            {
-                name: 'Lagos to London',
-                curator: 'Atlantic Records UK',
-                curatorType: 'Major Label',
-                followers: 156000,
-                launched: 2018,
-                trackCount: 64,
-                uniqueRegions: 2,
-                diasporaShare: 0.63,
-                nigeriaShare: 0.38,
-                energy: 0.67,
-                danceability: 0.75,
-                valence: 0.62,
-                tempo: 99,
-                acousticness: 0.19,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 24, Diaspora: 40 }
-            },
-            {
-                name: 'Afro Chill Sunset',
-                curator: 'DJ Nuzi',
-                curatorType: 'Independent Curator',
-                followers: 54000,
-                launched: 2017,
-                trackCount: 46,
-                uniqueRegions: 3,
-                diasporaShare: 0.13,
-                nigeriaShare: 0.13,
-                energy: 0.55,
-                danceability: 0.71,
-                valence: 0.58,
-                tempo: 96,
-                acousticness: 0.33,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 6, Ghana: 10, 'East Africa': 12, Diaspora: 18 }
-            },
-            {
-                name: 'Afro House Hybrid',
-                curator: 'Boiler Room',
-                curatorType: 'Brand Curated',
-                followers: 76000,
-                launched: 2019,
-                trackCount: 52,
-                uniqueRegions: 4,
-                diasporaShare: 0.25,
-                nigeriaShare: 0.25,
-                energy: 0.7,
-                danceability: 0.82,
-                valence: 0.66,
-                tempo: 122,
-                acousticness: 0.12,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 13, Ghana: 9, 'East Africa': 12, Diaspora: 18 }
-            },
-            {
-                name: 'East Africa Gems',
-                curator: 'Nairobi Grooves',
-                curatorType: 'Independent Curator',
-                followers: 47000,
-                launched: 2016,
-                trackCount: 48,
-                uniqueRegions: 2,
-                diasporaShare: 0.0,
-                nigeriaShare: 0.13,
-                energy: 0.66,
-                danceability: 0.75,
-                valence: 0.6,
-                tempo: 100,
-                acousticness: 0.28,
-                diasporaFocus: false,
-                regionBreakdown: { Nigeria: 6, 'East Africa': 32, Diaspora: 10 }
-            },
-            {
-                name: 'Pan-African Archives',
-                curator: 'Smithsonian Folkways',
-                curatorType: 'Brand Curated',
-                followers: 39000,
-                launched: 2015,
-                trackCount: 58,
-                uniqueRegions: 3,
-                diasporaShare: 0.38,
-                nigeriaShare: 0.38,
-                energy: 0.68,
-                danceability: 0.73,
-                valence: 0.62,
-                tempo: 101,
-                acousticness: 0.3,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 22, Ghana: 12, Diaspora: 24 }
-            },
-            {
-                name: 'Future of Afrobeats',
-                curator: 'Spotify',
-                curatorType: 'Spotify Editorial',
-                followers: 158000,
-                launched: 2021,
-                trackCount: 72,
-                uniqueRegions: 3,
-                diasporaShare: 0.25,
-                nigeriaShare: 0.5,
-                energy: 0.73,
-                danceability: 0.79,
-                valence: 0.65,
-                tempo: 106,
-                acousticness: 0.2,
-                diasporaFocus: true,
-                regionBreakdown: { Nigeria: 36, Ghana: 8, 'East Africa': 10, Diaspora: 18 }
-            }
-        ];
-
-        const formatNumber = (value) => {
-            if (value >= 1000000) {
-                return `${(value / 1000000).toFixed(1)}M`;
-            }
-            if (value >= 1000) {
-                return `${(value / 1000).toFixed(1)}K`;
-            }
-            return value.toString();
-        };
-
-        const curatorOptionsContainer = document.getElementById('curator-type-options');
-        const searchInput = document.getElementById('search-input');
-        const minYearDisplay = document.getElementById('min-year-display');
-        const maxYearDisplay = document.getElementById('max-year-display');
-        const minYearInput = document.getElementById('year-min');
-        const maxYearInput = document.getElementById('year-max');
-        const diasporaToggle = document.getElementById('diaspora-toggle');
-        const resetButton = document.getElementById('reset-filters');
-        const tableBody = document.getElementById('playlist-table-body');
-        const emptyState = document.getElementById('table-empty');
-
-        const metricEls = {
-            playlists: document.getElementById('metric-playlists'),
-            tracks: document.getElementById('metric-tracks'),
-            diversity: document.getElementById('metric-diversity'),
-            nigeria: document.getElementById('metric-nigeria'),
-            diaspora: document.getElementById('metric-diaspora')
-        };
-
-        let regionalChart;
-        let audioChart;
-        let curatorChart;
-
-        const initCuratorFilters = () => {
-            const curatorTypes = [...new Set(playlists.map(p => p.curatorType))].sort();
-            curatorTypes.forEach(type => {
-                const badge = document.createElement('label');
-                badge.className = 'filter-badge';
-                const input = document.createElement('input');
-                input.type = 'checkbox';
-                input.value = type;
-                input.checked = true;
-                input.setAttribute('aria-label', type);
-                badge.appendChild(input);
-                const span = document.createElement('span');
-                span.textContent = type;
-                badge.appendChild(span);
-                curatorOptionsContainer.appendChild(badge);
-                input.addEventListener('change', applyFilters);
-            });
-        };
-
-        const initYearSliders = () => {
-            const years = playlists.map(p => p.launched);
-            const minYear = Math.min(...years);
-            const maxYear = Math.max(...years);
-            minYearInput.min = minYear;
-            minYearInput.max = maxYear;
-            maxYearInput.min = minYear;
-            maxYearInput.max = maxYear;
-            minYearInput.value = minYear;
-            maxYearInput.value = maxYear;
-            const updateDisplays = () => {
-                let minVal = Number(minYearInput.value);
-                let maxVal = Number(maxYearInput.value);
-                if (minVal > maxVal) {
-                    if (document.activeElement === minYearInput) {
-                        maxVal = minVal;
-                        maxYearInput.value = maxVal;
-                    } else {
-                        minVal = maxVal;
-                        minYearInput.value = minVal;
-                    }
-                }
-                minYearDisplay.textContent = minVal;
-                maxYearDisplay.textContent = maxVal;
-            };
-            minYearInput.addEventListener('input', () => {
-                updateDisplays();
-                applyFilters();
-            });
-            maxYearInput.addEventListener('input', () => {
-                updateDisplays();
-                applyFilters();
-            });
-            updateDisplays();
-        };
-
-        const aggregateRegional = (data) => {
-            const totals = { Nigeria: 0, Ghana: 0, 'East Africa': 0, Diaspora: 0 };
-            data.forEach(playlist => {
-                Object.entries(playlist.regionBreakdown).forEach(([region, count]) => {
-                    if (!totals[region]) {
-                        totals[region] = 0;
-                    }
-                    totals[region] += count;
-                });
-            });
-            return totals;
-        };
-
-        const aggregateAudio = (data) => {
-            if (!data.length) {
-                return { danceability: 0, energy: 0, valence: 0, tempo: 0, acousticness: 0 };
-            }
-            const totalTracks = data.reduce((sum, p) => sum + p.trackCount, 0) || 1;
-            const sums = { danceability: 0, energy: 0, valence: 0, tempo: 0, acousticness: 0 };
-            data.forEach(p => {
-                sums.danceability += p.danceability * p.trackCount;
-                sums.energy += p.energy * p.trackCount;
-                sums.valence += p.valence * p.trackCount;
-                sums.tempo += p.tempo * p.trackCount;
-                sums.acousticness += p.acousticness * p.trackCount;
-            });
-            return {
-                danceability: sums.danceability / totalTracks,
-                energy: sums.energy / totalTracks,
-                valence: sums.valence / totalTracks,
-                tempo: sums.tempo / totalTracks,
-                acousticness: sums.acousticness / totalTracks
-            };
-        };
-
-        const aggregateCurators = (data) => {
-            const totals = {};
-            let totalTracks = 0;
-            data.forEach(p => {
-                totals[p.curatorType] = (totals[p.curatorType] || 0) + p.trackCount;
-                totalTracks += p.trackCount;
-            });
-            return { totals, totalTracks };
-        };
-
-        const aggregateMetrics = (data) => {
-            if (!data.length) {
-                return {
-                    playlists: 0,
-                    tracks: 0,
-                    diversity: 0,
-                    nigeria: 0,
-                    diaspora: 0
-                };
-            }
-            const totalTracks = data.reduce((sum, p) => sum + p.trackCount, 0);
-            const nigeriaWeighted = data.reduce((sum, p) => sum + (p.nigeriaShare * p.trackCount), 0);
-            const diasporaWeighted = data.reduce((sum, p) => sum + (p.diasporaShare * p.trackCount), 0);
-            const diversity = data.reduce((sum, p) => sum + p.uniqueRegions, 0) / data.length;
-            return {
-                playlists: data.length,
-                tracks: totalTracks,
-                diversity,
-                nigeria: totalTracks ? nigeriaWeighted / totalTracks : 0,
-                diaspora: totalTracks ? diasporaWeighted / totalTracks : 0
-            };
-        };
-
-        const renderTable = (data) => {
-            tableBody.innerHTML = '';
-            if (!data.length) {
-                emptyState.hidden = false;
-                return;
-            }
-            emptyState.hidden = true;
-
-            data
-                .slice()
-                .sort((a, b) => b.followers - a.followers)
-                .forEach(playlist => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>
-                            <div class="playlist-name">
-                                <span>${playlist.name}</span>
-                                <span class="tag">Launched ${playlist.launched}</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div style="display:flex;flex-direction:column;gap:6px;">
-                                <span>${playlist.curator}</span>
-                                <span class="pill">${playlist.curatorType}</span>
-                            </div>
-                        </td>
-                        <td>${formatNumber(playlist.followers)}</td>
-                        <td>${playlist.uniqueRegions}</td>
-                        <td>${Math.round(playlist.diasporaShare * 100)}%</td>
-                        <td>${Math.round(playlist.nigeriaShare * 100)}%</td>
-                        <td>${playlist.energy.toFixed(2)}</td>
-                        <td>${playlist.danceability.toFixed(2)}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-        };
-
-        const updateMetrics = (metrics) => {
-            metricEls.playlists.textContent = metrics.playlists;
-            metricEls.tracks.textContent = metrics.tracks;
-            metricEls.diversity.textContent = metrics.diversity ? metrics.diversity.toFixed(1) : '0.0';
-            metricEls.nigeria.textContent = `${Math.round(metrics.nigeria * 100)}%`;
-            metricEls.diaspora.textContent = `${Math.round(metrics.diaspora * 100)}%`;
-        };
-
-        const initCharts = () => {
-            const regionalCtx = document.getElementById('regional-chart').getContext('2d');
-            const audioCtx = document.getElementById('audio-chart').getContext('2d');
-            const curatorCtx = document.getElementById('curator-chart').getContext('2d');
-
-            regionalChart = new Chart(regionalCtx, {
-                type: 'bar',
-                data: {
-                    labels: ['Nigeria', 'Ghana', 'East Africa', 'Diaspora'],
-                    datasets: [{
-                        label: 'Tracks',
-                        data: [0, 0, 0, 0],
-                        backgroundColor: ['#F6C344', '#F59E0B', '#34D399', '#5B5FE4']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            callbacks: {
-                                label: (ctx) => `${ctx.parsed.y} tracks`
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            grid: { color: 'rgba(148, 163, 184, 0.12)' }
-                        },
-                        y: {
-                            beginAtZero: true,
-                            grid: { color: 'rgba(148, 163, 184, 0.12)' },
-                            ticks: {
-                                color: 'rgba(148, 163, 184, 0.7)'
-                            }
-                        }
-                    }
-                }
-            });
-
-            audioChart = new Chart(audioCtx, {
-                type: 'radar',
-                data: {
-                    labels: ['Danceability', 'Energy', 'Valence', 'Tempo (scaled)', 'Acousticness'],
-                    datasets: [{
-                        label: 'Mean audio profile',
-                        data: [0, 0, 0, 0, 0],
-                        backgroundColor: 'rgba(91, 95, 228, 0.25)',
-                        borderColor: '#5B5FE4',
-                        borderWidth: 2,
-                        pointBackgroundColor: '#5B5FE4'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        r: {
-                            angleLines: { color: 'rgba(148, 163, 184, 0.15)' },
-                            grid: { color: 'rgba(148, 163, 184, 0.1)' },
-                            suggestedMin: 0,
-                            suggestedMax: 1,
-                            ticks: { display: false }
-                        }
-                    },
-                    plugins: {
-                        legend: { display: false }
-                    }
-                }
-            });
-
-            curatorChart = new Chart(curatorCtx, {
-                type: 'bar',
-                data: {
-                    labels: [],
-                    datasets: [{
-                        label: 'Share of tracks',
-                        data: [],
-                        backgroundColor: '#5B5FE4'
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    responsive: true,
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            callbacks: {
-                                label: (ctx) => `${ctx.parsed.x}% of tracks`
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            max: 100,
-                            beginAtZero: true,
-                            grid: { color: 'rgba(148, 163, 184, 0.12)' },
-                            ticks: { color: 'rgba(148, 163, 184, 0.7)' }
-                        },
-                        y: {
-                            grid: { display: false },
-                            ticks: { color: 'rgba(148, 163, 184, 0.7)' }
-                        }
-                    }
-                }
-            });
-        };
-
-        const updateCharts = (data) => {
-            const regionalTotals = aggregateRegional(data);
-            regionalChart.data.datasets[0].data = regionalChart.data.labels.map(label => Math.round(regionalTotals[label] || 0));
-            regionalChart.update();
-
-            const audioSummary = aggregateAudio(data);
-            audioChart.data.datasets[0].data = [
-                Number(audioSummary.danceability.toFixed(2)),
-                Number(audioSummary.energy.toFixed(2)),
-                Number(audioSummary.valence.toFixed(2)),
-                Number((audioSummary.tempo / 160).toFixed(2)),
-                Number(audioSummary.acousticness.toFixed(2))
-            ];
-            audioChart.update();
-
-            const { totals, totalTracks } = aggregateCurators(data);
-            curatorChart.data.labels = Object.keys(totals);
-            curatorChart.data.datasets[0].data = Object.values(totals).map(value => totalTracks ? Math.round((value / totalTracks) * 100) : 0);
-            curatorChart.update();
-        };
-
-        const getActiveCuratorTypes = () => Array.from(curatorOptionsContainer.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
-
-        const applyFilters = () => {
-            const searchTerm = searchInput.value.trim().toLowerCase();
-            const activeCurators = getActiveCuratorTypes();
-            const minYear = Number(minYearInput.value);
-            const maxYear = Number(maxYearInput.value);
-            const diasporaOnly = diasporaToggle.checked;
-
-            const filtered = playlists.filter(playlist => {
-                const matchesSearch = playlist.name.toLowerCase().includes(searchTerm);
-                const matchesCurator = activeCurators.length === 0 || activeCurators.includes(playlist.curatorType);
-                const matchesYear = playlist.launched >= minYear && playlist.launched <= maxYear;
-                const matchesDiaspora = !diasporaOnly || playlist.diasporaFocus;
-                return matchesSearch && matchesCurator && matchesYear && matchesDiaspora;
-            });
-
-            updateMetrics(aggregateMetrics(filtered));
-            renderTable(filtered);
-            updateCharts(filtered);
-        };
-
-        const resetFilters = () => {
-            searchInput.value = '';
-            curatorOptionsContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
-            diasporaToggle.checked = false;
-            const years = playlists.map(p => p.launched);
-            minYearInput.value = Math.min(...years);
-            maxYearInput.value = Math.max(...years);
-            minYearDisplay.textContent = minYearInput.value;
-            maxYearDisplay.textContent = maxYearInput.value;
-            applyFilters();
-        };
-
-        document.addEventListener('DOMContentLoaded', () => {
-            initCuratorFilters();
-            initYearSliders();
-            initCharts();
-            searchInput.addEventListener('input', applyFilters);
-            diasporaToggle.addEventListener('change', applyFilters);
-            resetButton.addEventListener('click', resetFilters);
-            applyFilters();
-        });
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="data/scripts/data.js" defer></script>
+  <script src="data/scripts/app.js" defer></script>
 </body>
 </html>
