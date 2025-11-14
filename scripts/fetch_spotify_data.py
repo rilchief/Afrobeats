@@ -34,6 +34,39 @@ PLAYLIST_CONFIG_FILE = REPO_ROOT / "data" / "playlist_config.json"
 RAW_DATA_DIR = REPO_ROOT / "data" / "raw"
 PROCESSED_DATA_FILE = REPO_ROOT / "data" / "processed" / "afrobeats_playlists.json"
 ARTIST_METADATA_FILE = REPO_ROOT / "data" / "artist_metadata.csv"
+MAJOR_LABEL_KEYWORDS = (
+    "sony",
+    "columbia",
+    "rca",
+    "arista",
+    "warner",
+    "atlantic",
+    "def jam",
+    "interscope",
+    "island",
+    "virgin",
+    "polydor",
+    "umg",
+    "universal",
+    "motown",
+    "republic",
+    "emi",
+    "capitol",
+)
+
+
+def classify_label(label: Optional[str]) -> str:
+    if not label:
+        return "Unknown"
+    normalized = label.lower().strip()
+    if not normalized:
+        return "Unknown"
+    for keyword in MAJOR_LABEL_KEYWORDS:
+        if keyword in normalized:
+            return "Major"
+    if "independent" in normalized or "self" in normalized:
+        return "Independent"
+    return "Independent"
 
 # Update this structure with the playlists you want to analyse.
 # Keys become the playlist ids in the dashboard output.
@@ -268,6 +301,30 @@ def fetch_audio_features(track_ids: List[str], token: str) -> Dict[str, Dict]:
     return features
 
 
+def fetch_artist_details(artist_ids: List[str], token: str) -> Dict[str, Dict]:
+    details: Dict[str, Dict] = {}
+    for batch in chunked(artist_ids, 50):
+        try:
+            response = requests.get(
+                "https://api.spotify.com/v1/artists",
+                params={"ids": ",".join(batch)},
+                headers={"Authorization": f"Bearer {token}"},
+                timeout=20,
+            )
+            response.raise_for_status()
+        except requests.HTTPError as error:
+            print(
+                "Warning: artists request failed",
+                getattr(error.response, "status_code", "?"),
+                getattr(error.response, "text", ""),
+            )
+            continue
+        for entry in response.json().get("artists", []) or []:
+            if entry and entry.get("id"):
+                details[entry["id"]] = entry
+    return details
+
+
 def parse_release_year(album: Optional[Dict]) -> Optional[int]:
     if not album:
         return None
@@ -285,8 +342,10 @@ def parse_release_year(album: Optional[Dict]) -> Optional[int]:
 
 def build_track_payload(
     track_item: Dict,
+    position: int,
     feature: Optional[Dict],
     artist_metadata: Dict[str, Dict],
+    artist_info: Optional[Dict],
     missing_artists: Set[str],
 ) -> Optional[Dict]:
     track = track_item.get("track")
@@ -300,9 +359,12 @@ def build_track_payload(
     artists = track.get("artists", [])
     artist_names = ", ".join(artist.get("name", "Unknown") for artist in artists) or "Unknown"
     primary_artist = artists[0].get("name") if artists else None
+    primary_artist_id = artists[0].get("id") if artists else None
     metadata = artist_metadata.get(primary_artist or "") if primary_artist else None
     if not metadata and primary_artist:
         missing_artists.add(primary_artist)
+
+    album = track.get("album") or {}
 
     features_block = None
     if feature:
@@ -322,6 +384,15 @@ def build_track_payload(
         "regionGroup": metadata.get("regionGroup") if metadata else "Unknown",
         "diaspora": metadata.get("diaspora") if metadata else False,
         "releaseYear": parse_release_year(track.get("album")),
+        "trackPopularity": track.get("popularity"),
+        "artistPopularity": (artist_info.get("popularity") if artist_info else None),
+        "artistGenres": artist_info.get("genres") if artist_info else [],
+        "artistId": primary_artist_id,
+        "playlistPosition": position,
+        "albumLabel": album.get("label") or "Unknown",
+        "labelType": classify_label(album.get("label")),
+        "albumReleaseDate": album.get("release_date"),
+        "addedAt": track_item.get("added_at"),
         "features": features_block,
     }
 
@@ -333,15 +404,22 @@ def normalize_playlist(
     track_items: List[Dict],
     audio_features: Dict[str, Dict],
     artist_metadata: Dict[str, Dict],
+    artist_details: Dict[str, Dict],
     missing_artists: Set[str],
 ) -> Dict:
     tracks_payload: List[Dict] = []
-    for item in track_items:
-        track_id = item.get("track", {}).get("id")
+    for position, item in enumerate(track_items, start=1):
+        track_block = item.get("track", {})
+        track_id = track_block.get("id")
+        artists = track_block.get("artists", [])
+        primary_artist_id = artists[0].get("id") if artists else None
+        artist_info = artist_details.get(primary_artist_id) if primary_artist_id else None
         payload = build_track_payload(
             item,
+            position,
             audio_features.get(track_id),
             artist_metadata,
+            artist_info,
             missing_artists,
         )
         if payload:
@@ -390,6 +468,7 @@ def main() -> None:
     playlists_payload: List[Dict] = []
     missing_artists: Set[str] = set()
     skipped_playlists: Dict[str, Dict[str, Optional[str]]] = {}
+    artist_details_cache: Dict[str, Dict] = {}
     for slug, cfg in playlist_config.items():
         if "id" not in cfg:
             raise SystemExit(f"Playlist config for '{slug}' is missing an 'id'.")
@@ -413,6 +492,19 @@ def main() -> None:
 
         audio_features = fetch_audio_features(track_ids, access_token) if track_ids else {}
 
+        primary_artist_ids = []
+        for item in track_items:
+            track_block = item.get("track") or {}
+            artists = track_block.get("artists") or []
+            if artists:
+                artist_id = artists[0].get("id")
+                if artist_id:
+                    primary_artist_ids.append(artist_id)
+
+        new_artist_ids = [artist_id for artist_id in set(primary_artist_ids) if artist_id not in artist_details_cache]
+        if new_artist_ids:
+            artist_details_cache.update(fetch_artist_details(new_artist_ids, access_token))
+
         missing_for_playlist: Set[str] = set()
         playlists_payload.append(
             normalize_playlist(
@@ -422,11 +514,18 @@ def main() -> None:
                 track_items,
                 audio_features,
                 artist_metadata,
+                artist_details_cache,
                 missing_for_playlist,
             )
         )
         if missing_for_playlist:
             missing_artists.update(missing_for_playlist)
+
+        artist_details_subset = {
+            artist_id: artist_details_cache.get(artist_id)
+            for artist_id in set(primary_artist_ids)
+            if artist_details_cache.get(artist_id)
+        }
 
         raw_payload = {
             "slug": slug,
@@ -437,6 +536,7 @@ def main() -> None:
             "trackItems": track_items,
             "audioFeatures": audio_features,
             "missingArtists": sorted(missing_for_playlist),
+            "artistDetails": artist_details_subset,
         }
         raw_file = RAW_DATA_DIR / f"{slug}.json"
         raw_file.write_text(json.dumps(raw_payload, indent=2), encoding="utf-8")
@@ -451,6 +551,7 @@ def main() -> None:
             "playlistCount": len(playlists_payload),
             "missingArtists": sorted(missing_artists),
             "skippedPlaylists": skipped_playlists,
+            "artistDetailsFetched": len(artist_details_cache),
         },
     }
 
