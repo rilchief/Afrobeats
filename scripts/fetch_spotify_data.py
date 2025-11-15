@@ -33,7 +33,7 @@ OUTPUT_FILE = REPO_ROOT / "data" / "scripts" / "data.js"
 PLAYLIST_CONFIG_FILE = REPO_ROOT / "data" / "playlist_config.json"
 RAW_DATA_DIR = REPO_ROOT / "data" / "raw"
 PROCESSED_DATA_FILE = REPO_ROOT / "data" / "processed" / "afrobeats_playlists.json"
-ARTIST_METADATA_FILE = REPO_ROOT / "data" / "artist_metadata.csv"
+ARTIST_METADATA_FILE = REPO_ROOT / "data" / "data" / "artist_metadata.csv"
 MAJOR_LABEL_KEYWORDS = (
     "sony",
     "columbia",

@@ -1,7 +1,7 @@
 {
   "slug": "afrobeats-hits-indie",
   "playlistId": "2DfNaw9Z1nuddjI6NczTXS",
-  "fetchedAt": "2025-11-14T21:19:36Z",
+  "fetchedAt": "2025-11-15T00:27:49Z",
   "config": {
     "id": "2DfNaw9Z1nuddjI6NczTXS",
     "curatorType": "Independent Curator",
@@ -15,14 +15,14 @@
     },
     "followers": {
       "href": null,
-      "total": 75714
+      "total": 75760
     },
     "href": "https://api.spotify.com/v1/playlists/2DfNaw9Z1nuddjI6NczTXS",
     "id": "2DfNaw9Z1nuddjI6NczTXS",
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7575b1bfb4e987e6c23fa2d",
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cb7575b1bfb4e987e6c23fa2d",
         "width": null
       }
     ],
@@ -89084,147 +89084,8 @@
     }
   ],
   "audioFeatures": {},
-  "missingArtists": [
-    "Afro B",
-    "Asake",
-    "Bayanni",
-    "Beyonc\u00e9",
-    "Camidoh",
-    "Ciara",
-    "Craig David",
-    "DJ Boat",
-    "Dadju",
-    "Dave",
-    "Fido",
-    "Kobi Jonz",
-    "Kojo Funds",
-    "Libianca",
-    "Magixx",
-    "Mavins",
-    "Michael Meka",
-    "Odunsi (The Engine)",
-    "Pheelz",
-    "Ruger",
-    "S1mba",
-    "Shallipopi",
-    "Skepta",
-    "Tayc",
-    "Young T & Bugsey"
-  ],
+  "missingArtists": [],
   "artistDetails": {
-    "71jSVPQ6yskfyvWeiwvT5s": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/71jSVPQ6yskfyvWeiwvT5s"
-      },
-      "followers": {
-        "href": null,
-        "total": 111872
-      },
-      "genres": [
-        "afroswing"
-      ],
-      "href": "https://api.spotify.com/v1/artists/71jSVPQ6yskfyvWeiwvT5s",
-      "id": "71jSVPQ6yskfyvWeiwvT5s",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebf8631626abbd40dd76e17950",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174f8631626abbd40dd76e17950",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178f8631626abbd40dd76e17950",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "S1mba",
-      "popularity": 55,
-      "type": "artist",
-      "uri": "spotify:artist:71jSVPQ6yskfyvWeiwvT5s"
-    },
-    "46pWGuE3dSwY3bMMXGBvVS": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/46pWGuE3dSwY3bMMXGBvVS"
-      },
-      "followers": {
-        "href": null,
-        "total": 8808443
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS",
-      "id": "46pWGuE3dSwY3bMMXGBvVS",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebcd9d661b6955241f33ef8a0a",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174cd9d661b6955241f33ef8a0a",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178cd9d661b6955241f33ef8a0a",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Rema",
-      "popularity": 77,
-      "type": "artist",
-      "uri": "spotify:artist:46pWGuE3dSwY3bMMXGBvVS"
-    },
-    "5HmfRnwYc5vNyWxRfP9U74": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5HmfRnwYc5vNyWxRfP9U74"
-      },
-      "followers": {
-        "href": null,
-        "total": 527851
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afro adura",
-        "afropiano",
-        "afropop",
-        "afro r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5HmfRnwYc5vNyWxRfP9U74",
-      "id": "5HmfRnwYc5vNyWxRfP9U74",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebacf559e4fab194305441a54f",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174acf559e4fab194305441a54f",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178acf559e4fab194305441a54f",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Fido",
-      "popularity": 59,
-      "type": "artist",
-      "uri": "spotify:artist:5HmfRnwYc5vNyWxRfP9U74"
-    },
     "5k9IrMHs9Jfpk8A94Ta7nR": {
       "external_urls": {
         "spotify": "https://open.spotify.com/artist/5k9IrMHs9Jfpk8A94Ta7nR"
@@ -89262,45 +89123,122 @@
       "type": "artist",
       "uri": "spotify:artist:5k9IrMHs9Jfpk8A94Ta7nR"
     },
-    "4TKhxSkqClXrdtUWgKqHVU": {
+    "3ZpEKRjHaHANcpk10u6Ntq": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4TKhxSkqClXrdtUWgKqHVU"
+        "spotify": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq"
       },
       "followers": {
         "href": null,
-        "total": 3028664
+        "total": 5729129
       },
       "genres": [
         "afrobeats",
-        "afropiano",
         "afrobeat",
-        "amapiano",
         "afropop",
-        "afro adura"
+        "afro r&b",
+        "afropiano",
+        "afro soul"
       ],
-      "href": "https://api.spotify.com/v1/artists/4TKhxSkqClXrdtUWgKqHVU",
-      "id": "4TKhxSkqClXrdtUWgKqHVU",
+      "href": "https://api.spotify.com/v1/artists/3ZpEKRjHaHANcpk10u6Ntq",
+      "id": "3ZpEKRjHaHANcpk10u6Ntq",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb42e03a4df87b0d3070f9875a",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc13fddc19aa18159f95ab020",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000517442e03a4df87b0d3070f9875a",
+          "url": "https://i.scdn.co/image/ab67616100005174c13fddc19aa18159f95ab020",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f17842e03a4df87b0d3070f9875a",
+          "url": "https://i.scdn.co/image/ab6761610000f178c13fddc19aa18159f95ab020",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Shallipopi",
-      "popularity": 70,
+      "name": "Ayra Starr",
+      "popularity": 75,
       "type": "artist",
-      "uri": "spotify:artist:4TKhxSkqClXrdtUWgKqHVU"
+      "uri": "spotify:artist:3ZpEKRjHaHANcpk10u6Ntq"
+    },
+    "71jSVPQ6yskfyvWeiwvT5s": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/71jSVPQ6yskfyvWeiwvT5s"
+      },
+      "followers": {
+        "href": null,
+        "total": 111872
+      },
+      "genres": [
+        "afroswing"
+      ],
+      "href": "https://api.spotify.com/v1/artists/71jSVPQ6yskfyvWeiwvT5s",
+      "id": "71jSVPQ6yskfyvWeiwvT5s",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf8631626abbd40dd76e17950",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f8631626abbd40dd76e17950",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f8631626abbd40dd76e17950",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "S1mba",
+      "popularity": 55,
+      "type": "artist",
+      "uri": "spotify:artist:71jSVPQ6yskfyvWeiwvT5s"
+    },
+    "4TAoP0f9OuWZUesao43xUW": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4TAoP0f9OuWZUesao43xUW"
+      },
+      "followers": {
+        "href": null,
+        "total": 1595216
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "azonto",
+        "afroswing",
+        "ghanaian hip hop",
+        "hiplife",
+        "dancehall"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4TAoP0f9OuWZUesao43xUW",
+      "id": "4TAoP0f9OuWZUesao43xUW",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdf0d3391542c42d34a722293",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174df0d3391542c42d34a722293",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178df0d3391542c42d34a722293",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Mr Eazi",
+      "popularity": 62,
+      "type": "artist",
+      "uri": "spotify:artist:4TAoP0f9OuWZUesao43xUW"
     },
     "0Btky5ia7ihAQE8UEXPmbQ": {
       "external_urls": {
@@ -89340,6 +89278,162 @@
       "popularity": 46,
       "type": "artist",
       "uri": "spotify:artist:0Btky5ia7ihAQE8UEXPmbQ"
+    },
+    "408vMm7y1227ASq7GmWygZ": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/408vMm7y1227ASq7GmWygZ"
+      },
+      "followers": {
+        "href": null,
+        "total": 642620
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "alt\u00e9",
+        "afropop",
+        "afropiano",
+        "afro r&b"
+      ],
+      "href": "https://api.spotify.com/v1/artists/408vMm7y1227ASq7GmWygZ",
+      "id": "408vMm7y1227ASq7GmWygZ",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb87bc29381577d57a17c373da",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517487bc29381577d57a17c373da",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17887bc29381577d57a17c373da",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Sarz",
+      "popularity": 65,
+      "type": "artist",
+      "uri": "spotify:artist:408vMm7y1227ASq7GmWygZ"
+    },
+    "3tVQdUvClmAT7URs9V3rsp": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3tVQdUvClmAT7URs9V3rsp"
+      },
+      "followers": {
+        "href": null,
+        "total": 9564353
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "azonto",
+        "afroswing",
+        "afro r&b",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3tVQdUvClmAT7URs9V3rsp",
+      "id": "3tVQdUvClmAT7URs9V3rsp",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe6ef803356b45ee5a9fa7a8a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174e6ef803356b45ee5a9fa7a8a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178e6ef803356b45ee5a9fa7a8a",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Wizkid",
+      "popularity": 80,
+      "type": "artist",
+      "uri": "spotify:artist:3tVQdUvClmAT7URs9V3rsp"
+    },
+    "7bXgB6jMjp9ATFy66eO08Z": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7bXgB6jMjp9ATFy66eO08Z"
+      },
+      "followers": {
+        "href": null,
+        "total": 28484640
+      },
+      "genres": [
+        "r&b"
+      ],
+      "href": "https://api.spotify.com/v1/artists/7bXgB6jMjp9ATFy66eO08Z",
+      "id": "7bXgB6jMjp9ATFy66eO08Z",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba48397e590a1c70e2cda7728",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a48397e590a1c70e2cda7728",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a48397e590a1c70e2cda7728",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Chris Brown",
+      "popularity": 88,
+      "type": "artist",
+      "uri": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z"
+    },
+    "3wcj11K77LjEY1PkEazffa": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3wcj11K77LjEY1PkEazffa"
+      },
+      "followers": {
+        "href": null,
+        "total": 14212686
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "afroswing",
+        "dancehall",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3wcj11K77LjEY1PkEazffa",
+      "id": "3wcj11K77LjEY1PkEazffa",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b4e44d0f4e3e47af2cf06f3f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b4e44d0f4e3e47af2cf06f3f",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Burna Boy",
+      "popularity": 80,
+      "type": "artist",
+      "uri": "spotify:artist:3wcj11K77LjEY1PkEazffa"
     },
     "6Z9Xe5mjocmPOhz2TLNrAi": {
       "external_urls": {
@@ -89381,82 +89475,152 @@
       "type": "artist",
       "uri": "spotify:artist:6Z9Xe5mjocmPOhz2TLNrAi"
     },
-    "5JWBXFlYkBy3n2oN1To790": {
+    "6vWDO969PvNqNYHIOW5v0m": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5JWBXFlYkBy3n2oN1To790"
+        "spotify": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m"
       },
       "followers": {
         "href": null,
-        "total": 1138074
+        "total": 41274208
+      },
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/6vWDO969PvNqNYHIOW5v0m",
+      "id": "6vWDO969PvNqNYHIOW5v0m",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787eaa373538359164b843f7c0",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Beyonc\u00e9",
+      "popularity": 85,
+      "type": "artist",
+      "uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m"
+    },
+    "7gU9VyFRN3JWPJ5oHOil60": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7gU9VyFRN3JWPJ5oHOil60"
+      },
+      "followers": {
+        "href": null,
+        "total": 3775005
+      },
+      "genres": [
+        "french r&b",
+        "pop urbaine",
+        "afrobeats",
+        "afrobeat"
+      ],
+      "href": "https://api.spotify.com/v1/artists/7gU9VyFRN3JWPJ5oHOil60",
+      "id": "7gU9VyFRN3JWPJ5oHOil60",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb986f5e1c6f66dc40537407c3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174986f5e1c6f66dc40537407c3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178986f5e1c6f66dc40537407c3",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Tayc",
+      "popularity": 71,
+      "type": "artist",
+      "uri": "spotify:artist:7gU9VyFRN3JWPJ5oHOil60"
+    },
+    "2p1fiYHYiXz9qi0JJyxBzN": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2p1fiYHYiXz9qi0JJyxBzN"
+      },
+      "followers": {
+        "href": null,
+        "total": 1637069
+      },
+      "genres": [
+        "grime",
+        "uk grime"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2p1fiYHYiXz9qi0JJyxBzN",
+      "id": "2p1fiYHYiXz9qi0JJyxBzN",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdb7e42a0c4dced06214fcdb6",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174db7e42a0c4dced06214fcdb6",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178db7e42a0c4dced06214fcdb6",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Skepta",
+      "popularity": 76,
+      "type": "artist",
+      "uri": "spotify:artist:2p1fiYHYiXz9qi0JJyxBzN"
+    },
+    "7oMRcCu0OYSCtCyS3P37iC": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7oMRcCu0OYSCtCyS3P37iC"
+      },
+      "followers": {
+        "href": null,
+        "total": 224615
       },
       "genres": [
         "afrobeats",
         "afrobeat",
-        "afropop",
-        "afropiano",
-        "azonto"
+        "afroswing",
+        "dancehall",
+        "soca",
+        "afropop"
       ],
-      "href": "https://api.spotify.com/v1/artists/5JWBXFlYkBy3n2oN1To790",
-      "id": "5JWBXFlYkBy3n2oN1To790",
+      "href": "https://api.spotify.com/v1/artists/7oMRcCu0OYSCtCyS3P37iC",
+      "id": "7oMRcCu0OYSCtCyS3P37iC",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba17784a8350594875bbe34a3",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb628c8d57d3561e11d219c2dc",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174a17784a8350594875bbe34a3",
+          "url": "https://i.scdn.co/image/ab67616100005174628c8d57d3561e11d219c2dc",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178a17784a8350594875bbe34a3",
+          "url": "https://i.scdn.co/image/ab6761610000f178628c8d57d3561e11d219c2dc",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Mavins",
-      "popularity": 50,
+      "name": "Afro B",
+      "popularity": 49,
       "type": "artist",
-      "uri": "spotify:artist:5JWBXFlYkBy3n2oN1To790"
-    },
-    "687cZJR45JO7jhk1LHIbgq": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq"
-      },
-      "followers": {
-        "href": null,
-        "total": 3526915
-      },
-      "genres": [
-        "afrobeats",
-        "afro r&b",
-        "alt\u00e9",
-        "afrobeat"
-      ],
-      "href": "https://api.spotify.com/v1/artists/687cZJR45JO7jhk1LHIbgq",
-      "id": "687cZJR45JO7jhk1LHIbgq",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb22d7d6f8981c7a27bf68a382",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517422d7d6f8981c7a27bf68a382",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17822d7d6f8981c7a27bf68a382",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Tems",
-      "popularity": 77,
-      "type": "artist",
-      "uri": "spotify:artist:687cZJR45JO7jhk1LHIbgq"
+      "uri": "spotify:artist:7oMRcCu0OYSCtCyS3P37iC"
     },
     "2NdeV5rLm47xAvogXrYhJX": {
       "external_urls": {
@@ -89490,6 +89654,286 @@
       "popularity": 70,
       "type": "artist",
       "uri": "spotify:artist:2NdeV5rLm47xAvogXrYhJX"
+    },
+    "3SozjO3Lat463tQICI9LcE": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
+      },
+      "followers": {
+        "href": null,
+        "total": 3569753
+      },
+      "genres": [
+        "afrobeats"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
+      "id": "3SozjO3Lat463tQICI9LcE",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7977176556d71cbc7fcbe6b4",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747977176556d71cbc7fcbe6b4",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787977176556d71cbc7fcbe6b4",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Tyla",
+      "popularity": 78,
+      "type": "artist",
+      "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
+    },
+    "5HmfRnwYc5vNyWxRfP9U74": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5HmfRnwYc5vNyWxRfP9U74"
+      },
+      "followers": {
+        "href": null,
+        "total": 527851
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afro adura",
+        "afropiano",
+        "afropop",
+        "afro r&b"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5HmfRnwYc5vNyWxRfP9U74",
+      "id": "5HmfRnwYc5vNyWxRfP9U74",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebacf559e4fab194305441a54f",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174acf559e4fab194305441a54f",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178acf559e4fab194305441a54f",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Fido",
+      "popularity": 59,
+      "type": "artist",
+      "uri": "spotify:artist:5HmfRnwYc5vNyWxRfP9U74"
+    },
+    "0Y3agQaa6g2r0YmHPOO9rh": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0Y3agQaa6g2r0YmHPOO9rh"
+      },
+      "followers": {
+        "href": null,
+        "total": 9158146
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "afropiano",
+        "azonto",
+        "amapiano",
+        "hiplife",
+        "afroswing",
+        "afro r&b"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0Y3agQaa6g2r0YmHPOO9rh",
+      "id": "0Y3agQaa6g2r0YmHPOO9rh",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb057fdb13352beee124b79051",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174057fdb13352beee124b79051",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178057fdb13352beee124b79051",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Davido",
+      "popularity": 74,
+      "type": "artist",
+      "uri": "spotify:artist:0Y3agQaa6g2r0YmHPOO9rh"
+    },
+    "3a1tBryiczPAZpgoZN9Rzg": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3a1tBryiczPAZpgoZN9Rzg"
+      },
+      "followers": {
+        "href": null,
+        "total": 7365187
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropiano",
+        "afro adura",
+        "afropop",
+        "amapiano",
+        "afroswing",
+        "afro r&b"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3a1tBryiczPAZpgoZN9Rzg",
+      "id": "3a1tBryiczPAZpgoZN9Rzg",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb118de2c3241db238c807e9b3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174118de2c3241db238c807e9b3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178118de2c3241db238c807e9b3",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Asake",
+      "popularity": 75,
+      "type": "artist",
+      "uri": "spotify:artist:3a1tBryiczPAZpgoZN9Rzg"
+    },
+    "75VKfyoBlkmrJFDqo1o2VY": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/75VKfyoBlkmrJFDqo1o2VY"
+      },
+      "followers": {
+        "href": null,
+        "total": 4681128
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "afro r&b",
+        "afropiano",
+        "afro soul",
+        "afroswing"
+      ],
+      "href": "https://api.spotify.com/v1/artists/75VKfyoBlkmrJFDqo1o2VY",
+      "id": "75VKfyoBlkmrJFDqo1o2VY",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf0da9bd951adbb3749b40904",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174f0da9bd951adbb3749b40904",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178f0da9bd951adbb3749b40904",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Fireboy DML",
+      "popularity": 70,
+      "type": "artist",
+      "uri": "spotify:artist:75VKfyoBlkmrJFDqo1o2VY"
+    },
+    "3WTrdbZU99dgTtt3ZkyamT": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3WTrdbZU99dgTtt3ZkyamT"
+      },
+      "followers": {
+        "href": null,
+        "total": 1531804
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "afro r&b",
+        "alt\u00e9",
+        "afro soul",
+        "afroswing",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3WTrdbZU99dgTtt3ZkyamT",
+      "id": "3WTrdbZU99dgTtt3ZkyamT",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2cdb1148e14bf21f3adc78de",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742cdb1148e14bf21f3adc78de",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782cdb1148e14bf21f3adc78de",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Oxlade",
+      "popularity": 61,
+      "type": "artist",
+      "uri": "spotify:artist:3WTrdbZU99dgTtt3ZkyamT"
+    },
+    "6M6XXCcO5gI68XpIlrUL3Z": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6M6XXCcO5gI68XpIlrUL3Z"
+      },
+      "followers": {
+        "href": null,
+        "total": 372621
+      },
+      "genres": [
+        "afroswing",
+        "grime",
+        "uk grime"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6M6XXCcO5gI68XpIlrUL3Z",
+      "id": "6M6XXCcO5gI68XpIlrUL3Z",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9dfd4e7ff1222003222bed53",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749dfd4e7ff1222003222bed53",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789dfd4e7ff1222003222bed53",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Young T & Bugsey",
+      "popularity": 52,
+      "type": "artist",
+      "uri": "spotify:artist:6M6XXCcO5gI68XpIlrUL3Z"
     },
     "048LktY5zMnakWq7PTtFrz": {
       "external_urls": {
@@ -89529,44 +89973,80 @@
       "type": "artist",
       "uri": "spotify:artist:048LktY5zMnakWq7PTtFrz"
     },
-    "2o9hRZ3xI27UQpHT61A4Mm": {
+    "1xBARhKI09ZTmeePVDWMCf": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2o9hRZ3xI27UQpHT61A4Mm"
+        "spotify": "https://open.spotify.com/artist/1xBARhKI09ZTmeePVDWMCf"
       },
       "followers": {
         "href": null,
-        "total": 316934
+        "total": 369969
       },
       "genres": [
-        "afroswing",
-        "grime",
-        "uk grime",
-        "uk r&b",
-        "afrobeats"
+        "afrobeats",
+        "afrobeat",
+        "afropop"
       ],
-      "href": "https://api.spotify.com/v1/artists/2o9hRZ3xI27UQpHT61A4Mm",
-      "id": "2o9hRZ3xI27UQpHT61A4Mm",
+      "href": "https://api.spotify.com/v1/artists/1xBARhKI09ZTmeePVDWMCf",
+      "id": "1xBARhKI09ZTmeePVDWMCf",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebd73d68bbc86c1aa8979b73a9",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebecd508b9bec99e6253ec6b98",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174d73d68bbc86c1aa8979b73a9",
+          "url": "https://i.scdn.co/image/ab67616100005174ecd508b9bec99e6253ec6b98",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178d73d68bbc86c1aa8979b73a9",
+          "url": "https://i.scdn.co/image/ab6761610000f178ecd508b9bec99e6253ec6b98",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Kojo Funds",
-      "popularity": 50,
+      "name": "Rotimi",
+      "popularity": 56,
       "type": "artist",
-      "uri": "spotify:artist:2o9hRZ3xI27UQpHT61A4Mm"
+      "uri": "spotify:artist:1xBARhKI09ZTmeePVDWMCf"
+    },
+    "687cZJR45JO7jhk1LHIbgq": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq"
+      },
+      "followers": {
+        "href": null,
+        "total": 3526915
+      },
+      "genres": [
+        "afrobeats",
+        "afro r&b",
+        "alt\u00e9",
+        "afrobeat"
+      ],
+      "href": "https://api.spotify.com/v1/artists/687cZJR45JO7jhk1LHIbgq",
+      "id": "687cZJR45JO7jhk1LHIbgq",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb22d7d6f8981c7a27bf68a382",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517422d7d6f8981c7a27bf68a382",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17822d7d6f8981c7a27bf68a382",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Tems",
+      "popularity": 77,
+      "type": "artist",
+      "uri": "spotify:artist:687cZJR45JO7jhk1LHIbgq"
     },
     "3QAWvRmq1TMLuNtDKVyRaW": {
       "external_urls": {
@@ -89608,43 +90088,6 @@
       "popularity": 43,
       "type": "artist",
       "uri": "spotify:artist:3QAWvRmq1TMLuNtDKVyRaW"
-    },
-    "1xBARhKI09ZTmeePVDWMCf": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1xBARhKI09ZTmeePVDWMCf"
-      },
-      "followers": {
-        "href": null,
-        "total": 369969
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop"
-      ],
-      "href": "https://api.spotify.com/v1/artists/1xBARhKI09ZTmeePVDWMCf",
-      "id": "1xBARhKI09ZTmeePVDWMCf",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebecd508b9bec99e6253ec6b98",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174ecd508b9bec99e6253ec6b98",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178ecd508b9bec99e6253ec6b98",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Rotimi",
-      "popularity": 56,
-      "type": "artist",
-      "uri": "spotify:artist:1xBARhKI09ZTmeePVDWMCf"
     },
     "4tIKaxUmpXzshok2yCnwdf": {
       "external_urls": {
@@ -89729,283 +90172,122 @@
       "type": "artist",
       "uri": "spotify:artist:5yOvAmpIR7hVxiS6Ls5DPO"
     },
-    "2p1fiYHYiXz9qi0JJyxBzN": {
+    "7kjSuFGKhLm8b5qXoMhRkJ": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2p1fiYHYiXz9qi0JJyxBzN"
+        "spotify": "https://open.spotify.com/artist/7kjSuFGKhLm8b5qXoMhRkJ"
       },
       "followers": {
         "href": null,
-        "total": 1637069
+        "total": 575802
       },
       "genres": [
-        "grime",
-        "uk grime"
+        "afrobeats",
+        "afrobeat"
       ],
-      "href": "https://api.spotify.com/v1/artists/2p1fiYHYiXz9qi0JJyxBzN",
-      "id": "2p1fiYHYiXz9qi0JJyxBzN",
+      "href": "https://api.spotify.com/v1/artists/7kjSuFGKhLm8b5qXoMhRkJ",
+      "id": "7kjSuFGKhLm8b5qXoMhRkJ",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebdb7e42a0c4dced06214fcdb6",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4c5c54f66b6e816a23211ffe",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174db7e42a0c4dced06214fcdb6",
+          "url": "https://i.scdn.co/image/ab676161000051744c5c54f66b6e816a23211ffe",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178db7e42a0c4dced06214fcdb6",
+          "url": "https://i.scdn.co/image/ab6761610000f1784c5c54f66b6e816a23211ffe",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Skepta",
-      "popularity": 76,
+      "name": "Libianca",
+      "popularity": 61,
       "type": "artist",
-      "uri": "spotify:artist:2p1fiYHYiXz9qi0JJyxBzN"
+      "uri": "spotify:artist:7kjSuFGKhLm8b5qXoMhRkJ"
     },
-    "6Ip8FS7vWT1uKkJSweANQK": {
+    "2o9hRZ3xI27UQpHT61A4Mm": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
+        "spotify": "https://open.spotify.com/artist/2o9hRZ3xI27UQpHT61A4Mm"
       },
       "followers": {
         "href": null,
-        "total": 6645832
+        "total": 316934
       },
       "genres": [
+        "afroswing",
         "grime",
         "uk grime",
-        "uk drill",
-        "drill"
+        "uk r&b",
+        "afrobeats"
       ],
-      "href": "https://api.spotify.com/v1/artists/6Ip8FS7vWT1uKkJSweANQK",
-      "id": "6Ip8FS7vWT1uKkJSweANQK",
+      "href": "https://api.spotify.com/v1/artists/2o9hRZ3xI27UQpHT61A4Mm",
+      "id": "2o9hRZ3xI27UQpHT61A4Mm",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb2f23c7e361cef62490f44057",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd73d68bbc86c1aa8979b73a9",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051742f23c7e361cef62490f44057",
+          "url": "https://i.scdn.co/image/ab67616100005174d73d68bbc86c1aa8979b73a9",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1782f23c7e361cef62490f44057",
+          "url": "https://i.scdn.co/image/ab6761610000f178d73d68bbc86c1aa8979b73a9",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Dave",
-      "popularity": 81,
+      "name": "Kojo Funds",
+      "popularity": 50,
       "type": "artist",
-      "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
+      "uri": "spotify:artist:2o9hRZ3xI27UQpHT61A4Mm"
     },
-    "0rskhjcLm5BxjwZDRs4142": {
+    "1E5hfn5BduN2nnoZCJmUVG": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0rskhjcLm5BxjwZDRs4142"
+        "spotify": "https://open.spotify.com/artist/1E5hfn5BduN2nnoZCJmUVG"
       },
       "followers": {
         "href": null,
-        "total": 836184
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afro r&b",
-        "afropop",
-        "afro soul",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/0rskhjcLm5BxjwZDRs4142",
-      "id": "0rskhjcLm5BxjwZDRs4142",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7ac2f480f0edc357026b1844",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051747ac2f480f0edc357026b1844",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1787ac2f480f0edc357026b1844",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Magixx",
-      "popularity": 56,
-      "type": "artist",
-      "uri": "spotify:artist:0rskhjcLm5BxjwZDRs4142"
-    },
-    "3ZpEKRjHaHANcpk10u6Ntq": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq"
-      },
-      "followers": {
-        "href": null,
-        "total": 5729129
+        "total": 2075255
       },
       "genres": [
         "afrobeats",
         "afrobeat",
         "afropop",
-        "afro r&b",
         "afropiano",
-        "afro soul"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3ZpEKRjHaHANcpk10u6Ntq",
-      "id": "3ZpEKRjHaHANcpk10u6Ntq",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebc13fddc19aa18159f95ab020",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174c13fddc19aa18159f95ab020",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178c13fddc19aa18159f95ab020",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Ayra Starr",
-      "popularity": 75,
-      "type": "artist",
-      "uri": "spotify:artist:3ZpEKRjHaHANcpk10u6Ntq"
-    },
-    "3WTrdbZU99dgTtt3ZkyamT": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3WTrdbZU99dgTtt3ZkyamT"
-      },
-      "followers": {
-        "href": null,
-        "total": 1531804
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
         "afro r&b",
         "alt\u00e9",
         "afro soul",
-        "afroswing",
-        "afropiano"
+        "amapiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/3WTrdbZU99dgTtt3ZkyamT",
-      "id": "3WTrdbZU99dgTtt3ZkyamT",
+      "href": "https://api.spotify.com/v1/artists/1E5hfn5BduN2nnoZCJmUVG",
+      "id": "1E5hfn5BduN2nnoZCJmUVG",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb2cdb1148e14bf21f3adc78de",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2d98f7145b95d591be045e09",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051742cdb1148e14bf21f3adc78de",
+          "url": "https://i.scdn.co/image/ab676161000051742d98f7145b95d591be045e09",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1782cdb1148e14bf21f3adc78de",
+          "url": "https://i.scdn.co/image/ab6761610000f1782d98f7145b95d591be045e09",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Oxlade",
-      "popularity": 61,
+      "name": "Victony",
+      "popularity": 67,
       "type": "artist",
-      "uri": "spotify:artist:3WTrdbZU99dgTtt3ZkyamT"
-    },
-    "1XavfPKBpNjkOfxHINlMHF": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1XavfPKBpNjkOfxHINlMHF"
-      },
-      "followers": {
-        "href": null,
-        "total": 3275883
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "afro r&b",
-        "afropiano",
-        "afro soul",
-        "hiplife"
-      ],
-      "href": "https://api.spotify.com/v1/artists/1XavfPKBpNjkOfxHINlMHF",
-      "id": "1XavfPKBpNjkOfxHINlMHF",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebf1419787c7d4454db20ab4fb",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174f1419787c7d4454db20ab4fb",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178f1419787c7d4454db20ab4fb",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Joeboy",
-      "popularity": 63,
-      "type": "artist",
-      "uri": "spotify:artist:1XavfPKBpNjkOfxHINlMHF"
-    },
-    "3tVQdUvClmAT7URs9V3rsp": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3tVQdUvClmAT7URs9V3rsp"
-      },
-      "followers": {
-        "href": null,
-        "total": 9564353
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "azonto",
-        "afroswing",
-        "afro r&b",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3tVQdUvClmAT7URs9V3rsp",
-      "id": "3tVQdUvClmAT7URs9V3rsp",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe6ef803356b45ee5a9fa7a8a",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174e6ef803356b45ee5a9fa7a8a",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178e6ef803356b45ee5a9fa7a8a",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Wizkid",
-      "popularity": 80,
-      "type": "artist",
-      "uri": "spotify:artist:3tVQdUvClmAT7URs9V3rsp"
+      "uri": "spotify:artist:1E5hfn5BduN2nnoZCJmUVG"
     },
     "1hNaHKp2Za5YdOAG0WnRbc": {
       "external_urls": {
@@ -90049,202 +90331,231 @@
       "type": "artist",
       "uri": "spotify:artist:1hNaHKp2Za5YdOAG0WnRbc"
     },
-    "7kjSuFGKhLm8b5qXoMhRkJ": {
+    "2JyWXPbkqI5ZJa3gwqVa0c": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7kjSuFGKhLm8b5qXoMhRkJ"
+        "spotify": "https://open.spotify.com/artist/2JyWXPbkqI5ZJa3gwqVa0c"
       },
       "followers": {
         "href": null,
-        "total": 575802
+        "total": 984079
       },
-      "genres": [
-        "afrobeats",
-        "afrobeat"
-      ],
-      "href": "https://api.spotify.com/v1/artists/7kjSuFGKhLm8b5qXoMhRkJ",
-      "id": "7kjSuFGKhLm8b5qXoMhRkJ",
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/2JyWXPbkqI5ZJa3gwqVa0c",
+      "id": "2JyWXPbkqI5ZJa3gwqVa0c",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4c5c54f66b6e816a23211ffe",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1e08103af765774d5f2daf83",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051744c5c54f66b6e816a23211ffe",
+          "url": "https://i.scdn.co/image/ab676161000051741e08103af765774d5f2daf83",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1784c5c54f66b6e816a23211ffe",
+          "url": "https://i.scdn.co/image/ab6761610000f1781e08103af765774d5f2daf83",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Libianca",
-      "popularity": 61,
+      "name": "Craig David",
+      "popularity": 64,
       "type": "artist",
-      "uri": "spotify:artist:7kjSuFGKhLm8b5qXoMhRkJ"
+      "uri": "spotify:artist:2JyWXPbkqI5ZJa3gwqVa0c"
     },
-    "75VKfyoBlkmrJFDqo1o2VY": {
+    "6FbCERtE2CKqEWihHMYjcG": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/75VKfyoBlkmrJFDqo1o2VY"
+        "spotify": "https://open.spotify.com/artist/6FbCERtE2CKqEWihHMYjcG"
       },
       "followers": {
         "href": null,
-        "total": 4681128
+        "total": 284406
       },
       "genres": [
         "afrobeats",
         "afrobeat",
         "afropop",
-        "afro r&b",
-        "afropiano",
-        "afro soul",
-        "afroswing"
+        "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/75VKfyoBlkmrJFDqo1o2VY",
-      "id": "75VKfyoBlkmrJFDqo1o2VY",
+      "href": "https://api.spotify.com/v1/artists/6FbCERtE2CKqEWihHMYjcG",
+      "id": "6FbCERtE2CKqEWihHMYjcG",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebf0da9bd951adbb3749b40904",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7e1ed6c41fed3145899ea23a",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174f0da9bd951adbb3749b40904",
+          "url": "https://i.scdn.co/image/ab676161000051747e1ed6c41fed3145899ea23a",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178f0da9bd951adbb3749b40904",
+          "url": "https://i.scdn.co/image/ab6761610000f1787e1ed6c41fed3145899ea23a",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Fireboy DML",
-      "popularity": 70,
+      "name": "Bayanni",
+      "popularity": 56,
       "type": "artist",
-      "uri": "spotify:artist:75VKfyoBlkmrJFDqo1o2VY"
+      "uri": "spotify:artist:6FbCERtE2CKqEWihHMYjcG"
     },
-    "7gU9VyFRN3JWPJ5oHOil60": {
+    "4sbXXFzEWJY2zsZjelerjX": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7gU9VyFRN3JWPJ5oHOil60"
+        "spotify": "https://open.spotify.com/artist/4sbXXFzEWJY2zsZjelerjX"
       },
       "followers": {
         "href": null,
-        "total": 3775005
+        "total": 7910526
       },
       "genres": [
         "french r&b",
         "pop urbaine",
-        "afrobeats",
-        "afrobeat"
+        "french rap",
+        "french pop"
       ],
-      "href": "https://api.spotify.com/v1/artists/7gU9VyFRN3JWPJ5oHOil60",
-      "id": "7gU9VyFRN3JWPJ5oHOil60",
+      "href": "https://api.spotify.com/v1/artists/4sbXXFzEWJY2zsZjelerjX",
+      "id": "4sbXXFzEWJY2zsZjelerjX",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb986f5e1c6f66dc40537407c3",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0910ff09d3b54b114d233aa3",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174986f5e1c6f66dc40537407c3",
+          "url": "https://i.scdn.co/image/ab676161000051740910ff09d3b54b114d233aa3",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178986f5e1c6f66dc40537407c3",
+          "url": "https://i.scdn.co/image/ab6761610000f1780910ff09d3b54b114d233aa3",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Tayc",
+      "name": "Dadju",
       "popularity": 71,
       "type": "artist",
-      "uri": "spotify:artist:7gU9VyFRN3JWPJ5oHOil60"
+      "uri": "spotify:artist:4sbXXFzEWJY2zsZjelerjX"
     },
-    "4TAoP0f9OuWZUesao43xUW": {
+    "5Jv1MsZBh0sqokFq7pU8Xg": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4TAoP0f9OuWZUesao43xUW"
+        "spotify": "https://open.spotify.com/artist/5Jv1MsZBh0sqokFq7pU8Xg"
       },
       "followers": {
         "href": null,
-        "total": 1595216
+        "total": 801499
       },
       "genres": [
         "afrobeats",
         "afrobeat",
         "afropop",
-        "azonto",
-        "afroswing",
-        "ghanaian hip hop",
-        "hiplife",
-        "dancehall"
+        "afropiano",
+        "afro r&b"
       ],
-      "href": "https://api.spotify.com/v1/artists/4TAoP0f9OuWZUesao43xUW",
-      "id": "4TAoP0f9OuWZUesao43xUW",
+      "href": "https://api.spotify.com/v1/artists/5Jv1MsZBh0sqokFq7pU8Xg",
+      "id": "5Jv1MsZBh0sqokFq7pU8Xg",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebdf0d3391542c42d34a722293",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb232ba403b8b61a6cc845af0e",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174df0d3391542c42d34a722293",
+          "url": "https://i.scdn.co/image/ab67616100005174232ba403b8b61a6cc845af0e",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178df0d3391542c42d34a722293",
+          "url": "https://i.scdn.co/image/ab6761610000f178232ba403b8b61a6cc845af0e",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Mr Eazi",
-      "popularity": 62,
+      "name": "Pheelz",
+      "popularity": 58,
       "type": "artist",
-      "uri": "spotify:artist:4TAoP0f9OuWZUesao43xUW"
+      "uri": "spotify:artist:5Jv1MsZBh0sqokFq7pU8Xg"
     },
-    "7oMRcCu0OYSCtCyS3P37iC": {
+    "0rskhjcLm5BxjwZDRs4142": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7oMRcCu0OYSCtCyS3P37iC"
+        "spotify": "https://open.spotify.com/artist/0rskhjcLm5BxjwZDRs4142"
       },
       "followers": {
         "href": null,
-        "total": 224615
+        "total": 836184
       },
       "genres": [
         "afrobeats",
         "afrobeat",
-        "afroswing",
-        "dancehall",
-        "soca",
-        "afropop"
+        "afro r&b",
+        "afropop",
+        "afro soul",
+        "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/7oMRcCu0OYSCtCyS3P37iC",
-      "id": "7oMRcCu0OYSCtCyS3P37iC",
+      "href": "https://api.spotify.com/v1/artists/0rskhjcLm5BxjwZDRs4142",
+      "id": "0rskhjcLm5BxjwZDRs4142",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb628c8d57d3561e11d219c2dc",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7ac2f480f0edc357026b1844",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174628c8d57d3561e11d219c2dc",
+          "url": "https://i.scdn.co/image/ab676161000051747ac2f480f0edc357026b1844",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178628c8d57d3561e11d219c2dc",
+          "url": "https://i.scdn.co/image/ab6761610000f1787ac2f480f0edc357026b1844",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Afro B",
-      "popularity": 49,
+      "name": "Magixx",
+      "popularity": 56,
       "type": "artist",
-      "uri": "spotify:artist:7oMRcCu0OYSCtCyS3P37iC"
+      "uri": "spotify:artist:0rskhjcLm5BxjwZDRs4142"
+    },
+    "6nfH1Mks9XQgQIKn6ffJYX": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6nfH1Mks9XQgQIKn6ffJYX"
+      },
+      "followers": {
+        "href": null,
+        "total": 576
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "amapiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6nfH1Mks9XQgQIKn6ffJYX",
+      "id": "6nfH1Mks9XQgQIKn6ffJYX",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb6686c3f4dab7ea713a872e8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b6686c3f4dab7ea713a872e8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b6686c3f4dab7ea713a872e8",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Michael Meka",
+      "popularity": 29,
+      "type": "artist",
+      "uri": "spotify:artist:6nfH1Mks9XQgQIKn6ffJYX"
     },
     "0a1SidMjD8D6EHvJph4n2H": {
       "external_urls": {
@@ -90287,433 +90598,13 @@
       "type": "artist",
       "uri": "spotify:artist:0a1SidMjD8D6EHvJph4n2H"
     },
-    "408vMm7y1227ASq7GmWygZ": {
+    "46pWGuE3dSwY3bMMXGBvVS": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/408vMm7y1227ASq7GmWygZ"
+        "spotify": "https://open.spotify.com/artist/46pWGuE3dSwY3bMMXGBvVS"
       },
       "followers": {
         "href": null,
-        "total": 642620
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "alt\u00e9",
-        "afropop",
-        "afropiano",
-        "afro r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/408vMm7y1227ASq7GmWygZ",
-      "id": "408vMm7y1227ASq7GmWygZ",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb87bc29381577d57a17c373da",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517487bc29381577d57a17c373da",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17887bc29381577d57a17c373da",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Sarz",
-      "popularity": 65,
-      "type": "artist",
-      "uri": "spotify:artist:408vMm7y1227ASq7GmWygZ"
-    },
-    "5Jv1MsZBh0sqokFq7pU8Xg": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5Jv1MsZBh0sqokFq7pU8Xg"
-      },
-      "followers": {
-        "href": null,
-        "total": 801499
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "afropiano",
-        "afro r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5Jv1MsZBh0sqokFq7pU8Xg",
-      "id": "5Jv1MsZBh0sqokFq7pU8Xg",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb232ba403b8b61a6cc845af0e",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174232ba403b8b61a6cc845af0e",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178232ba403b8b61a6cc845af0e",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Pheelz",
-      "popularity": 58,
-      "type": "artist",
-      "uri": "spotify:artist:5Jv1MsZBh0sqokFq7pU8Xg"
-    },
-    "3SozjO3Lat463tQICI9LcE": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
-      },
-      "followers": {
-        "href": null,
-        "total": 3569753
-      },
-      "genres": [
-        "afrobeats"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
-      "id": "3SozjO3Lat463tQICI9LcE",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7977176556d71cbc7fcbe6b4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051747977176556d71cbc7fcbe6b4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1787977176556d71cbc7fcbe6b4",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Tyla",
-      "popularity": 78,
-      "type": "artist",
-      "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
-    },
-    "0Y3agQaa6g2r0YmHPOO9rh": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0Y3agQaa6g2r0YmHPOO9rh"
-      },
-      "followers": {
-        "href": null,
-        "total": 9158146
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "afropiano",
-        "azonto",
-        "amapiano",
-        "hiplife",
-        "afroswing",
-        "afro r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/0Y3agQaa6g2r0YmHPOO9rh",
-      "id": "0Y3agQaa6g2r0YmHPOO9rh",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb057fdb13352beee124b79051",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174057fdb13352beee124b79051",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178057fdb13352beee124b79051",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Davido",
-      "popularity": 74,
-      "type": "artist",
-      "uri": "spotify:artist:0Y3agQaa6g2r0YmHPOO9rh"
-    },
-    "4sbXXFzEWJY2zsZjelerjX": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4sbXXFzEWJY2zsZjelerjX"
-      },
-      "followers": {
-        "href": null,
-        "total": 7910526
-      },
-      "genres": [
-        "french r&b",
-        "pop urbaine",
-        "french rap",
-        "french pop"
-      ],
-      "href": "https://api.spotify.com/v1/artists/4sbXXFzEWJY2zsZjelerjX",
-      "id": "4sbXXFzEWJY2zsZjelerjX",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0910ff09d3b54b114d233aa3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740910ff09d3b54b114d233aa3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780910ff09d3b54b114d233aa3",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Dadju",
-      "popularity": 71,
-      "type": "artist",
-      "uri": "spotify:artist:4sbXXFzEWJY2zsZjelerjX"
-    },
-    "6nfH1Mks9XQgQIKn6ffJYX": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6nfH1Mks9XQgQIKn6ffJYX"
-      },
-      "followers": {
-        "href": null,
-        "total": 576
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "amapiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6nfH1Mks9XQgQIKn6ffJYX",
-      "id": "6nfH1Mks9XQgQIKn6ffJYX",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb6686c3f4dab7ea713a872e8",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174b6686c3f4dab7ea713a872e8",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178b6686c3f4dab7ea713a872e8",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Michael Meka",
-      "popularity": 29,
-      "type": "artist",
-      "uri": "spotify:artist:6nfH1Mks9XQgQIKn6ffJYX"
-    },
-    "6M6XXCcO5gI68XpIlrUL3Z": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6M6XXCcO5gI68XpIlrUL3Z"
-      },
-      "followers": {
-        "href": null,
-        "total": 372621
-      },
-      "genres": [
-        "afroswing",
-        "grime",
-        "uk grime"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6M6XXCcO5gI68XpIlrUL3Z",
-      "id": "6M6XXCcO5gI68XpIlrUL3Z",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb9dfd4e7ff1222003222bed53",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051749dfd4e7ff1222003222bed53",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1789dfd4e7ff1222003222bed53",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Young T & Bugsey",
-      "popularity": 52,
-      "type": "artist",
-      "uri": "spotify:artist:6M6XXCcO5gI68XpIlrUL3Z"
-    },
-    "3wcj11K77LjEY1PkEazffa": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3wcj11K77LjEY1PkEazffa"
-      },
-      "followers": {
-        "href": null,
-        "total": 14212686
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropop",
-        "afroswing",
-        "dancehall",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3wcj11K77LjEY1PkEazffa",
-      "id": "3wcj11K77LjEY1PkEazffa",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174b4e44d0f4e3e47af2cf06f3f",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178b4e44d0f4e3e47af2cf06f3f",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Burna Boy",
-      "popularity": 80,
-      "type": "artist",
-      "uri": "spotify:artist:3wcj11K77LjEY1PkEazffa"
-    },
-    "7bXgB6jMjp9ATFy66eO08Z": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7bXgB6jMjp9ATFy66eO08Z"
-      },
-      "followers": {
-        "href": null,
-        "total": 28484640
-      },
-      "genres": [
-        "r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/7bXgB6jMjp9ATFy66eO08Z",
-      "id": "7bXgB6jMjp9ATFy66eO08Z",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba48397e590a1c70e2cda7728",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174a48397e590a1c70e2cda7728",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178a48397e590a1c70e2cda7728",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Chris Brown",
-      "popularity": 88,
-      "type": "artist",
-      "uri": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z"
-    },
-    "3a1tBryiczPAZpgoZN9Rzg": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3a1tBryiczPAZpgoZN9Rzg"
-      },
-      "followers": {
-        "href": null,
-        "total": 7365187
-      },
-      "genres": [
-        "afrobeats",
-        "afrobeat",
-        "afropiano",
-        "afro adura",
-        "afropop",
-        "amapiano",
-        "afroswing",
-        "afro r&b"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3a1tBryiczPAZpgoZN9Rzg",
-      "id": "3a1tBryiczPAZpgoZN9Rzg",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb118de2c3241db238c807e9b3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174118de2c3241db238c807e9b3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178118de2c3241db238c807e9b3",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Asake",
-      "popularity": 75,
-      "type": "artist",
-      "uri": "spotify:artist:3a1tBryiczPAZpgoZN9Rzg"
-    },
-    "6vWDO969PvNqNYHIOW5v0m": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m"
-      },
-      "followers": {
-        "href": null,
-        "total": 41274208
-      },
-      "genres": [],
-      "href": "https://api.spotify.com/v1/artists/6vWDO969PvNqNYHIOW5v0m",
-      "id": "6vWDO969PvNqNYHIOW5v0m",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1787eaa373538359164b843f7c0",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Beyonc\u00e9",
-      "popularity": 85,
-      "type": "artist",
-      "uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m"
-    },
-    "6FbCERtE2CKqEWihHMYjcG": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6FbCERtE2CKqEWihHMYjcG"
-      },
-      "followers": {
-        "href": null,
-        "total": 284406
+        "total": 8808443
       },
       "genres": [
         "afrobeats",
@@ -90721,104 +90612,187 @@
         "afropop",
         "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/6FbCERtE2CKqEWihHMYjcG",
-      "id": "6FbCERtE2CKqEWihHMYjcG",
+      "href": "https://api.spotify.com/v1/artists/46pWGuE3dSwY3bMMXGBvVS",
+      "id": "46pWGuE3dSwY3bMMXGBvVS",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7e1ed6c41fed3145899ea23a",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcd9d661b6955241f33ef8a0a",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051747e1ed6c41fed3145899ea23a",
+          "url": "https://i.scdn.co/image/ab67616100005174cd9d661b6955241f33ef8a0a",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1787e1ed6c41fed3145899ea23a",
+          "url": "https://i.scdn.co/image/ab6761610000f178cd9d661b6955241f33ef8a0a",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Bayanni",
-      "popularity": 56,
+      "name": "Rema",
+      "popularity": 77,
       "type": "artist",
-      "uri": "spotify:artist:6FbCERtE2CKqEWihHMYjcG"
+      "uri": "spotify:artist:46pWGuE3dSwY3bMMXGBvVS"
     },
-    "2JyWXPbkqI5ZJa3gwqVa0c": {
+    "5JWBXFlYkBy3n2oN1To790": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2JyWXPbkqI5ZJa3gwqVa0c"
+        "spotify": "https://open.spotify.com/artist/5JWBXFlYkBy3n2oN1To790"
       },
       "followers": {
         "href": null,
-        "total": 984079
-      },
-      "genres": [],
-      "href": "https://api.spotify.com/v1/artists/2JyWXPbkqI5ZJa3gwqVa0c",
-      "id": "2JyWXPbkqI5ZJa3gwqVa0c",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb1e08103af765774d5f2daf83",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051741e08103af765774d5f2daf83",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1781e08103af765774d5f2daf83",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Craig David",
-      "popularity": 64,
-      "type": "artist",
-      "uri": "spotify:artist:2JyWXPbkqI5ZJa3gwqVa0c"
-    },
-    "1E5hfn5BduN2nnoZCJmUVG": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1E5hfn5BduN2nnoZCJmUVG"
-      },
-      "followers": {
-        "href": null,
-        "total": 2075255
+        "total": 1138074
       },
       "genres": [
         "afrobeats",
         "afrobeat",
         "afropop",
         "afropiano",
+        "azonto"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5JWBXFlYkBy3n2oN1To790",
+      "id": "5JWBXFlYkBy3n2oN1To790",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba17784a8350594875bbe34a3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a17784a8350594875bbe34a3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a17784a8350594875bbe34a3",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Mavins",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:5JWBXFlYkBy3n2oN1To790"
+    },
+    "1XavfPKBpNjkOfxHINlMHF": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1XavfPKBpNjkOfxHINlMHF"
+      },
+      "followers": {
+        "href": null,
+        "total": 3275883
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
         "afro r&b",
-        "alt\u00e9",
+        "afropiano",
         "afro soul",
-        "amapiano"
+        "hiplife"
       ],
-      "href": "https://api.spotify.com/v1/artists/1E5hfn5BduN2nnoZCJmUVG",
-      "id": "1E5hfn5BduN2nnoZCJmUVG",
+      "href": "https://api.spotify.com/v1/artists/1XavfPKBpNjkOfxHINlMHF",
+      "id": "1XavfPKBpNjkOfxHINlMHF",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb2d98f7145b95d591be045e09",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf1419787c7d4454db20ab4fb",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051742d98f7145b95d591be045e09",
+          "url": "https://i.scdn.co/image/ab67616100005174f1419787c7d4454db20ab4fb",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1782d98f7145b95d591be045e09",
+          "url": "https://i.scdn.co/image/ab6761610000f178f1419787c7d4454db20ab4fb",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Victony",
-      "popularity": 67,
+      "name": "Joeboy",
+      "popularity": 63,
       "type": "artist",
-      "uri": "spotify:artist:1E5hfn5BduN2nnoZCJmUVG"
+      "uri": "spotify:artist:1XavfPKBpNjkOfxHINlMHF"
+    },
+    "6Ip8FS7vWT1uKkJSweANQK": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
+      },
+      "followers": {
+        "href": null,
+        "total": 6645832
+      },
+      "genres": [
+        "grime",
+        "uk grime",
+        "uk drill",
+        "drill"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6Ip8FS7vWT1uKkJSweANQK",
+      "id": "6Ip8FS7vWT1uKkJSweANQK",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2f23c7e361cef62490f44057",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051742f23c7e361cef62490f44057",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1782f23c7e361cef62490f44057",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Dave",
+      "popularity": 81,
+      "type": "artist",
+      "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
+    },
+    "4TKhxSkqClXrdtUWgKqHVU": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4TKhxSkqClXrdtUWgKqHVU"
+      },
+      "followers": {
+        "href": null,
+        "total": 3028664
+      },
+      "genres": [
+        "afrobeats",
+        "afropiano",
+        "afrobeat",
+        "amapiano",
+        "afropop",
+        "afro adura"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4TKhxSkqClXrdtUWgKqHVU",
+      "id": "4TKhxSkqClXrdtUWgKqHVU",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb42e03a4df87b0d3070f9875a",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517442e03a4df87b0d3070f9875a",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17842e03a4df87b0d3070f9875a",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Shallipopi",
+      "popularity": 70,
+      "type": "artist",
+      "uri": "spotify:artist:4TKhxSkqClXrdtUWgKqHVU"
     }
   }
 }

@@ -20,10 +20,21 @@
     playlistTable: document.getElementById("playlist-table"),
     emptyState: document.getElementById("empty-state"),
     regionChart: document.getElementById("region-chart"),
-    audioChart: document.getElementById("audio-chart"),
+    releaseChart: document.getElementById("release-chart"),
+    popularityChart: document.getElementById("popularity-chart"),
     curatorChart: document.getElementById("curator-chart"),
-    audioBanner: document.getElementById("audio-status-banner")
+    exposureChart: document.getElementById("exposure-chart")
   };
+
+  const chartTabButtons = Array.from(document.querySelectorAll("[data-chart-tab]"));
+              ticks: { color: "#f7f8fa" },
+              title: {
+                display: true,
+                text: "Spotify popularity (0-100)",
+                color: "#f7f8fa",
+                font: { weight: "600" }
+              },
+  const chartTabContainer = document.querySelector("[data-tab-root]") || chartTabButtons[0]?.parentElement;
 
   const allTracks = dataset.playlists.flatMap((playlist) => playlist.tracks || []);
   const trackYears = allTracks.map((track) => track.releaseYear).filter((year) => typeof year === "number");
@@ -67,6 +78,75 @@
     elements.maxYear.value = state.maxYear;
     elements.maxYear.min = String(minYearValue);
     elements.maxYear.max = String(maxYearValue);
+  }
+
+  function initChartTabs() {
+    if (!chartTabButtons.length || !chartTabPanels.length) {
+      return;
+    }
+
+    function activateTab(targetId, options = {}) {
+      if (!targetId) return;
+      const shouldScroll = Boolean(options.scrollIntoView);
+
+      chartTabButtons.forEach((button) => {
+        const isActive = button.dataset.chartTab === targetId;
+        button.setAttribute("aria-selected", String(isActive));
+        button.setAttribute("tabindex", isActive ? "0" : "-1");
+        button.classList.toggle("is-active", isActive);
+      });
+
+      chartTabPanels.forEach((panel) => {
+        const isActive = panel.id === targetId;
+        panel.classList.toggle("is-hidden", !isActive);
+        panel.setAttribute("aria-hidden", String(!isActive));
+        panel.setAttribute("tabindex", isActive ? "0" : "-1");
+        if (isActive) {
+          requestAnimationFrame(() => {
+            switch (targetId) {
+              case "overview-panel":
+                charts.region?.resize();
+                charts.region?.update();
+                break;
+              case "release-panel":
+                charts.release?.resize();
+                charts.release?.update();
+                break;
+              case "popularity-panel":
+                charts.popularity?.resize();
+                charts.popularity?.update();
+                break;
+              case "curator-panel":
+                charts.curator?.resize();
+                charts.curator?.update();
+                break;
+              case "exposure-panel":
+                charts.exposure?.resize();
+                charts.exposure?.update();
+                break;
+              default:
+                break;
+            }
+            if (shouldScroll && chartTabContainer && typeof chartTabContainer.scrollIntoView === "function") {
+              chartTabContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          });
+        }
+      });
+    }
+
+    const defaultButton = chartTabButtons.find((button) => button.hasAttribute("data-default-tab")) || chartTabButtons[0];
+    if (defaultButton) {
+      activateTab(defaultButton.dataset.chartTab, { scrollIntoView: false });
+    }
+
+    chartTabButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const { chartTab } = button.dataset;
+        if (!chartTab) return;
+        activateTab(chartTab, { scrollIntoView: true });
+      });
+    });
   }
 
   function attachListeners() {
@@ -166,6 +246,16 @@
     }, {});
   }
 
+  function median(numbers) {
+    if (!numbers.length) return 0;
+    const sorted = [...numbers].sort((a, b) => a - b);
+    const midpoint = Math.floor(sorted.length / 2);
+    if (sorted.length % 2 === 0) {
+      return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
+    }
+    return sorted[midpoint];
+  }
+
   function formatNumber(value) {
     if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
     if (value >= 1_000) return `${(value / 1_000).toFixed(1)}K`;
@@ -188,8 +278,10 @@
 
   let charts = {
     region: null,
-    audio: null,
-    curator: null
+    release: null,
+    popularity: null,
+    curator: null,
+    exposure: null
   };
 
   function initMetadata() {
@@ -217,21 +309,13 @@
 
     if (metadataElements.audioStatus) {
       if (coverage === 0) {
-        metadataElements.audioStatus.textContent = "Audio features unavailable (API returned 403)";
+        metadataElements.audioStatus.textContent = "Optional: Spotify audio features currently blocked";
         metadataElements.audioStatus.classList.add("is-warning");
         metadataElements.audioStatus.classList.remove("is-success");
       } else {
-        metadataElements.audioStatus.textContent = `${coverage}% audio feature coverage`;
+        metadataElements.audioStatus.textContent = `${coverage}% optional audio feature coverage`;
         metadataElements.audioStatus.classList.add("is-success");
         metadataElements.audioStatus.classList.remove("is-warning");
-      }
-    }
-
-    if (elements.audioBanner) {
-      if (coverage === 0) {
-        elements.audioBanner.hidden = false;
-      } else {
-        elements.audioBanner.hidden = true;
       }
     }
   }
@@ -270,31 +354,65 @@
       });
     }
 
-    if (!charts.audio) {
-      charts.audio = new Chart(elements.audioChart, {
-        type: "radar",
+    if (!charts.release) {
+      charts.release = new Chart(elements.releaseChart, {
+        type: "bar",
         data: {
-          labels: ["Danceability", "Energy", "Valence", "Tempo (scaled)", "Acousticness"],
+          labels: [],
           datasets: [
             {
-              label: "Average",
-              data: [0, 0, 0, 0, 0],
-              backgroundColor: "rgba(255, 180, 0, 0.2)",
-              borderColor: "rgba(255, 180, 0, 0.9)",
-              pointBackgroundColor: "#ffb400"
+              label: "Tracks",
+              data: [],
+              backgroundColor: "rgba(108, 99, 255, 0.75)",
+              borderRadius: 8
             }
           ]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
           scales: {
-            r: {
-              beginAtZero: true,
-              max: 1,
-              ticks: { display: false },
-              grid: { color: "rgba(255, 255, 255, 0.12)" },
-              angleLines: { color: "rgba(255, 255, 255, 0.12)" },
-              pointLabels: { color: "#f7f8fa", font: { size: 12 } }
+            x: { ticks: { color: "#f7f8fa" }, grid: { color: "rgba(255,255,255,0.06)" } },
+            y: { ticks: { color: "#f7f8fa" }, beginAtZero: true }
+          },
+          plugins: {
+            legend: { display: false }
+          }
+        }
+      });
+    }
+
+    if (!charts.popularity) {
+      charts.popularity = new Chart(elements.popularityChart, {
+        type: "bar",
+        data: {
+          labels: [],
+          datasets: [
+            {
+              label: "Average popularity",
+              data: [],
+              backgroundColor: "rgba(255, 180, 0, 0.75)",
+              borderRadius: 8
             }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 100,
+              ticks: { color: "#f7f8fa" },
+              title: {
+                display: true,
+                text: "Spotify popularity (0-100)",
+                color: "#f7f8fa",
+                font: { weight: "600" }
+              },
+              grid: { color: "rgba(255,255,255,0.06)" }
+            },
+            x: { ticks: { color: "#f7f8fa", autoSkip: false }, grid: { display: false } }
           },
           plugins: {
             legend: { display: false }
@@ -338,6 +456,35 @@
         }
       });
     }
+
+    if (!charts.exposure) {
+      charts.exposure = new Chart(elements.exposureChart, {
+        type: "bar",
+        data: {
+          labels: [],
+          datasets: [
+            {
+              label: "Track placements",
+              data: [],
+              backgroundColor: "rgba(46, 204, 113, 0.7)",
+              borderRadius: 8
+            }
+          ]
+        },
+        options: {
+          indexAxis: "y",
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { beginAtZero: true, ticks: { color: "#f7f8fa" }, grid: { color: "rgba(255,255,255,0.06)" } },
+            y: { ticks: { color: "#f7f8fa" }, grid: { display: false } }
+          },
+          plugins: {
+            legend: { display: false }
+          }
+        }
+      });
+    }
   }
 
   function updateCharts(allTracks, playlists) {
@@ -350,23 +497,39 @@
     charts.region.data.datasets[0].data = regionValues;
     charts.region.update();
 
-    const audioAverages = {
-      danceability: average(allTracks.map((t) => t.features?.danceability || 0)),
-      energy: average(allTracks.map((t) => t.features?.energy || 0)),
-      valence: average(allTracks.map((t) => t.features?.valence || 0)),
-      tempo: average(allTracks.map((t) => t.features?.tempo || 0)),
-      acousticness: average(allTracks.map((t) => t.features?.acousticness || 0))
-    };
+    const releaseCounts = sumCounts(allTracks, (track) => track.releaseYear);
+    const releaseLabels = Object.keys(releaseCounts)
+      .map((year) => Number(year))
+      .filter((year) => !Number.isNaN(year))
+      .sort((a, b) => a - b);
+    const releaseValues = releaseLabels.map((year) => releaseCounts[String(year)]);
+    charts.release.data.labels = releaseLabels;
+    charts.release.data.datasets[0].data = releaseValues;
+    charts.release.update();
 
-    const tempoScaled = Math.min(audioAverages.tempo / 160, 1);
-    charts.audio.data.datasets[0].data = [
-      audioAverages.danceability,
-      audioAverages.energy,
-      audioAverages.valence,
-      tempoScaled,
-      audioAverages.acousticness
-    ];
-    charts.audio.update();
+    const popularityByRegion = playlists.reduce((acc, playlist) => {
+      playlist.filteredTracks.forEach((track) => {
+        const key = track.regionGroup || "Unknown";
+        if (!acc[key]) {
+          acc[key] = { total: 0, count: 0 };
+        }
+        if (typeof track.trackPopularity === "number") {
+          acc[key].total += track.trackPopularity;
+          acc[key].count += 1;
+        }
+      });
+      return acc;
+    }, {});
+
+    const popularityEntries = Object.entries(popularityByRegion).map(([region, stats]) => {
+      const averagePopularity = stats.count ? Math.round(stats.total / stats.count) : 0;
+      return { region, averagePopularity };
+    });
+
+    popularityEntries.sort((a, b) => b.averagePopularity - a.averagePopularity);
+    charts.popularity.data.labels = popularityEntries.map((entry) => entry.region);
+    charts.popularity.data.datasets[0].data = popularityEntries.map((entry) => entry.averagePopularity);
+    charts.popularity.update();
 
     const curatorGroups = playlists.reduce((acc, playlist) => {
       const key = playlist.curatorType;
@@ -389,6 +552,26 @@
     charts.curator.data.labels = curatorLabels;
     charts.curator.data.datasets[0].data = curatorValues;
     charts.curator.update();
+
+    const artistExposure = playlists.reduce((acc, playlist) => {
+      playlist.filteredTracks.forEach((track) => {
+        const key = track.artistId || track.artist;
+        if (!key) return;
+        if (!acc[key]) {
+          const primaryName = typeof track.artist === "string" ? track.artist.split(",")[0].trim() : "Unknown";
+          acc[key] = { name: primaryName || "Unknown", count: 0 };
+        }
+        acc[key].count += 1;
+      });
+      return acc;
+    }, {});
+
+    const topArtists = Object.values(artistExposure)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 8);
+    charts.exposure.data.labels = topArtists.map((artist) => artist.name);
+    charts.exposure.data.datasets[0].data = topArtists.map((artist) => artist.count);
+    charts.exposure.update();
   }
 
   function updateCards(playlists, tracks) {
@@ -420,8 +603,15 @@
         const diasporaCount = playlist.filteredTracks.filter((track) => track.diaspora).length;
         const nigeriaCount = playlist.filteredTracks.filter((track) => track.artistCountry === "Nigeria").length;
         const uniqueRegions = new Set(playlist.filteredTracks.map((track) => track.regionGroup)).size;
-        const avgEnergy = average(playlist.filteredTracks.map((track) => track.features?.energy || 0)).toFixed(2);
-        const avgDanceability = average(playlist.filteredTracks.map((track) => track.features?.danceability || 0)).toFixed(2);
+        const popularityValues = playlist.filteredTracks
+          .map((track) => track.trackPopularity)
+          .filter((value) => typeof value === "number");
+        const avgPopularity = popularityValues.length ? average(popularityValues).toFixed(0) : "0";
+
+        const positionValues = playlist.filteredTracks
+          .map((track) => track.playlistPosition)
+          .filter((value) => typeof value === "number");
+        const medianPosition = positionValues.length ? median(positionValues).toFixed(0) : "--";
 
         return `
           <tr>
@@ -436,8 +626,8 @@
             <td>${uniqueRegions}</td>
             <td>${formatPercent(diasporaCount, totalTracks)}</td>
             <td>${formatPercent(nigeriaCount, totalTracks)}</td>
-            <td>${avgEnergy}</td>
-            <td>${avgDanceability}</td>
+            <td>${avgPopularity}</td>
+            <td>${medianPosition}</td>
           </tr>
         `;
       })
@@ -456,12 +646,21 @@
       charts.region.data.datasets[0].data = [];
       charts.region.update();
 
-      charts.audio.data.datasets[0].data = [0, 0, 0, 0, 0];
-      charts.audio.update();
+      charts.release.data.labels = [];
+      charts.release.data.datasets[0].data = [];
+      charts.release.update();
+
+      charts.popularity.data.labels = [];
+      charts.popularity.data.datasets[0].data = [];
+      charts.popularity.update();
 
       charts.curator.data.labels = [];
       charts.curator.data.datasets[0].data = [];
       charts.curator.update();
+
+      charts.exposure.data.labels = [];
+      charts.exposure.data.datasets[0].data = [];
+      charts.exposure.update();
 
       renderPlaylistTable([]);
       updateCards(filteredPlaylists, filteredTracks);
@@ -477,4 +676,5 @@
   attachListeners();
   initMetadata();
   updateDashboard();
+  initChartTabs();
 })();

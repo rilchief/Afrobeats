@@ -1,7 +1,7 @@
 {
   "slug": "amapiano-2025",
   "playlistId": "4Ymf8eaPQGT7HMTymoX82f",
-  "fetchedAt": "2025-11-14T21:19:34Z",
+  "fetchedAt": "2025-11-15T00:27:47Z",
   "config": {
     "id": "4Ymf8eaPQGT7HMTymoX82f",
     "curatorType": "Independent Curator",
@@ -15,7 +15,7 @@
     },
     "followers": {
       "href": null,
-      "total": 449371
+      "total": 449438
     },
     "href": "https://api.spotify.com/v1/playlists/4Ymf8eaPQGT7HMTymoX82f",
     "id": "4Ymf8eaPQGT7HMTymoX82f",
@@ -79140,217 +79140,46 @@
     }
   ],
   "audioFeatures": {},
-  "missingArtists": [
-    "1UCID",
-    "2Point1",
-    "Ama Grootman",
-    "Babalwa M",
-    "Bassie",
-    "CIZA",
-    "Caiiro",
-    "DEMOLA",
-    "DJ Boat",
-    "DJ Maphorisa",
-    "DJ Stokie",
-    "De Mthuda",
-    "Deep London",
-    "Deola",
-    "Dj Jaivane",
-    "Dlala Thukzin",
-    "Felo Le Tee",
-    "Focalistic",
-    "Goon Flavour",
-    "Issa sisdoh",
-    "JAZZWRLD",
-    "KMAT",
-    "KUTHATHU",
-    "Kabza De Small",
-    "Kamo Mphela",
-    "Kelvin Momo",
-    "Khadeair",
-    "Khanyisa",
-    "Khathapillar",
-    "Lady Amar",
-    "MaWhoo",
-    "Major_Keys",
-    "Mas Musiq",
-    "Michael Meka",
-    "Mluusician",
-    "Mr Pilato",
-    "Ntokzin",
-    "Oscar Mbo",
-    "Pabi Cooper",
-    "Sam Deep",
-    "Shakes & Les",
-    "ShaunMusiq & Ftears",
-    "Soa Mattrix",
-    "TNK MusiQ",
-    "Thukuthela",
-    "TitoM",
-    "Tyler ICU",
-    "Uncle Waffles",
-    "Vetkuk",
-    "Vigro Deep",
-    "Vudumane",
-    "Zee Nxumalo"
-  ],
+  "missingArtists": [],
   "artistDetails": {
-    "4F8OilWxRKQzg1Lw9sJ4Pl": {
+    "3fdFRgy3GmfiWQqeKbmFS8": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4F8OilWxRKQzg1Lw9sJ4Pl"
+        "spotify": "https://open.spotify.com/artist/3fdFRgy3GmfiWQqeKbmFS8"
       },
       "followers": {
         "href": null,
-        "total": 498066
+        "total": 1108961
       },
       "genres": [
+        "amapiano",
         "private school piano",
-        "amapiano",
-        "3 step",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/4F8OilWxRKQzg1Lw9sJ4Pl",
-      "id": "4F8OilWxRKQzg1Lw9sJ4Pl",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000b273aa18b42ce998e826e9a0f2a9",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00001e02aa18b42ce998e826e9a0f2a9",
-          "height": 300,
-          "width": 300
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00004851aa18b42ce998e826e9a0f2a9",
-          "height": 64,
-          "width": 64
-        }
-      ],
-      "name": "Dj Jaivane",
-      "popularity": 52,
-      "type": "artist",
-      "uri": "spotify:artist:4F8OilWxRKQzg1Lw9sJ4Pl"
-    },
-    "0dUHzfa2msKEpMevzsdwqG": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0dUHzfa2msKEpMevzsdwqG"
-      },
-      "followers": {
-        "href": null,
-        "total": 1177905
-      },
-      "genres": [
-        "private school piano",
-        "amapiano",
-        "3 step",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/0dUHzfa2msKEpMevzsdwqG",
-      "id": "0dUHzfa2msKEpMevzsdwqG",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebff42a4f42166a1c089897798",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174ff42a4f42166a1c089897798",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178ff42a4f42166a1c089897798",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Babalwa M",
-      "popularity": 60,
-      "type": "artist",
-      "uri": "spotify:artist:0dUHzfa2msKEpMevzsdwqG"
-    },
-    "5Uc6XVglgR7fb3Q5FSy0zW": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5Uc6XVglgR7fb3Q5FSy0zW"
-      },
-      "followers": {
-        "href": null,
-        "total": 37374
-      },
-      "genres": [
-        "amapiano",
-        "3 step",
-        "afropiano",
         "gqom",
-        "afrobeats",
-        "afropop"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5Uc6XVglgR7fb3Q5FSy0zW",
-      "id": "5Uc6XVglgR7fb3Q5FSy0zW",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebce5fc4a3883bdc886435af16",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174ce5fc4a3883bdc886435af16",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178ce5fc4a3883bdc886435af16",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Goon Flavour",
-      "popularity": 50,
-      "type": "artist",
-      "uri": "spotify:artist:5Uc6XVglgR7fb3Q5FSy0zW"
-    },
-    "0mMqD2uqwvCjFvlzo6ayGi": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0mMqD2uqwvCjFvlzo6ayGi"
-      },
-      "followers": {
-        "href": null,
-        "total": 3644537
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "private school piano",
         "3 step",
-        "afropiano",
-        "bacardi",
-        "afrobeats"
+        "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/0mMqD2uqwvCjFvlzo6ayGi",
-      "id": "0mMqD2uqwvCjFvlzo6ayGi",
+      "href": "https://api.spotify.com/v1/artists/3fdFRgy3GmfiWQqeKbmFS8",
+      "id": "3fdFRgy3GmfiWQqeKbmFS8",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb175fef8bea1c4dcde8141a46",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb26b94c11e91a31d7236aefd3",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174175fef8bea1c4dcde8141a46",
+          "url": "https://i.scdn.co/image/ab6761610000517426b94c11e91a31d7236aefd3",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178175fef8bea1c4dcde8141a46",
+          "url": "https://i.scdn.co/image/ab6761610000f17826b94c11e91a31d7236aefd3",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "DJ Maphorisa",
-      "popularity": 70,
+      "name": "Mas Musiq",
+      "popularity": 51,
       "type": "artist",
-      "uri": "spotify:artist:0mMqD2uqwvCjFvlzo6ayGi"
+      "uri": "spotify:artist:3fdFRgy3GmfiWQqeKbmFS8"
     },
     "0Btky5ia7ihAQE8UEXPmbQ": {
       "external_urls": {
@@ -79391,122 +79220,355 @@
       "type": "artist",
       "uri": "spotify:artist:0Btky5ia7ihAQE8UEXPmbQ"
     },
-    "6zfTCQmxqOy0kBpHrse3ro": {
+    "3IhOSkQgBPinh1WF8TKAhS": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6zfTCQmxqOy0kBpHrse3ro"
+        "spotify": "https://open.spotify.com/artist/3IhOSkQgBPinh1WF8TKAhS"
       },
       "followers": {
         "href": null,
-        "total": 805332
+        "total": 33163
       },
       "genres": [
-        "amapiano",
-        "private school piano",
-        "gqom",
         "3 step",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6zfTCQmxqOy0kBpHrse3ro",
-      "id": "6zfTCQmxqOy0kBpHrse3ro",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebccce252433356605183ff7a4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174ccce252433356605183ff7a4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178ccce252433356605183ff7a4",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Soa Mattrix",
-      "popularity": 49,
-      "type": "artist",
-      "uri": "spotify:artist:6zfTCQmxqOy0kBpHrse3ro"
-    },
-    "01n03WadoqgmHHDQ24v3kV": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/01n03WadoqgmHHDQ24v3kV"
-      },
-      "followers": {
-        "href": null,
-        "total": 260481
-      },
-      "genres": [
         "amapiano",
         "private school piano",
-        "gqom",
-        "3 step"
+        "gqom"
       ],
-      "href": "https://api.spotify.com/v1/artists/01n03WadoqgmHHDQ24v3kV",
-      "id": "01n03WadoqgmHHDQ24v3kV",
+      "href": "https://api.spotify.com/v1/artists/3IhOSkQgBPinh1WF8TKAhS",
+      "id": "3IhOSkQgBPinh1WF8TKAhS",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba92e6c512a2ee8ec1ac85971",
+          "url": "https://i.scdn.co/image/ab67616d0000b27356a24394bd2c89966a81d05c",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174a92e6c512a2ee8ec1ac85971",
-          "height": 320,
-          "width": 320
+          "url": "https://i.scdn.co/image/ab67616d00001e0256a24394bd2c89966a81d05c",
+          "height": 300,
+          "width": 300
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178a92e6c512a2ee8ec1ac85971",
-          "height": 160,
-          "width": 160
+          "url": "https://i.scdn.co/image/ab67616d0000485156a24394bd2c89966a81d05c",
+          "height": 64,
+          "width": 64
         }
       ],
-      "name": "Ntokzin",
+      "name": "Ama Grootman",
       "popularity": 41,
       "type": "artist",
-      "uri": "spotify:artist:01n03WadoqgmHHDQ24v3kV"
+      "uri": "spotify:artist:3IhOSkQgBPinh1WF8TKAhS"
     },
-    "4GugIMfUFCc3IJM7jD2C5d": {
+    "7uNPGhyPtFpwvmSP3tTiaE": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4GugIMfUFCc3IJM7jD2C5d"
+        "spotify": "https://open.spotify.com/artist/7uNPGhyPtFpwvmSP3tTiaE"
       },
       "followers": {
         "href": null,
-        "total": 63617
+        "total": 21200
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "3 step",
+        "afropiano",
+        "private school piano",
+        "bacardi"
+      ],
+      "href": "https://api.spotify.com/v1/artists/7uNPGhyPtFpwvmSP3tTiaE",
+      "id": "7uNPGhyPtFpwvmSP3tTiaE",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273659cafa5bb9ed829afb1e916",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0241848b2b7b6fee3dcafe520e",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851659cafa5bb9ed829afb1e916",
+          "height": 64,
+          "width": 64
+        }
+      ],
+      "name": "Mluusician",
+      "popularity": 48,
+      "type": "artist",
+      "uri": "spotify:artist:7uNPGhyPtFpwvmSP3tTiaE"
+    },
+    "6RQHmMwcFO7oD4K06kcAiz": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6RQHmMwcFO7oD4K06kcAiz"
+      },
+      "followers": {
+        "href": null,
+        "total": 39349
+      },
+      "genres": [
+        "3 step",
+        "amapiano",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6RQHmMwcFO7oD4K06kcAiz",
+      "id": "6RQHmMwcFO7oD4K06kcAiz",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8a34debf4a19c940fbf61c13",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748a34debf4a19c940fbf61c13",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788a34debf4a19c940fbf61c13",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Khadeair",
+      "popularity": 47,
+      "type": "artist",
+      "uri": "spotify:artist:6RQHmMwcFO7oD4K06kcAiz"
+    },
+    "46R9PUVbIOMjSUtMsQZbQq": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/46R9PUVbIOMjSUtMsQZbQq"
+      },
+      "followers": {
+        "href": null,
+        "total": 804293
+      },
+      "genres": [
+        "amapiano",
+        "private school piano",
+        "3 step",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/46R9PUVbIOMjSUtMsQZbQq",
+      "id": "46R9PUVbIOMjSUtMsQZbQq",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebdf275555b0f988cc55457110",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174df275555b0f988cc55457110",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178df275555b0f988cc55457110",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Sam Deep",
+      "popularity": 56,
+      "type": "artist",
+      "uri": "spotify:artist:46R9PUVbIOMjSUtMsQZbQq"
+    },
+    "0N6CgWlBaskJj7kaAXSath": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0N6CgWlBaskJj7kaAXSath"
+      },
+      "followers": {
+        "href": null,
+        "total": 44318
       },
       "genres": [
         "amapiano",
         "gqom",
         "afropiano",
-        "3 step",
-        "private school piano",
         "bacardi"
       ],
-      "href": "https://api.spotify.com/v1/artists/4GugIMfUFCc3IJM7jD2C5d",
-      "id": "4GugIMfUFCc3IJM7jD2C5d",
+      "href": "https://api.spotify.com/v1/artists/0N6CgWlBaskJj7kaAXSath",
+      "id": "0N6CgWlBaskJj7kaAXSath",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb78c5fdab589b93f8717864be",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb93e5e0d0028e85b5ffad3cbc",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000517478c5fdab589b93f8717864be",
+          "url": "https://i.scdn.co/image/ab6761610000517493e5e0d0028e85b5ffad3cbc",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f17878c5fdab589b93f8717864be",
+          "url": "https://i.scdn.co/image/ab6761610000f17893e5e0d0028e85b5ffad3cbc",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "KMAT",
+      "name": "Vetkuk",
       "popularity": 34,
       "type": "artist",
-      "uri": "spotify:artist:4GugIMfUFCc3IJM7jD2C5d"
+      "uri": "spotify:artist:0N6CgWlBaskJj7kaAXSath"
+    },
+    "63BHCKXCt00q20fd45W4Pk": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/63BHCKXCt00q20fd45W4Pk"
+      },
+      "followers": {
+        "href": null,
+        "total": 103485
+      },
+      "genres": [
+        "amapiano",
+        "private school piano",
+        "3 step",
+        "afropiano",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/63BHCKXCt00q20fd45W4Pk",
+      "id": "63BHCKXCt00q20fd45W4Pk",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1e8b845b04f3949c8d821347",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051741e8b845b04f3949c8d821347",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1781e8b845b04f3949c8d821347",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Lady Amar",
+      "popularity": 34,
+      "type": "artist",
+      "uri": "spotify:artist:63BHCKXCt00q20fd45W4Pk"
+    },
+    "71hPkbyih5bdlHVPBgav33": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/71hPkbyih5bdlHVPBgav33"
+      },
+      "followers": {
+        "href": null,
+        "total": 161859
+      },
+      "genres": [
+        "3 step",
+        "amapiano",
+        "afro house",
+        "gqom",
+        "afro tech",
+        "afropiano",
+        "private school piano",
+        "afrobeats"
+      ],
+      "href": "https://api.spotify.com/v1/artists/71hPkbyih5bdlHVPBgav33",
+      "id": "71hPkbyih5bdlHVPBgav33",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3ce9b596423027a4a7e974d3",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743ce9b596423027a4a7e974d3",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783ce9b596423027a4a7e974d3",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "CIZA",
+      "popularity": 59,
+      "type": "artist",
+      "uri": "spotify:artist:71hPkbyih5bdlHVPBgav33"
+    },
+    "2NJ4G5sIHIfma9PF2MO0yi": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2NJ4G5sIHIfma9PF2MO0yi"
+      },
+      "followers": {
+        "href": null,
+        "total": 58216
+      },
+      "genres": [
+        "private school piano",
+        "amapiano",
+        "3 step",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2NJ4G5sIHIfma9PF2MO0yi",
+      "id": "2NJ4G5sIHIfma9PF2MO0yi",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb714129e3d5dbf4ea1212848d",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174714129e3d5dbf4ea1212848d",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178714129e3d5dbf4ea1212848d",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Khathapillar",
+      "popularity": 39,
+      "type": "artist",
+      "uri": "spotify:artist:2NJ4G5sIHIfma9PF2MO0yi"
+    },
+    "6k8odn7NzzTT4K3NBNtsfV": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6k8odn7NzzTT4K3NBNtsfV"
+      },
+      "followers": {
+        "href": null,
+        "total": 1168796
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "afropiano",
+        "private school piano",
+        "bacardi",
+        "3 step"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6k8odn7NzzTT4K3NBNtsfV",
+      "id": "6k8odn7NzzTT4K3NBNtsfV",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0caea208cfd7c24db2bb3df7",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740caea208cfd7c24db2bb3df7",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780caea208cfd7c24db2bb3df7",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Felo Le Tee",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:6k8odn7NzzTT4K3NBNtsfV"
     },
     "6l1wMjMtPsD4Y7khSsbjyR": {
       "external_urls": {
@@ -79587,6 +79649,84 @@
       "type": "artist",
       "uri": "spotify:artist:6EG9v86LsCoq5HS4Jj1zCQ"
     },
+    "0ovZr6KIJy6F7Mu10ymlZw": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0ovZr6KIJy6F7Mu10ymlZw"
+      },
+      "followers": {
+        "href": null,
+        "total": 736
+      },
+      "genres": [
+        "amapiano",
+        "afrobeats",
+        "afropop",
+        "afrobeat"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0ovZr6KIJy6F7Mu10ymlZw",
+      "id": "0ovZr6KIJy6F7Mu10ymlZw",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb537be91f366ede7dcf53466",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b537be91f366ede7dcf53466",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b537be91f366ede7dcf53466",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "1UCID",
+      "popularity": 24,
+      "type": "artist",
+      "uri": "spotify:artist:0ovZr6KIJy6F7Mu10ymlZw"
+    },
+    "1w2P5nNsO5W7FYq2Oui0cM": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1w2P5nNsO5W7FYq2Oui0cM"
+      },
+      "followers": {
+        "href": null,
+        "total": 1473473
+      },
+      "genres": [
+        "amapiano",
+        "private school piano",
+        "gqom",
+        "3 step",
+        "bacardi",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/1w2P5nNsO5W7FYq2Oui0cM",
+      "id": "1w2P5nNsO5W7FYq2Oui0cM",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6f1ff68401393798aab8e291",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746f1ff68401393798aab8e291",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786f1ff68401393798aab8e291",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "De Mthuda",
+      "popularity": 53,
+      "type": "artist",
+      "uri": "spotify:artist:1w2P5nNsO5W7FYq2Oui0cM"
+    },
     "4Cclhj7FUPigBRYPNbW5dw": {
       "external_urls": {
         "spotify": "https://open.spotify.com/artist/4Cclhj7FUPigBRYPNbW5dw"
@@ -79626,397 +79766,271 @@
       "type": "artist",
       "uri": "spotify:artist:4Cclhj7FUPigBRYPNbW5dw"
     },
-    "3idyOn3lhSxgV2qdDQNfhz": {
+    "4VlxI0WKDh7HFgHjXcfj6v": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3idyOn3lhSxgV2qdDQNfhz"
+        "spotify": "https://open.spotify.com/artist/4VlxI0WKDh7HFgHjXcfj6v"
       },
       "followers": {
         "href": null,
-        "total": 287541
+        "total": 3794954
       },
       "genres": [
-        "3 step",
-        "amapiano",
         "private school piano",
-        "gqom",
-        "afro house",
-        "afro tech",
-        "afropiano"
+        "amapiano",
+        "3 step",
+        "gqom"
       ],
-      "href": "https://api.spotify.com/v1/artists/3idyOn3lhSxgV2qdDQNfhz",
-      "id": "3idyOn3lhSxgV2qdDQNfhz",
+      "href": "https://api.spotify.com/v1/artists/4VlxI0WKDh7HFgHjXcfj6v",
+      "id": "4VlxI0WKDh7HFgHjXcfj6v",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8665a17f908fbe85342b16b5",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5459fa528a894f1f5631ce7d",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051748665a17f908fbe85342b16b5",
+          "url": "https://i.scdn.co/image/ab676161000051745459fa528a894f1f5631ce7d",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1788665a17f908fbe85342b16b5",
+          "url": "https://i.scdn.co/image/ab6761610000f1785459fa528a894f1f5631ce7d",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "JAZZWRLD",
-      "popularity": 68,
+      "name": "Kelvin Momo",
+      "popularity": 64,
       "type": "artist",
-      "uri": "spotify:artist:3idyOn3lhSxgV2qdDQNfhz"
+      "uri": "spotify:artist:4VlxI0WKDh7HFgHjXcfj6v"
     },
-    "2GJMSZ7M3D0KyyKRhYgWju": {
+    "4bslbAAfObKnJI0G6FNcTp": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2GJMSZ7M3D0KyyKRhYgWju"
+        "spotify": "https://open.spotify.com/artist/4bslbAAfObKnJI0G6FNcTp"
       },
       "followers": {
         "href": null,
-        "total": 1334913
+        "total": 507059
       },
       "genres": [
         "amapiano",
-        "afropiano",
         "gqom",
-        "bacardi",
-        "afrobeats",
+        "private school piano",
+        "afropiano",
+        "3 step",
         "bongo piano",
-        "afrobeat"
-      ],
-      "href": "https://api.spotify.com/v1/artists/2GJMSZ7M3D0KyyKRhYgWju",
-      "id": "2GJMSZ7M3D0KyyKRhYgWju",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb9b3244c02c2d1044d47ffe46",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051749b3244c02c2d1044d47ffe46",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1789b3244c02c2d1044d47ffe46",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Focalistic",
-      "popularity": 57,
-      "type": "artist",
-      "uri": "spotify:artist:2GJMSZ7M3D0KyyKRhYgWju"
-    },
-    "0N6CgWlBaskJj7kaAXSath": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0N6CgWlBaskJj7kaAXSath"
-      },
-      "followers": {
-        "href": null,
-        "total": 44318
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "afropiano",
         "bacardi"
       ],
-      "href": "https://api.spotify.com/v1/artists/0N6CgWlBaskJj7kaAXSath",
-      "id": "0N6CgWlBaskJj7kaAXSath",
+      "href": "https://api.spotify.com/v1/artists/4bslbAAfObKnJI0G6FNcTp",
+      "id": "4bslbAAfObKnJI0G6FNcTp",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb93e5e0d0028e85b5ffad3cbc",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd2060e48de28dc797b1b6416",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000517493e5e0d0028e85b5ffad3cbc",
+          "url": "https://i.scdn.co/image/ab67616100005174d2060e48de28dc797b1b6416",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f17893e5e0d0028e85b5ffad3cbc",
+          "url": "https://i.scdn.co/image/ab6761610000f178d2060e48de28dc797b1b6416",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Vetkuk",
-      "popularity": 34,
+      "name": "Shakes & Les",
+      "popularity": 49,
       "type": "artist",
-      "uri": "spotify:artist:0N6CgWlBaskJj7kaAXSath"
+      "uri": "spotify:artist:4bslbAAfObKnJI0G6FNcTp"
     },
-    "1xS0nO9INJ0UvBUq4mkL14": {
+    "0dUHzfa2msKEpMevzsdwqG": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1xS0nO9INJ0UvBUq4mkL14"
+        "spotify": "https://open.spotify.com/artist/0dUHzfa2msKEpMevzsdwqG"
       },
       "followers": {
         "href": null,
-        "total": 13967
+        "total": 1177905
       },
       "genres": [
-        "afrobeats",
-        "afropop",
+        "private school piano",
         "amapiano",
-        "afrobeat"
+        "3 step",
+        "gqom"
       ],
-      "href": "https://api.spotify.com/v1/artists/1xS0nO9INJ0UvBUq4mkL14",
-      "id": "1xS0nO9INJ0UvBUq4mkL14",
+      "href": "https://api.spotify.com/v1/artists/0dUHzfa2msKEpMevzsdwqG",
+      "id": "0dUHzfa2msKEpMevzsdwqG",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7b3e5fb462c7da5b20c59890",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebff42a4f42166a1c089897798",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051747b3e5fb462c7da5b20c59890",
+          "url": "https://i.scdn.co/image/ab67616100005174ff42a4f42166a1c089897798",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1787b3e5fb462c7da5b20c59890",
+          "url": "https://i.scdn.co/image/ab6761610000f178ff42a4f42166a1c089897798",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Vudumane",
-      "popularity": 28,
+      "name": "Babalwa M",
+      "popularity": 60,
       "type": "artist",
-      "uri": "spotify:artist:1xS0nO9INJ0UvBUq4mkL14"
+      "uri": "spotify:artist:0dUHzfa2msKEpMevzsdwqG"
     },
-    "1bNjWBFWsAAzZSR59lRdpR": {
+    "1ccVv6sg5vGPpJ77qAt6yI": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1bNjWBFWsAAzZSR59lRdpR"
+        "spotify": "https://open.spotify.com/artist/1ccVv6sg5vGPpJ77qAt6yI"
       },
       "followers": {
         "href": null,
-        "total": 6751131
+        "total": 102963
       },
       "genres": [
+        "3 step",
         "amapiano",
         "private school piano",
-        "3 step",
-        "gqom",
-        "afropiano",
         "afro tech",
+        "gqom",
         "afro house"
       ],
-      "href": "https://api.spotify.com/v1/artists/1bNjWBFWsAAzZSR59lRdpR",
-      "id": "1bNjWBFWsAAzZSR59lRdpR",
+      "href": "https://api.spotify.com/v1/artists/1ccVv6sg5vGPpJ77qAt6yI",
+      "id": "1ccVv6sg5vGPpJ77qAt6yI",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8a91ac668010910b368ca8c1",
+          "url": "https://i.scdn.co/image/ab6761610000e5eba3af9865152429c06225af53",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051748a91ac668010910b368ca8c1",
+          "url": "https://i.scdn.co/image/ab67616100005174a3af9865152429c06225af53",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1788a91ac668010910b368ca8c1",
+          "url": "https://i.scdn.co/image/ab6761610000f178a3af9865152429c06225af53",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Kabza De Small",
-      "popularity": 67,
+      "name": "Issa sisdoh",
+      "popularity": 49,
       "type": "artist",
-      "uri": "spotify:artist:1bNjWBFWsAAzZSR59lRdpR"
+      "uri": "spotify:artist:1ccVv6sg5vGPpJ77qAt6yI"
     },
-    "4WcuDDFGfo4j6VHqkGmjZ8": {
+    "3SozjO3Lat463tQICI9LcE": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4WcuDDFGfo4j6VHqkGmjZ8"
+        "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
       },
       "followers": {
         "href": null,
-        "total": 173414
+        "total": 3569753
       },
       "genres": [
-        "amapiano",
-        "afropiano",
-        "private school piano",
-        "gqom",
         "afrobeats"
       ],
-      "href": "https://api.spotify.com/v1/artists/4WcuDDFGfo4j6VHqkGmjZ8",
-      "id": "4WcuDDFGfo4j6VHqkGmjZ8",
+      "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
+      "id": "3SozjO3Lat463tQICI9LcE",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb797f6bb7318e1385b42ee98c",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7977176556d71cbc7fcbe6b4",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174797f6bb7318e1385b42ee98c",
+          "url": "https://i.scdn.co/image/ab676161000051747977176556d71cbc7fcbe6b4",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178797f6bb7318e1385b42ee98c",
+          "url": "https://i.scdn.co/image/ab6761610000f1787977176556d71cbc7fcbe6b4",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Deep London",
-      "popularity": 37,
+      "name": "Tyla",
+      "popularity": 78,
       "type": "artist",
-      "uri": "spotify:artist:4WcuDDFGfo4j6VHqkGmjZ8"
+      "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
     },
-    "46R9PUVbIOMjSUtMsQZbQq": {
+    "5cUFIkBWAwJOJZDEiACH6m": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/46R9PUVbIOMjSUtMsQZbQq"
+        "spotify": "https://open.spotify.com/artist/5cUFIkBWAwJOJZDEiACH6m"
       },
       "followers": {
         "href": null,
-        "total": 804293
+        "total": 25401
       },
       "genres": [
         "amapiano",
-        "private school piano",
-        "3 step",
+        "afropiano",
         "gqom"
       ],
-      "href": "https://api.spotify.com/v1/artists/46R9PUVbIOMjSUtMsQZbQq",
-      "id": "46R9PUVbIOMjSUtMsQZbQq",
+      "href": "https://api.spotify.com/v1/artists/5cUFIkBWAwJOJZDEiACH6m",
+      "id": "5cUFIkBWAwJOJZDEiACH6m",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebdf275555b0f988cc55457110",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb4da7695e5a183eecf604d2bf",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174df275555b0f988cc55457110",
+          "url": "https://i.scdn.co/image/ab676161000051744da7695e5a183eecf604d2bf",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178df275555b0f988cc55457110",
+          "url": "https://i.scdn.co/image/ab6761610000f1784da7695e5a183eecf604d2bf",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Sam Deep",
-      "popularity": 56,
+      "name": "DEMOLA",
+      "popularity": 39,
       "type": "artist",
-      "uri": "spotify:artist:46R9PUVbIOMjSUtMsQZbQq"
+      "uri": "spotify:artist:5cUFIkBWAwJOJZDEiACH6m"
     },
-    "2oA819q93vu53ZDkCJYdbN": {
+    "6tGXYcWxP5R6r8C5F0vl3c": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2oA819q93vu53ZDkCJYdbN"
+        "spotify": "https://open.spotify.com/artist/6tGXYcWxP5R6r8C5F0vl3c"
       },
       "followers": {
         "href": null,
-        "total": 185269
+        "total": 97876
       },
       "genres": [
         "amapiano",
         "gqom",
-        "private school piano",
-        "afropiano",
-        "3 step",
-        "bacardi"
+        "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/2oA819q93vu53ZDkCJYdbN",
-      "id": "2oA819q93vu53ZDkCJYdbN",
+      "href": "https://api.spotify.com/v1/artists/6tGXYcWxP5R6r8C5F0vl3c",
+      "id": "6tGXYcWxP5R6r8C5F0vl3c",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb086f351c599dc13080dc22f6",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0b64bf2f604afe7e068b1e18",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174086f351c599dc13080dc22f6",
+          "url": "https://i.scdn.co/image/ab676161000051740b64bf2f604afe7e068b1e18",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178086f351c599dc13080dc22f6",
+          "url": "https://i.scdn.co/image/ab6761610000f1780b64bf2f604afe7e068b1e18",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "TNK MusiQ",
-      "popularity": 44,
+      "name": "Major_Keys",
+      "popularity": 38,
       "type": "artist",
-      "uri": "spotify:artist:2oA819q93vu53ZDkCJYdbN"
-    },
-    "3IhOSkQgBPinh1WF8TKAhS": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3IhOSkQgBPinh1WF8TKAhS"
-      },
-      "followers": {
-        "href": null,
-        "total": 33163
-      },
-      "genres": [
-        "3 step",
-        "amapiano",
-        "private school piano",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3IhOSkQgBPinh1WF8TKAhS",
-      "id": "3IhOSkQgBPinh1WF8TKAhS",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000b27356a24394bd2c89966a81d05c",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00001e0256a24394bd2c89966a81d05c",
-          "height": 300,
-          "width": 300
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000485156a24394bd2c89966a81d05c",
-          "height": 64,
-          "width": 64
-        }
-      ],
-      "name": "Ama Grootman",
-      "popularity": 41,
-      "type": "artist",
-      "uri": "spotify:artist:3IhOSkQgBPinh1WF8TKAhS"
-    },
-    "1ELUrmWBlXkqVabjVincQ6": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1ELUrmWBlXkqVabjVincQ6"
-      },
-      "followers": {
-        "href": null,
-        "total": 759120
-      },
-      "genres": [
-        "amapiano",
-        "private school piano",
-        "3 step",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/1ELUrmWBlXkqVabjVincQ6",
-      "id": "1ELUrmWBlXkqVabjVincQ6",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0850fba2eeb2a0e99175e666",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740850fba2eeb2a0e99175e666",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780850fba2eeb2a0e99175e666",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Bassie",
-      "popularity": 46,
-      "type": "artist",
-      "uri": "spotify:artist:1ELUrmWBlXkqVabjVincQ6"
+      "uri": "spotify:artist:6tGXYcWxP5R6r8C5F0vl3c"
     },
     "1lDWyPzSZOqP5jfZNm5lLI": {
       "external_urls": {
@@ -80057,164 +80071,82 @@
       "type": "artist",
       "uri": "spotify:artist:1lDWyPzSZOqP5jfZNm5lLI"
     },
-    "6k8odn7NzzTT4K3NBNtsfV": {
+    "6zfTCQmxqOy0kBpHrse3ro": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6k8odn7NzzTT4K3NBNtsfV"
+        "spotify": "https://open.spotify.com/artist/6zfTCQmxqOy0kBpHrse3ro"
       },
       "followers": {
         "href": null,
-        "total": 1168796
+        "total": 805332
       },
       "genres": [
         "amapiano",
-        "gqom",
-        "afropiano",
         "private school piano",
-        "bacardi",
-        "3 step"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6k8odn7NzzTT4K3NBNtsfV",
-      "id": "6k8odn7NzzTT4K3NBNtsfV",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0caea208cfd7c24db2bb3df7",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740caea208cfd7c24db2bb3df7",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780caea208cfd7c24db2bb3df7",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Felo Le Tee",
-      "popularity": 50,
-      "type": "artist",
-      "uri": "spotify:artist:6k8odn7NzzTT4K3NBNtsfV"
-    },
-    "2oIQCM7hRZI9tS5b9S8rj4": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2oIQCM7hRZI9tS5b9S8rj4"
-      },
-      "followers": {
-        "href": null,
-        "total": 1492794
-      },
-      "genres": [
-        "amapiano",
-        "afropiano",
-        "gqom",
-        "afrobeats",
-        "private school piano",
-        "bongo piano",
-        "3 step",
-        "afrobeat"
-      ],
-      "href": "https://api.spotify.com/v1/artists/2oIQCM7hRZI9tS5b9S8rj4",
-      "id": "2oIQCM7hRZI9tS5b9S8rj4",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb99aa85b2465f460d1f77100b",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517499aa85b2465f460d1f77100b",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17899aa85b2465f460d1f77100b",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Tyler ICU",
-      "popularity": 58,
-      "type": "artist",
-      "uri": "spotify:artist:2oIQCM7hRZI9tS5b9S8rj4"
-    },
-    "788jOE9HMUy9heDK8EIkon": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/788jOE9HMUy9heDK8EIkon"
-      },
-      "followers": {
-        "href": null,
-        "total": 724858
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "afropiano",
-        "afrobeats"
-      ],
-      "href": "https://api.spotify.com/v1/artists/788jOE9HMUy9heDK8EIkon",
-      "id": "788jOE9HMUy9heDK8EIkon",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7b78e2a896393bab62660636",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051747b78e2a896393bab62660636",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1787b78e2a896393bab62660636",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Kamo Mphela",
-      "popularity": 47,
-      "type": "artist",
-      "uri": "spotify:artist:788jOE9HMUy9heDK8EIkon"
-    },
-    "3qqJxbB40F5AmjBiO4akVa": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3qqJxbB40F5AmjBiO4akVa"
-      },
-      "followers": {
-        "href": null,
-        "total": 147077
-      },
-      "genres": [
-        "amapiano",
-        "afropiano",
         "gqom",
         "3 step",
-        "bacardi"
+        "afropiano"
       ],
-      "href": "https://api.spotify.com/v1/artists/3qqJxbB40F5AmjBiO4akVa",
-      "id": "3qqJxbB40F5AmjBiO4akVa",
+      "href": "https://api.spotify.com/v1/artists/6zfTCQmxqOy0kBpHrse3ro",
+      "id": "6zfTCQmxqOy0kBpHrse3ro",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb6b28232938b6b89e3bfd8b97",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebccce252433356605183ff7a4",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051746b28232938b6b89e3bfd8b97",
+          "url": "https://i.scdn.co/image/ab67616100005174ccce252433356605183ff7a4",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1786b28232938b6b89e3bfd8b97",
+          "url": "https://i.scdn.co/image/ab6761610000f178ccce252433356605183ff7a4",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Mr Pilato",
+      "name": "Soa Mattrix",
       "popularity": 49,
       "type": "artist",
-      "uri": "spotify:artist:3qqJxbB40F5AmjBiO4akVa"
+      "uri": "spotify:artist:6zfTCQmxqOy0kBpHrse3ro"
+    },
+    "01n03WadoqgmHHDQ24v3kV": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/01n03WadoqgmHHDQ24v3kV"
+      },
+      "followers": {
+        "href": null,
+        "total": 260481
+      },
+      "genres": [
+        "amapiano",
+        "private school piano",
+        "gqom",
+        "3 step"
+      ],
+      "href": "https://api.spotify.com/v1/artists/01n03WadoqgmHHDQ24v3kV",
+      "id": "01n03WadoqgmHHDQ24v3kV",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eba92e6c512a2ee8ec1ac85971",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174a92e6c512a2ee8ec1ac85971",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178a92e6c512a2ee8ec1ac85971",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Ntokzin",
+      "popularity": 41,
+      "type": "artist",
+      "uri": "spotify:artist:01n03WadoqgmHHDQ24v3kV"
     },
     "2mF7ygWz9oyJ3L6ZPWlZVH": {
       "external_urls": {
@@ -80254,474 +80186,6 @@
       "popularity": 54,
       "type": "artist",
       "uri": "spotify:artist:2mF7ygWz9oyJ3L6ZPWlZVH"
-    },
-    "4yNx0crmKm3VRGTjWR1L3n": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4yNx0crmKm3VRGTjWR1L3n"
-      },
-      "followers": {
-        "href": null,
-        "total": 236315
-      },
-      "genres": [
-        "3 step",
-        "amapiano",
-        "afro house",
-        "private school piano",
-        "gqom",
-        "afro tech",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/4yNx0crmKm3VRGTjWR1L3n",
-      "id": "4yNx0crmKm3VRGTjWR1L3n",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb3ac0c16011c2e9c3490271c8",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051743ac0c16011c2e9c3490271c8",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1783ac0c16011c2e9c3490271c8",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Thukuthela",
-      "popularity": 68,
-      "type": "artist",
-      "uri": "spotify:artist:4yNx0crmKm3VRGTjWR1L3n"
-    },
-    "5fds40CKwV1XZgn3IH89Gd": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5fds40CKwV1XZgn3IH89Gd"
-      },
-      "followers": {
-        "href": null,
-        "total": 189855
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "afropiano",
-        "bacardi",
-        "private school piano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5fds40CKwV1XZgn3IH89Gd",
-      "id": "5fds40CKwV1XZgn3IH89Gd",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8ac77f927210ad6a833ca3fe",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051748ac77f927210ad6a833ca3fe",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1788ac77f927210ad6a833ca3fe",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "ShaunMusiq & Ftears",
-      "popularity": 48,
-      "type": "artist",
-      "uri": "spotify:artist:5fds40CKwV1XZgn3IH89Gd"
-    },
-    "68McnNC9twEtiynOAJRRgZ": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/68McnNC9twEtiynOAJRRgZ"
-      },
-      "followers": {
-        "href": null,
-        "total": 1398889
-      },
-      "genres": [
-        "amapiano",
-        "afropiano",
-        "gqom",
-        "bacardi",
-        "afrobeats",
-        "3 step"
-      ],
-      "href": "https://api.spotify.com/v1/artists/68McnNC9twEtiynOAJRRgZ",
-      "id": "68McnNC9twEtiynOAJRRgZ",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb587692caf824b293f0d10e52",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174587692caf824b293f0d10e52",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178587692caf824b293f0d10e52",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Uncle Waffles",
-      "popularity": 54,
-      "type": "artist",
-      "uri": "spotify:artist:68McnNC9twEtiynOAJRRgZ"
-    },
-    "4VlxI0WKDh7HFgHjXcfj6v": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4VlxI0WKDh7HFgHjXcfj6v"
-      },
-      "followers": {
-        "href": null,
-        "total": 3794954
-      },
-      "genres": [
-        "private school piano",
-        "amapiano",
-        "3 step",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/4VlxI0WKDh7HFgHjXcfj6v",
-      "id": "4VlxI0WKDh7HFgHjXcfj6v",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5459fa528a894f1f5631ce7d",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051745459fa528a894f1f5631ce7d",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1785459fa528a894f1f5631ce7d",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Kelvin Momo",
-      "popularity": 64,
-      "type": "artist",
-      "uri": "spotify:artist:4VlxI0WKDh7HFgHjXcfj6v"
-    },
-    "5eYSqn4LCXLgIFYR4qOZ1k": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5eYSqn4LCXLgIFYR4qOZ1k"
-      },
-      "followers": {
-        "href": null,
-        "total": 277992
-      },
-      "genres": [
-        "amapiano",
-        "afrobeats",
-        "afropiano",
-        "afrobeat",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5eYSqn4LCXLgIFYR4qOZ1k",
-      "id": "5eYSqn4LCXLgIFYR4qOZ1k",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb51e371e2948fe45e434695cc",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517451e371e2948fe45e434695cc",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17851e371e2948fe45e434695cc",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "TitoM",
-      "popularity": 53,
-      "type": "artist",
-      "uri": "spotify:artist:5eYSqn4LCXLgIFYR4qOZ1k"
-    },
-    "7uNPGhyPtFpwvmSP3tTiaE": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7uNPGhyPtFpwvmSP3tTiaE"
-      },
-      "followers": {
-        "href": null,
-        "total": 21200
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "3 step",
-        "afropiano",
-        "private school piano",
-        "bacardi"
-      ],
-      "href": "https://api.spotify.com/v1/artists/7uNPGhyPtFpwvmSP3tTiaE",
-      "id": "7uNPGhyPtFpwvmSP3tTiaE",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab67616d0000b273659cafa5bb9ed829afb1e916",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00001e0241848b2b7b6fee3dcafe520e",
-          "height": 300,
-          "width": 300
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616d00004851659cafa5bb9ed829afb1e916",
-          "height": 64,
-          "width": 64
-        }
-      ],
-      "name": "Mluusician",
-      "popularity": 48,
-      "type": "artist",
-      "uri": "spotify:artist:7uNPGhyPtFpwvmSP3tTiaE"
-    },
-    "5Sgtj9tFA2TAYXDeh1sJTc": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5Sgtj9tFA2TAYXDeh1sJTc"
-      },
-      "followers": {
-        "href": null,
-        "total": 314505
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "bongo piano",
-        "private school piano",
-        "afropiano",
-        "3 step"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5Sgtj9tFA2TAYXDeh1sJTc",
-      "id": "5Sgtj9tFA2TAYXDeh1sJTc",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0cfd1ce676836ecbacdc7790",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740cfd1ce676836ecbacdc7790",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780cfd1ce676836ecbacdc7790",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Khanyisa",
-      "popularity": 40,
-      "type": "artist",
-      "uri": "spotify:artist:5Sgtj9tFA2TAYXDeh1sJTc"
-    },
-    "6RQHmMwcFO7oD4K06kcAiz": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6RQHmMwcFO7oD4K06kcAiz"
-      },
-      "followers": {
-        "href": null,
-        "total": 39349
-      },
-      "genres": [
-        "3 step",
-        "amapiano",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6RQHmMwcFO7oD4K06kcAiz",
-      "id": "6RQHmMwcFO7oD4K06kcAiz",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8a34debf4a19c940fbf61c13",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051748a34debf4a19c940fbf61c13",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1788a34debf4a19c940fbf61c13",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Khadeair",
-      "popularity": 47,
-      "type": "artist",
-      "uri": "spotify:artist:6RQHmMwcFO7oD4K06kcAiz"
-    },
-    "6tGXYcWxP5R6r8C5F0vl3c": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6tGXYcWxP5R6r8C5F0vl3c"
-      },
-      "followers": {
-        "href": null,
-        "total": 97876
-      },
-      "genres": [
-        "amapiano",
-        "gqom",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/6tGXYcWxP5R6r8C5F0vl3c",
-      "id": "6tGXYcWxP5R6r8C5F0vl3c",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb0b64bf2f604afe7e068b1e18",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051740b64bf2f604afe7e068b1e18",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1780b64bf2f604afe7e068b1e18",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Major_Keys",
-      "popularity": 38,
-      "type": "artist",
-      "uri": "spotify:artist:6tGXYcWxP5R6r8C5F0vl3c"
-    },
-    "71hPkbyih5bdlHVPBgav33": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/71hPkbyih5bdlHVPBgav33"
-      },
-      "followers": {
-        "href": null,
-        "total": 161859
-      },
-      "genres": [
-        "3 step",
-        "amapiano",
-        "afro house",
-        "gqom",
-        "afro tech",
-        "afropiano",
-        "private school piano",
-        "afrobeats"
-      ],
-      "href": "https://api.spotify.com/v1/artists/71hPkbyih5bdlHVPBgav33",
-      "id": "71hPkbyih5bdlHVPBgav33",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb3ce9b596423027a4a7e974d3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051743ce9b596423027a4a7e974d3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1783ce9b596423027a4a7e974d3",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "CIZA",
-      "popularity": 59,
-      "type": "artist",
-      "uri": "spotify:artist:71hPkbyih5bdlHVPBgav33"
-    },
-    "0ovZr6KIJy6F7Mu10ymlZw": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0ovZr6KIJy6F7Mu10ymlZw"
-      },
-      "followers": {
-        "href": null,
-        "total": 736
-      },
-      "genres": [
-        "amapiano",
-        "afrobeats",
-        "afropop",
-        "afrobeat"
-      ],
-      "href": "https://api.spotify.com/v1/artists/0ovZr6KIJy6F7Mu10ymlZw",
-      "id": "0ovZr6KIJy6F7Mu10ymlZw",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb537be91f366ede7dcf53466",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174b537be91f366ede7dcf53466",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178b537be91f366ede7dcf53466",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "1UCID",
-      "popularity": 24,
-      "type": "artist",
-      "uri": "spotify:artist:0ovZr6KIJy6F7Mu10ymlZw"
-    },
-    "5cUFIkBWAwJOJZDEiACH6m": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5cUFIkBWAwJOJZDEiACH6m"
-      },
-      "followers": {
-        "href": null,
-        "total": 25401
-      },
-      "genres": [
-        "amapiano",
-        "afropiano",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5cUFIkBWAwJOJZDEiACH6m",
-      "id": "5cUFIkBWAwJOJZDEiACH6m",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4da7695e5a183eecf604d2bf",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051744da7695e5a183eecf604d2bf",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1784da7695e5a183eecf604d2bf",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "DEMOLA",
-      "popularity": 39,
-      "type": "artist",
-      "uri": "spotify:artist:5cUFIkBWAwJOJZDEiACH6m"
     },
     "0fs9otT9TtwXUOcFXZomZY": {
       "external_urls": {
@@ -80766,120 +80230,6 @@
       "type": "artist",
       "uri": "spotify:artist:0fs9otT9TtwXUOcFXZomZY"
     },
-    "3SozjO3Lat463tQICI9LcE": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
-      },
-      "followers": {
-        "href": null,
-        "total": 3569753
-      },
-      "genres": [
-        "afrobeats"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
-      "id": "3SozjO3Lat463tQICI9LcE",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7977176556d71cbc7fcbe6b4",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051747977176556d71cbc7fcbe6b4",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1787977176556d71cbc7fcbe6b4",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Tyla",
-      "popularity": 78,
-      "type": "artist",
-      "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
-    },
-    "2NJ4G5sIHIfma9PF2MO0yi": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2NJ4G5sIHIfma9PF2MO0yi"
-      },
-      "followers": {
-        "href": null,
-        "total": 58216
-      },
-      "genres": [
-        "private school piano",
-        "amapiano",
-        "3 step",
-        "gqom"
-      ],
-      "href": "https://api.spotify.com/v1/artists/2NJ4G5sIHIfma9PF2MO0yi",
-      "id": "2NJ4G5sIHIfma9PF2MO0yi",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb714129e3d5dbf4ea1212848d",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab67616100005174714129e3d5dbf4ea1212848d",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f178714129e3d5dbf4ea1212848d",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Khathapillar",
-      "popularity": 39,
-      "type": "artist",
-      "uri": "spotify:artist:2NJ4G5sIHIfma9PF2MO0yi"
-    },
-    "5kmceQl1Y7lveTVbcy5ycD": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5kmceQl1Y7lveTVbcy5ycD"
-      },
-      "followers": {
-        "href": null,
-        "total": 1476754
-      },
-      "genres": [
-        "3 step",
-        "gqom",
-        "amapiano",
-        "afro tech",
-        "afro house",
-        "private school piano",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/5kmceQl1Y7lveTVbcy5ycD",
-      "id": "5kmceQl1Y7lveTVbcy5ycD",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb6a23638587e543f2a1996614",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051746a23638587e543f2a1996614",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1786a23638587e543f2a1996614",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Dlala Thukzin",
-      "popularity": 61,
-      "type": "artist",
-      "uri": "spotify:artist:5kmceQl1Y7lveTVbcy5ycD"
-    },
     "6Z6xrqezBTUUDnCinhPwCO": {
       "external_urls": {
         "spotify": "https://open.spotify.com/artist/6Z6xrqezBTUUDnCinhPwCO"
@@ -80919,45 +80269,241 @@
       "type": "artist",
       "uri": "spotify:artist:6Z6xrqezBTUUDnCinhPwCO"
     },
-    "1ccVv6sg5vGPpJ77qAt6yI": {
+    "4WcuDDFGfo4j6VHqkGmjZ8": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1ccVv6sg5vGPpJ77qAt6yI"
+        "spotify": "https://open.spotify.com/artist/4WcuDDFGfo4j6VHqkGmjZ8"
       },
       "followers": {
         "href": null,
-        "total": 102963
+        "total": 173414
       },
       "genres": [
-        "3 step",
         "amapiano",
+        "afropiano",
         "private school piano",
-        "afro tech",
         "gqom",
-        "afro house"
+        "afrobeats"
       ],
-      "href": "https://api.spotify.com/v1/artists/1ccVv6sg5vGPpJ77qAt6yI",
-      "id": "1ccVv6sg5vGPpJ77qAt6yI",
+      "href": "https://api.spotify.com/v1/artists/4WcuDDFGfo4j6VHqkGmjZ8",
+      "id": "4WcuDDFGfo4j6VHqkGmjZ8",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eba3af9865152429c06225af53",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb797f6bb7318e1385b42ee98c",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174a3af9865152429c06225af53",
+          "url": "https://i.scdn.co/image/ab67616100005174797f6bb7318e1385b42ee98c",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178a3af9865152429c06225af53",
+          "url": "https://i.scdn.co/image/ab6761610000f178797f6bb7318e1385b42ee98c",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Issa sisdoh",
+      "name": "Deep London",
+      "popularity": 37,
+      "type": "artist",
+      "uri": "spotify:artist:4WcuDDFGfo4j6VHqkGmjZ8"
+    },
+    "3qqJxbB40F5AmjBiO4akVa": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3qqJxbB40F5AmjBiO4akVa"
+      },
+      "followers": {
+        "href": null,
+        "total": 147077
+      },
+      "genres": [
+        "amapiano",
+        "afropiano",
+        "gqom",
+        "3 step",
+        "bacardi"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3qqJxbB40F5AmjBiO4akVa",
+      "id": "3qqJxbB40F5AmjBiO4akVa",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6b28232938b6b89e3bfd8b97",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746b28232938b6b89e3bfd8b97",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786b28232938b6b89e3bfd8b97",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Mr Pilato",
       "popularity": 49,
       "type": "artist",
-      "uri": "spotify:artist:1ccVv6sg5vGPpJ77qAt6yI"
+      "uri": "spotify:artist:3qqJxbB40F5AmjBiO4akVa"
+    },
+    "5eYSqn4LCXLgIFYR4qOZ1k": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5eYSqn4LCXLgIFYR4qOZ1k"
+      },
+      "followers": {
+        "href": null,
+        "total": 277992
+      },
+      "genres": [
+        "amapiano",
+        "afrobeats",
+        "afropiano",
+        "afrobeat",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5eYSqn4LCXLgIFYR4qOZ1k",
+      "id": "5eYSqn4LCXLgIFYR4qOZ1k",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb51e371e2948fe45e434695cc",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517451e371e2948fe45e434695cc",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17851e371e2948fe45e434695cc",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "TitoM",
+      "popularity": 53,
+      "type": "artist",
+      "uri": "spotify:artist:5eYSqn4LCXLgIFYR4qOZ1k"
+    },
+    "5fds40CKwV1XZgn3IH89Gd": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5fds40CKwV1XZgn3IH89Gd"
+      },
+      "followers": {
+        "href": null,
+        "total": 189855
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "afropiano",
+        "bacardi",
+        "private school piano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5fds40CKwV1XZgn3IH89Gd",
+      "id": "5fds40CKwV1XZgn3IH89Gd",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8ac77f927210ad6a833ca3fe",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748ac77f927210ad6a833ca3fe",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788ac77f927210ad6a833ca3fe",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "ShaunMusiq & Ftears",
+      "popularity": 48,
+      "type": "artist",
+      "uri": "spotify:artist:5fds40CKwV1XZgn3IH89Gd"
+    },
+    "5Sgtj9tFA2TAYXDeh1sJTc": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5Sgtj9tFA2TAYXDeh1sJTc"
+      },
+      "followers": {
+        "href": null,
+        "total": 314505
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "bongo piano",
+        "private school piano",
+        "afropiano",
+        "3 step"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5Sgtj9tFA2TAYXDeh1sJTc",
+      "id": "5Sgtj9tFA2TAYXDeh1sJTc",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0cfd1ce676836ecbacdc7790",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051740cfd1ce676836ecbacdc7790",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1780cfd1ce676836ecbacdc7790",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Khanyisa",
+      "popularity": 40,
+      "type": "artist",
+      "uri": "spotify:artist:5Sgtj9tFA2TAYXDeh1sJTc"
+    },
+    "68McnNC9twEtiynOAJRRgZ": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/68McnNC9twEtiynOAJRRgZ"
+      },
+      "followers": {
+        "href": null,
+        "total": 1398889
+      },
+      "genres": [
+        "amapiano",
+        "afropiano",
+        "gqom",
+        "bacardi",
+        "afrobeats",
+        "3 step"
+      ],
+      "href": "https://api.spotify.com/v1/artists/68McnNC9twEtiynOAJRRgZ",
+      "id": "68McnNC9twEtiynOAJRRgZ",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb587692caf824b293f0d10e52",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174587692caf824b293f0d10e52",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178587692caf824b293f0d10e52",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Uncle Waffles",
+      "popularity": 54,
+      "type": "artist",
+      "uri": "spotify:artist:68McnNC9twEtiynOAJRRgZ"
     },
     "5m5lgddffBHA2pv0m5E2Ro": {
       "external_urls": {
@@ -81001,170 +80547,208 @@
       "type": "artist",
       "uri": "spotify:artist:5m5lgddffBHA2pv0m5E2Ro"
     },
-    "5kwZB1xNLgB3lln1JGS2B9": {
+    "5Uc6XVglgR7fb3Q5FSy0zW": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5kwZB1xNLgB3lln1JGS2B9"
+        "spotify": "https://open.spotify.com/artist/5Uc6XVglgR7fb3Q5FSy0zW"
       },
       "followers": {
         "href": null,
-        "total": 1591963
+        "total": 37374
       },
       "genres": [
+        "amapiano",
         "3 step",
+        "afropiano",
+        "gqom",
+        "afrobeats",
+        "afropop"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5Uc6XVglgR7fb3Q5FSy0zW",
+      "id": "5Uc6XVglgR7fb3Q5FSy0zW",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebce5fc4a3883bdc886435af16",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174ce5fc4a3883bdc886435af16",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178ce5fc4a3883bdc886435af16",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Goon Flavour",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:5Uc6XVglgR7fb3Q5FSy0zW"
+    },
+    "1bNjWBFWsAAzZSR59lRdpR": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1bNjWBFWsAAzZSR59lRdpR"
+      },
+      "followers": {
+        "href": null,
+        "total": 6751131
+      },
+      "genres": [
         "amapiano",
         "private school piano",
+        "3 step",
         "gqom",
+        "afropiano",
         "afro tech",
-        "afro house",
-        "afropiano"
+        "afro house"
       ],
-      "href": "https://api.spotify.com/v1/artists/5kwZB1xNLgB3lln1JGS2B9",
-      "id": "5kwZB1xNLgB3lln1JGS2B9",
+      "href": "https://api.spotify.com/v1/artists/1bNjWBFWsAAzZSR59lRdpR",
+      "id": "1bNjWBFWsAAzZSR59lRdpR",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebcb3b5db3d3ad776580c74d53",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8a91ac668010910b368ca8c1",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174cb3b5db3d3ad776580c74d53",
+          "url": "https://i.scdn.co/image/ab676161000051748a91ac668010910b368ca8c1",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178cb3b5db3d3ad776580c74d53",
+          "url": "https://i.scdn.co/image/ab6761610000f1788a91ac668010910b368ca8c1",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "MaWhoo",
-      "popularity": 63,
+      "name": "Kabza De Small",
+      "popularity": 67,
       "type": "artist",
-      "uri": "spotify:artist:5kwZB1xNLgB3lln1JGS2B9"
+      "uri": "spotify:artist:1bNjWBFWsAAzZSR59lRdpR"
     },
-    "3fdFRgy3GmfiWQqeKbmFS8": {
+    "1xS0nO9INJ0UvBUq4mkL14": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3fdFRgy3GmfiWQqeKbmFS8"
+        "spotify": "https://open.spotify.com/artist/1xS0nO9INJ0UvBUq4mkL14"
       },
       "followers": {
         "href": null,
-        "total": 1108961
-      },
-      "genres": [
-        "amapiano",
-        "private school piano",
-        "gqom",
-        "3 step",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/3fdFRgy3GmfiWQqeKbmFS8",
-      "id": "3fdFRgy3GmfiWQqeKbmFS8",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb26b94c11e91a31d7236aefd3",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000517426b94c11e91a31d7236aefd3",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f17826b94c11e91a31d7236aefd3",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "Mas Musiq",
-      "popularity": 51,
-      "type": "artist",
-      "uri": "spotify:artist:3fdFRgy3GmfiWQqeKbmFS8"
-    },
-    "6nfH1Mks9XQgQIKn6ffJYX": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6nfH1Mks9XQgQIKn6ffJYX"
-      },
-      "followers": {
-        "href": null,
-        "total": 576
+        "total": 13967
       },
       "genres": [
         "afrobeats",
-        "afrobeat",
         "afropop",
-        "amapiano"
+        "amapiano",
+        "afrobeat"
       ],
-      "href": "https://api.spotify.com/v1/artists/6nfH1Mks9XQgQIKn6ffJYX",
-      "id": "6nfH1Mks9XQgQIKn6ffJYX",
+      "href": "https://api.spotify.com/v1/artists/1xS0nO9INJ0UvBUq4mkL14",
+      "id": "1xS0nO9INJ0UvBUq4mkL14",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb6686c3f4dab7ea713a872e8",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7b3e5fb462c7da5b20c59890",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174b6686c3f4dab7ea713a872e8",
+          "url": "https://i.scdn.co/image/ab676161000051747b3e5fb462c7da5b20c59890",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178b6686c3f4dab7ea713a872e8",
+          "url": "https://i.scdn.co/image/ab6761610000f1787b3e5fb462c7da5b20c59890",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Michael Meka",
-      "popularity": 29,
+      "name": "Vudumane",
+      "popularity": 28,
       "type": "artist",
-      "uri": "spotify:artist:6nfH1Mks9XQgQIKn6ffJYX"
+      "uri": "spotify:artist:1xS0nO9INJ0UvBUq4mkL14"
     },
-    "63BHCKXCt00q20fd45W4Pk": {
+    "1ELUrmWBlXkqVabjVincQ6": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/63BHCKXCt00q20fd45W4Pk"
+        "spotify": "https://open.spotify.com/artist/1ELUrmWBlXkqVabjVincQ6"
       },
       "followers": {
         "href": null,
-        "total": 103485
+        "total": 759120
       },
       "genres": [
         "amapiano",
         "private school piano",
         "3 step",
-        "afropiano",
         "gqom"
       ],
-      "href": "https://api.spotify.com/v1/artists/63BHCKXCt00q20fd45W4Pk",
-      "id": "63BHCKXCt00q20fd45W4Pk",
+      "href": "https://api.spotify.com/v1/artists/1ELUrmWBlXkqVabjVincQ6",
+      "id": "1ELUrmWBlXkqVabjVincQ6",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb1e8b845b04f3949c8d821347",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb0850fba2eeb2a0e99175e666",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab676161000051741e8b845b04f3949c8d821347",
+          "url": "https://i.scdn.co/image/ab676161000051740850fba2eeb2a0e99175e666",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f1781e8b845b04f3949c8d821347",
+          "url": "https://i.scdn.co/image/ab6761610000f1780850fba2eeb2a0e99175e666",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Lady Amar",
-      "popularity": 34,
+      "name": "Bassie",
+      "popularity": 46,
       "type": "artist",
-      "uri": "spotify:artist:63BHCKXCt00q20fd45W4Pk"
+      "uri": "spotify:artist:1ELUrmWBlXkqVabjVincQ6"
     },
-    "4bslbAAfObKnJI0G6FNcTp": {
+    "788jOE9HMUy9heDK8EIkon": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4bslbAAfObKnJI0G6FNcTp"
+        "spotify": "https://open.spotify.com/artist/788jOE9HMUy9heDK8EIkon"
       },
       "followers": {
         "href": null,
-        "total": 507059
+        "total": 724858
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "afropiano",
+        "afrobeats"
+      ],
+      "href": "https://api.spotify.com/v1/artists/788jOE9HMUy9heDK8EIkon",
+      "id": "788jOE9HMUy9heDK8EIkon",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7b78e2a896393bab62660636",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051747b78e2a896393bab62660636",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1787b78e2a896393bab62660636",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Kamo Mphela",
+      "popularity": 47,
+      "type": "artist",
+      "uri": "spotify:artist:788jOE9HMUy9heDK8EIkon"
+    },
+    "2oA819q93vu53ZDkCJYdbN": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2oA819q93vu53ZDkCJYdbN"
+      },
+      "followers": {
+        "href": null,
+        "total": 185269
       },
       "genres": [
         "amapiano",
@@ -81172,72 +80756,31 @@
         "private school piano",
         "afropiano",
         "3 step",
-        "bongo piano",
         "bacardi"
       ],
-      "href": "https://api.spotify.com/v1/artists/4bslbAAfObKnJI0G6FNcTp",
-      "id": "4bslbAAfObKnJI0G6FNcTp",
+      "href": "https://api.spotify.com/v1/artists/2oA819q93vu53ZDkCJYdbN",
+      "id": "2oA819q93vu53ZDkCJYdbN",
       "images": [
         {
-          "url": "https://i.scdn.co/image/ab6761610000e5ebd2060e48de28dc797b1b6416",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb086f351c599dc13080dc22f6",
           "height": 640,
           "width": 640
         },
         {
-          "url": "https://i.scdn.co/image/ab67616100005174d2060e48de28dc797b1b6416",
+          "url": "https://i.scdn.co/image/ab67616100005174086f351c599dc13080dc22f6",
           "height": 320,
           "width": 320
         },
         {
-          "url": "https://i.scdn.co/image/ab6761610000f178d2060e48de28dc797b1b6416",
+          "url": "https://i.scdn.co/image/ab6761610000f178086f351c599dc13080dc22f6",
           "height": 160,
           "width": 160
         }
       ],
-      "name": "Shakes & Les",
-      "popularity": 49,
+      "name": "TNK MusiQ",
+      "popularity": 44,
       "type": "artist",
-      "uri": "spotify:artist:4bslbAAfObKnJI0G6FNcTp"
-    },
-    "1w2P5nNsO5W7FYq2Oui0cM": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1w2P5nNsO5W7FYq2Oui0cM"
-      },
-      "followers": {
-        "href": null,
-        "total": 1473473
-      },
-      "genres": [
-        "amapiano",
-        "private school piano",
-        "gqom",
-        "3 step",
-        "bacardi",
-        "afropiano"
-      ],
-      "href": "https://api.spotify.com/v1/artists/1w2P5nNsO5W7FYq2Oui0cM",
-      "id": "1w2P5nNsO5W7FYq2Oui0cM",
-      "images": [
-        {
-          "url": "https://i.scdn.co/image/ab6761610000e5eb6f1ff68401393798aab8e291",
-          "height": 640,
-          "width": 640
-        },
-        {
-          "url": "https://i.scdn.co/image/ab676161000051746f1ff68401393798aab8e291",
-          "height": 320,
-          "width": 320
-        },
-        {
-          "url": "https://i.scdn.co/image/ab6761610000f1786f1ff68401393798aab8e291",
-          "height": 160,
-          "width": 160
-        }
-      ],
-      "name": "De Mthuda",
-      "popularity": 53,
-      "type": "artist",
-      "uri": "spotify:artist:1w2P5nNsO5W7FYq2Oui0cM"
+      "uri": "spotify:artist:2oA819q93vu53ZDkCJYdbN"
     },
     "6rPG97md3RdzwNc1eJQQNX": {
       "external_urls": {
@@ -81279,6 +80822,410 @@
       "popularity": 52,
       "type": "artist",
       "uri": "spotify:artist:6rPG97md3RdzwNc1eJQQNX"
+    },
+    "5kmceQl1Y7lveTVbcy5ycD": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5kmceQl1Y7lveTVbcy5ycD"
+      },
+      "followers": {
+        "href": null,
+        "total": 1476754
+      },
+      "genres": [
+        "3 step",
+        "gqom",
+        "amapiano",
+        "afro tech",
+        "afro house",
+        "private school piano",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5kmceQl1Y7lveTVbcy5ycD",
+      "id": "5kmceQl1Y7lveTVbcy5ycD",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6a23638587e543f2a1996614",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051746a23638587e543f2a1996614",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1786a23638587e543f2a1996614",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Dlala Thukzin",
+      "popularity": 61,
+      "type": "artist",
+      "uri": "spotify:artist:5kmceQl1Y7lveTVbcy5ycD"
+    },
+    "6nfH1Mks9XQgQIKn6ffJYX": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6nfH1Mks9XQgQIKn6ffJYX"
+      },
+      "followers": {
+        "href": null,
+        "total": 576
+      },
+      "genres": [
+        "afrobeats",
+        "afrobeat",
+        "afropop",
+        "amapiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6nfH1Mks9XQgQIKn6ffJYX",
+      "id": "6nfH1Mks9XQgQIKn6ffJYX",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebb6686c3f4dab7ea713a872e8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174b6686c3f4dab7ea713a872e8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178b6686c3f4dab7ea713a872e8",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Michael Meka",
+      "popularity": 29,
+      "type": "artist",
+      "uri": "spotify:artist:6nfH1Mks9XQgQIKn6ffJYX"
+    },
+    "2oIQCM7hRZI9tS5b9S8rj4": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2oIQCM7hRZI9tS5b9S8rj4"
+      },
+      "followers": {
+        "href": null,
+        "total": 1492794
+      },
+      "genres": [
+        "amapiano",
+        "afropiano",
+        "gqom",
+        "afrobeats",
+        "private school piano",
+        "bongo piano",
+        "3 step",
+        "afrobeat"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2oIQCM7hRZI9tS5b9S8rj4",
+      "id": "2oIQCM7hRZI9tS5b9S8rj4",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb99aa85b2465f460d1f77100b",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517499aa85b2465f460d1f77100b",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17899aa85b2465f460d1f77100b",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Tyler ICU",
+      "popularity": 58,
+      "type": "artist",
+      "uri": "spotify:artist:2oIQCM7hRZI9tS5b9S8rj4"
+    },
+    "4GugIMfUFCc3IJM7jD2C5d": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4GugIMfUFCc3IJM7jD2C5d"
+      },
+      "followers": {
+        "href": null,
+        "total": 63617
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "afropiano",
+        "3 step",
+        "private school piano",
+        "bacardi"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4GugIMfUFCc3IJM7jD2C5d",
+      "id": "4GugIMfUFCc3IJM7jD2C5d",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb78c5fdab589b93f8717864be",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000517478c5fdab589b93f8717864be",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f17878c5fdab589b93f8717864be",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "KMAT",
+      "popularity": 34,
+      "type": "artist",
+      "uri": "spotify:artist:4GugIMfUFCc3IJM7jD2C5d"
+    },
+    "4yNx0crmKm3VRGTjWR1L3n": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4yNx0crmKm3VRGTjWR1L3n"
+      },
+      "followers": {
+        "href": null,
+        "total": 236315
+      },
+      "genres": [
+        "3 step",
+        "amapiano",
+        "afro house",
+        "private school piano",
+        "gqom",
+        "afro tech",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4yNx0crmKm3VRGTjWR1L3n",
+      "id": "4yNx0crmKm3VRGTjWR1L3n",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3ac0c16011c2e9c3490271c8",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051743ac0c16011c2e9c3490271c8",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1783ac0c16011c2e9c3490271c8",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Thukuthela",
+      "popularity": 68,
+      "type": "artist",
+      "uri": "spotify:artist:4yNx0crmKm3VRGTjWR1L3n"
+    },
+    "4F8OilWxRKQzg1Lw9sJ4Pl": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4F8OilWxRKQzg1Lw9sJ4Pl"
+      },
+      "followers": {
+        "href": null,
+        "total": 498066
+      },
+      "genres": [
+        "private school piano",
+        "amapiano",
+        "3 step",
+        "gqom"
+      ],
+      "href": "https://api.spotify.com/v1/artists/4F8OilWxRKQzg1Lw9sJ4Pl",
+      "id": "4F8OilWxRKQzg1Lw9sJ4Pl",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273aa18b42ce998e826e9a0f2a9",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02aa18b42ce998e826e9a0f2a9",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851aa18b42ce998e826e9a0f2a9",
+          "height": 64,
+          "width": 64
+        }
+      ],
+      "name": "Dj Jaivane",
+      "popularity": 52,
+      "type": "artist",
+      "uri": "spotify:artist:4F8OilWxRKQzg1Lw9sJ4Pl"
+    },
+    "5kwZB1xNLgB3lln1JGS2B9": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5kwZB1xNLgB3lln1JGS2B9"
+      },
+      "followers": {
+        "href": null,
+        "total": 1591963
+      },
+      "genres": [
+        "3 step",
+        "amapiano",
+        "private school piano",
+        "gqom",
+        "afro tech",
+        "afro house",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5kwZB1xNLgB3lln1JGS2B9",
+      "id": "5kwZB1xNLgB3lln1JGS2B9",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5ebcb3b5db3d3ad776580c74d53",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174cb3b5db3d3ad776580c74d53",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178cb3b5db3d3ad776580c74d53",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "MaWhoo",
+      "popularity": 63,
+      "type": "artist",
+      "uri": "spotify:artist:5kwZB1xNLgB3lln1JGS2B9"
+    },
+    "0mMqD2uqwvCjFvlzo6ayGi": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0mMqD2uqwvCjFvlzo6ayGi"
+      },
+      "followers": {
+        "href": null,
+        "total": 3644537
+      },
+      "genres": [
+        "amapiano",
+        "gqom",
+        "private school piano",
+        "3 step",
+        "afropiano",
+        "bacardi",
+        "afrobeats"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0mMqD2uqwvCjFvlzo6ayGi",
+      "id": "0mMqD2uqwvCjFvlzo6ayGi",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb175fef8bea1c4dcde8141a46",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616100005174175fef8bea1c4dcde8141a46",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f178175fef8bea1c4dcde8141a46",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "DJ Maphorisa",
+      "popularity": 70,
+      "type": "artist",
+      "uri": "spotify:artist:0mMqD2uqwvCjFvlzo6ayGi"
+    },
+    "2GJMSZ7M3D0KyyKRhYgWju": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2GJMSZ7M3D0KyyKRhYgWju"
+      },
+      "followers": {
+        "href": null,
+        "total": 1334913
+      },
+      "genres": [
+        "amapiano",
+        "afropiano",
+        "gqom",
+        "bacardi",
+        "afrobeats",
+        "bongo piano",
+        "afrobeat"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2GJMSZ7M3D0KyyKRhYgWju",
+      "id": "2GJMSZ7M3D0KyyKRhYgWju",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9b3244c02c2d1044d47ffe46",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051749b3244c02c2d1044d47ffe46",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1789b3244c02c2d1044d47ffe46",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "Focalistic",
+      "popularity": 57,
+      "type": "artist",
+      "uri": "spotify:artist:2GJMSZ7M3D0KyyKRhYgWju"
+    },
+    "3idyOn3lhSxgV2qdDQNfhz": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3idyOn3lhSxgV2qdDQNfhz"
+      },
+      "followers": {
+        "href": null,
+        "total": 287541
+      },
+      "genres": [
+        "3 step",
+        "amapiano",
+        "private school piano",
+        "gqom",
+        "afro house",
+        "afro tech",
+        "afropiano"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3idyOn3lhSxgV2qdDQNfhz",
+      "id": "3idyOn3lhSxgV2qdDQNfhz",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8665a17f908fbe85342b16b5",
+          "height": 640,
+          "width": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab676161000051748665a17f908fbe85342b16b5",
+          "height": 320,
+          "width": 320
+        },
+        {
+          "url": "https://i.scdn.co/image/ab6761610000f1788665a17f908fbe85342b16b5",
+          "height": 160,
+          "width": 160
+        }
+      ],
+      "name": "JAZZWRLD",
+      "popularity": 68,
+      "type": "artist",
+      "uri": "spotify:artist:3idyOn3lhSxgV2qdDQNfhz"
     }
   }
 }
