@@ -26,15 +26,47 @@
     exposureChart: document.getElementById("exposure-chart")
   };
 
+  const artistElements = {
+    search: document.getElementById("artist-search"),
+    options: document.getElementById("artist-options"),
+    clear: document.getElementById("artist-clear"),
+    empty: document.getElementById("artist-empty"),
+    results: document.getElementById("artist-results"),
+    name: document.getElementById("artist-name"),
+    origin: document.getElementById("artist-origin"),
+    flags: document.getElementById("artist-flags"),
+    metricPlaylists: document.getElementById("artist-metric-playlists"),
+    metricTracks: document.getElementById("artist-metric-tracks"),
+    metricPopularity: document.getElementById("artist-metric-popularity"),
+    metricPosition: document.getElementById("artist-metric-position"),
+    metricFollowers: document.getElementById("artist-metric-followers"),
+    playlistRows: document.getElementById("artist-playlist-rows"),
+    trackRows: document.getElementById("artist-track-rows")
+  };
+
+  const regionElements = {
+    search: document.getElementById("region-search"),
+    clear: document.getElementById("region-clear"),
+    tabs: document.getElementById("region-tabs"),
+    empty: document.getElementById("region-empty"),
+    content: document.getElementById("region-content"),
+    name: document.getElementById("region-name"),
+    summary: document.getElementById("region-summary"),
+    flags: document.getElementById("region-flags"),
+    metricTracks: document.getElementById("region-metric-tracks"),
+    metricArtists: document.getElementById("region-metric-artists"),
+    metricPlaylists: document.getElementById("region-metric-playlists"),
+    metricPopularity: document.getElementById("region-metric-popularity"),
+    metricDiaspora: document.getElementById("region-metric-diaspora"),
+    metricFollowers: document.getElementById("region-metric-followers"),
+    artistRows: document.getElementById("region-artist-rows"),
+    playlistRows: document.getElementById("region-playlist-rows")
+  };
+
   const chartTabButtons = Array.from(document.querySelectorAll("[data-chart-tab]"));
-              ticks: { color: "#f7f8fa" },
-              title: {
-                display: true,
-                text: "Spotify popularity (0-100)",
-                color: "#f7f8fa",
-                font: { weight: "600" }
-              },
+  const chartTabPanels = Array.from(document.querySelectorAll(".chart-tab-panel"));
   const chartTabContainer = document.querySelector("[data-tab-root]") || chartTabButtons[0]?.parentElement;
+  const regionButtonMap = new Map();
 
   const allTracks = dataset.playlists.flatMap((playlist) => playlist.tracks || []);
   const trackYears = allTracks.map((track) => track.releaseYear).filter((year) => typeof year === "number");
@@ -51,13 +83,24 @@
     audioStatus: document.getElementById("audio-feature-status")
   };
 
+  const dateFormatter = new Intl.DateTimeFormat(undefined, { day: "2-digit", month: "short", year: "numeric" });
+
+  const artistIndex = buildArtistIndex(dataset.playlists);
+  const regionIndex = buildRegionIndex(dataset.playlists);
+
   const state = {
     search: "",
     curatorTypes: new Set(uniqueCuratorTypes),
     minYear: minYearValue,
     maxYear: maxYearValue,
-    diasporaOnly: false
+    diasporaOnly: false,
+    selectedArtistId: null,
+    artistQuery: "",
+    selectedRegion: regionIndex.defaultRegion || regionIndex.list[0] || null,
+    regionQuery: ""
   };
+
+  let currentFilteredState = { playlists: [], tracks: [] };
 
   function initFilters() {
     elements.curatorTypes.innerHTML = uniqueCuratorTypes
@@ -197,6 +240,10 @@
       state.minYear = minYearValue;
       state.maxYear = maxYearValue;
       state.diasporaOnly = false;
+      state.selectedArtistId = null;
+      state.artistQuery = "";
+      state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
+      state.regionQuery = "";
 
       elements.search.value = "";
       elements.minYear.value = minYearValue;
@@ -206,8 +253,83 @@
         checkbox.checked = true;
       });
 
+      if (artistElements.search) {
+        artistElements.search.value = "";
+      }
+
+      if (regionElements.search) {
+        regionElements.search.value = "";
+      }
+
       updateDashboard();
     });
+
+    if (artistElements.search) {
+      artistElements.search.addEventListener("input", (event) => {
+        state.artistQuery = event.target.value;
+        const resolvedId = resolveArtistId(event.target.value);
+        state.selectedArtistId = resolvedId;
+        updateArtistInspectorView();
+      });
+
+      artistElements.search.addEventListener("change", (event) => {
+        state.artistQuery = event.target.value;
+        const resolvedId = resolveArtistId(event.target.value);
+        if (resolvedId) {
+          state.selectedArtistId = resolvedId;
+        }
+        updateArtistInspectorView();
+      });
+    }
+
+    if (artistElements.clear) {
+      artistElements.clear.addEventListener("click", () => {
+        state.selectedArtistId = null;
+        state.artistQuery = "";
+        if (artistElements.search) {
+          artistElements.search.value = "";
+        }
+        updateArtistInspectorView();
+      });
+    }
+
+    if (regionElements.search) {
+      regionElements.search.addEventListener("input", (event) => {
+        const value = event.target.value;
+        state.regionQuery = value;
+        const normalized = value.trim().toLowerCase();
+        if (!normalized) {
+          state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
+          updateRegionSpotlight();
+          return;
+        }
+        const match = regionIndex.list.find((region) => region.toLowerCase().includes(normalized));
+        state.selectedRegion = match || null;
+        updateRegionSpotlight();
+      });
+
+      regionElements.search.addEventListener("change", (event) => {
+        const value = event.target.value;
+        state.regionQuery = value;
+        const normalized = value.trim().toLowerCase();
+        const exact = regionIndex.list.find((region) => region.toLowerCase() === normalized);
+        if (exact) {
+          state.selectedRegion = exact;
+        }
+        updateRegionSpotlight();
+      });
+    }
+
+    if (regionElements.clear) {
+      regionElements.clear.addEventListener("click", () => {
+        state.regionQuery = "";
+        state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
+        if (regionElements.search) {
+          regionElements.search.value = "";
+        }
+        updateRegionSpotlight();
+      });
+    }
   }
 
   function filterTracks(playlist) {
@@ -274,6 +396,90 @@
       return value;
     }
     return date.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  }
+
+  function formatDate(value) {
+    if (!value) return "--";
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) {
+      return "--";
+    }
+    return dateFormatter.format(date);
+  }
+
+  function buildArtistIndex(playlists) {
+    const map = new Map();
+
+    playlists.forEach((playlist) => {
+      (playlist.tracks || []).forEach((track) => {
+        if (!track || !track.artistId) return;
+        const id = track.artistId;
+        const name = typeof track.artist === "string" ? track.artist.split(",")[0].trim() : "";
+
+        if (!map.has(id)) {
+          map.set(id, {
+            id,
+            name: name || "Unknown artist",
+            defaultCountry: track.artistCountry || "Unknown",
+            defaultRegion: track.regionGroup || "Unknown",
+            diaspora: Boolean(track.diaspora),
+            aliases: new Set()
+          });
+        }
+
+        const entry = map.get(id);
+
+        if (entry.defaultCountry === "Unknown" && track.artistCountry) {
+          entry.defaultCountry = track.artistCountry;
+        }
+
+        if (entry.defaultRegion === "Unknown" && track.regionGroup) {
+          entry.defaultRegion = track.regionGroup;
+        }
+
+        entry.diaspora = entry.diaspora || Boolean(track.diaspora);
+
+        if (track.artist) {
+          entry.aliases.add(track.artist);
+        }
+      });
+    });
+
+    const sorted = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
+    const nameToId = new Map();
+
+    sorted.forEach((artist) => {
+      nameToId.set(artist.name.toLowerCase(), artist.id);
+      artist.aliases.forEach((alias) => {
+        nameToId.set(alias.toLowerCase(), artist.id);
+      });
+    });
+
+    return { map, sorted, nameToId };
+  }
+
+  function buildRegionIndex(playlists) {
+    const counts = new Map();
+
+    playlists.forEach((playlist) => {
+      (playlist.tracks || []).forEach((track) => {
+        const region = track?.regionGroup || "Unknown";
+        counts.set(region, (counts.get(region) || 0) + 1);
+      });
+    });
+
+    const list = Array.from(counts.keys()).sort((a, b) => a.localeCompare(b));
+    let defaultRegion = null;
+    let maxCount = -1;
+
+    counts.forEach((value, region) => {
+      if (value > maxCount) {
+        maxCount = value;
+        defaultRegion = region;
+      }
+    });
+
+    return { list, counts, defaultRegion };
   }
 
   let charts = {
@@ -636,9 +842,519 @@
     elements.playlistTable.innerHTML = rows;
   }
 
+  function resolveArtistId(query) {
+    if (!query) return null;
+    const normalized = query.trim().toLowerCase();
+    if (!normalized) return null;
+    if (artistIndex.nameToId.has(normalized)) {
+      return artistIndex.nameToId.get(normalized);
+    }
+    const partial = artistIndex.sorted.find((artist) => artist.name.toLowerCase().includes(normalized));
+    return partial ? partial.id : null;
+  }
+
+  function showArtistPrompt(message) {
+    if (!artistElements.empty || !artistElements.results) return;
+    artistElements.empty.textContent = message;
+    artistElements.empty.hidden = false;
+    artistElements.results.hidden = true;
+  }
+
+  function renderArtistResults(artistMeta) {
+    if (!artistElements.results || !artistElements.empty) return;
+
+    const artistTracks = currentFilteredState.tracks.filter((track) => track.artistId === artistMeta.id);
+    const playlistSummaries = new Map();
+
+    artistTracks.forEach((track) => {
+      if (!track.playlistId) {
+        return;
+      }
+
+      if (!playlistSummaries.has(track.playlistId)) {
+        playlistSummaries.set(track.playlistId, {
+          playlistId: track.playlistId,
+          playlistName: track.playlistName,
+          curator: track.playlistCurator,
+          curatorType: track.playlistCuratorType,
+          followerCount: track.playlistFollowers || 0,
+          launchYear: track.playlistLaunchYear || null,
+          trackCount: 0,
+          positions: [],
+          addedAtDates: []
+        });
+      }
+
+      const summary = playlistSummaries.get(track.playlistId);
+      summary.trackCount += 1;
+      if (typeof track.playlistPosition === "number") {
+        summary.positions.push(track.playlistPosition);
+      }
+      if (track.addedAt) {
+        summary.addedAtDates.push(track.addedAt);
+      }
+    });
+
+    const playlistRows = Array.from(playlistSummaries.values()).map((summary) => {
+      const medianPosition = summary.positions.length ? median(summary.positions) : null;
+      const firstAdded = summary.addedAtDates
+        .map((value) => new Date(value))
+        .filter((date) => !Number.isNaN(date.getTime()))
+        .sort((a, b) => a - b)[0];
+
+      return {
+        ...summary,
+        medianPosition,
+        firstAdded: firstAdded || null
+      };
+    });
+
+    playlistRows.sort((a, b) => (b.followerCount || 0) - (a.followerCount || 0));
+
+    const popularityValues = artistTracks
+      .map((track) => track.trackPopularity)
+      .filter((value) => typeof value === "number");
+    const positionValues = artistTracks
+      .map((track) => track.playlistPosition)
+      .filter((value) => typeof value === "number");
+
+    const avgPopularity = popularityValues.length ? average(popularityValues) : null;
+    const medianPosition = positionValues.length ? median(positionValues) : null;
+    const followerReach = playlistRows.reduce((total, row) => total + (row.followerCount || 0), 0);
+
+    artistElements.empty.hidden = true;
+    artistElements.results.hidden = false;
+
+    artistElements.name.textContent = artistMeta.name;
+    const originParts = [];
+    if (artistMeta.defaultCountry && artistMeta.defaultCountry !== "Unknown") {
+      originParts.push(artistMeta.defaultCountry);
+    }
+    if (artistMeta.defaultRegion && artistMeta.defaultRegion !== "Unknown") {
+      originParts.push(artistMeta.defaultRegion);
+    }
+    artistElements.origin.textContent = originParts.length ? originParts.join(" • ") : "Origin unknown";
+
+    const flagBadges = [];
+    if (artistMeta.defaultCountry && artistMeta.defaultCountry !== "Unknown") {
+      flagBadges.push(`<span class="tag">${artistMeta.defaultCountry}</span>`);
+    }
+    if (artistMeta.defaultRegion && artistMeta.defaultRegion !== "Unknown") {
+      flagBadges.push(`<span class="tag">${artistMeta.defaultRegion}</span>`);
+    }
+    if (artistMeta.diaspora) {
+      flagBadges.push('<span class="tag">Diaspora artist</span>');
+    }
+    if (artistElements.flags) {
+      artistElements.flags.innerHTML = flagBadges.join(" ");
+    }
+
+    if (artistElements.metricPlaylists) {
+      artistElements.metricPlaylists.textContent = String(playlistRows.length);
+    }
+    if (artistElements.metricTracks) {
+      artistElements.metricTracks.textContent = String(artistTracks.length);
+    }
+    if (artistElements.metricPopularity) {
+      artistElements.metricPopularity.textContent = avgPopularity !== null ? avgPopularity.toFixed(1) : "--";
+    }
+    if (artistElements.metricPosition) {
+      artistElements.metricPosition.textContent = medianPosition !== null ? medianPosition.toFixed(0) : "--";
+    }
+    if (artistElements.metricFollowers) {
+      artistElements.metricFollowers.textContent = formatNumber(followerReach);
+    }
+
+    if (artistElements.playlistRows) {
+      if (!playlistRows.length) {
+        artistElements.playlistRows.innerHTML = '<tr><td colspan="6">No placements within the current filters.</td></tr>';
+      } else {
+        artistElements.playlistRows.innerHTML = playlistRows
+          .map((row) => {
+            const launchTag = row.launchYear ? `<span class="tag">Launched ${row.launchYear}</span>` : "";
+            const medianDisplay = row.medianPosition !== null ? row.medianPosition.toFixed(0) : "--";
+            const firstAddedDisplay = row.firstAdded ? formatDate(row.firstAdded) : "--";
+            return `
+              <tr>
+                <td>
+                  <div class="table-stack">
+                    <strong>${row.playlistName}</strong>
+                    ${launchTag}
+                  </div>
+                </td>
+                <td>
+                  <div class="table-stack">
+                    <span>${row.curator || "--"}</span>
+                    <span class="tag">${row.curatorType || "Unknown"}</span>
+                  </div>
+                </td>
+                <td>${row.trackCount}</td>
+                <td>${medianDisplay}</td>
+                <td>${formatNumber(row.followerCount || 0)}</td>
+                <td>${firstAddedDisplay}</td>
+              </tr>
+            `;
+          })
+          .join("");
+      }
+    }
+
+    if (artistElements.trackRows) {
+      if (!artistTracks.length) {
+        artistElements.trackRows.innerHTML = '<tr><td colspan="5">No placements within the current filters.</td></tr>';
+      } else {
+        const trackRows = artistTracks
+          .slice()
+          .sort((a, b) => {
+            const aTime = new Date(a.addedAt || 0).getTime();
+            const bTime = new Date(b.addedAt || 0).getTime();
+            return bTime - aTime;
+          })
+          .map((track) => {
+            const positionDisplay = typeof track.playlistPosition === "number" ? track.playlistPosition : "--";
+            const popularityDisplay = typeof track.trackPopularity === "number" ? track.trackPopularity : "--";
+            return `
+              <tr>
+                <td>${track.title || "--"}</td>
+                <td>
+                  <div class="table-stack">
+                    <span>${track.playlistName || "--"}</span>
+                    <span class="tag">${track.playlistCuratorType || "Unknown"}</span>
+                  </div>
+                </td>
+                <td>${positionDisplay}</td>
+                <td>${popularityDisplay}</td>
+                <td>${track.addedAt ? formatDate(track.addedAt) : "--"}</td>
+              </tr>
+            `;
+          });
+
+        artistElements.trackRows.innerHTML = trackRows.join("");
+      }
+    }
+  }
+
+  function updateArtistInspectorView() {
+    if (!artistElements.empty || !artistElements.results) return;
+
+    if (!state.selectedArtistId) {
+      if (state.artistQuery.trim()) {
+        showArtistPrompt("No artist matches that name. Try another search.");
+      } else {
+        showArtistPrompt("Start typing an artist's name to surface their placements.");
+      }
+      if (artistElements.flags) {
+        artistElements.flags.innerHTML = "";
+      }
+      return;
+    }
+
+    const artistMeta = artistIndex.map.get(state.selectedArtistId);
+    if (!artistMeta) {
+      showArtistPrompt("No artist matches that name. Try another search.");
+      if (artistElements.flags) {
+        artistElements.flags.innerHTML = "";
+      }
+      return;
+    }
+
+    renderArtistResults(artistMeta);
+  }
+
+  function initArtistLookup() {
+    if (artistElements.options && artistIndex.sorted.length) {
+      artistElements.options.innerHTML = artistIndex.sorted.map((artist) => `<option value="${artist.name}"></option>`).join("");
+    }
+
+    updateArtistInspectorView();
+  }
+
+  function showRegionPrompt(message) {
+    if (!regionElements.empty || !regionElements.content) return;
+    regionElements.empty.textContent = message;
+    regionElements.empty.hidden = false;
+    regionElements.content.hidden = true;
+    if (regionElements.flags) {
+      regionElements.flags.innerHTML = "";
+    }
+  }
+
+  function updateRegionTabButtons(availableRegions) {
+    regionButtonMap.forEach((button, region) => {
+      const hasData = availableRegions.has(region);
+      const isActive = hasData && state.selectedRegion === region;
+      button.disabled = !hasData;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-selected", String(isActive));
+      button.setAttribute("tabindex", isActive ? "0" : "-1");
+    });
+  }
+
+  function renderRegionDetails(regionName) {
+    if (!regionElements.content || !regionElements.empty) return;
+
+    const normalizedRegion = regionName || "Unknown";
+    const regionTracks = currentFilteredState.tracks.filter((track) => (track.regionGroup || "Unknown") === normalizedRegion);
+
+    if (!regionTracks.length) {
+      showRegionPrompt("This region has no placements under the current filters.");
+      return;
+    }
+
+    const artistSummaries = new Map();
+    const playlistSummaries = new Map();
+    const uniquePlaylistFollowers = new Map();
+
+    let diasporaCount = 0;
+
+    regionTracks.forEach((track) => {
+      if (track.diaspora) {
+        diasporaCount += 1;
+      }
+
+      const artistKey = track.artistId || track.artist || "Unknown";
+      const artistName = typeof track.artist === "string" ? track.artist.split(",")[0].trim() : track.artist || "Unknown artist";
+
+      if (!artistSummaries.has(artistKey)) {
+        artistSummaries.set(artistKey, {
+          name: artistName || "Unknown artist",
+          trackCount: 0,
+          playlists: new Set(),
+          popularity: [],
+          positions: [],
+          diasporaPlacements: 0
+        });
+      }
+
+      const artistEntry = artistSummaries.get(artistKey);
+      artistEntry.trackCount += 1;
+      artistEntry.playlists.add(track.playlistId || track.playlistName || "Unknown playlist");
+      if (typeof track.trackPopularity === "number") {
+        artistEntry.popularity.push(track.trackPopularity);
+      }
+      if (typeof track.playlistPosition === "number") {
+        artistEntry.positions.push(track.playlistPosition);
+      }
+      if (track.diaspora) {
+        artistEntry.diasporaPlacements += 1;
+      }
+
+      const playlistKey = track.playlistId || `${track.playlistName || "Unknown playlist"}-${track.playlistCurator || ""}`;
+      if (!playlistSummaries.has(playlistKey)) {
+        playlistSummaries.set(playlistKey, {
+          name: track.playlistName || "Unknown playlist",
+          curator: track.playlistCurator || "Unknown",
+          curatorType: track.playlistCuratorType || "Unknown",
+          trackCount: 0,
+          positions: [],
+          artists: new Set(),
+          followers: track.playlistFollowers || 0,
+          launchYear: track.playlistLaunchYear || null
+        });
+      }
+
+      const playlistEntry = playlistSummaries.get(playlistKey);
+      playlistEntry.trackCount += 1;
+      playlistEntry.artists.add(artistName || "Unknown artist");
+      if (typeof track.playlistPosition === "number") {
+        playlistEntry.positions.push(track.playlistPosition);
+      }
+      if (typeof track.playlistFollowers === "number") {
+        playlistEntry.followers = track.playlistFollowers;
+      }
+
+      if (track.playlistId) {
+        uniquePlaylistFollowers.set(track.playlistId, track.playlistFollowers || 0);
+      }
+    });
+
+    const trackCount = regionTracks.length;
+    const uniqueArtists = artistSummaries.size;
+    const uniquePlaylists = playlistSummaries.size;
+    const popularityValues = regionTracks
+      .map((track) => track.trackPopularity)
+      .filter((value) => typeof value === "number");
+    const avgPopularity = popularityValues.length ? average(popularityValues) : null;
+    const followerReach = Array.from(uniquePlaylistFollowers.values()).reduce((total, value) => total + (value || 0), 0);
+    const diasporaShare = formatPercent(diasporaCount, trackCount);
+
+    regionElements.empty.hidden = true;
+    regionElements.content.hidden = false;
+
+    if (regionElements.name) {
+      regionElements.name.textContent = normalizedRegion;
+    }
+    if (regionElements.summary) {
+      regionElements.summary.textContent = `${trackCount} tracks across ${uniquePlaylists} playlists within the active filters.`;
+    }
+    if (regionElements.flags) {
+      const tags = [`<span class="tag">${uniqueArtists} artists</span>`, `<span class="tag">${diasporaShare} diaspora</span>`];
+      regionElements.flags.innerHTML = tags.join(" ");
+    }
+
+    if (regionElements.metricTracks) {
+      regionElements.metricTracks.textContent = String(trackCount);
+    }
+    if (regionElements.metricArtists) {
+      regionElements.metricArtists.textContent = String(uniqueArtists);
+    }
+    if (regionElements.metricPlaylists) {
+      regionElements.metricPlaylists.textContent = String(uniquePlaylists);
+    }
+    if (regionElements.metricPopularity) {
+      regionElements.metricPopularity.textContent = avgPopularity !== null ? avgPopularity.toFixed(1) : "--";
+    }
+    if (regionElements.metricDiaspora) {
+      regionElements.metricDiaspora.textContent = diasporaShare;
+    }
+    if (regionElements.metricFollowers) {
+      regionElements.metricFollowers.textContent = formatNumber(followerReach);
+    }
+
+    if (regionElements.artistRows) {
+      const artistRows = Array.from(artistSummaries.values())
+        .sort((a, b) => b.trackCount - a.trackCount || a.name.localeCompare(b.name))
+        .slice(0, 20)
+        .map((artist) => {
+          const avgArtistPopularity = artist.popularity.length ? average(artist.popularity) : null;
+          const medianArtistPosition = artist.positions.length ? median(artist.positions) : null;
+          const diasporaArtistShare = formatPercent(artist.diasporaPlacements, artist.trackCount);
+          return `
+            <tr>
+              <td>${artist.name}</td>
+              <td>${artist.trackCount}</td>
+              <td>${artist.playlists.size}</td>
+              <td>${avgArtistPopularity !== null ? avgArtistPopularity.toFixed(1) : "--"}</td>
+              <td>${medianArtistPosition !== null ? medianArtistPosition.toFixed(0) : "--"}</td>
+              <td>${diasporaArtistShare}</td>
+            </tr>
+          `;
+        });
+
+      regionElements.artistRows.innerHTML = artistRows.length
+        ? artistRows.join("")
+        : '<tr><td colspan="6">No artist placements for this region within the filters.</td></tr>';
+    }
+
+    if (regionElements.playlistRows) {
+      const playlistRows = Array.from(playlistSummaries.values())
+        .sort((a, b) => b.trackCount - a.trackCount || a.name.localeCompare(b.name))
+        .slice(0, 20)
+        .map((playlist) => {
+          const medianPlaylistPosition = playlist.positions.length ? median(playlist.positions) : null;
+          const launchTag = playlist.launchYear ? `<span class="tag">Launched ${playlist.launchYear}</span>` : "";
+          return `
+            <tr>
+              <td>
+                <div class="table-stack">
+                  <strong>${playlist.name}</strong>
+                  ${launchTag}
+                </div>
+              </td>
+              <td>
+                <div class="table-stack">
+                  <span>${playlist.curator}</span>
+                  <span class="tag">${playlist.curatorType}</span>
+                </div>
+              </td>
+              <td>${playlist.trackCount}</td>
+              <td>${playlist.artists.size}</td>
+              <td>${medianPlaylistPosition !== null ? medianPlaylistPosition.toFixed(0) : "--"}</td>
+              <td>${formatNumber(playlist.followers || 0)}</td>
+            </tr>
+          `;
+        });
+
+      regionElements.playlistRows.innerHTML = playlistRows.length
+        ? playlistRows.join("")
+        : '<tr><td colspan="6">No playlists surface this region within the filters.</td></tr>';
+    }
+  }
+
+  function updateRegionSpotlight() {
+    if (!regionElements.tabs) return;
+
+    const availableRegions = new Set(currentFilteredState.tracks.map((track) => track.regionGroup || "Unknown"));
+    updateRegionTabButtons(availableRegions);
+
+    if (!currentFilteredState.tracks.length) {
+      showRegionPrompt("No regions within the current filters.");
+      return;
+    }
+
+    if (state.regionQuery.trim() && (!state.selectedRegion || !availableRegions.has(state.selectedRegion))) {
+      showRegionPrompt("No region matches that search within the current filters.");
+      return;
+    }
+
+    if (!state.selectedRegion || !availableRegions.has(state.selectedRegion)) {
+      const sortedAvailable = Array.from(availableRegions).sort((a, b) => a.localeCompare(b));
+      state.selectedRegion = sortedAvailable[0] || null;
+    }
+
+    if (!state.selectedRegion) {
+      showRegionPrompt("No regions available within the current filters.");
+      return;
+    }
+
+    renderRegionDetails(state.selectedRegion);
+  }
+
+  function initRegionSpotlight() {
+    if (!regionElements.tabs || !regionIndex.list.length) {
+      if (regionElements.empty) {
+        regionElements.empty.textContent = "No regions available in the dataset.";
+      }
+      return;
+    }
+
+    if (!state.selectedRegion) {
+      state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
+    }
+
+    regionElements.tabs.innerHTML = regionIndex.list
+      .map((region) => {
+        const isActive = state.selectedRegion === region;
+        return `<button type="button" data-region-tab="${region}" role="tab" aria-selected="${isActive}" tabindex="${isActive ? "0" : "-1"}">${region}</button>`;
+      })
+      .join("");
+
+    regionButtonMap.clear();
+    regionElements.tabs.querySelectorAll("button[data-region-tab]").forEach((button) => {
+      regionButtonMap.set(button.dataset.regionTab, button);
+    });
+
+    regionElements.tabs.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-region-tab]");
+      if (!button || button.disabled) return;
+      const { regionTab } = button.dataset;
+      if (!regionTab) return;
+      state.selectedRegion = regionTab;
+      state.regionQuery = "";
+      if (regionElements.search) {
+        regionElements.search.value = "";
+      }
+      updateRegionSpotlight();
+    });
+
+    updateRegionSpotlight();
+  }
+
   function updateDashboard() {
     const filteredPlaylists = filterPlaylists();
-    const filteredTracks = filteredPlaylists.flatMap((playlist) => playlist.filteredTracks.map((track) => ({ ...track })));
+    const filteredTracks = filteredPlaylists.flatMap((playlist) =>
+      playlist.filteredTracks.map((track) => ({
+        ...track,
+        playlistId: playlist.id,
+        playlistName: playlist.name,
+        playlistCurator: playlist.curator,
+        playlistCuratorType: playlist.curatorType,
+        playlistFollowers: playlist.followerCount,
+        playlistLaunchYear: playlist.launchYear
+      }))
+    );
+
+    currentFilteredState = { playlists: filteredPlaylists, tracks: filteredTracks };
 
     if (!filteredTracks.length) {
       ensureCharts();
@@ -664,15 +1380,21 @@
 
       renderPlaylistTable([]);
       updateCards(filteredPlaylists, filteredTracks);
+      updateArtistInspectorView();
+      updateRegionSpotlight();
       return;
     }
 
     updateCards(filteredPlaylists, filteredTracks);
     updateCharts(filteredTracks, filteredPlaylists);
     renderPlaylistTable(filteredPlaylists);
+    updateArtistInspectorView();
+    updateRegionSpotlight();
   }
 
   initFilters();
+  initArtistLookup();
+  initRegionSpotlight();
   attachListeners();
   initMetadata();
   updateDashboard();

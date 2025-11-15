@@ -83,7 +83,167 @@
       <button id="reset-filters" type="button">Reset filters</button>
     </aside>
 
-    <section class="tabbed-content" aria-label="Dashboard insights" data-tab-root>
+    <div class="dashboard-main-column">
+      <section class="panel artist-panel" aria-label="Artist lookup">
+        <div class="artist-panel-header">
+          <div>
+            <h2>Artist lookup</h2>
+            <p>Search an artist to see where they appear across the filtered playlists.</p>
+          </div>
+          <div class="artist-search-control">
+            <label for="artist-search" class="sr-only">Search artist</label>
+            <input type="search" id="artist-search" name="artist-search" placeholder="Type an artist name" list="artist-options" autocomplete="off" />
+            <datalist id="artist-options"></datalist>
+            <button id="artist-clear" type="button" class="ghost-button">Clear</button>
+          </div>
+        </div>
+        <div id="artist-empty" class="empty-state">
+          Start typing an artist's name to surface their placements.
+        </div>
+        <div id="artist-results" class="artist-results" hidden>
+          <div class="artist-meta">
+            <div>
+              <h3 id="artist-name">Artist</h3>
+              <p id="artist-origin" class="artist-origin">Origin unknown</p>
+            </div>
+            <div id="artist-flags" class="artist-flags"></div>
+          </div>
+          <div class="cards artist-metrics">
+            <article class="card">
+              <h4>Playlists</h4>
+              <strong id="artist-metric-playlists">0</strong>
+            </article>
+            <article class="card">
+              <h4>Track placements</h4>
+              <strong id="artist-metric-tracks">0</strong>
+            </article>
+            <article class="card">
+              <h4>Avg popularity</h4>
+              <strong id="artist-metric-popularity">--</strong>
+            </article>
+            <article class="card">
+              <h4>Median position</h4>
+              <strong id="artist-metric-position">--</strong>
+            </article>
+            <article class="card">
+              <h4>Follower reach</h4>
+              <strong id="artist-metric-followers">0</strong>
+            </article>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Playlist</th>
+                  <th>Curator</th>
+                  <th>Tracks</th>
+                  <th>Median position</th>
+                  <th>Followers</th>
+                  <th>First added</th>
+                </tr>
+              </thead>
+              <tbody id="artist-playlist-rows"></tbody>
+            </table>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Track</th>
+                  <th>Playlist</th>
+                  <th>Position</th>
+                  <th>Popularity</th>
+                  <th>Added</th>
+                </tr>
+              </thead>
+              <tbody id="artist-track-rows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel region-panel" aria-label="Regional spotlight">
+        <div class="region-panel-header">
+          <div>
+            <h2>Regional spotlight</h2>
+            <p>Dive into a region to inspect playlist reach, top artists, and diaspora balance.</p>
+          </div>
+          <div class="region-search-control">
+            <label for="region-search" class="sr-only">Search region</label>
+            <input type="search" id="region-search" name="region-search" placeholder="Search region" autocomplete="off" />
+            <button id="region-clear" type="button" class="ghost-button">Clear</button>
+          </div>
+        </div>
+        <div id="region-tabs" class="region-tabs" role="tablist" aria-label="Regions"></div>
+        <div id="region-empty" class="empty-state">Pick a region to reveal its stats.</div>
+        <div id="region-content" class="region-results" hidden>
+          <div class="region-meta">
+            <div>
+              <h3 id="region-name">Region</h3>
+              <p id="region-summary" class="region-summary">Summary</p>
+            </div>
+            <div id="region-flags" class="region-flags"></div>
+          </div>
+          <div class="cards region-metrics">
+            <article class="card">
+              <h4>Tracks</h4>
+              <strong id="region-metric-tracks">0</strong>
+            </article>
+            <article class="card">
+              <h4>Unique artists</h4>
+              <strong id="region-metric-artists">0</strong>
+            </article>
+            <article class="card">
+              <h4>Playlists</h4>
+              <strong id="region-metric-playlists">0</strong>
+            </article>
+            <article class="card">
+              <h4>Avg popularity</h4>
+              <strong id="region-metric-popularity">--</strong>
+            </article>
+            <article class="card">
+              <h4>Diaspora share</h4>
+              <strong id="region-metric-diaspora">0%</strong>
+            </article>
+            <article class="card">
+              <h4>Follower reach</h4>
+              <strong id="region-metric-followers">0</strong>
+            </article>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Artist</th>
+                  <th>Placements</th>
+                  <th>Playlists</th>
+                  <th>Avg popularity</th>
+                  <th>Median position</th>
+                  <th>Diaspora share</th>
+                </tr>
+              </thead>
+              <tbody id="region-artist-rows"></tbody>
+            </table>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Playlist</th>
+                  <th>Curator</th>
+                  <th>Track placements</th>
+                  <th>Unique artists</th>
+                  <th>Median position</th>
+                  <th>Followers</th>
+                </tr>
+              </thead>
+              <tbody id="region-playlist-rows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="tabbed-content" aria-label="Dashboard insights" data-tab-root>
 
       <div class="chart-tabs" role="tablist" aria-label="Bias diagnostics">
         <button id="overview-tab" type="button" role="tab" aria-selected="true" aria-controls="overview-panel" tabindex="0" data-chart-tab="overview-panel" data-default-tab>Overview</button>
@@ -182,13 +342,14 @@
         <canvas id="curator-chart" aria-label="Curator concentration chart" role="img"></canvas>
       </article>
       <article id="exposure-panel" class="panel chart-panel chart-tab-panel is-hidden" role="tabpanel" aria-hidden="true" aria-labelledby="exposure-tab" tabindex="-1">
-                  <th>Avg popularity (0-100)</th>
+        <div>
           <h3>Exposure concentration</h3>
           <p>Top recurring primary artists across the selection. Higher bars mean heavier repeat playlisting.</p>
         </div>
         <canvas id="exposure-chart" aria-label="Exposure concentration chart" role="img"></canvas>
       </article>
     </section>
+    </div>
   </main>
 
   <section id="methodology" class="panel methodology page-block" aria-label="How to interpret this dashboard">
