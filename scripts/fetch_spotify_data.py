@@ -101,11 +101,6 @@ _DEFAULT_PLAYLIST_CONFIG = {
         "curatorType": "Independent Curator",
         "label": "Afrobeats Gold",
     },
-    "amapiano-2025": {
-        "id": "4Ymf8eaPQGT7HMTymoX82f",
-        "curatorType": "Independent Curator",
-        "label": "Amapiano 2025",
-    },
     "top-picks-afrobeats": {
         "id": "1ynsIf7ZgpEFxIvuDBlUcK",
         "curatorType": "Media Publisher",
@@ -185,6 +180,21 @@ def get_access_token(client_id: str, client_secret: str) -> str:
     return payload["access_token"]
 
 
+def get_user_access_token(client_id: str, client_secret: str, refresh_token: str) -> str:
+    response = requests.post(
+        "https://accounts.spotify.com/api/token",
+        data={"grant_type": "refresh_token", "refresh_token": refresh_token},
+        headers={"Authorization": build_basic_auth_header(client_id, client_secret)},
+        timeout=15,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    token = payload.get("access_token")
+    if not token:
+        raise SystemExit("Failed to refresh Spotify access token.")
+    return token
+
+
 def fetch_playlist_snapshot(playlist_id: str, token: str, market: Optional[str] = None) -> Dict:
     """Fetch playlist metadata plus the first page of tracks."""
     params = {"market": market} if market else None
@@ -198,7 +208,7 @@ def fetch_playlist_snapshot(playlist_id: str, token: str, market: Optional[str] 
     return response.json()
 
 
-def fetch_all_playlist_tracks(playlist: Dict, token: str) -> List[Dict]:
+def fetch_all_playlist_tracks(playlist: Dict, token: str, market: Optional[str] = None) -> List[Dict]:
     """Walk the paginated playlist tracks feed and collect all track entries."""
     items: List[Dict] = []
     tracks_block = playlist.get("tracks", {})
@@ -206,6 +216,9 @@ def fetch_all_playlist_tracks(playlist: Dict, token: str) -> List[Dict]:
     items.extend(tracks_block.get("items", []))
 
     while next_url:
+        if market and "market=" not in next_url:
+            separator = "&" if "?" in next_url else "?"
+            next_url = f"{next_url}{separator}market={market}"
         response = requests.get(next_url, headers={"Authorization": f"Bearer {token}"}, timeout=20)
         response.raise_for_status()
         page = response.json()
@@ -458,7 +471,14 @@ def main() -> None:
     playlist_config = load_playlist_config(PLAYLIST_CONFIG_FILE)
     artist_metadata = load_artist_metadata(ARTIST_METADATA_FILE)
 
-    access_token = get_access_token(client_id, client_secret)
+    refresh_token = os.environ.get("SPOTIFY_REFRESH_TOKEN")
+    if refresh_token:
+        access_token = get_user_access_token(client_id, client_secret, refresh_token)
+    else:
+        print("Warning: SPOTIFY_REFRESH_TOKEN not set. Falling back to client credentials flow.")
+        access_token = get_access_token(client_id, client_secret)
+
+    default_market = os.environ.get("SPOTIFY_MARKET")
 
     RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -473,7 +493,7 @@ def main() -> None:
         if "id" not in cfg:
             raise SystemExit(f"Playlist config for '{slug}' is missing an 'id'.")
         print(f"Fetching playlist {slug} ({cfg['id']})...", flush=True)
-        market = cfg.get("market")
+        market = cfg.get("market") or default_market
         try:
             snapshot = fetch_playlist_snapshot(cfg["id"], access_token, market=market)
         except requests.HTTPError as error:
@@ -486,7 +506,7 @@ def main() -> None:
                 "message": (message or "")[:200],
             }
             continue
-        track_items = fetch_all_playlist_tracks(snapshot, access_token)
+        track_items = fetch_all_playlist_tracks(snapshot, access_token, market=market)
         track_ids = [item.get("track", {}).get("id") for item in track_items if item.get("track")]
         track_ids = [track_id for track_id in track_ids if track_id]
 

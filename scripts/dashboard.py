@@ -31,6 +31,8 @@ MAJOR_LABEL_KEYWORDS = (
     "capitol",
 )
 
+MIN_COUNTRY_TRACK_COUNT = 2
+
 
 def classify_label(label: str | None) -> str:
     if not label:
@@ -138,6 +140,92 @@ def build_region_chart(df: pd.DataFrame) -> px.bar:
     return fig
 
 
+def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -> px.choropleth | None:
+    clean = (
+        df.assign(artist_country=df["artist_country"].fillna("Unknown").astype(str).str.strip())
+        .loc[lambda frame: frame["artist_country"].ne("Unknown") & frame["artist_country"].ne("")]
+    )
+    if clean.empty:
+        return None
+
+    aggregates = (
+        clean.groupby(["artist_country", "region_group"])
+        .agg(
+            tracks=("track_id", "count"),
+            playlists=("playlist_id", "nunique"),
+            avg_popularity=("track_popularity", "mean"),
+            diaspora_share=("diaspora", "mean"),
+        )
+        .reset_index()
+    )
+
+    aggregates["avg_popularity"] = aggregates["avg_popularity"].round(1)
+    aggregates["Diaspora share (%)"] = (aggregates["diaspora_share"] * 100).round(0)
+
+    vibrant_scale = [
+        (0.0, "#2b83ba"),
+        (0.2, "#80bfab"),
+        (0.4, "#abdda4"),
+        (0.6, "#fdae61"),
+        (0.8, "#f46d43"),
+        (1.0, "#d53e4f"),
+    ]
+
+    fig = px.choropleth(
+        aggregates,
+        locations="artist_country",
+        locationmode="country names",
+        color="tracks",
+        hover_name="artist_country",
+        hover_data={
+            "region_group": True,
+            "tracks": True,
+            "playlists": True,
+            "avg_popularity": True,
+            "Diaspora share (%)": True,
+        },
+        color_continuous_scale=vibrant_scale,
+        labels={
+            "tracks": "Tracks",
+            "playlists": "Playlists",
+            "avg_popularity": "Avg popularity",
+            "Diaspora share (%)": "Diaspora share (%)",
+            "region_group": "Region group",
+        },
+        title="Global footprint by artist country",
+        template="plotly_dark",
+    )
+
+    fig.update_layout(
+        margin=dict(l=10, r=10, t=60, b=10),
+        coloraxis_colorbar=dict(title="Tracks"),
+        height=520,
+    )
+
+    fig.update_traces(marker_line_color="rgba(255, 255, 255, 0.35)", marker_line_width=0.4)
+
+    if background_color:
+        fig.update_layout(paper_bgcolor=background_color, plot_bgcolor=background_color)
+        fig.update_geos(
+            bgcolor=background_color,
+            showcoastlines=False,
+            showframe=False,
+            projection_type="natural earth",
+            landcolor="rgba(255, 255, 255, 0.12)",
+            oceancolor="rgba(0, 0, 0, 0)",
+        )
+    else:
+        fig.update_geos(
+            showcoastlines=False,
+            showframe=False,
+            projection_type="natural earth",
+            landcolor="rgba(38, 38, 47, 1)",
+            oceancolor="rgba(18, 18, 24, 1)",
+        )
+
+    return fig
+
+
 def build_release_year_chart(df: pd.DataFrame) -> px.histogram | None:
     clean = df.dropna(subset=["release_year"])
     if clean.empty:
@@ -212,6 +300,219 @@ def build_curator_chart(df: pd.DataFrame) -> px.bar:
     )
     fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
     return fig
+
+
+def build_country_summary(df: pd.DataFrame, *, min_tracks: int = MIN_COUNTRY_TRACK_COUNT) -> pd.DataFrame:
+    columns = [
+        "Country",
+        "Tracks",
+        "Unique artists",
+        "Playlists",
+        "Avg popularity",
+        "Diaspora share",
+        "Follower reach",
+    ]
+    if df.empty:
+        return pd.DataFrame(columns=columns)
+
+    clean = df.copy()
+    clean["artist_country"] = clean["artist_country"].fillna("Unknown").astype(str).str.strip()
+    clean = clean.loc[clean["artist_country"].ne("")]
+    if clean.empty:
+        return pd.DataFrame(columns=columns)
+    clean["artist_key"] = clean["artist_id"].fillna(clean["artist"])
+
+    grouped = (
+        clean.groupby("artist_country")
+        .agg(
+            tracks=("track_id", "count"),
+            unique_artists=("artist_key", "nunique"),
+            unique_playlists=("playlist_id", "nunique"),
+            avg_popularity=("track_popularity", "mean"),
+            diaspora_share=("diaspora", "mean"),
+        )
+        .reset_index()
+    )
+
+    playlist_followers = (
+        clean.groupby(["artist_country", "playlist_id"])["follower_count"]
+        .max()
+        .reset_index()
+        .groupby("artist_country")["follower_count"]
+        .sum()
+        .rename("follower_reach")
+        .reset_index()
+    )
+
+    summary = grouped.merge(playlist_followers, on="artist_country", how="left")
+    summary["follower_reach"] = summary["follower_reach"].fillna(0)
+    summary["avg_popularity"] = summary["avg_popularity"].round(1)
+    summary["diaspora_pct"] = summary["diaspora_share"] * 100
+    summary = summary.loc[summary["tracks"] >= min_tracks]
+    summary.sort_values(["tracks", "artist_country"], ascending=[False, True], inplace=True)
+
+    summary = summary.rename(
+        columns={
+            "artist_country": "Country",
+            "tracks": "Tracks",
+            "unique_artists": "Unique artists",
+            "unique_playlists": "Playlists",
+            "avg_popularity": "Avg popularity",
+            "follower_reach": "Follower reach",
+        }
+    )
+
+    summary["Tracks"] = summary["Tracks"].astype(int)
+    summary["Unique artists"] = summary["Unique artists"].astype(int)
+    summary["Playlists"] = summary["Playlists"].astype(int)
+    summary["Avg popularity"] = summary["Avg popularity"].round(1)
+    summary["Follower reach"] = summary["Follower reach"].round(0).astype("Int64")
+    summary["Diaspora share"] = summary["diaspora_pct"].apply(format_share)
+    summary.drop(columns=["diaspora_share", "diaspora_pct"], inplace=True)
+
+    return summary[columns]
+
+
+def build_country_detail(df: pd.DataFrame, country: str) -> Dict[str, object]:
+    empty_response = {
+        "metrics": {
+            "tracks": 0,
+            "artists": 0,
+            "playlists": 0,
+            "avg_popularity": None,
+            "diaspora_pct": 0.0,
+            "follower_reach": 0.0,
+        },
+        "top_region": "Unknown",
+        "region_summary": [],
+        "artists": pd.DataFrame(
+            columns=["Artist", "Placements", "Playlists", "Avg popularity", "Median position", "Diaspora share"]
+        ),
+        "playlists": pd.DataFrame(
+            columns=[
+                "Playlist",
+                "Curator",
+                "Curator type",
+                "Track placements",
+                "Unique artists",
+                "Median position",
+                "Followers",
+                "Launch year",
+            ]
+        ),
+    }
+
+    if df.empty:
+        return empty_response
+
+    clean = df.assign(artist_country=df["artist_country"].fillna("Unknown").astype(str).str.strip())
+    subset = clean.loc[clean["artist_country"].eq(country)]
+    if subset.empty:
+        return empty_response
+
+    artist_keys = subset["artist_id"].fillna(subset["artist"])
+    track_count = int(subset.shape[0])
+    unique_artists = artist_keys.nunique()
+    unique_playlists = subset["playlist_id"].nunique()
+    avg_popularity = subset["track_popularity"].mean()
+    diaspora_pct = subset["diaspora"].mean() * 100 if track_count else 0
+    follower_reach = (
+        subset.groupby("playlist_id")["follower_count"].max().sum() if unique_playlists else 0
+    )
+
+    region_counts = subset["region_group"].fillna("Unknown").value_counts()
+    top_region = region_counts.index[0] if not region_counts.empty else "Unknown"
+    region_summary = list(zip(region_counts.index.tolist()[:3], region_counts.values.tolist()[:3]))
+
+    artist_table = (
+        subset.assign(artist_key=artist_keys)
+        .groupby(["artist_key", "artist"], dropna=False)
+        .agg(
+            placements=("track_id", "count"),
+            playlists=("playlist_id", "nunique"),
+            avg_popularity=("track_popularity", "mean"),
+            median_position=("playlist_position", "median"),
+            diaspora_share=("diaspora", "mean"),
+        )
+        .reset_index(drop=False)
+    )
+
+    artist_table = artist_table.sort_values(["placements", "artist"], ascending=[False, True]).head(20)
+    artist_table["avg_popularity"] = artist_table["avg_popularity"].round(1)
+    artist_table["median_position"] = artist_table["median_position"].round().astype("Int64")
+    artist_table["diaspora_share"] = artist_table["diaspora_share"] * 100
+    artist_table = artist_table.rename(
+        columns={
+            "artist": "Artist",
+            "placements": "Placements",
+            "playlists": "Playlists",
+            "avg_popularity": "Avg popularity",
+            "median_position": "Median position",
+            "diaspora_share": "Diaspora share",
+        }
+    )
+    artist_table["Diaspora share"] = artist_table["Diaspora share"].apply(format_share)
+    artist_table["Avg popularity"] = artist_table["Avg popularity"].round(1)
+    artist_table = artist_table[
+        ["Artist", "Placements", "Playlists", "Avg popularity", "Median position", "Diaspora share"]
+    ]
+
+    playlist_table = (
+        subset.assign(artist_key=artist_keys)
+        .groupby(["playlist_id", "playlist_name", "curator", "curator_type"], dropna=False)
+        .agg(
+            track_count=("track_id", "count"),
+            unique_artists=("artist_key", "nunique"),
+            median_position=("playlist_position", "median"),
+            followers=("follower_count", "max"),
+            launch_year=("launch_year", "max"),
+        )
+        .reset_index(drop=False)
+    )
+
+    playlist_table = playlist_table.sort_values(["track_count", "playlist_name"], ascending=[False, True]).head(20)
+    playlist_table["median_position"] = playlist_table["median_position"].round().astype("Int64")
+    playlist_table["followers"] = playlist_table["followers"].round().astype("Int64")
+    playlist_table["launch_year"] = playlist_table["launch_year"].round().astype("Int64")
+    playlist_table = playlist_table.rename(
+        columns={
+            "playlist_name": "Playlist",
+            "curator": "Curator",
+            "curator_type": "Curator type",
+            "track_count": "Track placements",
+            "unique_artists": "Unique artists",
+            "median_position": "Median position",
+            "followers": "Followers",
+            "launch_year": "Launch year",
+        }
+    )
+    playlist_table = playlist_table[
+        [
+            "Playlist",
+            "Curator",
+            "Curator type",
+            "Track placements",
+            "Unique artists",
+            "Median position",
+            "Followers",
+            "Launch year",
+        ]
+    ]
+
+    return {
+        "metrics": {
+            "tracks": track_count,
+            "artists": int(unique_artists),
+            "playlists": int(unique_playlists),
+            "avg_popularity": avg_popularity,
+            "diaspora_pct": float(diaspora_pct) if pd.notna(diaspora_pct) else 0.0,
+            "follower_reach": float(follower_reach) if pd.notna(follower_reach) else 0.0,
+        },
+        "top_region": top_region,
+        "region_summary": region_summary,
+        "artists": artist_table,
+        "playlists": playlist_table,
+    }
 
 
 def playlist_summary(filtered_tracks: pd.DataFrame, playlists_df: pd.DataFrame) -> pd.DataFrame:
@@ -388,6 +689,58 @@ def main() -> None:
     sub_col1.metric("Mean track popularity", "N/A" if pd.isna(avg_track_popularity) else f"{avg_track_popularity:.1f}")
     sub_col2.metric("Mean artist popularity", "N/A" if pd.isna(avg_artist_popularity) else f"{avg_artist_popularity:.1f}")
     sub_col3.metric("Major label share", format_share(major_label_share))
+
+    country_summary = build_country_summary(filtered)
+    st.subheader("Country spotlight")
+    if country_summary.empty:
+        st.info("Country-level view unavailable for this selection.")
+    else:
+        country_options = country_summary["Country"].tolist()
+        selected_country = st.selectbox(
+            "Focus country",
+            country_options,
+            index=0,
+            key="country_spotlight_select",
+        )
+        st.dataframe(country_summary, use_container_width=True)
+
+        detail = build_country_detail(filtered, selected_country)
+        metrics = detail["metrics"]
+        metric_cols = st.columns(6)
+        metric_cols[0].metric("Tracks", metrics["tracks"])
+        metric_cols[1].metric("Unique artists", metrics["artists"])
+        metric_cols[2].metric("Playlists", metrics["playlists"])
+        avg_pop_display = "N/A" if pd.isna(metrics["avg_popularity"]) else f"{metrics['avg_popularity']:.1f}"
+        metric_cols[3].metric("Avg popularity", avg_pop_display)
+        metric_cols[4].metric("Diaspora share", format_share(metrics["diaspora_pct"]))
+        follower_metric = metrics["follower_reach"]
+        follower_display = "0" if pd.isna(follower_metric) else f"{int(round(follower_metric)):,}"
+        metric_cols[5].metric("Follower reach", follower_display)
+
+        if detail["region_summary"]:
+            region_blurb = ", ".join(f"{region} ({count})" for region, count in detail["region_summary"])
+            st.caption(f"Primary region lane: {detail['top_region']} • Top mixes: {region_blurb}")
+        else:
+            st.caption(f"Primary region lane: {detail['top_region']}")
+
+        st.markdown("**Top artists in selection**")
+        if detail["artists"].empty:
+            st.info("No artist placements for this country within the current filters.")
+        else:
+            st.dataframe(detail["artists"], use_container_width=True)
+
+        st.markdown("**Playlists surfacing this country**")
+        if detail["playlists"].empty:
+            st.info("No playlists feature this country within the current filters.")
+        else:
+            st.dataframe(detail["playlists"], use_container_width=True)
+
+    theme_background = st.get_option("theme.backgroundColor")
+    region_map_fig = build_region_map(filtered, background_color=theme_background)
+    if region_map_fig:
+        st.plotly_chart(region_map_fig, use_container_width=True)
+    else:
+        st.info("Artist country metadata unavailable for the map.")
 
     chart_col1, chart_col2 = st.columns(2)
     with chart_col1:

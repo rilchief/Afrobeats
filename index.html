@@ -243,6 +243,87 @@
         </div>
       </section>
 
+      <section class="panel country-panel" aria-label="Country spotlight">
+        <div class="country-panel-header">
+          <div>
+            <h2>Country spotlight</h2>
+            <p>Track how specific countries surface across playlists to spot emerging footholds.</p>
+          </div>
+          <div class="country-search-control">
+            <label for="country-search" class="sr-only">Search country</label>
+            <input type="search" id="country-search" name="country-search" placeholder="Search country" autocomplete="off" />
+            <button id="country-clear" type="button" class="ghost-button">Clear</button>
+          </div>
+        </div>
+        <div id="country-tabs" class="country-tabs" role="tablist" aria-label="Countries"></div>
+        <div id="country-empty" class="empty-state">Pick a country to track its footprint.</div>
+        <div id="country-content" class="country-results" hidden>
+          <div class="country-meta">
+            <div>
+              <h3 id="country-name">Country</h3>
+              <p id="country-summary" class="country-summary">Summary</p>
+            </div>
+            <div id="country-flags" class="country-flags"></div>
+          </div>
+          <div class="cards country-metrics">
+            <article class="card">
+              <h4>Tracks</h4>
+              <strong id="country-metric-tracks">0</strong>
+            </article>
+            <article class="card">
+              <h4>Unique artists</h4>
+              <strong id="country-metric-artists">0</strong>
+            </article>
+            <article class="card">
+              <h4>Playlists</h4>
+              <strong id="country-metric-playlists">0</strong>
+            </article>
+            <article class="card">
+              <h4>Avg popularity</h4>
+              <strong id="country-metric-popularity">--</strong>
+            </article>
+            <article class="card">
+              <h4>Diaspora share</h4>
+              <strong id="country-metric-diaspora">0%</strong>
+            </article>
+            <article class="card">
+              <h4>Follower reach</h4>
+              <strong id="country-metric-followers">0</strong>
+            </article>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Artist</th>
+                  <th>Placements</th>
+                  <th>Playlists</th>
+                  <th>Avg popularity</th>
+                  <th>Median position</th>
+                  <th>Diaspora share</th>
+                </tr>
+              </thead>
+              <tbody id="country-artist-rows"></tbody>
+            </table>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Playlist</th>
+                  <th>Curator</th>
+                  <th>Track placements</th>
+                  <th>Unique artists</th>
+                  <th>Median position</th>
+                  <th>Followers</th>
+                </tr>
+              </thead>
+              <tbody id="country-playlist-rows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       <section class="tabbed-content" aria-label="Dashboard insights" data-tab-root>
 
       <div class="chart-tabs" role="tablist" aria-label="Bias diagnostics">

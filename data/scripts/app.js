@@ -5,6 +5,9 @@
     return;
   }
 
+  const MIN_REGION_TRACK_COUNT = 2;
+  const MIN_COUNTRY_TRACK_COUNT = 2;
+
   const elements = {
     search: document.getElementById("search"),
     curatorTypes: document.getElementById("curator-types"),
@@ -63,10 +66,30 @@
     playlistRows: document.getElementById("region-playlist-rows")
   };
 
+  const countryElements = {
+    search: document.getElementById("country-search"),
+    clear: document.getElementById("country-clear"),
+    tabs: document.getElementById("country-tabs"),
+    empty: document.getElementById("country-empty"),
+    content: document.getElementById("country-content"),
+    name: document.getElementById("country-name"),
+    summary: document.getElementById("country-summary"),
+    flags: document.getElementById("country-flags"),
+    metricTracks: document.getElementById("country-metric-tracks"),
+    metricArtists: document.getElementById("country-metric-artists"),
+    metricPlaylists: document.getElementById("country-metric-playlists"),
+    metricPopularity: document.getElementById("country-metric-popularity"),
+    metricDiaspora: document.getElementById("country-metric-diaspora"),
+    metricFollowers: document.getElementById("country-metric-followers"),
+    artistRows: document.getElementById("country-artist-rows"),
+    playlistRows: document.getElementById("country-playlist-rows")
+  };
+
   const chartTabButtons = Array.from(document.querySelectorAll("[data-chart-tab]"));
   const chartTabPanels = Array.from(document.querySelectorAll(".chart-tab-panel"));
   const chartTabContainer = document.querySelector("[data-tab-root]") || chartTabButtons[0]?.parentElement;
   const regionButtonMap = new Map();
+  const countryButtonMap = new Map();
 
   const allTracks = dataset.playlists.flatMap((playlist) => playlist.tracks || []);
   const trackYears = allTracks.map((track) => track.releaseYear).filter((year) => typeof year === "number");
@@ -87,6 +110,7 @@
 
   const artistIndex = buildArtistIndex(dataset.playlists);
   const regionIndex = buildRegionIndex(dataset.playlists);
+  const countryIndex = buildCountryIndex(dataset.playlists);
 
   const state = {
     search: "",
@@ -97,7 +121,9 @@
     selectedArtistId: null,
     artistQuery: "",
     selectedRegion: regionIndex.defaultRegion || regionIndex.list[0] || null,
-    regionQuery: ""
+    regionQuery: "",
+    selectedCountry: countryIndex.defaultCountry || countryIndex.list[0] || null,
+    countryQuery: ""
   };
 
   let currentFilteredState = { playlists: [], tracks: [] };
@@ -244,6 +270,8 @@
       state.artistQuery = "";
       state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
       state.regionQuery = "";
+      state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
+      state.countryQuery = "";
 
       elements.search.value = "";
       elements.minYear.value = minYearValue;
@@ -259,6 +287,10 @@
 
       if (regionElements.search) {
         regionElements.search.value = "";
+      }
+
+      if (countryElements.search) {
+        countryElements.search.value = "";
       }
 
       updateDashboard();
@@ -328,6 +360,44 @@
           regionElements.search.value = "";
         }
         updateRegionSpotlight();
+      });
+    }
+
+    if (countryElements.search) {
+      countryElements.search.addEventListener("input", (event) => {
+        const value = event.target.value;
+        state.countryQuery = value;
+        const normalized = value.trim().toLowerCase();
+        if (!normalized) {
+          state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
+          updateCountrySpotlight();
+          return;
+        }
+        const match = countryIndex.list.find((country) => country.toLowerCase().includes(normalized));
+        state.selectedCountry = match || null;
+        updateCountrySpotlight();
+      });
+
+      countryElements.search.addEventListener("change", (event) => {
+        const value = event.target.value;
+        state.countryQuery = value;
+        const normalized = value.trim().toLowerCase();
+        const exact = countryIndex.list.find((country) => country.toLowerCase() === normalized);
+        if (exact) {
+          state.selectedCountry = exact;
+        }
+        updateCountrySpotlight();
+      });
+    }
+
+    if (countryElements.clear) {
+      countryElements.clear.addEventListener("click", () => {
+        state.countryQuery = "";
+        state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
+        if (countryElements.search) {
+          countryElements.search.value = "";
+        }
+        updateCountrySpotlight();
       });
     }
   }
@@ -468,11 +538,17 @@
       });
     });
 
-    const list = Array.from(counts.keys()).sort((a, b) => a.localeCompare(b));
+    const list = Array.from(counts.entries())
+      .filter(([, count]) => count >= MIN_REGION_TRACK_COUNT)
+      .map(([region]) => region)
+      .sort((a, b) => a.localeCompare(b));
     let defaultRegion = null;
     let maxCount = -1;
 
     counts.forEach((value, region) => {
+      if (value < MIN_REGION_TRACK_COUNT) {
+        return;
+      }
       if (value > maxCount) {
         maxCount = value;
         defaultRegion = region;
@@ -480,6 +556,37 @@
     });
 
     return { list, counts, defaultRegion };
+  }
+
+  function buildCountryIndex(playlists) {
+    const counts = new Map();
+
+    playlists.forEach((playlist) => {
+      (playlist.tracks || []).forEach((track) => {
+        const country = track?.artistCountry || "Unknown";
+        counts.set(country, (counts.get(country) || 0) + 1);
+      });
+    });
+
+    const list = Array.from(counts.entries())
+      .filter(([, count]) => count >= MIN_COUNTRY_TRACK_COUNT)
+      .map(([country]) => country)
+      .sort((a, b) => a.localeCompare(b));
+
+    let defaultCountry = null;
+    let maxCount = -1;
+
+    counts.forEach((value, country) => {
+      if (value < MIN_COUNTRY_TRACK_COUNT) {
+        return;
+      }
+      if (value > maxCount) {
+        maxCount = value;
+        defaultCountry = country;
+      }
+    });
+
+    return { list, counts, defaultCountry };
   }
 
   let charts = {
@@ -1069,6 +1176,292 @@
     updateArtistInspectorView();
   }
 
+  function showCountryPrompt(message) {
+    if (!countryElements.empty || !countryElements.content) return;
+    countryElements.empty.textContent = message;
+    countryElements.empty.hidden = false;
+    countryElements.content.hidden = true;
+    if (countryElements.flags) {
+      countryElements.flags.innerHTML = "";
+    }
+  }
+
+  function updateCountryTabButtons(availableCountries) {
+    countryButtonMap.forEach((button, country) => {
+      const hasData = availableCountries.has(country);
+      const isActive = hasData && state.selectedCountry === country;
+      button.disabled = !hasData;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-selected", String(isActive));
+      button.setAttribute("tabindex", isActive ? "0" : "-1");
+    });
+  }
+
+  function renderCountryDetails(countryName) {
+    if (!countryElements.content || !countryElements.empty) return;
+
+    const normalizedCountry = countryName || "Unknown";
+    const countryTracks = currentFilteredState.tracks.filter((track) => (track.artistCountry || "Unknown") === normalizedCountry);
+
+    if (!countryTracks.length) {
+      showCountryPrompt("This country has no placements under the current filters.");
+      return;
+    }
+
+    const artistSummaries = new Map();
+    const playlistSummaries = new Map();
+    const uniquePlaylistFollowers = new Map();
+    const regionCounts = new Map();
+
+    let diasporaCount = 0;
+
+    countryTracks.forEach((track) => {
+      if (track.diaspora) {
+        diasporaCount += 1;
+      }
+
+      const region = track.regionGroup || "Unknown";
+      regionCounts.set(region, (regionCounts.get(region) || 0) + 1);
+
+      const artistKey = track.artistId || track.artist || "Unknown";
+      const artistName = typeof track.artist === "string" ? track.artist.split(",")[0].trim() : track.artist || "Unknown artist";
+
+      if (!artistSummaries.has(artistKey)) {
+        artistSummaries.set(artistKey, {
+          name: artistName || "Unknown artist",
+          trackCount: 0,
+          playlists: new Set(),
+          popularity: [],
+          positions: [],
+          diasporaPlacements: 0
+        });
+      }
+
+      const artistEntry = artistSummaries.get(artistKey);
+      artistEntry.trackCount += 1;
+      artistEntry.playlists.add(track.playlistId || track.playlistName || "Unknown playlist");
+      if (typeof track.trackPopularity === "number") {
+        artistEntry.popularity.push(track.trackPopularity);
+      }
+      if (typeof track.playlistPosition === "number") {
+        artistEntry.positions.push(track.playlistPosition);
+      }
+      if (track.diaspora) {
+        artistEntry.diasporaPlacements += 1;
+      }
+
+      const playlistKey = track.playlistId || `${track.playlistName || "Unknown playlist"}-${track.playlistCurator || ""}`;
+      if (!playlistSummaries.has(playlistKey)) {
+        playlistSummaries.set(playlistKey, {
+          name: track.playlistName || "Unknown playlist",
+          curator: track.playlistCurator || "Unknown",
+          curatorType: track.playlistCuratorType || "Unknown",
+          trackCount: 0,
+          positions: [],
+          artists: new Set(),
+          followers: track.playlistFollowers || 0,
+          launchYear: track.playlistLaunchYear || null
+        });
+      }
+
+      const playlistEntry = playlistSummaries.get(playlistKey);
+      playlistEntry.trackCount += 1;
+      playlistEntry.artists.add(artistName || "Unknown artist");
+      if (typeof track.playlistPosition === "number") {
+        playlistEntry.positions.push(track.playlistPosition);
+      }
+      if (typeof track.playlistFollowers === "number") {
+        playlistEntry.followers = track.playlistFollowers;
+      }
+
+      if (track.playlistId) {
+        uniquePlaylistFollowers.set(track.playlistId, track.playlistFollowers || 0);
+      }
+    });
+
+    const trackCount = countryTracks.length;
+    const uniqueArtists = artistSummaries.size;
+    const uniquePlaylists = playlistSummaries.size;
+    const popularityValues = countryTracks
+      .map((track) => track.trackPopularity)
+      .filter((value) => typeof value === "number");
+    const avgPopularity = popularityValues.length ? average(popularityValues) : null;
+    const followerReach = Array.from(uniquePlaylistFollowers.values()).reduce((total, value) => total + (value || 0), 0);
+    const diasporaShare = formatPercent(diasporaCount, trackCount);
+
+    const sortedRegions = Array.from(regionCounts.entries()).sort((a, b) => b[1] - a[1]);
+
+    countryElements.empty.hidden = true;
+    countryElements.content.hidden = false;
+
+    if (countryElements.name) {
+      countryElements.name.textContent = normalizedCountry;
+    }
+    if (countryElements.summary) {
+      countryElements.summary.textContent = `${trackCount} tracks across ${uniquePlaylists} playlists within the active filters.`;
+    }
+    if (countryElements.flags) {
+      const tags = [];
+      if (sortedRegions.length) {
+        tags.push(`<span class="tag">${sortedRegions[0][0]}</span>`);
+      }
+      tags.push(`<span class="tag">${diasporaShare} diaspora</span>`);
+      countryElements.flags.innerHTML = tags.join(" ");
+    }
+
+    if (countryElements.metricTracks) {
+      countryElements.metricTracks.textContent = String(trackCount);
+    }
+    if (countryElements.metricArtists) {
+      countryElements.metricArtists.textContent = String(uniqueArtists);
+    }
+    if (countryElements.metricPlaylists) {
+      countryElements.metricPlaylists.textContent = String(uniquePlaylists);
+    }
+    if (countryElements.metricPopularity) {
+      countryElements.metricPopularity.textContent = avgPopularity !== null ? avgPopularity.toFixed(1) : "--";
+    }
+    if (countryElements.metricDiaspora) {
+      countryElements.metricDiaspora.textContent = diasporaShare;
+    }
+    if (countryElements.metricFollowers) {
+      countryElements.metricFollowers.textContent = formatNumber(followerReach);
+    }
+
+    if (countryElements.artistRows) {
+      const artistRows = Array.from(artistSummaries.values())
+        .sort((a, b) => b.trackCount - a.trackCount || a.name.localeCompare(b.name))
+        .slice(0, 20)
+        .map((artist) => {
+          const avgArtistPopularity = artist.popularity.length ? average(artist.popularity) : null;
+          const medianArtistPosition = artist.positions.length ? median(artist.positions) : null;
+          const diasporaArtistShare = formatPercent(artist.diasporaPlacements, artist.trackCount);
+          return `
+            <tr>
+              <td>${artist.name}</td>
+              <td>${artist.trackCount}</td>
+              <td>${artist.playlists.size}</td>
+              <td>${avgArtistPopularity !== null ? avgArtistPopularity.toFixed(1) : "--"}</td>
+              <td>${medianArtistPosition !== null ? medianArtistPosition.toFixed(0) : "--"}</td>
+              <td>${diasporaArtistShare}</td>
+            </tr>
+          `;
+        });
+
+      countryElements.artistRows.innerHTML = artistRows.length
+        ? artistRows.join("")
+        : '<tr><td colspan="6">No artist placements for this country within the filters.</td></tr>';
+    }
+
+    if (countryElements.playlistRows) {
+      const playlistRows = Array.from(playlistSummaries.values())
+        .sort((a, b) => b.trackCount - a.trackCount || a.name.localeCompare(b.name))
+        .slice(0, 20)
+        .map((playlist) => {
+          const medianPlaylistPosition = playlist.positions.length ? median(playlist.positions) : null;
+          const launchTag = playlist.launchYear ? `<span class="tag">Launched ${playlist.launchYear}</span>` : "";
+          return `
+            <tr>
+              <td>
+                <div class="table-stack">
+                  <strong>${playlist.name}</strong>
+                  ${launchTag}
+                </div>
+              </td>
+              <td>
+                <div class="table-stack">
+                  <span>${playlist.curator}</span>
+                  <span class="tag">${playlist.curatorType}</span>
+                </div>
+              </td>
+              <td>${playlist.trackCount}</td>
+              <td>${playlist.artists.size}</td>
+              <td>${medianPlaylistPosition !== null ? medianPlaylistPosition.toFixed(0) : "--"}</td>
+              <td>${formatNumber(playlist.followers || 0)}</td>
+            </tr>
+          `;
+        });
+
+      countryElements.playlistRows.innerHTML = playlistRows.length
+        ? playlistRows.join("")
+        : '<tr><td colspan="6">No playlists surface this country within the filters.</td></tr>';
+    }
+  }
+
+  function updateCountrySpotlight() {
+    if (!countryElements.tabs) return;
+
+    const countryCounts = sumCounts(currentFilteredState.tracks, (track) => track.artistCountry || "Unknown");
+    const availableCountries = new Set(
+      Object.entries(countryCounts)
+        .filter(([, count]) => count >= MIN_COUNTRY_TRACK_COUNT)
+        .map(([country]) => country)
+    );
+    updateCountryTabButtons(availableCountries);
+
+    if (!currentFilteredState.tracks.length) {
+      showCountryPrompt("No countries within the current filters.");
+      return;
+    }
+
+    if (state.countryQuery.trim() && (!state.selectedCountry || !availableCountries.has(state.selectedCountry))) {
+      showCountryPrompt("No country matches that search within the current filters.");
+      return;
+    }
+
+    if (!state.selectedCountry || !availableCountries.has(state.selectedCountry)) {
+      const sortedAvailable = Array.from(availableCountries).sort((a, b) => a.localeCompare(b));
+      state.selectedCountry = sortedAvailable[0] || null;
+    }
+
+    if (!state.selectedCountry) {
+      showCountryPrompt("No countries available within the current filters.");
+      return;
+    }
+
+    renderCountryDetails(state.selectedCountry);
+  }
+
+  function initCountrySpotlight() {
+    if (!countryElements.tabs || !countryIndex.list.length) {
+      if (countryElements.empty) {
+        countryElements.empty.textContent = "No countries available in the dataset.";
+      }
+      return;
+    }
+
+    if (!state.selectedCountry) {
+      state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
+    }
+
+    countryElements.tabs.innerHTML = countryIndex.list
+      .map((country) => {
+        const isActive = state.selectedCountry === country;
+        return `<button type="button" data-country-tab="${country}" role="tab" aria-selected="${isActive}" tabindex="${isActive ? "0" : "-1"}">${country}</button>`;
+      })
+      .join("");
+
+    countryButtonMap.clear();
+    countryElements.tabs.querySelectorAll("button[data-country-tab]").forEach((button) => {
+      countryButtonMap.set(button.dataset.countryTab, button);
+    });
+
+    countryElements.tabs.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-country-tab]");
+      if (!button || button.disabled) return;
+      const { countryTab } = button.dataset;
+      if (!countryTab) return;
+      state.selectedCountry = countryTab;
+      state.countryQuery = "";
+      if (countryElements.search) {
+        countryElements.search.value = "";
+      }
+      updateCountrySpotlight();
+    });
+
+    updateCountrySpotlight();
+  }
+
   function showRegionPrompt(message) {
     if (!regionElements.empty || !regionElements.content) return;
     regionElements.empty.textContent = message;
@@ -1274,7 +1667,12 @@
   function updateRegionSpotlight() {
     if (!regionElements.tabs) return;
 
-    const availableRegions = new Set(currentFilteredState.tracks.map((track) => track.regionGroup || "Unknown"));
+    const regionCounts = sumCounts(currentFilteredState.tracks, (track) => track.regionGroup || "Unknown");
+    const availableRegions = new Set(
+      Object.entries(regionCounts)
+        .filter(([, count]) => count >= MIN_REGION_TRACK_COUNT)
+        .map(([region]) => region)
+    );
     updateRegionTabButtons(availableRegions);
 
     if (!currentFilteredState.tracks.length) {
@@ -1382,6 +1780,7 @@
       updateCards(filteredPlaylists, filteredTracks);
       updateArtistInspectorView();
       updateRegionSpotlight();
+      updateCountrySpotlight();
       return;
     }
 
@@ -1390,11 +1789,13 @@
     renderPlaylistTable(filteredPlaylists);
     updateArtistInspectorView();
     updateRegionSpotlight();
+    updateCountrySpotlight();
   }
 
   initFilters();
   initArtistLookup();
   initRegionSpotlight();
+  initCountrySpotlight();
   attachListeners();
   initMetadata();
   updateDashboard();

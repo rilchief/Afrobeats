@@ -270,7 +270,8 @@ main {
 	}
 
 	.artist-search-control input[type="search"],
-	.region-search-control input[type="search"] {
+	.region-search-control input[type="search"],
+	.country-search-control input[type="search"] {
 		min-width: 0;
 		flex: 1 1 200px;
 	}
@@ -392,13 +393,15 @@ main {
 	margin-top: 0.75rem;
 }
 
-.region-panel {
+.region-panel,
+.country-panel {
 	display: flex;
 	flex-direction: column;
 	gap: 1.25rem;
 }
 
-.region-panel-header {
+.region-panel-header,
+.country-panel-header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -406,24 +409,28 @@ main {
 	gap: 1rem;
 }
 
-.region-panel-header h2 {
+.region-panel-header h2,
+.country-panel-header h2 {
 	margin: 0;
 }
 
-.region-panel-header p {
+.region-panel-header p,
+.country-panel-header p {
 	margin: 0.45rem 0 0;
 	max-width: 520px;
 	color: var(--muted);
 	font-size: 0.9rem;
 }
 
-.region-search-control {
+.region-search-control,
+.country-search-control {
 	display: flex;
 	align-items: center;
 	gap: 0.6rem;
 }
 
-.region-search-control input[type="search"] {
+.region-search-control input[type="search"],
+.country-search-control input[type="search"] {
 	padding: 0.6rem 0.75rem;
 	border-radius: 12px;
 	border: 1px solid var(--border);
@@ -432,13 +439,15 @@ main {
 	min-width: 220px;
 }
 
-.region-tabs {
+.region-tabs,
+.country-tabs {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0.5rem;
 }
 
-.region-tabs button {
+.region-tabs button,
+.country-tabs button {
 	display: inline-flex;
 	align-items: center;
 	padding: 0.45rem 0.9rem;
@@ -452,29 +461,34 @@ main {
 	transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
 }
 
-.region-tabs button:hover:not(:disabled) {
+.region-tabs button:hover:not(:disabled),
+.country-tabs button:hover:not(:disabled) {
 	background: rgba(255, 255, 255, 0.12);
 	color: var(--text);
 }
 
-.region-tabs button.is-active {
+.region-tabs button.is-active,
+.country-tabs button.is-active {
 	background: var(--accent);
 	color: #111;
 	border-color: var(--accent);
 }
 
-.region-tabs button:disabled {
+.region-tabs button:disabled,
+.country-tabs button:disabled {
 	opacity: 0.35;
 	cursor: not-allowed;
 }
 
-.region-results {
+.region-results,
+.country-results {
 	display: flex;
 	flex-direction: column;
 	gap: 1.25rem;
 }
 
-.region-meta {
+.region-meta,
+.country-meta {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -482,26 +496,31 @@ main {
 	align-items: flex-start;
 }
 
-.region-summary {
+.region-summary,
+.country-summary {
 	margin: 0.4rem 0 0;
 	color: var(--muted);
 }
 
-.region-flags {
+.region-flags,
+.country-flags {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0.5rem;
 }
 
-.region-metrics {
+.region-metrics,
+.country-metrics {
 	gap: 0.75rem;
 }
 
-.region-metrics .card {
+.region-metrics .card,
+.country-metrics .card {
 	margin-bottom: 0;
 }
 
-.region-results .table-wrapper + .table-wrapper {
+.region-results .table-wrapper + .table-wrapper,
+.country-results .table-wrapper + .table-wrapper {
 	margin-top: 0.75rem;
 }
 
@@ -769,7 +788,8 @@ footer {
 		align-items: flex-start;
 	}
 
-	.region-panel-header {
+	.region-panel-header,
+	.country-panel-header {
 		flex-direction: column;
 		align-items: flex-start;
 	}
