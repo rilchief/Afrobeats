@@ -39,6 +39,31 @@
       "id": "2DfNaw9Z1nuddjI6NczTXS",
       "curatorType": "Independent Curator",
       "label": "Afrobeats Hits (Indie)"
+    },
+    "afro-nation-united": {
+      "id": "0tbbV39e1yP4GsJ3HXSXgG",
+      "curatorType": "Festival Curator",
+      "label": "Afro Nation United"
+    },
+    "hits-radio-afrobeats": {
+      "id": "62Hmju3toBooBrDAHTQxg5",
+      "curatorType": "Media Publisher",
+      "label": "Hits Radio: Afrobeats"
+    },
+    "afro-fusion-afrikan-radar": {
+      "id": "3zCyA7HZGqHvAhzqVuclMu",
+      "curatorType": "Media Publisher",
+      "label": "Afro-Fusion"
+    },
+    "afrobeats-central-hypetribe": {
+      "id": "7jVpY2zB7NXUwlYHNVFc2g",
+      "curatorType": "Media Publisher",
+      "label": "Afrobeats Central"
+    },
+    "feel-good-afrobeats": {
+      "id": "7MPu2vwkQJDnIS4hAOu2Q6",
+      "curatorType": "Media Publisher",
+      "label": "FEEL GOOD AFROBEATS"
     }
   }
 }

@@ -1,5 +1,5 @@
 """Fetch playlist and track metadata from the Spotify Web API and
-rewrite data/scripts/data.js for the Afrobeats dashboard.
+rewrite web/data.js for the Afrobeats dashboard.
 
 Usage (PowerShell example):
 
@@ -13,7 +13,7 @@ Usage (PowerShell example):
     # 6. Outputs are written to:
     #      data/raw/<slug>.json
     #      data/processed/afrobeats_playlists.json
-    #      data/scripts/data.js (for the dashboard)
+    #      web/data.js (for the dashboard)
 """
 from __future__ import annotations
 
@@ -29,7 +29,7 @@ import requests
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ENV_FILE = REPO_ROOT / ".env"
-OUTPUT_FILE = REPO_ROOT / "data" / "scripts" / "data.js"
+OUTPUT_FILE = REPO_ROOT / "web" / "data.js"
 PLAYLIST_CONFIG_FILE = REPO_ROOT / "data" / "playlist_config.json"
 RAW_DATA_DIR = REPO_ROOT / "data" / "raw"
 PROCESSED_DATA_FILE = REPO_ROOT / "data" / "processed" / "afrobeats_playlists.json"
@@ -266,7 +266,9 @@ def load_artist_metadata(path: Path) -> Dict[str, Dict]:
     if not path.exists():
         return dict(_DEFAULT_ARTIST_METADATA)
 
-    with path.open(encoding="utf-8") as handle:
+    # Some data contributors have saved this CSV with ISO-8859-1 characters,
+    # so tolerate decoding errors by replacing unknown bytes.
+    with path.open(encoding="utf-8", errors="replace") as handle:
         reader = DictReader(handle)
         required_columns = {"artist", "artistCountry", "regionGroup", "diaspora"}
         if not required_columns.issubset(reader.fieldnames or []):
