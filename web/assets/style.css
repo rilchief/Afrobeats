@@ -6,6 +6,9 @@
 	--accent: #ffb400;
 	--accent-soft: rgba(255, 180, 0, 0.12);
 	--accent-hover: #ffc933;
+	--secondary: #00d9ff;
+	--secondary-soft: rgba(0, 217, 255, 0.15);
+	--tertiary: #ffbe0b;
 	--text: #f7f8fa;
 	--text-secondary: #e1e4ea;
 	--muted: #b3b8c2;
@@ -22,7 +25,52 @@
 	--shadow-md: 0 8px 24px rgba(0, 0, 0, 0.25);
 	--shadow-lg: 0 18px 45px rgba(0, 0, 0, 0.35);
 	--shadow-xl: 0 24px 60px rgba(0, 0, 0, 0.45);
+	--glow-accent: 0 0 20px rgba(255, 180, 0, 0.5);
+	--glow-secondary: 0 0 20px rgba(0, 217, 255, 0.5);
 	font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Neo theme (optional) */
+:root[data-theme="neo"] {
+	--bg: #0c1117;
+	--bg-light: #161b22;
+	--panel: rgba(20, 26, 33, 0.75);
+	--panel-elevated: rgba(26, 32, 40, 0.75);
+	--accent: #42e2b8; /* mint-cyan */
+	--accent-soft: rgba(66, 226, 184, 0.18);
+	--accent-hover: #66f0c9;
+	--secondary: #7a5af8; /* soft purple */
+	--secondary-soft: rgba(122, 90, 248, 0.18);
+	--tertiary: #f2a900; /* warm gold */
+	--text: #f5f7fb;
+	--text-secondary: #cbd5e1;
+	--muted: #9aa4b2;
+	--muted-dark: #7b8694;
+	--border: rgba(255, 255, 255, 0.10);
+	--border-strong: rgba(255, 255, 255, 0.18);
+	--warning: rgba(248, 113, 113, 0.22);
+	--warning-text: #fecaca;
+	--success: rgba(66, 226, 184, 0.22);
+	--success-text: #8cf2d6;
+	--gradient-primary: linear-gradient(135deg, #0c1117 0%, #0e1420 50%, #161b22 100%);
+	--gradient-accent: linear-gradient(135deg, #42e2b8 0%, #7a5af8 100%);
+}
+
+/* Theme toggle button (nav) */
+.btn-ghost, .theme-toggle-btn {
+	background: transparent;
+	color: var(--text);
+	border: 1px solid var(--border);
+	border-radius: 999px;
+	padding: 0.5rem 0.85rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.btn-ghost:hover, .theme-toggle-btn:hover {
+	border-color: var(--accent);
+	box-shadow: 0 0 16px rgba(255, 180, 0, 0.15);
 }
 
 * {
@@ -285,6 +333,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-outline:hover {
 	background: rgba(255, 180, 0, 0.1);
+}
+
+.btn-streamlit {
+	background: linear-gradient(135deg, #ff4b4b 0%, #ff6b6b 100%);
+	color: white;
+	border: none;
+	box-shadow: 0 4px 15px rgba(255, 75, 75, 0.3);
+	font-weight: 600;
+}
+
+.btn-streamlit:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 20px rgba(255, 75, 75, 0.4);
+}
+
+.streamlit-link {
+	color: #ff4b4b !important;
+	font-weight: 600;
+}
+
+.streamlit-link:hover {
+	color: #ff6b6b !important;
 }
 
 .btn-reset {

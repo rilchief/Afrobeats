@@ -1810,6 +1810,46 @@
   updateDashboard();
   initChartTabs();
 
+  // Theme management
+  function applyTheme(theme) {
+    const root = document.documentElement;
+    const normalized = theme === "neo" ? "neo" : "classic";
+    if (normalized === "neo") {
+      root.setAttribute("data-theme", "neo");
+    } else {
+      root.removeAttribute("data-theme");
+    }
+    localStorage.setItem("uiTheme", normalized);
+    updateThemeToggleLabel(normalized);
+  }
+
+  function updateThemeToggleLabel(theme) {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    if (theme === "neo") {
+      btn.textContent = "✨ Classic";
+      btn.setAttribute("aria-label", "Switch to Classic theme");
+      btn.title = "Switch to Classic";
+    } else {
+      btn.textContent = "🌙 Neo";
+      btn.setAttribute("aria-label", "Switch to Neo theme");
+      btn.title = "Switch to Neo";
+    }
+  }
+
+  // Initialize theme from localStorage
+  (function initTheme() {
+    const saved = localStorage.getItem("uiTheme") || "classic";
+    applyTheme(saved);
+    const btn = document.getElementById("theme-toggle");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        const current = localStorage.getItem("uiTheme") || "classic";
+        applyTheme(current === "neo" ? "classic" : "neo");
+      });
+    }
+  })();
+
   async function fetchArtistMetadata() {
     const csvPath = "../data/data/artist_metadata.csv";
     try {
