@@ -1,9 +1,17 @@
-(() => {
+(async () => {
   const dataset = window.AFROBEATS_DATA;
   if (!dataset || !Array.isArray(dataset.playlists)) {
     console.error("Afrobeats dataset missing or malformed.");
     return;
   }
+
+  let artistMetadataMap = new Map();
+  try {
+    artistMetadataMap = await fetchArtistMetadata();
+  } catch (error) {
+    console.warn("Failed to load artist metadata CSV; falling back to embedded values.", error);
+  }
+  applyArtistMetadataInPlace(dataset, artistMetadataMap);
 
   const MIN_REGION_TRACK_COUNT = 2;
   const MIN_COUNTRY_TRACK_COUNT = 2;
@@ -616,7 +624,8 @@
 
     const tracksWithAudio = allTracks.filter((track) => {
       if (!track?.features) return false;
-      return Object.values(track.features).some((value) => typeof value === "number" && value > 0);
+      // Check if features object has any valid numeric values (including 0)
+      return Object.values(track.features).some((value) => typeof value === "number" && !isNaN(value));
     }).length;
     const coverage = allTracks.length ? Math.round((tracksWithAudio / allTracks.length) * 100) : 0;
 
@@ -626,7 +635,7 @@
         metadataElements.audioStatus.classList.add("is-warning");
         metadataElements.audioStatus.classList.remove("is-success");
       } else {
-        metadataElements.audioStatus.textContent = `${coverage}% optional audio feature coverage`;
+        metadataElements.audioStatus.textContent = `${coverage}% audio feature coverage (n=${tracksWithAudio})`;
         metadataElements.audioStatus.classList.add("is-success");
         metadataElements.audioStatus.classList.remove("is-warning");
       }
@@ -1800,4 +1809,106 @@
   initMetadata();
   updateDashboard();
   initChartTabs();
+
+  async function fetchArtistMetadata() {
+    const csvPath = "../data/data/artist_metadata.csv";
+    try {
+      const response = await fetch(csvPath, { cache: "no-store" });
+      if (!response.ok) {
+        return new Map();
+      }
+      const text = await response.text();
+      return parseArtistCsv(text);
+    } catch (error) {
+      console.warn("Unable to fetch artist metadata CSV", error);
+      return new Map();
+    }
+  }
+
+  function parseArtistCsv(text) {
+    if (!text) {
+      return new Map();
+    }
+    const lines = text.split(/\r?\n/).filter((line) => line.trim().length > 0);
+    if (!lines.length) {
+      return new Map();
+    }
+    const header = splitCsvLine(lines[0]).map((item) => item.trim().toLowerCase());
+    const colIndex = {
+      artist: header.indexOf("artist"),
+      artistCountry: header.indexOf("artistcountry"),
+      regionGroup: header.indexOf("regiongroup"),
+      diaspora: header.indexOf("diaspora"),
+    };
+    const metadataMap = new Map();
+    for (let i = 1; i < lines.length; i += 1) {
+      const values = splitCsvLine(lines[i]);
+      if (!values.length) continue;
+      const artistRaw = values[colIndex.artist] || "";
+      const normalized = normalizeArtistName(artistRaw);
+      if (!normalized) continue;
+      metadataMap.set(normalized, {
+        artistCountry: values[colIndex.artistCountry]?.trim() || "Unknown",
+        regionGroup: values[colIndex.regionGroup]?.trim() || "Unknown",
+        diaspora: normalizeBoolean(values[colIndex.diaspora]),
+      });
+    }
+    return metadataMap;
+  }
+
+  function splitCsvLine(line) {
+    const result = [];
+    let current = "";
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i += 1) {
+      const char = line[i];
+      if (char === '"') {
+        if (inQuotes && line[i + 1] === '"') {
+          current += '"';
+          i += 1;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        result.push(current);
+        current = "";
+      } else {
+        current += char;
+      }
+    }
+    result.push(current);
+    return result;
+  }
+
+  function normalizeBoolean(value) {
+    if (value === undefined || value === null) return false;
+    const normalized = String(value).trim().toLowerCase();
+    return normalized === "true" || normalized === "1" || normalized === "yes" || normalized === "y";
+  }
+
+  function normalizeArtistName(name) {
+    if (!name) return "";
+    return String(name).split(",")[0].trim().toLowerCase();
+  }
+
+  function applyArtistMetadataInPlace(currentDataset, metadataMap) {
+    if (!(metadataMap instanceof Map) || !metadataMap.size) {
+      return;
+    }
+    currentDataset.playlists.forEach((playlist) => {
+      (playlist.tracks || []).forEach((track) => {
+        const normalized = normalizeArtistName(track?.artist);
+        if (!normalized) {
+          return;
+        }
+        const meta = metadataMap.get(normalized);
+        if (!meta) {
+          return;
+        }
+        track.artistCountry = meta.artistCountry ?? track.artistCountry ?? "Unknown";
+        track.regionGroup = meta.regionGroup ?? track.regionGroup ?? "Unknown";
+        track.diaspora = Boolean(meta.diaspora);
+      });
+    });
+  }
 })();

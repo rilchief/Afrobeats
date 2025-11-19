@@ -33,6 +33,11 @@ Outputs:
 - **Static web** (`web/index.html`): rich exploratory UI pointing at `web/data.js`. The repository root `index.html` simply redirects here.
 - **Streamlit** (`scripts/dashboard.py`): quick analytical playground; run with `streamlit run scripts/dashboard.py` if desired.
 
+### Artist metadata refresh
+
+- Both dashboards now reload `data/data/artist_metadata.csv` every time they start. Edit the CSV and simply refresh the browser (or rerun `streamlit run …`) to see updated country/region/diaspora annotations—no need to regenerate `web/data.js` first.
+- For the static dashboard, serve the `web/` folder via a local web server (for example `python -m http.server 8000`) so the browser can fetch the CSV without file:// restrictions.
+
 ## Statistical analysis & tests
 
 `scripts/analyze_bias.py` ingests the processed dataset, runs chi-square, ANOVA, and Kruskal–Wallis diagnostics, and writes `outputs/analysis_summary.md`. Re-run after every ingestion refresh to keep the bias summary in sync.

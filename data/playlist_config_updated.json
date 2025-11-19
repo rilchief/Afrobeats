@@ -65,10 +65,35 @@
       "curatorType": "Media Publisher",
       "label": "FEEL GOOD AFROBEATS"
     },
-    "afrobeats-now": {
-      "id": "3yyH2cPh5dctpFwsns9B2Z",
-      "curatorType": "Media Publisher",
-      "label": "Afrobeats Now"
+    "spotify-afrobeats-hits": {
+      "id": "37i9dQZF1EQqFPe2ux3rbj",
+      "curatorType": "Spotify Editorial",
+      "label": "Afrobeats Hits (Spotify)"
+    },
+    "spotify-naija-hits": {
+      "id": "37i9dQZEVXbKY7jLzlJ11V",
+      "curatorType": "Spotify Editorial",
+      "label": "Naija Hits"
+    },
+    "spotify-afro-fire": {
+      "id": "37i9dQZF1DWYkztttC2YdR",
+      "curatorType": "Spotify Editorial",
+      "label": "Afro Fire"
+    },
+    "spotify-new-afrobeats": {
+      "id": "37i9dQZF1DX4pJhijJmndF",
+      "curatorType": "Spotify Editorial",
+      "label": "New Afrobeats"
+    },
+    "spotify-ghana-hits": {
+      "id": "37i9dQZEVXbJkgIdfsJyTv",
+      "curatorType": "Spotify Editorial",
+      "label": "Ghana Hits"
+    },
+    "spotify-african-heat": {
+      "id": "37i9dQZF1DX7QOv5kjbU68",
+      "curatorType": "Spotify Editorial",
+      "label": "African Heat"
     }
   }
 }
