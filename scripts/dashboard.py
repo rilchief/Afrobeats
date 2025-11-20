@@ -9,7 +9,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from scipy import stats
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = REPO_ROOT / "data" / "processed" / "afrobeats_playlists.json"
@@ -138,6 +137,7 @@ def load_dataset(path: Path = DATA_PATH) -> Tuple[pd.DataFrame, pd.DataFrame, Di
         playlist_rows.append(playlist_row)
 
         for track in playlist.get("tracks") or []:
+            # Features removed from dataset; retain legacy columns with None
             features = track.get("features") or {}
             track_rows.append(
                 {
@@ -163,16 +163,16 @@ def load_dataset(path: Path = DATA_PATH) -> Tuple[pd.DataFrame, pd.DataFrame, Di
                     "album_release_date": track.get("albumReleaseDate"),
                     "added_at": track.get("addedAt"),
                     "artist_genres": ", ".join(track.get("artistGenres") or []),
-                    # Audio features
-                    "danceability": features.get("danceability"),
-                    "energy": features.get("energy"),
-                    "valence": features.get("valence"),
-                    "tempo": features.get("tempo"),
-                    "acousticness": features.get("acousticness"),
-                    "instrumentalness": features.get("instrumentalness"),
-                    "liveness": features.get("liveness"),
-                    "speechiness": features.get("speechiness"),
-                    "loudness": features.get("loudness"),
+                    # Audio feature columns preserved (now None since simulation removed)
+                    "danceability": None,
+                    "energy": None,
+                    "valence": None,
+                    "tempo": None,
+                    "acousticness": None,
+                    "instrumentalness": None,
+                    "liveness": None,
+                    "speechiness": None,
+                    "loudness": None,
                 }
             )
 
@@ -385,105 +385,8 @@ def build_curator_chart(df: pd.DataFrame) -> px.bar:
     return fig
 
 
-def build_audio_feature_violin(df: pd.DataFrame, feature: str, feature_label: str) -> go.Figure:
-    """Create violin plot for audio feature by curator type with ANOVA results."""
-    # Filter to rows with valid feature data
-    clean = df.loc[df[feature].notna()].copy()
-    if clean.empty:
-        fig = go.Figure()
-        fig.add_annotation(text="No audio feature data available", xref="paper", yref="paper",
-                          x=0.5, y=0.5, showarrow=False, font=dict(size=16))
-        return fig
-    
-    # Calculate ANOVA
-    groups = []
-    curator_types = clean["curator_type"].unique()
-    for ct in curator_types:
-        group_data = clean.loc[clean["curator_type"] == ct, feature].dropna()
-        if len(group_data) > 0:
-            groups.append(group_data)
-    
-    f_stat, p_value = None, None
-    if len(groups) >= 2:
-        try:
-            f_stat, p_value = stats.f_oneway(*groups)
-        except Exception:
-            pass
-    
-    # Create violin plot
-    fig = px.violin(
-        clean,
-        x="curator_type",
-        y=feature,
-        color="curator_type",
-        box=True,
-        points="outliers",
-        labels={"curator_type": "Curator Type", feature: feature_label},
-        title=f"{feature_label} Distribution by Curator Type",
-        template="plotly_dark",
-    )
-    
-    # Add ANOVA results as annotation
-    if f_stat is not None and p_value is not None:
-        sig_marker = "***" if p_value < 0.001 else "**" if p_value < 0.01 else "*" if p_value < 0.05 else "ns"
-        anova_text = f"ANOVA: F = {f_stat:.2f}, p = {p_value:.4f} {sig_marker}"
-        fig.add_annotation(
-            text=anova_text,
-            xref="paper", yref="paper",
-            x=0.98, y=0.98,
-            showarrow=False,
-            font=dict(size=12, color="#FFB400"),
-            align="right",
-            bgcolor="rgba(0,0,0,0.6)",
-            bordercolor="#FFB400",
-            borderwidth=1,
-            borderpad=4,
-        )
-    
-    fig.update_layout(
-        margin=dict(l=10, r=10, t=60, b=10),
-        showlegend=False,
-        height=400,
-    )
-    
-    return fig
-
-
-def calculate_anova_summary(df: pd.DataFrame) -> pd.DataFrame:
-    """Calculate ANOVA statistics for all audio features across curator types."""
-    features = [
-        ("danceability", "Danceability"),
-        ("energy", "Energy"),
-        ("valence", "Valence"),
-        ("tempo", "Tempo (BPM)"),
-    ]
-    
-    results = []
-    for feature, label in features:
-        clean = df.loc[df[feature].notna()].copy()
-        if clean.empty:
-            continue
-        
-        groups = []
-        for ct in clean["curator_type"].unique():
-            group_data = clean.loc[clean["curator_type"] == ct, feature].dropna()
-            if len(group_data) > 0:
-                groups.append(group_data)
-        
-        if len(groups) >= 2:
-            try:
-                f_stat, p_value = stats.f_oneway(*groups)
-                sig = "***" if p_value < 0.001 else "**" if p_value < 0.01 else "*" if p_value < 0.05 else "ns"
-                results.append({
-                    "Feature": label,
-                    "F-statistic": round(f_stat, 2),
-                    "p-value": round(p_value, 4),
-                    "Significance": sig,
-                })
-            except Exception:
-                pass
-    
-    return pd.DataFrame(results)
+## Audio feature analysis removed (simulated data eliminated for integrity). Functions previously
+## providing ANOVA & violin plots have been dropped along with SciPy dependency.
 
 
 def build_country_summary(df: pd.DataFrame, *, min_tracks: int = MIN_COUNTRY_TRACK_COUNT) -> pd.DataFrame:
@@ -778,11 +681,11 @@ def playlist_summary(filtered_tracks: pd.DataFrame, playlists_df: pd.DataFrame) 
 
 def main() -> None:
     st.set_page_config(
-        page_title="Afrobeats Playlist Observatory | MSc Research",
+        page_title="Afrobeats Playlist Observatory",
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            'About': "MSc Computing & Data Science Dissertation Project - Examining regional representation and gatekeeping patterns in Spotify's Afrobeats ecosystem."
+            'About': "Interactive dashboard focusing on regional representation, curator concentration and temporal patterns in Spotify Afrobeats playlists."
         }
     )
     
@@ -872,19 +775,8 @@ def main() -> None:
     """, unsafe_allow_html=True)
     
     # Header with academic branding
-    st.markdown("""
-    <div style="text-align: center; padding: 2rem 0 1rem;">
-        <div style="display: inline-block; padding: 0.5rem 1.25rem; background: rgba(255, 180, 0, 0.15); 
-                    border: 1px solid rgba(255, 180, 0, 0.3); border-radius: 999px; margin-bottom: 1rem;">
-            <span style="color: #FFB400; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;">
-                MSc Computing & Data Science Dissertation
-            </span>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    st.title("🎵 Afrobeats Playlist Gatekeeping Observatory")
-    st.caption("An interactive analytical platform examining regional representation, curator concentration, and temporal patterns in Spotify's Afrobeats ecosystem.")
+    st.title("🎵 Afrobeats Playlist Observatory")
+    st.caption("Explore regional representation, curator concentration, temporal patterns and label dynamics.")
 
     playlists_df, tracks_df, run_metadata = load_dataset()
     if tracks_df.empty:
@@ -956,13 +848,11 @@ def main() -> None:
         return
     
     # Tabbed interface
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    tab1, tab2, tab3, tab4 = st.tabs([
         "📊 Overview", 
         "🌍 Regional Analysis", 
         "📅 Temporal Trends",
-        "🎵 Audio Features",
-        "🏢 Label Distribution",
-        "📚 Methodology"
+        "🏢 Label Distribution"
     ])
     
     # TAB 1: OVERVIEW
@@ -1149,73 +1039,8 @@ def main() -> None:
         )
         st.dataframe(preview_df.head(100), use_container_width=True, height=400)
     
-    # TAB 4: AUDIO FEATURES (SONIC ANALYSIS)
+    # TAB 4: LABEL DISTRIBUTION
     with tab4:
-        st.markdown("### 🎵 Sonic Analysis: Audio Features by Curator Type")
-        
-        st.markdown("""
-        This section examines whether different curator types favour distinct sonic profiles, addressing **RQ2** from the dissertation.
-        Audio features are analyzed using **ANOVA** (Analysis of Variance) to test for statistical significance.
-        """)
-        
-        # ANOVA Summary Table
-        st.markdown("#### Statistical Summary (ANOVA)")
-        anova_results = calculate_anova_summary(filtered)
-        if not anova_results.empty:
-            st.dataframe(anova_results, use_container_width=True, hide_index=True)
-            
-            st.markdown("""
-            **Significance levels:** *** p < 0.001, ** p < 0.01, * p < 0.05, ns = not significant
-            
-            According to dissertation findings:
-            - **Danceability** (F = 4.9, p = 0.013): Editorial playlists favor higher danceability tracks
-            - **Tempo** (F = 4.1, p = 0.019): Editorial playlists prefer mid-high tempo (110-130 BPM)
-            - **Energy & Valence**: No significant differences (reflects genre-wide characteristics)
-            """)
-        else:
-            st.info("Audio feature data not available for statistical analysis")
-        
-        st.markdown("---")
-        st.markdown("#### Distribution Plots")
-        
-        # Danceability
-        st.plotly_chart(
-            build_audio_feature_violin(filtered, "danceability", "Danceability"),
-            use_container_width=True
-        )
-        
-        # Energy
-        st.plotly_chart(
-            build_audio_feature_violin(filtered, "energy", "Energy"),
-            use_container_width=True
-        )
-        
-        # Valence
-        st.plotly_chart(
-            build_audio_feature_violin(filtered, "valence", "Valence (Positiveness)"),
-            use_container_width=True
-        )
-        
-        # Tempo
-        st.plotly_chart(
-            build_audio_feature_violin(filtered, "tempo", "Tempo (BPM)"),
-            use_container_width=True
-        )
-        
-        st.markdown("---")
-        st.markdown("""
-        **Interpretation:**
-        - **Danceability**: Measures how suitable a track is for dancing (0.0-1.0)
-        - **Energy**: Perceptual measure of intensity and activity (0.0-1.0)
-        - **Valence**: Musical positiveness/happiness conveyed (0.0-1.0)
-        - **Tempo**: Speed in beats per minute (BPM)
-        
-        Statistical differences suggest **sonic homogenization** in editorial playlists,
-        favoring commercially optimized, high-danceability tracks aligned with global pop sensibilities.
-        """)
-    
-    # TAB 5: LABEL DISTRIBUTION
-    with tab5:
         st.markdown("### Curator & Label Concentration Patterns")
         
         st.plotly_chart(build_curator_chart(filtered), use_container_width=True)
@@ -1244,90 +1069,6 @@ def main() -> None:
         
         st.dataframe(label_stats, use_container_width=True)
     
-    # TAB 6: METHODOLOGY
-    with tab6:
-        st.markdown('<div class="methodology-section">', unsafe_allow_html=True)
-        
-        st.markdown("### 📚 Research Methodology")
-        
-        st.markdown("""
-        #### Data Collection
-        Playlist data was systematically extracted via the Spotify Web API, targeting influential Afrobeats playlists 
-        across editorial, algorithmic, and user-generated categories. Each playlist snapshot captures:
-        - Track metadata (title, artist, popularity scores)
-        - Curator information and follower counts
-        - Temporal markers (release dates, addition dates)
-        - Audio features (when available)
-        """)
-        
-        st.markdown("""
-        #### Artist Metadata Enrichment
-        Artist origins were verified and coded into:
-        - **Regional classifications**: West Africa, East Africa, Southern Africa, Diaspora
-        - **Country-level granularity**: Specific nation states
-        - **Diaspora status**: Independent flag for comparative analysis
-        
-        Metadata is maintained in `data/data/artist_metadata.csv` and refreshed with each playlist update.
-        """)
-        
-        st.markdown("""
-        #### Analytical Framework
-        Representation metrics computed include:
-        - **Track counts**: Raw volume by region/country
-        - **Playlist penetration**: Unique playlist appearances
-        - **Follower-weighted exposure**: Reach accounting for playlist size
-        - **Position-based prominence**: Median/mean playlist positions
-        - **Regional diversity**: Shannon entropy and Gini coefficients
-        """)
-        
-        st.markdown("""
-        #### Interactive Visualization
-        This dashboard implements:
-        - **Client-side filtering**: Real-time responsive filters
-        - **Multi-dimensional analysis**: Regional, temporal, label perspectives
-        - **Statistical summaries**: Aggregated metrics with context
-        - **Data export**: CSV downloads for reproducibility
-        """)
-        
-        st.markdown("---")
-        st.markdown("### 📖 How to Use This Observatory")
-        
-        col_inst1, col_inst2 = st.columns(2)
-        
-        with col_inst1:
-            st.markdown("""
-            **Filtering Data:**
-            1. Use sidebar filters to narrow by curator, region, label, year
-            2. Apply diaspora-only filter for focused analysis
-            3. Search specific playlists by name
-            4. Observe metric changes in real-time
-            """)
-        
-        with col_inst2:
-            st.markdown("""
-            **Interpreting Results:**
-            1. Compare Nigeria share vs total diversity score
-            2. Check diaspora representation across curator types
-            3. Examine temporal patterns (recency bias)
-            4. Validate findings against country spotlight details
-            """)
-        
-        st.markdown("---")
-        st.markdown("### 📄 Citation")
-        
-        st.markdown('<div class="citation-box">', unsafe_allow_html=True)
-        st.code("""
-@misc{afrobeats_observatory_2025,
-  author = {MSc Candidate},
-  title = {Afrobeats Playlist Gatekeeping Observatory: An Interactive Analysis Platform},
-  year = {2025},
-  howpublished = {MSc Computing & Data Science Dissertation},
-  note = {Examining regional representation and gatekeeping patterns in Spotify's Afrobeats ecosystem}
-}
-        """, language="bibtex")
-        st.markdown('</div>', unsafe_allow_html=True)
-        
-        st.markdown('</div>', unsafe_allow_html=True)
 
 
 if __name__ == "__main__":

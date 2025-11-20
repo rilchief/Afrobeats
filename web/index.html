@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <a href="#abstract" class="skip-link">Skip to abstract</a>
   
   <!-- Navigation -->
   <nav class="main-nav" role="navigation" aria-label="Main navigation">
@@ -21,11 +20,8 @@
         <span class="nav-title">Afrobeats Observatory</span>
       </div>
       <ul class="nav-links">
-        <li><a href="#abstract">Abstract</a></li>
         <li><a href="#dashboard-main">Dashboard</a></li>
         <li><a href="http://localhost:8501" target="_blank" class="streamlit-link">📊 Streamlit Analytics</a></li>
-        <li><a href="#methodology">Methodology</a></li>
-        <li><a href="#findings">Findings</a></li>
         <li><a href="data.js" download>Data</a></li>
         <li><button id="theme-toggle" type="button" class="theme-toggle-btn" title="Toggle theme">🌙 Neo</button></li>
       </ul>
@@ -57,118 +53,11 @@
       <div class="hero-actions">
         <a class="btn btn-primary" href="#dashboard-main">Explore Dashboard</a>
         <a class="btn btn-streamlit" href="http://localhost:8501" target="_blank">📊 Open Streamlit Analytics</a>
-        <a class="btn btn-secondary" href="#abstract">Read Abstract</a>
         <a class="btn btn-outline" href="data.js" download>Download Dataset</a>
       </div>
     </div>
     <div class="hero-decoration"></div>
   </header>
-
-  <!-- Abstract Section -->
-  <section id="abstract" class="section abstract-section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Abstract</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="abstract-content">
-        <p class="abstract-text">
-          This research examines how Spotify's editorial and algorithmic curation mechanisms influence the global representation 
-          of Afrobeats music, with particular focus on regional diversity, diaspora visibility, and sonic homogenization patterns. 
-          Using the Spotify Web API, a comprehensive dataset of Afrobeats playlists (n = 14), tracks (n = 1,214), and artists (n = 758) 
-          was collected and analyzed. Curator types were classified into Independent Curators, Media Publishers, Festival Curators, and User-Generated categories.
-        </p>
-        <p class="abstract-text">
-          Statistical analysis included <strong>Chi-Square tests of independence</strong> revealing significant 
-          regional concentration, with playlists exhibiting approximately <strong>73% West African representation</strong>—predominantly 
-          Nigerian artists. <strong>ANOVA testing</strong> of audio features demonstrated statistically significant sonic patterns: 
-          danceability (mean = 0.696, SD = 0.076) and tempo (mean = 110.7 BPM, SD = 11.7) varied across curator types, 
-          suggesting playlists favor commercially optimized, high-danceability tracks aligned with global pop sensibilities.
-        </p>
-        <p class="abstract-text">
-          An interactive Streamlit dashboard was developed as the project's core artefact, enabling transparent exploration of 
-          playlist composition, regional representation, and audio feature distributions. This study contributes a replicable 
-          methodological framework and practical transparency tool for researchers, artists, and cultural institutions seeking to 
-          understand platform-based gatekeeping dynamics in African music ecosystems.
-        </p>
-        <div class="abstract-keywords">
-          <h3>Keywords</h3>
-          <ul class="keywords-list">
-            <li>Afrobeats</li>
-            <li>Algorithmic Gatekeeping</li>
-            <li>Regional Representation</li>
-            <li>Playlist Curation</li>
-            <li>Music Streaming Platforms</li>
-            <li>Data Visualization</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Research Questions Section -->
-  <section class="section research-questions-section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Research Questions</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="findings-grid">
-        <div class="finding-card">
-          <div class="finding-number">RQ1</div>
-          <h3>Regional Bias</h3>
-          <p>Do Spotify's Afrobeats playlists demonstrate regional bias in artist representation, particularly favoring Nigerian artists over other African regions and the diaspora?</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">RQ2</div>
-          <h3>Sonic Profiles</h3>
-          <p>Do different curator types (Editorial, Major Label, User-Generated) favor distinct sonic profiles in terms of danceability, energy, valence, and tempo?</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">RQ3</div>
-          <h3>Artefact Transparency</h3>
-          <p>How effectively can a data visualization artefact make these biases transparent and accessible to non-technical stakeholders?</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">RQ4</div>
-          <h3>Cultural Equity</h3>
-          <p>What are the implications of these findings for African artists, cultural equity, and the politics of digital music distribution?</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Research Context -->
-  <section class="section context-section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Research Context</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="context-grid">
-        <div class="context-card">
-          <div class="context-icon">🌍</div>
-          <h3>Geographic Scope</h3>
-          <p>Analysis spans West Africa, East Africa, Southern Africa, and the global diaspora to map representation patterns across Afrobeats' diverse origins.</p>
-        </div>
-        <div class="context-card">
-          <div class="context-icon">📊</div>
-          <h3>Data-Driven Approach</h3>
-          <p>Leverages Spotify API metadata including track popularity, follower counts, release dates, and curator classifications for empirical analysis.</p>
-        </div>
-        <div class="context-card">
-          <div class="context-icon">🎯</div>
-          <h3>Research Questions</h3>
-          <p>Investigates whether playlist curation perpetuates regional hierarchies, favors Nigerian dominance, and marginalizes diaspora artists.</p>
-        </div>
-        <div class="context-card">
-          <div class="context-icon">🔍</div>
-          <h3>Critical Lens</h3>
-          <p>Applies cultural gatekeeping theory to interrogate how platform algorithms may reinforce or challenge traditional music industry power structures.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Dataset Status Panel -->
   <section class="section status-section">
@@ -191,10 +80,6 @@
             <span class="status-label">Artists missing metadata</span>
             <strong id="dataset-missing-count">--</strong>
           </div>
-        </div>
-        <div class="status-note">
-          <span class="status-label">Audio features (optional)</span>
-          <span id="audio-feature-status" class="status-pill">Checking coverage…</span>
         </div>
       </div>
     </div>
@@ -599,92 +484,6 @@
     </div>
   </section>
 
-  <!-- Key Findings Section -->
-  <section id="findings" class="section findings-section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Key Findings</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="findings-grid">
-        <div class="finding-card">
-          <div class="finding-number">01</div>
-          <h3>Regional Concentration (χ² = 18.7, p = 0.021)</h3>
-          <p>Statistical analysis reveals <strong>significant regional bias</strong> in artist representation. Editorial playlists exhibit approximately <strong>73% West African concentration</strong>, predominantly Nigerian artists, compared to more balanced distribution in user-generated playlists. Chi-square test confirms this association is statistically significant at p < 0.05 level.</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">02</div>
-          <h3>Sonic Homogenization (F = 4.9, p = 0.013)</h3>
-          <p><strong>ANOVA testing of audio features</strong> demonstrates that editorial playlists favor specific sonic profiles: significantly higher danceability (F = 4.9, p = 0.013) and mid-high tempo ranges (F = 4.1, p = 0.019). This suggests editorial curation privileges commercially optimized, globally marketable sounds over diverse stylistic expression.</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">03</div>
-          <h3>Diaspora Marginalization</h3>
-          <p>Artists from the global diaspora (UK, US, EU-based) demonstrate systematically lower playlist penetration and visibility metrics. Despite cultural contributions to Afrobeats' global spread, diaspora artists receive disproportionately less exposure in high-follower editorial playlists.</p>
-        </div>
-        <div class="finding-card">
-          <div class="finding-number">04</div>
-          <h3>Curator Influence Patterns</h3>
-          <p>Spotify-owned editorial playlists exhibit distinct curatorial patterns compared to user-generated content: higher regional concentration, stronger sonic homogenization, and preference for commercially established artists. This evidences platform editorial influence shaping genre perception.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Methodology Section -->
-  <section id="methodology" class="section methodology-section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Methodology</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="methodology-content">
-        <div class="method-block">
-          <h3>Data Collection</h3>
-          <p>
-            Playlist data was systematically extracted via the Spotify Web API, targeting influential Afrobeats playlists 
-            across editorial, algorithmic, and user-generated categories. Each playlist snapshot captures track metadata, 
-            curator information, follower counts, and temporal markers.
-          </p>
-        </div>
-        <div class="method-block">
-          <h3>Artist Metadata Enrichment</h3>
-          <p>
-            Artist origins were manually verified and coded into regional classifications (West Africa, East Africa, 
-            Southern Africa, Diaspora) and country-level granularity. Diaspora status was independently flagged to 
-            enable comparative analysis of continental versus global artist visibility.
-          </p>
-        </div>
-        <div class="method-block">
-          <h3>Analytical Framework</h3>
-          <p>
-            Representation metrics were computed using track counts, playlist penetration, follower-weighted exposure, 
-            and position-based prominence scores. <strong>Statistical testing</strong> employed Chi-Square tests of independence 
-            to evaluate regional representation across curator types (χ² = 18.7, p = 0.021) and <strong>ANOVA/Welch's tests</strong> 
-            to assess sonic feature differences (danceability, energy, valence, tempo) across editorial, major label, and 
-            user-generated playlists. Audio features were extracted via Spotify's machine-learning audio analysis pipeline.
-          </p>
-        </div>
-        <div class="method-block">
-          <h3>Interactive Visualization</h3>
-          <p>
-            The dashboard implements client-side filtering and aggregation to enable exploratory data analysis. 
-            Chart.js renders comparative visualizations while maintaining responsive performance across devices. 
-            All computations occur locally to ensure data transparency and reproducibility.
-          </p>
-        </div>
-        <div class="method-usage">
-          <h3>Using the Observatory</h3>
-          <ul>
-            <li><strong>Filter the inputs:</strong> Narrow curators, year range, or diaspora focus to mirror specific research questions.</li>
-            <li><strong>Inspect imbalances:</strong> Use the region, release, and exposure charts to spot recency or curator-driven bias.</li>
-            <li><strong>Validate metadata:</strong> Keep the artist CSV aligned with new playlists so regional insights remain trustworthy.</li>
-            <li><strong>Refresh frequently:</strong> Run <code>python scripts/fetch_spotify_data.py</code> after updating playlist IDs or artist metadata.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <footer class="site-footer">

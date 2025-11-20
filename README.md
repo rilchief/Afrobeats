@@ -1,16 +1,16 @@
-# Afrobeats Playlist Gatekeeping Observatory
+# Afrobeats Playlist Observatory
 
-A reproducible toolkit for measuring regional representation, curator influence, and label bias across Spotify Afrobeats playlists. The repo bundles the ingestion scripts, cleaned dataset, statistical tests, and two dashboards (web + Streamlit).
+Lightweight toolkit for exploring regional representation, curator concentration, label dynamics and temporal patterns across selected Spotify Afrobeats playlists. Provides ingestion scripts, a processed JSON dataset, a static web dashboard, and a simplified Streamlit dashboard.
 
 ## Project layout
 
 ```
 web/                  Static dashboard (index + assets + data.js export)
-scripts/              Data ingestion, Spotify helpers, analytics, Streamlit dashboard
-data/raw/             Raw playlist payloads captured per slug
-data/processed/       Normalized dataset consumed by analysis and dashboards
-outputs/              Markdown/CSV/Parquet summaries (bias report, audio exports)
-notebooks/            Narrative research notebook(s)
+scripts/              Ingestion, verification, analytics, Streamlit dashboard
+data/raw/             Raw playlist payloads (per slug)
+data/processed/       Normalized master dataset (afrobeats_playlists.json)
+outputs/              Markdown summaries (bias report) and other derived artifacts
+notebooks/            Optional exploratory notebooks
 ```
 
 ## Data pipeline
@@ -30,24 +30,40 @@ Outputs:
 
 ## Dashboards
 
-- **Static web** (`web/index.html`): rich exploratory UI pointing at `web/data.js`. The repository root `index.html` simply redirects here.
-- **Streamlit** (`scripts/dashboard.py`): quick analytical playground; run with `streamlit run scripts/dashboard.py` if desired.
+- **Static web** (`web/index.html`): interactive client‑side dashboard powered by `web/data.js`.
+- **Streamlit** (`scripts/dashboard.py`): simplified analytical view (Overview, Regional, Temporal, Label tabs).
 
 ### Artist metadata refresh
 
-- Both dashboards now reload `data/data/artist_metadata.csv` every time they start. Edit the CSV and simply refresh the browser (or rerun `streamlit run …`) to see updated country/region/diaspora annotations—no need to regenerate `web/data.js` first.
-- For the static dashboard, serve the `web/` folder via a local web server (for example `python -m http.server 8000`) so the browser can fetch the CSV without file:// restrictions.
+Update `data/data/artist_metadata.csv` then:
+- Regenerate the processed dataset if playlist coverage changed.
+- Reload the Streamlit app or static page to reflect new origin/diaspora annotations.
 
-## Statistical analysis & tests
+## Analysis script
 
-`scripts/analyze_bias.py` ingests the processed dataset, runs chi-square, ANOVA, and Kruskal–Wallis diagnostics, and writes `outputs/analysis_summary.md`. Re-run after every ingestion refresh to keep the bias summary in sync.
+`scripts/analyze_bias.py` computes selected bias indicators (e.g., regional concentration, label shares, popularity differences) and writes `outputs/analysis_summary.md`. Re-run after each ingestion refresh.
 
-## Audio-feature limitation
-
-`scripts/fetch_audio_features.py` remains optional. Spotify currently rejects `audio-features` requests (HTTP 403) for this app, so the live dataset excludes danceability/energy fields. Document the limitation in methodology write-ups; all primary analyses rely on curator mix, artist metadata, labels, popularity, and release year, which remain unaffected.
+Audio feature generation & fetching scripts have been removed to preserve data integrity (simulated values discarded). The dataset intentionally excludes Spotify audio feature fields.
 
 ## Housekeeping
 
-- Web assets now live exclusively inside `web/` (HTML, JS, CSS, data export).
-- Legacy placeholders (`data/playlist.js`, `scripts/discover_afrobeats_playlists.py`, `scripts/verify_playlists.py`) were removed to avoid confusion.
-- Use the new `README`, plus `notebooks/` narratives, to anchor academic submissions.
+- Web assets live under `web/` only.
+- Obsolete audio feature scripts removed (`generate_audio_features.py`, `fetch_audio_features.py`, `test_audio_features.py`, `export_audio_features_csv.py`).
+- Streamlit dashboard simplified (no abstract, methodology, or audio feature tabs).
+- Static HTML cleaned of research narrative; focused on operational metrics.
+
+---
+
+For a quick start after cloning:
+```powershell
+pip install -r requirements-dashboards.txt
+python scripts\fetch_spotify_data.py
+streamlit run scripts\dashboard.py
+```
+
+Serve the static dashboard (optional):
+```powershell
+python -m http.server 8000 -d web
+```
+
+Then browse to http://localhost:8000/index.html.

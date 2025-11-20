@@ -95,7 +95,8 @@ def main():
         followers = playlist.get("followerCount")
         
         for track in playlist.get("tracks", []):
-            features = track.get("features", {}) or {}
+            # Features removed from dataset; set empty dict
+            features = {}
             artist_string = track.get("artist", '')
             
             # Get combined metadata for all artists
@@ -135,18 +136,19 @@ def main():
                 ) else "Independent",
                 
                 # Audio features
-                "danceability": features.get("danceability"),
-                "energy": features.get("energy"),
-                "valence": features.get("valence"),
-                "tempo": features.get("tempo"),
-                "acousticness": features.get("acousticness"),
-                "instrumentalness": features.get("instrumentalness"),
-                "liveness": features.get("liveness"),
-                "speechiness": features.get("speechiness"),
-                "loudness": features.get("loudness"),
-                "key": features.get("key"),
-                "mode": features.get("mode"),
-                "time_signature": features.get("time_signature"),
+                # Audio features no longer available (simulation removed)
+                "danceability": None,
+                "energy": None,
+                "valence": None,
+                "tempo": None,
+                "acousticness": None,
+                "instrumentalness": None,
+                "liveness": None,
+                "speechiness": None,
+                "loudness": None,
+                "key": None,
+                "mode": None,
+                "time_signature": None,
             }
             tracks.append(track_row)
     
@@ -194,7 +196,7 @@ def main():
         followers = playlist.get("followerCount")
         
         for track in playlist.get("tracks", []):
-            features = track.get("features", {}) or {}
+            features = {}
             
             track_row = {
                 # Playlist info
@@ -227,18 +229,18 @@ def main():
                 ) else "Independent",
                 
                 # Audio features
-                "danceability": features.get("danceability"),
-                "energy": features.get("energy"),
-                "valence": features.get("valence"),
-                "tempo": features.get("tempo"),
-                "acousticness": features.get("acousticness"),
-                "instrumentalness": features.get("instrumentalness"),
-                "liveness": features.get("liveness"),
-                "speechiness": features.get("speechiness"),
-                "loudness": features.get("loudness"),
-                "key": features.get("key"),
-                "mode": features.get("mode"),
-                "time_signature": features.get("time_signature"),
+                "danceability": None,
+                "energy": None,
+                "valence": None,
+                "tempo": None,
+                "acousticness": None,
+                "instrumentalness": None,
+                "liveness": None,
+                "speechiness": None,
+                "loudness": None,
+                "key": None,
+                "mode": None,
+                "time_signature": None,
             }
             tracks.append(track_row)
     

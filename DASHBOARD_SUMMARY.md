@@ -100,165 +100,51 @@ Interactive menu to choose dashboard or launch both
 - **Body**: Inter sans-serif
 - **Metrics**: Bold, large, amber-colored
 
-### Components
-- **Metric Cards**: Rounded corners, shadows, centered layout
-- **Tabs**: Pill-shaped, active state with gradient
-- **Tables**: Dark theme, amber headers, hover effects
-- **Charts**: Plotly dark template, custom colors
+# Dashboard Simplification Summary
 
----
+## Current State
+- Streamlit dashboard reduced to four tabs: Overview, Regional Analysis, Temporal Trends, Label Distribution.
+- Audio feature simulation and analysis removed (no SciPy dependency, no ANOVA/violin plots).
+- Methodology / citation / abstract content dropped from both web and Streamlit interfaces.
+- Plotly Dash dashboard retained (still suitable for portfolio deployment) but can be simplified similarly if desired.
 
-## 📊 Feature Comparison
+## Removed Assets
+- `scripts/generate_audio_features.py`
+- `scripts/fetch_audio_features.py`
+- `scripts/test_audio_features.py`
+- `scripts/export_audio_features_csv.py`
 
-| Feature | Streamlit | Dash |
-|---------|-----------|------|
-| **Tabs** | ✅ 5 sections | ✅ 5 sections |
-| **Custom Theme** | ✅ config.toml + CSS | ✅ Inline CSS |
-| **Filters** | ✅ Sidebar widgets | ✅ Sidebar dropdowns |
-| **Charts** | ✅ Plotly | ✅ Plotly |
-| **Tables** | ✅ st.dataframe | ✅ dash_table.DataTable |
-| **Metrics** | ✅ st.metric | ✅ Custom HTML cards |
-| **Methodology** | ✅ Dedicated tab | ✅ Dedicated tab |
-| **Citation** | ✅ BibTeX code block | ✅ BibTeX <pre> |
-| **Export** | ✅ CSV download | ✅ (Can add) |
-| **Hot Reload** | ✅ Auto | ⚠️ Manual refresh |
-| **Deployment** | Streamlit Cloud | Heroku/Render/AWS |
+## Retained & Active
+- Ingestion & processing: `scripts/fetch_spotify_data.py`
+- Bias summary: `scripts/analyze_bias.py` → outputs `outputs/analysis_summary.md`
+- Artist metadata enrichment via `data/data/artist_metadata.csv`
+- Static dashboard `web/index.html` (cleaned of research narrative)
+- Streamlit dashboard `scripts/dashboard.py` (error fixed by removing SciPy import)
 
----
+## Key Metrics Still Supported
+- Playlist / track counts
+- Nigeria & diaspora shares
+- Regional diversity (unique regions per playlist)
+- Popularity distributions
+- Exposure concentration (repeat playlisting)
+- Label (Major vs Independent) concentration
 
-## 🎓 Academic Features (Both Dashboards)
+## Quick Start
+```powershell
+pip install -r requirements-dashboards.txt
+python scripts\fetch_spotify_data.py
+streamlit run scripts\dashboard.py
+```
 
-### Research Context
-- MSc dissertation badge prominently displayed
-- Project subtitle explaining analytical focus
-- Methodology tab with detailed framework
+## Optional Next Steps
+- Simplify Plotly Dash app (remove academic styling) if consistency desired
+- Add automated test for ingestion script
+- Introduce comparative view (two playlist sets side-by-side)
+- Add lightweight export (filtered summary to Markdown)
 
-### Data Transparency
-- Dataset metadata explorer (run info, timestamps)
-- Missing artist warnings
-- Filter state visibility
-- Export capability for reproducibility
+## Integrity Note
+Simulated audio features were purged to avoid misrepresentation. Dataset now strictly reflects verifiable Spotify metadata captured via API plus curated artist origin enrichment.
 
-### Citation
-- BibTeX format provided
-- Proper attribution structure
-- Year and institution metadata
-
-### Analytical Rigor
-- Multiple perspectives (regional, temporal, label)
-- Key metrics aligned with research questions
+## Status
+Cleanup complete; repository now focused on transparent, non-simulated metrics.
 - Statistical summaries (means, shares, diversity scores)
-- Country-level deep dives
-
----
-
-## 💡 Usage Recommendations
-
-### For MSc Dissertation Defense
-**Use**: **Streamlit Enhanced**
-- Familiar interface, easy to navigate live
-- Quick filter changes during Q&A
-- Tab structure keeps presentation organized
-- CSV export for on-the-spot data requests
-
-### For Portfolio/Job Applications
-**Use**: **Plotly Dash**
-- More impressive technically (shows production skills)
-- Can deploy publicly (Render, Heroku)
-- Demonstrates React-like callback architecture
-- Industry-recognized framework
-
-### For Ongoing Analysis
-**Use**: **Streamlit Enhanced**
-- Faster iteration for exploratory work
-- Hot reload saves time
-- More intuitive for data science workflows
-- Better for generating insights
-
-### For Web Presence
-**Use**: **Static HTML (`web/index.html`)**
-- Already polished and deployed to localhost:8080
-- No server costs (GitHub Pages compatible)
-- Faster load times
-- Works offline
-
----
-
-## 🎯 Next Steps (Optional Enhancements)
-
-### High Priority
-1. **Test with Live Data**: Run `python scripts/fetch_spotify_data.py` to refresh playlists
-2. **Verify All Charts**: Ensure all visualizations render correctly with filters
-3. **Deploy Dash**: Push to Render/Heroku for public access
-
-### Medium Priority
-4. **Add PDF Export**: Integrate ReportLab for Streamlit report generation
-5. **URL State Sharing**: Implement filter persistence via query parameters
-6. **Authentication**: Add login for deployed Dash app
-
-### Low Priority
-7. **Statistical Tests**: Chi-square for regional bias significance
-8. **Animated Charts**: Temporal evolution with Plotly animations
-9. **Comparative Mode**: Side-by-side playlist comparison
-
----
-
-## 📈 Performance Notes
-
-### Streamlit
-- **Initial Load**: ~2-3 seconds (dataset loading)
-- **Filter Update**: <1 second (client-side caching)
-- **Chart Render**: <1 second per chart
-- **Recommended Max Dataset**: ~50k tracks
-
-### Plotly Dash
-- **Initial Load**: ~1-2 seconds (faster callback setup)
-- **Filter Update**: Instant (reactive callbacks)
-- **Chart Render**: <500ms per chart
-- **Recommended Max Dataset**: ~100k tracks
-
-Both dashboards handle your current dataset (~13 playlists, ~2000 tracks) effortlessly.
-
----
-
-## ✅ Quality Checklist
-
-- [x] Custom theme matches web design
-- [x] All filters functional (curator, region, label, year, diaspora)
-- [x] Tabs organize content logically
-- [x] Metrics update reactively
-- [x] Charts render correctly
-- [x] Tables display properly
-- [x] Methodology section complete
-- [x] Citation provided
-- [x] MSc branding applied
-- [x] Mobile-responsive (Dash Bootstrap grid)
-- [x] Dark theme consistent
-- [x] Export functionality works (Streamlit)
-- [x] Code documented
-- [x] README instructions clear
-- [x] Dependencies listed
-
----
-
-## 🎉 Summary
-
-You now have **two production-ready dashboards**:
-
-1. **Enhanced Streamlit** - Perfect for academic demos, analysis, and defense
-2. **Plotly Dash** - Perfect for portfolio, deployment, and job applications
-
-Both feature:
-- ✅ Professional MSc-level design
-- ✅ Comprehensive analytical features
-- ✅ Academic branding and methodology
-- ✅ Custom themes matching your web design
-- ✅ Tabbed organization for clarity
-- ✅ Interactive filtering and exploration
-
-**Recommended workflow**:
-- Use **Streamlit** daily for analysis and presentation
-- Deploy **Dash** to cloud for portfolio showcase
-- Keep **static HTML** on GitHub Pages for web presence
-
-All three approaches demonstrate different technical skills and serve different audiences perfectly! 🚀
