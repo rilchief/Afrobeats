@@ -2,7 +2,7 @@ window.AFROBEATS_DATA = {
   "playlists": [
     {
       "id": "afrobeats-hits",
-      "name": "Afrobeats Hits 🔥",
+      "name": "Afrobeats Hits \ud83d\udd25",
       "curatorType": "Independent Curator",
       "curator": "EMA Records",
       "followerCount": 357499,
@@ -29,21 +29,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-03",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.756,
-            "energy": 0.798,
-            "valence": 0.877,
-            "tempo": 109.9,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0711,
-            "liveness": 0.137,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5aIVCx5tnk0ntmdiinnYvw",
@@ -63,21 +49,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-28",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.764,
-            "valence": 0.624,
-            "tempo": 113.3,
-            "acousticness": 0.228,
-            "instrumentalness": 0.0285,
-            "liveness": 0.303,
-            "speechiness": 0.3,
-            "loudness": -7.86,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3baPniPXS0iEII8rDUJdYP",
@@ -93,7 +65,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afro r&b"
           ],
@@ -102,21 +74,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-05-19",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.777,
-            "energy": 0.626,
-            "valence": 0.867,
-            "tempo": 111.1,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1001,
-            "liveness": 0.134,
-            "speechiness": 0.3,
-            "loudness": -7.78,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1xs8bOvm3IzEYmcLJVOc34",
@@ -141,21 +99,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-10-21",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.645,
-            "energy": 0.786,
-            "valence": 0.508,
-            "tempo": 125.8,
-            "acousticness": 0.373,
-            "instrumentalness": 0.1391,
-            "liveness": 0.201,
-            "speechiness": 0.3,
-            "loudness": -4.41,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0JHiAVySqpLE1RpBMkZnau",
@@ -177,21 +121,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-15",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.769,
-            "energy": 0.818,
-            "valence": 0.591,
-            "tempo": 113.4,
-            "acousticness": 0.289,
-            "instrumentalness": 0.0008,
-            "liveness": 0.336,
-            "speechiness": 0.3,
-            "loudness": -6.11,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0HaRLPnr887lcQM2YQzkff",
@@ -216,21 +146,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.625,
-            "energy": 0.693,
-            "valence": 0.506,
-            "tempo": 111.2,
-            "acousticness": 0.231,
-            "instrumentalness": 0.0025,
-            "liveness": 0.118,
-            "speechiness": 0.154,
-            "loudness": -5.72,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4vb777iaycnlFxVkJMmtfd",
@@ -256,21 +172,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.765,
-            "energy": 0.683,
-            "valence": 0.768,
-            "tempo": 128.8,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0361,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.08,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "03EtmULCazJ82wVWM0greK",
@@ -292,21 +194,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-01",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.581,
-            "energy": 0.716,
-            "valence": 0.518,
-            "tempo": 110.4,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0307,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.35,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2rDtfPMI5mDJVTwYYG00QI",
@@ -325,7 +213,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -333,21 +221,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.809,
-            "valence": 0.664,
-            "tempo": 90.0,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0183,
-            "liveness": 0.218,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1wADwLSkYhrSmy4vdy6BRn",
@@ -372,21 +246,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.772,
-            "energy": 0.808,
-            "valence": 0.738,
-            "tempo": 116.2,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0418,
-            "liveness": 0.14,
-            "speechiness": 0.3,
-            "loudness": -4.71,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6XM53PbvlzhuNtJZtpl7RP",
@@ -408,21 +268,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-12-13",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.713,
-            "energy": 0.714,
-            "valence": 0.63,
-            "tempo": 104.3,
-            "acousticness": 0.187,
-            "instrumentalness": 0.0628,
-            "liveness": 0.173,
-            "speechiness": 0.208,
-            "loudness": -3.51,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "06QUZaXSOtwRNH1ZB20JgX",
@@ -444,21 +290,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-16",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.745,
-            "valence": 0.803,
-            "tempo": 127.6,
-            "acousticness": 0.255,
-            "instrumentalness": 0.0089,
-            "liveness": 0.07,
-            "speechiness": 0.3,
-            "loudness": -5.98,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2WigMwGJysIh9fRnSJvpjn",
@@ -475,7 +307,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afroswing",
             "afropiano"
@@ -485,21 +317,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-10",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.595,
-            "energy": 0.648,
-            "valence": 0.584,
-            "tempo": 100.6,
-            "acousticness": 0.092,
-            "instrumentalness": 0.039,
-            "liveness": 0.147,
-            "speechiness": 0.218,
-            "loudness": -3.0,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1B5I5yqLpVI5EosZS6bJFs",
@@ -519,21 +337,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-23",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.824,
-            "energy": 0.649,
-            "valence": 0.654,
-            "tempo": 116.5,
-            "acousticness": 0.223,
-            "instrumentalness": 0.15,
-            "liveness": 0.332,
-            "speechiness": 0.3,
-            "loudness": -5.98,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2Xr1dTzJee307rmrkt8c0g",
@@ -556,21 +360,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-08-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.737,
-            "valence": 0.641,
-            "tempo": 122.1,
-            "acousticness": 0.155,
-            "instrumentalness": 0.1102,
-            "liveness": 0.35,
-            "speechiness": 0.131,
-            "loudness": -5.69,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4pnYLkRARBdbJsN5Fd3lkE",
@@ -592,21 +382,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-19",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.788,
-            "valence": 0.791,
-            "tempo": 125.1,
-            "acousticness": 0.056,
-            "instrumentalness": 0.0917,
-            "liveness": 0.167,
-            "speechiness": 0.3,
-            "loudness": -6.29,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4s6x56uNiNCAA87yzqTz5G",
@@ -632,21 +408,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-19",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.751,
-            "energy": 0.7,
-            "valence": 0.658,
-            "tempo": 118.8,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0185,
-            "liveness": 0.05,
-            "speechiness": 0.274,
-            "loudness": -6.67,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "29PXxvSTsUGIhd8782WUhx",
@@ -669,21 +431,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-17",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.703,
-            "valence": 0.653,
-            "tempo": 124.7,
-            "acousticness": 0.294,
-            "instrumentalness": 0.0107,
-            "liveness": 0.197,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -706,21 +454,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5fQuG6aDMyfQ18iMMmJpLY",
@@ -742,21 +476,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.811,
-            "energy": 0.637,
-            "valence": 0.603,
-            "tempo": 103.5,
-            "acousticness": 0.226,
-            "instrumentalness": 0.1244,
-            "liveness": 0.322,
-            "speechiness": 0.3,
-            "loudness": -6.54,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0kYtvdOI34zFYL1wQZwTQx",
@@ -778,21 +498,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.698,
-            "energy": 0.604,
-            "valence": 0.66,
-            "tempo": 114.5,
-            "acousticness": 0.247,
-            "instrumentalness": 0.0051,
-            "liveness": 0.152,
-            "speechiness": 0.3,
-            "loudness": -8.0,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1s7oOCT8vauUh01PbJD6ps",
@@ -815,21 +521,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-04-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.734,
-            "energy": 0.777,
-            "valence": 0.692,
-            "tempo": 96.5,
-            "acousticness": 0.306,
-            "instrumentalness": 0.129,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -5.16,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0mokoJb8vLi5OOBKWJp8ex",
@@ -851,21 +543,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.826,
-            "energy": 0.738,
-            "valence": 0.597,
-            "tempo": 114.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0091,
-            "liveness": 0.05,
-            "speechiness": 0.069,
-            "loudness": -4.15,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0ve0CavjqrUqVmZ605RhTV",
@@ -885,21 +563,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-20",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.81,
-            "valence": 0.647,
-            "tempo": 116.7,
-            "acousticness": 0.119,
-            "instrumentalness": 0.0395,
-            "liveness": 0.182,
-            "speechiness": 0.228,
-            "loudness": -5.59,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7FCPsJ66Nrn0PxyUcathkU",
@@ -921,21 +585,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.582,
-            "energy": 0.726,
-            "valence": 0.855,
-            "tempo": 121.4,
-            "acousticness": 0.114,
-            "instrumentalness": 0.0005,
-            "liveness": 0.266,
-            "speechiness": 0.173,
-            "loudness": -3.63,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6oF3DjmH2FjC3EFvqJlpHU",
@@ -957,21 +607,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.774,
-            "valence": 0.773,
-            "tempo": 107.7,
-            "acousticness": 0.247,
-            "instrumentalness": 0.1109,
-            "liveness": 0.183,
-            "speechiness": 0.238,
-            "loudness": -6.64,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "44G2gUVQvNNZ6w3i05tR4n",
@@ -991,21 +627,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-10",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.777,
-            "valence": 0.849,
-            "tempo": 109.5,
-            "acousticness": 0.074,
-            "instrumentalness": 0.0224,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.45,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4RoKNqyZ9622tcAeNPNv5k",
@@ -1030,21 +652,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-24",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.747,
-            "valence": 0.609,
-            "tempo": 109.4,
-            "acousticness": 0.013,
-            "instrumentalness": 0.0202,
-            "liveness": 0.312,
-            "speechiness": 0.238,
-            "loudness": -5.94,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1O5VvYPJi40wpzle3kU027",
@@ -1066,21 +674,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.643,
-            "energy": 0.809,
-            "valence": 0.9,
-            "tempo": 109.6,
-            "acousticness": 0.289,
-            "instrumentalness": 0.0245,
-            "liveness": 0.249,
-            "speechiness": 0.187,
-            "loudness": -5.29,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "20pQ2kEbJnMO8nQx0oFfyg",
@@ -1102,21 +696,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-17",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.736,
-            "energy": 0.838,
-            "valence": 0.78,
-            "tempo": 128.2,
-            "acousticness": 0.198,
-            "instrumentalness": 0.0198,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -4.96,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5YbPxJwPfrj7uswNwoF1pJ",
@@ -1141,21 +721,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.605,
-            "valence": 0.75,
-            "tempo": 90.0,
-            "acousticness": 0.288,
-            "instrumentalness": 0.0379,
-            "liveness": 0.182,
-            "speechiness": 0.3,
-            "loudness": -4.81,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -1182,21 +748,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4aD5a55jZxiNmUjxSztekD",
@@ -1219,21 +771,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-02",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.728,
-            "energy": 0.659,
-            "valence": 0.374,
-            "tempo": 106.3,
-            "acousticness": 0.099,
-            "instrumentalness": 0.0016,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.69,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1whAXVGN8AdfrnoXNIXfJf",
@@ -1253,21 +791,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-01",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.656,
-            "valence": 0.711,
-            "tempo": 116.6,
-            "acousticness": 0.067,
-            "instrumentalness": 0.0085,
-            "liveness": 0.106,
-            "speechiness": 0.3,
-            "loudness": -3.1,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7wepqmAk99KNtpfxrX3CBT",
@@ -1289,21 +813,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.659,
-            "energy": 0.748,
-            "valence": 0.785,
-            "tempo": 100.6,
-            "acousticness": 0.26,
-            "instrumentalness": 0.0006,
-            "liveness": 0.292,
-            "speechiness": 0.212,
-            "loudness": -3.8,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "26b3oVLrRUaaybJulow9kz",
@@ -1324,21 +834,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-12-06",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.7,
-            "valence": 0.639,
-            "tempo": 129.1,
-            "acousticness": 0.069,
-            "instrumentalness": 0.0187,
-            "liveness": 0.327,
-            "speechiness": 0.3,
-            "loudness": -4.84,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6VX4hVDmDMfClxp6EwDNQP",
@@ -1363,21 +859,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.64,
-            "valence": 0.573,
-            "tempo": 135.0,
-            "acousticness": 0.025,
-            "instrumentalness": 0.0058,
-            "liveness": 0.08,
-            "speechiness": 0.075,
-            "loudness": -5.63,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0b3NkRxZt5FYAinS8rk1Xi",
@@ -1400,21 +882,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-29",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.739,
-            "energy": 0.733,
-            "valence": 0.612,
-            "tempo": 98.4,
-            "acousticness": 0.08,
-            "instrumentalness": 0.036,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -5.5,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6bW7YnPQQffit1iwule5Vv",
@@ -1437,21 +905,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-23",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.656,
-            "valence": 0.533,
-            "tempo": 116.5,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0114,
-            "liveness": 0.132,
-            "speechiness": 0.3,
-            "loudness": -5.03,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1hPrUdO775t6JkI56Cr8Us",
@@ -1473,21 +927,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-19",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.8,
-            "energy": 0.88,
-            "valence": 0.546,
-            "tempo": 131.1,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0191,
-            "liveness": 0.228,
-            "speechiness": 0.3,
-            "loudness": -5.76,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2ofdjuvecHVegpsO9CAHTS",
@@ -1507,21 +947,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.637,
-            "valence": 0.869,
-            "tempo": 92.2,
-            "acousticness": 0.04,
-            "instrumentalness": 0.1034,
-            "liveness": 0.334,
-            "speechiness": 0.3,
-            "loudness": -5.16,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4TVmM3vQLGEavTY1DJapYT",
@@ -1543,21 +969,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.624,
-            "energy": 0.668,
-            "valence": 0.62,
-            "tempo": 126.8,
-            "acousticness": 0.24,
-            "instrumentalness": 0.0306,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.71,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6nvkYK7MV1uhjmzcM16Ech",
@@ -1579,21 +991,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-08-13",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.769,
-            "energy": 0.75,
-            "valence": 0.762,
-            "tempo": 116.2,
-            "acousticness": 0.135,
-            "instrumentalness": 0.015,
-            "liveness": 0.05,
-            "speechiness": 0.253,
-            "loudness": -7.02,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7bVlKy0pkl4jLbdGm2gxdu",
@@ -1616,26 +1014,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-18",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.819,
-            "energy": 0.739,
-            "valence": 0.654,
-            "tempo": 112.7,
-            "acousticness": 0.337,
-            "instrumentalness": 0.1294,
-            "liveness": 0.081,
-            "speechiness": 0.235,
-            "loudness": -8.37,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7qZOtiN7oiDpKqEVW7szZc",
           "title": "Some More",
-          "artist": "TÖME",
+          "artist": "T\u00d6ME",
           "artistCountry": "Canada",
           "regionGroup": "North America",
           "diaspora": false,
@@ -1643,7 +1027,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 44,
           "artistPopularity": 27,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afro soul",
             "afropop"
@@ -1653,21 +1037,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.564,
-            "valence": 0.706,
-            "tempo": 111.0,
-            "acousticness": 0.377,
-            "instrumentalness": 0.0234,
-            "liveness": 0.127,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3SAacqnIY8kK9McSIRC9Rv",
@@ -1690,21 +1060,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.701,
-            "valence": 0.858,
-            "tempo": 108.9,
-            "acousticness": 0.335,
-            "instrumentalness": 0.029,
-            "liveness": 0.165,
-            "speechiness": 0.205,
-            "loudness": -8.57,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3TQm23FXN5UCm1SBOP0zWA",
@@ -1726,21 +1082,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.578,
-            "energy": 0.616,
-            "valence": 0.597,
-            "tempo": 98.2,
-            "acousticness": 0.186,
-            "instrumentalness": 0.0034,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.94,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4GXW3Ne1jzdORKHvHjK31V",
@@ -1765,21 +1107,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.785,
-            "valence": 0.625,
-            "tempo": 92.2,
-            "acousticness": 0.042,
-            "instrumentalness": 0.0115,
-            "liveness": 0.345,
-            "speechiness": 0.182,
-            "loudness": -6.33,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6yhzPtNCMPl1tMdvUi3frw",
@@ -1801,21 +1129,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-23",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.731,
-            "valence": 0.744,
-            "tempo": 107.3,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0405,
-            "liveness": 0.242,
-            "speechiness": 0.178,
-            "loudness": -5.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2com2d42sFO1QdV6k7XAAu",
@@ -1836,21 +1150,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.715,
-            "energy": 0.631,
-            "valence": 0.705,
-            "tempo": 113.4,
-            "acousticness": 0.26,
-            "instrumentalness": 0.049,
-            "liveness": 0.115,
-            "speechiness": 0.271,
-            "loudness": -4.28,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2GZNKi3rgaT1ZKpkKDkA0Y",
@@ -1876,21 +1176,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.547,
-            "valence": 0.727,
-            "tempo": 118.2,
-            "acousticness": 0.034,
-            "instrumentalness": 0.0419,
-            "liveness": 0.143,
-            "speechiness": 0.3,
-            "loudness": -5.23,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2YNLzBRGyCAzHEGPO3J2Sb",
@@ -1915,21 +1201,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.772,
-            "valence": 0.876,
-            "tempo": 109.9,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0344,
-            "liveness": 0.078,
-            "speechiness": 0.192,
-            "loudness": -6.39,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0oljDKpgyXOneK8YjJnHdZ",
@@ -1951,21 +1223,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-28",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.771,
-            "valence": 0.631,
-            "tempo": 101.7,
-            "acousticness": 0.314,
-            "instrumentalness": 0.0729,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.88,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2kaH2Z8ezDUKf6fNw250rZ",
@@ -1993,21 +1251,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.66,
-            "energy": 0.805,
-            "valence": 0.735,
-            "tempo": 113.4,
-            "acousticness": 0.209,
-            "instrumentalness": 0.0237,
-            "liveness": 0.215,
-            "speechiness": 0.248,
-            "loudness": -9.5,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7eOLTVEwZIbtXudBAyYc66",
@@ -2023,7 +1267,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afro adura",
             "afro soul"
@@ -2033,21 +1277,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.804,
-            "valence": 0.719,
-            "tempo": 133.0,
-            "acousticness": 0.088,
-            "instrumentalness": 0.15,
-            "liveness": 0.323,
-            "speechiness": 0.147,
-            "loudness": -5.77,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2MFG4eF4ero2QvkMSr1PyH",
@@ -2069,21 +1299,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-29",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.624,
-            "energy": 0.785,
-            "valence": 0.631,
-            "tempo": 112.1,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0152,
-            "liveness": 0.26,
-            "speechiness": 0.225,
-            "loudness": -6.09,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5mhM7bfzv52bzfCzlq8vH1",
@@ -2107,21 +1323,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-21",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.572,
-            "valence": 0.655,
-            "tempo": 129.4,
-            "acousticness": 0.048,
-            "instrumentalness": 0.0391,
-            "liveness": 0.174,
-            "speechiness": 0.3,
-            "loudness": -3.73,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -2149,21 +1351,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5sjjtqitEMcArBkjGSKf5r",
@@ -2185,21 +1373,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.755,
-            "valence": 0.616,
-            "tempo": 100.6,
-            "acousticness": 0.163,
-            "instrumentalness": 0.15,
-            "liveness": 0.35,
-            "speechiness": 0.122,
-            "loudness": -6.29,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5FG7Tl93LdH117jEKYl3Cm",
@@ -2225,21 +1399,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-10-29",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.672,
-            "valence": 0.784,
-            "tempo": 113.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0514,
-            "liveness": 0.084,
-            "speechiness": 0.3,
-            "loudness": -4.9,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0QCIpQV3twfqo9kh0t8Zza",
@@ -2252,28 +1412,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 84,
           "artistPopularity": 73,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "2hVWBpjLW4Q7fboYz2pVYK",
           "playlistPosition": 61,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.792,
-            "valence": 0.829,
-            "tempo": 122.1,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0424,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -7.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6QCHpnMTgQqDtCAkgE3txC",
@@ -2296,21 +1442,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-08",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.914,
-            "valence": 0.749,
-            "tempo": 112.6,
-            "acousticness": 0.065,
-            "instrumentalness": 0.096,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1xPu1puL75DBJpPoPBEd3y",
@@ -2333,21 +1465,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.589,
-            "energy": 0.739,
-            "valence": 0.468,
-            "tempo": 110.8,
-            "acousticness": 0.065,
-            "instrumentalness": 0.0221,
-            "liveness": 0.11,
-            "speechiness": 0.192,
-            "loudness": -6.0,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6JvWMLscnWYkgX1zPufIGT",
@@ -2373,21 +1491,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.635,
-            "energy": 0.604,
-            "valence": 0.668,
-            "tempo": 134.5,
-            "acousticness": 0.183,
-            "instrumentalness": 0.0039,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -4.2,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3rmqNsOiGqqvFNTmGlzl4R",
@@ -2410,21 +1514,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-24",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.718,
-            "valence": 0.618,
-            "tempo": 100.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0016,
-            "liveness": 0.238,
-            "speechiness": 0.166,
-            "loudness": -4.94,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5Ig0OEh723kKB4pbN0xGGg",
@@ -2445,21 +1535,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-16",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.633,
-            "valence": 0.592,
-            "tempo": 90.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0462,
-            "liveness": 0.325,
-            "speechiness": 0.277,
-            "loudness": -5.53,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2psl5iNJCrmmm2XtS7LZqb",
@@ -2482,21 +1558,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-03-24",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.787,
-            "valence": 0.863,
-            "tempo": 122.5,
-            "acousticness": 0.355,
-            "instrumentalness": 0.0334,
-            "liveness": 0.205,
-            "speechiness": 0.181,
-            "loudness": -6.02,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3nT2nrfb3FMLg03W4mPaBl",
@@ -2521,21 +1583,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.725,
-            "energy": 0.635,
-            "valence": 0.441,
-            "tempo": 114.2,
-            "acousticness": 0.131,
-            "instrumentalness": 0.037,
-            "liveness": 0.245,
-            "speechiness": 0.3,
-            "loudness": -4.43,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1Cbl3Yq8rHo7hhDQmLQagU",
@@ -2555,21 +1603,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-11",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.666,
-            "valence": 0.531,
-            "tempo": 134.0,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0369,
-            "liveness": 0.246,
-            "speechiness": 0.09,
-            "loudness": -6.43,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2AKS1HhpLu2rgkojECUm3V",
@@ -2595,21 +1629,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.645,
-            "energy": 0.729,
-            "valence": 0.808,
-            "tempo": 109.5,
-            "acousticness": 0.219,
-            "instrumentalness": 0.0121,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -4.13,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1mk8ZC9OeTZMr8Wy31LqRj",
@@ -2637,21 +1657,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.696,
-            "energy": 0.655,
-            "valence": 0.365,
-            "tempo": 92.5,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0237,
-            "liveness": 0.134,
-            "speechiness": 0.3,
-            "loudness": -4.01,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5hVjoL3sHepZROri63wBxP",
@@ -2676,21 +1682,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.579,
-            "energy": 0.754,
-            "valence": 0.701,
-            "tempo": 125.1,
-            "acousticness": 0.166,
-            "instrumentalness": 0.0132,
-            "liveness": 0.117,
-            "speechiness": 0.3,
-            "loudness": -6.47,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1iBWjQ9af9NnUd5xnQDB3k",
@@ -2713,21 +1705,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-04-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.694,
-            "valence": 0.681,
-            "tempo": 90.0,
-            "acousticness": 0.261,
-            "instrumentalness": 0.014,
-            "liveness": 0.221,
-            "speechiness": 0.263,
-            "loudness": -3.0,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6z5y2kdxF4XrEVRFVqdGVL",
@@ -2753,21 +1731,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.773,
-            "energy": 0.81,
-            "valence": 0.598,
-            "tempo": 99.2,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0655,
-            "liveness": 0.155,
-            "speechiness": 0.201,
-            "loudness": -5.9,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "49ytLGEP5S20N3AhB5YuwJ",
@@ -2783,7 +1747,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -2794,21 +1758,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-28",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.605,
-            "energy": 0.653,
-            "valence": 0.353,
-            "tempo": 99.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0087,
-            "liveness": 0.181,
-            "speechiness": 0.083,
-            "loudness": -5.15,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2qWwuCVeMjF9mUT0S5Iqvl",
@@ -2834,21 +1784,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.579,
-            "valence": 0.616,
-            "tempo": 99.3,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0213,
-            "liveness": 0.255,
-            "speechiness": 0.3,
-            "loudness": -5.4,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0XQuWhRG7qD7OYHKsgt0BN",
@@ -2876,26 +1812,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-02-17",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.725,
-            "valence": 0.841,
-            "tempo": 125.2,
-            "acousticness": 0.107,
-            "instrumentalness": 0.0512,
-            "liveness": 0.264,
-            "speechiness": 0.263,
-            "loudness": -7.62,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1A1ifX8sWzelNpkL5PxcHT",
           "title": "Last Heartbreak Song (feat. Giveon)",
-          "artist": "Ayra Starr, GIVĒON",
+          "artist": "Ayra Starr, GIV\u0112ON",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -2915,21 +1837,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.925,
-            "valence": 0.373,
-            "tempo": 122.9,
-            "acousticness": 0.182,
-            "instrumentalness": 0.0539,
-            "liveness": 0.257,
-            "speechiness": 0.194,
-            "loudness": -5.03,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1zIk8RJEKGvoH4FioFnGyJ",
@@ -2954,21 +1862,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-24",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.766,
-            "energy": 0.812,
-            "valence": 0.559,
-            "tempo": 107.2,
-            "acousticness": 0.123,
-            "instrumentalness": 0.034,
-            "liveness": 0.336,
-            "speechiness": 0.3,
-            "loudness": -5.32,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6oOCGD2Sp9UTcDsuDz8Hdu",
@@ -2993,21 +1887,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.765,
-            "valence": 0.697,
-            "tempo": 125.0,
-            "acousticness": 0.098,
-            "instrumentalness": 0.029,
-            "liveness": 0.252,
-            "speechiness": 0.3,
-            "loudness": -6.84,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3qe7VcbqjYNvFwhP0sFItH",
@@ -3030,21 +1910,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-12-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.687,
-            "valence": 0.659,
-            "tempo": 125.5,
-            "acousticness": 0.378,
-            "instrumentalness": 0.0085,
-            "liveness": 0.087,
-            "speechiness": 0.261,
-            "loudness": -6.24,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4G11wDzAKuCFqApL4g3ixC",
@@ -3060,7 +1926,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -3071,21 +1937,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-02-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.724,
-            "energy": 0.691,
-            "valence": 0.601,
-            "tempo": 98.6,
-            "acousticness": 0.117,
-            "instrumentalness": 0.055,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -6.19,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4ou5xyFUJX4VwX76tw1qb1",
@@ -3113,21 +1965,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-06-02",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.743,
-            "valence": 0.538,
-            "tempo": 90.0,
-            "acousticness": 0.146,
-            "instrumentalness": 0.0651,
-            "liveness": 0.289,
-            "speechiness": 0.172,
-            "loudness": -5.07,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4vHy2IHzf3EabEa7oMpUZB",
@@ -3149,21 +1987,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-23",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.75,
-            "valence": 0.751,
-            "tempo": 110.1,
-            "acousticness": 0.137,
-            "instrumentalness": 0.008,
-            "liveness": 0.114,
-            "speechiness": 0.133,
-            "loudness": -6.25,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1vgu72yPGBz3gOFD3SXaVA",
@@ -3185,21 +2009,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.707,
-            "valence": 0.757,
-            "tempo": 92.3,
-            "acousticness": 0.273,
-            "instrumentalness": 0.0638,
-            "liveness": 0.103,
-            "speechiness": 0.3,
-            "loudness": -3.03,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0dCOSNPQizhMMjO6UxGlzi",
@@ -3224,21 +2034,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-07-06",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.735,
-            "valence": 0.594,
-            "tempo": 116.1,
-            "acousticness": 0.113,
-            "instrumentalness": 0.0189,
-            "liveness": 0.323,
-            "speechiness": 0.216,
-            "loudness": -4.67,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1agLiWjSBYSTsKZLudOunC",
@@ -3262,21 +2058,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2015-05-18",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.55,
-            "valence": 0.451,
-            "tempo": 118.3,
-            "acousticness": 0.244,
-            "instrumentalness": 0.0144,
-            "liveness": 0.18,
-            "speechiness": 0.3,
-            "loudness": -4.27,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1jloWdvMh9nwHUu3mag8CL",
@@ -3294,7 +2076,7 @@ window.AFROBEATS_DATA = {
             "afropop",
             "azonto",
             "hiplife",
-            "alté",
+            "alt\u00e9",
             "afro r&b"
           ],
           "artistId": "6mMtnxEQkYoY5FfJIQ9Rhb",
@@ -3302,21 +2084,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2016-11-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.681,
-            "valence": 0.63,
-            "tempo": 101.9,
-            "acousticness": 0.039,
-            "instrumentalness": 0.0344,
-            "liveness": 0.162,
-            "speechiness": 0.3,
-            "loudness": -3.76,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5pHN5uqLnNeaFtfucmQuRM",
@@ -3338,21 +2106,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.715,
-            "valence": 0.715,
-            "tempo": 102.0,
-            "acousticness": 0.038,
-            "instrumentalness": 0.057,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.28,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6yIh43XrY4Mc5xOxeagVhp",
@@ -3375,21 +2129,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-02-26",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.652,
-            "valence": 0.621,
-            "tempo": 108.9,
-            "acousticness": 0.231,
-            "instrumentalness": 0.057,
-            "liveness": 0.197,
-            "speechiness": 0.3,
-            "loudness": -5.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3Yt1ovsh3v3VEzRuhI1TL5",
@@ -3415,21 +2155,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-09-30",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.825,
-            "valence": 0.524,
-            "tempo": 125.2,
-            "acousticness": 0.24,
-            "instrumentalness": 0.118,
-            "liveness": 0.35,
-            "speechiness": 0.28,
-            "loudness": -4.5,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1Bhm5HNO1cq8olDbBmokyL",
@@ -3450,21 +2176,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-11-02",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.684,
-            "valence": 0.791,
-            "tempo": 108.0,
-            "acousticness": 0.109,
-            "instrumentalness": 0.0491,
-            "liveness": 0.307,
-            "speechiness": 0.3,
-            "loudness": -5.37,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2dJMDzMF5jMvVFKLTci81H",
@@ -3487,21 +2199,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-11-19",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.648,
-            "energy": 0.848,
-            "valence": 0.711,
-            "tempo": 122.1,
-            "acousticness": 0.047,
-            "instrumentalness": 0.0561,
-            "liveness": 0.065,
-            "speechiness": 0.104,
-            "loudness": -3.0,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5ih9FFuXayzSlklQLG07xm",
@@ -3524,21 +2222,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-26",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.863,
-            "valence": 0.665,
-            "tempo": 90.9,
-            "acousticness": 0.289,
-            "instrumentalness": 0.0654,
-            "liveness": 0.175,
-            "speechiness": 0.3,
-            "loudness": -4.79,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5ITYY1RMtleE9n1HrcfjZN",
@@ -3560,21 +2244,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-12",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.647,
-            "energy": 0.892,
-            "valence": 0.737,
-            "tempo": 114.7,
-            "acousticness": 0.333,
-            "instrumentalness": 0.0594,
-            "liveness": 0.05,
-            "speechiness": 0.138,
-            "loudness": -6.65,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "2QcTf5lLMrrWTiElDInpTb",
@@ -3597,21 +2267,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.576,
-            "energy": 0.69,
-            "valence": 0.638,
-            "tempo": 97.2,
-            "acousticness": 0.223,
-            "instrumentalness": 0.1188,
-            "liveness": 0.184,
-            "speechiness": 0.3,
-            "loudness": -3.84,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4nFrcGM7MY1mpoQCC7Kefj",
@@ -3626,7 +2282,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -3634,21 +2290,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-05",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.833,
-            "valence": 0.41,
-            "tempo": 100.0,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0217,
-            "liveness": 0.215,
-            "speechiness": 0.223,
-            "loudness": -5.39,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3QO1m6i0nsrp8aOnapvbkx",
@@ -3674,21 +2316,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-10-29",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.718,
-            "valence": 0.43,
-            "tempo": 135.0,
-            "acousticness": 0.149,
-            "instrumentalness": 0.0747,
-            "liveness": 0.098,
-            "speechiness": 0.3,
-            "loudness": -5.94,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3z4CGd63tpUn9a6oQSG0CI",
@@ -3711,21 +2339,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-03-08",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.862,
-            "valence": 0.859,
-            "tempo": 135.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0393,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.3,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4EoYs4KY7oHQpJPTuxD7mU",
@@ -3751,21 +2365,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-17",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.562,
-            "valence": 0.747,
-            "tempo": 105.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.048,
-            "liveness": 0.203,
-            "speechiness": 0.148,
-            "loudness": -3.82,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1BJJbSX6muJVF2AK7uH1x4",
@@ -3787,21 +2387,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.708,
-            "energy": 0.661,
-            "valence": 0.598,
-            "tempo": 121.8,
-            "acousticness": 0.141,
-            "instrumentalness": 0.014,
-            "liveness": 0.35,
-            "speechiness": 0.197,
-            "loudness": -4.78,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5ITV0zqzjOYfFWpW0xBmRa",
@@ -3819,21 +2405,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.751,
-            "energy": 0.838,
-            "valence": 0.488,
-            "tempo": 103.0,
-            "acousticness": 0.119,
-            "instrumentalness": 0.0066,
-            "liveness": 0.276,
-            "speechiness": 0.3,
-            "loudness": -4.86,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5bi0gh89wRuH2OgjdAKFsb",
@@ -3853,21 +2425,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.789,
-            "energy": 0.686,
-            "valence": 0.623,
-            "tempo": 108.8,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0734,
-            "liveness": 0.26,
-            "speechiness": 0.3,
-            "loudness": -5.86,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1zi7xx7UVEFkmKfv06H8x0",
@@ -3887,21 +2445,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2016-05-06",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.882,
-            "valence": 0.739,
-            "tempo": 100.3,
-            "acousticness": 0.275,
-            "instrumentalness": 0.028,
-            "liveness": 0.056,
-            "speechiness": 0.3,
-            "loudness": -6.04,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "771KDfpsOtJPQmocQpMdkR",
@@ -3920,7 +2464,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -3929,21 +2473,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-15",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.686,
-            "valence": 0.394,
-            "tempo": 115.3,
-            "acousticness": 0.179,
-            "instrumentalness": 0.0849,
-            "liveness": 0.089,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5ycsqezujKrwviU3VFhci1",
@@ -3970,25 +2500,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-07",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.758,
-            "valence": 0.708,
-            "tempo": 93.3,
-            "acousticness": 0.05,
-            "instrumentalness": 0.15,
-            "liveness": 0.203,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1eldTykrnkEBLX41bk5eMw",
-          "title": "Petit génie",
+          "title": "Petit g\u00e9nie",
           "artist": "Jungeli, Imen Es, Alonzo, Abou Debeing, Lossa",
           "artistCountry": "Congo",
           "regionGroup": "Central Africa",
@@ -4005,21 +2521,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-04",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.698,
-            "energy": 0.758,
-            "valence": 0.721,
-            "tempo": 117.6,
-            "acousticness": 0.252,
-            "instrumentalness": 0.0862,
-            "liveness": 0.16,
-            "speechiness": 0.3,
-            "loudness": -7.24,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1ViD8tjPZVFZKAC8O7Gmfi",
@@ -4037,21 +2539,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-14",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.606,
-            "energy": 0.715,
-            "valence": 0.6,
-            "tempo": 120.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.2,
-            "speechiness": 0.198,
-            "loudness": -4.47,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0SjQBdIddPvKSWxr8vk6QX",
@@ -4074,21 +2562,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-03-22",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.783,
-            "valence": 0.487,
-            "tempo": 102.7,
-            "acousticness": 0.143,
-            "instrumentalness": 0.09,
-            "liveness": 0.121,
-            "speechiness": 0.07,
-            "loudness": -4.9,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1hbnlGCWNVbRUmN5qBTnTN",
@@ -4107,7 +2581,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -4115,21 +2589,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.648,
-            "valence": 0.657,
-            "tempo": 114.2,
-            "acousticness": 0.116,
-            "instrumentalness": 0.0224,
-            "liveness": 0.07,
-            "speechiness": 0.236,
-            "loudness": -6.88,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5ZtK8XAVnoaGdBXZWCEVCY",
@@ -4156,21 +2616,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-15",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.643,
-            "energy": 0.66,
-            "valence": 0.654,
-            "tempo": 98.3,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0833,
-            "liveness": 0.05,
-            "speechiness": 0.17,
-            "loudness": -7.72,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -4195,21 +2641,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "7AbLGIOzFkx6jHq5en5xiH",
@@ -4234,21 +2666,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-11-25",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.807,
-            "valence": 0.377,
-            "tempo": 103.3,
-            "acousticness": 0.373,
-            "instrumentalness": 0.0439,
-            "liveness": 0.089,
-            "speechiness": 0.133,
-            "loudness": -4.61,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1eDI5oU04SLsXl0TfxfwYf",
@@ -4263,7 +2681,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -4271,21 +2689,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.787,
-            "valence": 0.541,
-            "tempo": 90.0,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0171,
-            "liveness": 0.152,
-            "speechiness": 0.213,
-            "loudness": -7.33,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "4Gasn91fsCefnN8zM5GjA8",
@@ -4309,21 +2713,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-03-03",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.665,
-            "valence": 0.722,
-            "tempo": 94.6,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -8.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "6jdTkoEaer7XNGSblczoSu",
@@ -4349,21 +2739,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-08-27",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.732,
-            "valence": 0.562,
-            "tempo": 92.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.214,
-            "speechiness": 0.3,
-            "loudness": -5.12,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0UJMgRVNBrnMmAeZ8p1iMc",
@@ -4388,21 +2764,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-12",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.702,
-            "valence": 0.656,
-            "tempo": 133.6,
-            "acousticness": 0.298,
-            "instrumentalness": 0.0066,
-            "liveness": 0.226,
-            "speechiness": 0.3,
-            "loudness": -7.59,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "1DA2ADZs6O28y2rmdmpekw",
@@ -4428,21 +2790,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-11-11",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.745,
-            "valence": 0.649,
-            "tempo": 121.0,
-            "acousticness": 0.1,
-            "instrumentalness": 0.0031,
-            "liveness": 0.279,
-            "speechiness": 0.111,
-            "loudness": -4.29,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "0zVk3uuV9UhxAt48F3OL12",
@@ -4467,21 +2815,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-09",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.673,
-            "valence": 0.799,
-            "tempo": 124.7,
-            "acousticness": 0.035,
-            "instrumentalness": 0.0145,
-            "liveness": 0.335,
-            "speechiness": 0.3,
-            "loudness": -4.59,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "5V9XFfvCG4WP5ZdISOLvaF",
@@ -4506,21 +2840,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-02-10",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.563,
-            "energy": 0.733,
-            "valence": 0.681,
-            "tempo": 113.0,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0542,
-            "liveness": 0.092,
-            "speechiness": 0.3,
-            "loudness": -5.02,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         },
         {
           "id": "3Xfwu3xtPqmJ4nM4jpBm8O",
@@ -4535,7 +2855,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -4543,27 +2863,13 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-09-25",
-          "addedAt": "2025-11-14T05:01:53Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.771,
-            "valence": 0.707,
-            "tempo": 122.9,
-            "acousticness": 0.262,
-            "instrumentalness": 0.0354,
-            "liveness": 0.064,
-            "speechiness": 0.3,
-            "loudness": -6.22,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T05:01:53Z"
         }
       ]
     },
     {
       "id": "afrobeats-2026",
-      "name": "AFROBEATS 🔥 2026",
+      "name": "AFROBEATS \ud83d\udd25 2026",
       "curatorType": "Independent Curator",
       "curator": "AFROBEATS",
       "followerCount": 73678,
@@ -4590,21 +2896,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.691,
-            "valence": 0.793,
-            "tempo": 107.1,
-            "acousticness": 0.119,
-            "instrumentalness": 0.0158,
-            "liveness": 0.126,
-            "speechiness": 0.3,
-            "loudness": -6.46,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4RoKNqyZ9622tcAeNPNv5k",
@@ -4629,21 +2921,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-24",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.747,
-            "valence": 0.609,
-            "tempo": 109.4,
-            "acousticness": 0.013,
-            "instrumentalness": 0.0202,
-            "liveness": 0.312,
-            "speechiness": 0.238,
-            "loudness": -5.94,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4qbEAsnEwISp19ebujxhg4",
@@ -4670,21 +2948,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.631,
-            "valence": 0.583,
-            "tempo": 95.7,
-            "acousticness": 0.277,
-            "instrumentalness": 0.01,
-            "liveness": 0.083,
-            "speechiness": 0.3,
-            "loudness": -4.15,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5aIVCx5tnk0ntmdiinnYvw",
@@ -4704,21 +2968,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-28",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.764,
-            "valence": 0.624,
-            "tempo": 113.3,
-            "acousticness": 0.228,
-            "instrumentalness": 0.0285,
-            "liveness": 0.303,
-            "speechiness": 0.3,
-            "loudness": -7.86,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1IyeqKXyvl4pTYEAvyIsoI",
@@ -4738,21 +2988,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-18",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.575,
-            "energy": 0.666,
-            "valence": 0.776,
-            "tempo": 118.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0197,
-            "liveness": 0.11,
-            "speechiness": 0.3,
-            "loudness": -7.95,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2RKX3sJgRcOs1iCpyX0Iv4",
@@ -4768,7 +3004,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -4779,21 +3015,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.635,
-            "energy": 0.687,
-            "valence": 0.631,
-            "tempo": 120.0,
-            "acousticness": 0.141,
-            "instrumentalness": 0.0947,
-            "liveness": 0.123,
-            "speechiness": 0.128,
-            "loudness": -3.84,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "215Na1I2eOIBstKepCBOkh",
@@ -4813,21 +3035,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-15",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.769,
-            "energy": 0.764,
-            "valence": 0.672,
-            "tempo": 118.7,
-            "acousticness": 0.198,
-            "instrumentalness": 0.15,
-            "liveness": 0.154,
-            "speechiness": 0.3,
-            "loudness": -7.28,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5ksKJ5a1iawwfoCxWtImP9",
@@ -4853,21 +3061,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.724,
-            "energy": 0.714,
-            "valence": 0.553,
-            "tempo": 115.4,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0366,
-            "liveness": 0.201,
-            "speechiness": 0.3,
-            "loudness": -3.27,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4ypDKQOromqX2LNbV12jph",
@@ -4885,21 +3079,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.641,
-            "energy": 0.724,
-            "valence": 0.589,
-            "tempo": 122.2,
-            "acousticness": 0.303,
-            "instrumentalness": 0.0746,
-            "liveness": 0.109,
-            "speechiness": 0.228,
-            "loudness": -5.37,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4FD5QTAf4UG25PpwPRu5Hb",
@@ -4919,21 +3099,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.713,
-            "valence": 0.561,
-            "tempo": 115.4,
-            "acousticness": 0.072,
-            "instrumentalness": 0.0011,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.12,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5WwQgwivZOfjHHOdZXnDjR",
@@ -4955,21 +3121,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-15",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.703,
-            "valence": 0.638,
-            "tempo": 116.3,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0041,
-            "liveness": 0.224,
-            "speechiness": 0.216,
-            "loudness": -5.32,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5GzOJHBBaLnLjL0nnNJV7N",
@@ -4990,21 +3142,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.736,
-            "energy": 0.843,
-            "valence": 0.699,
-            "tempo": 131.7,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0328,
-            "liveness": 0.195,
-            "speechiness": 0.3,
-            "loudness": -4.7,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1Cbl3Yq8rHo7hhDQmLQagU",
@@ -5024,21 +3162,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-11",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.666,
-            "valence": 0.531,
-            "tempo": 134.0,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0369,
-            "liveness": 0.246,
-            "speechiness": 0.09,
-            "loudness": -6.43,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4nFrcGM7MY1mpoQCC7Kefj",
@@ -5053,7 +3177,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -5061,21 +3185,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.833,
-            "valence": 0.41,
-            "tempo": 100.0,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0217,
-            "liveness": 0.215,
-            "speechiness": 0.223,
-            "loudness": -5.39,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0nsFc2CWrycnvl0nH4zWK1",
@@ -5096,21 +3206,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.804,
-            "energy": 0.614,
-            "valence": 0.449,
-            "tempo": 114.8,
-            "acousticness": 0.073,
-            "instrumentalness": 0.0569,
-            "liveness": 0.11,
-            "speechiness": 0.27,
-            "loudness": -5.88,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4vb777iaycnlFxVkJMmtfd",
@@ -5136,21 +3232,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-12-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.765,
-            "energy": 0.683,
-            "valence": 0.768,
-            "tempo": 128.8,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0361,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.08,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1UEIiehaW53f45mhsyrm1T",
@@ -5172,21 +3254,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.73,
-            "energy": 0.609,
-            "valence": 0.573,
-            "tempo": 116.0,
-            "acousticness": 0.165,
-            "instrumentalness": 0.02,
-            "liveness": 0.174,
-            "speechiness": 0.268,
-            "loudness": -5.38,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3ZZYpE0f4lB4bkAfCM3WEy",
@@ -5207,21 +3275,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.655,
-            "energy": 0.547,
-            "valence": 0.663,
-            "tempo": 110.9,
-            "acousticness": 0.375,
-            "instrumentalness": 0.0076,
-            "liveness": 0.279,
-            "speechiness": 0.199,
-            "loudness": -7.78,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1whAXVGN8AdfrnoXNIXfJf",
@@ -5241,21 +3295,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.656,
-            "valence": 0.711,
-            "tempo": 116.6,
-            "acousticness": 0.067,
-            "instrumentalness": 0.0085,
-            "liveness": 0.106,
-            "speechiness": 0.3,
-            "loudness": -3.1,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7IOiciZXme3AkdqVTgN5lq",
@@ -5276,21 +3316,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-24",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.837,
-            "energy": 0.712,
-            "valence": 0.57,
-            "tempo": 100.4,
-            "acousticness": 0.127,
-            "instrumentalness": 0.0552,
-            "liveness": 0.324,
-            "speechiness": 0.271,
-            "loudness": -8.27,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0WtM2NBVQNNJLh6scP13H8",
@@ -5313,21 +3339,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.58,
-            "energy": 0.716,
-            "valence": 0.713,
-            "tempo": 113.0,
-            "acousticness": 0.332,
-            "instrumentalness": 0.0568,
-            "liveness": 0.11,
-            "speechiness": 0.123,
-            "loudness": -4.67,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0bZHsSmKpXFOxFtwkmyiaj",
@@ -5349,21 +3361,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.639,
-            "valence": 0.702,
-            "tempo": 93.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0626,
-            "liveness": 0.12,
-            "speechiness": 0.197,
-            "loudness": -4.88,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0oBDJWGnTJs9C0Ax90tMj0",
@@ -5386,21 +3384,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.72,
-            "energy": 0.619,
-            "valence": 0.681,
-            "tempo": 106.4,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0132,
-            "liveness": 0.232,
-            "speechiness": 0.228,
-            "loudness": -6.2,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0zVk3uuV9UhxAt48F3OL12",
@@ -5425,21 +3409,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-09",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.673,
-            "valence": 0.799,
-            "tempo": 124.7,
-            "acousticness": 0.035,
-            "instrumentalness": 0.0145,
-            "liveness": 0.335,
-            "speechiness": 0.3,
-            "loudness": -4.59,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2AYjnv47XVccCzv2ehzFNb",
@@ -5459,21 +3429,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.627,
-            "valence": 0.622,
-            "tempo": 125.3,
-            "acousticness": 0.114,
-            "instrumentalness": 0.0233,
-            "liveness": 0.244,
-            "speechiness": 0.277,
-            "loudness": -8.49,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3hlwIFCJ5MDln5wSrAPppE",
@@ -5497,21 +3453,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.685,
-            "valence": 0.817,
-            "tempo": 106.8,
-            "acousticness": 0.217,
-            "instrumentalness": 0.0004,
-            "liveness": 0.346,
-            "speechiness": 0.3,
-            "loudness": -6.6,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0yDqZVHCSgzLxvRC2pY6rS",
@@ -5531,21 +3473,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-30",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.694,
-            "energy": 0.689,
-            "valence": 0.517,
-            "tempo": 106.0,
-            "acousticness": 0.349,
-            "instrumentalness": 0.0256,
-            "liveness": 0.168,
-            "speechiness": 0.122,
-            "loudness": -4.96,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7fA7mrYaXVDVVGCAV65NRN",
@@ -5570,21 +3498,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.581,
-            "valence": 0.704,
-            "tempo": 128.6,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0267,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -5.06,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3MUOj3BH6dEBTXps949rYN",
@@ -5604,21 +3518,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-09",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.818,
-            "valence": 0.574,
-            "tempo": 104.3,
-            "acousticness": 0.211,
-            "instrumentalness": 0.0277,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.4,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5CwdYVhbdeG3wycY3ukvM4",
@@ -5639,21 +3539,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.701,
-            "valence": 0.572,
-            "tempo": 95.0,
-            "acousticness": 0.238,
-            "instrumentalness": 0.0317,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -6.42,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4YZdQqnGxSI7tShUxDJBau",
@@ -5674,21 +3560,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-02",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.763,
-            "valence": 0.9,
-            "tempo": 121.9,
-            "acousticness": 0.177,
-            "instrumentalness": 0.0162,
-            "liveness": 0.157,
-            "speechiness": 0.101,
-            "loudness": -6.71,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "468HjlJn9heVJ803pAF2KJ",
@@ -5708,21 +3580,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.771,
-            "energy": 0.711,
-            "valence": 0.866,
-            "tempo": 135.0,
-            "acousticness": 0.26,
-            "instrumentalness": 0.0164,
-            "liveness": 0.05,
-            "speechiness": 0.116,
-            "loudness": -3.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0HlF88ZuW0yTty8fogzpaG",
@@ -5735,7 +3593,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 65,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -5751,21 +3609,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.622,
-            "valence": 0.489,
-            "tempo": 118.6,
-            "acousticness": 0.045,
-            "instrumentalness": 0.04,
-            "liveness": 0.081,
-            "speechiness": 0.101,
-            "loudness": -5.27,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7C5AgWJJMRETWI3Pst6U8L",
@@ -5786,21 +3630,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.631,
-            "valence": 0.605,
-            "tempo": 118.2,
-            "acousticness": 0.161,
-            "instrumentalness": 0.0092,
-            "liveness": 0.05,
-            "speechiness": 0.256,
-            "loudness": -5.8,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "00uXDC6A3RK2HJlTK6h0Ak",
@@ -5827,21 +3657,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.764,
-            "valence": 0.849,
-            "tempo": 132.6,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0869,
-            "liveness": 0.105,
-            "speechiness": 0.165,
-            "loudness": -7.0,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "20PdVOCK1hPtvv8ey7h2jM",
@@ -5861,21 +3677,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.747,
-            "valence": 0.841,
-            "tempo": 110.4,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0151,
-            "liveness": 0.05,
-            "speechiness": 0.173,
-            "loudness": -4.59,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0HaRLPnr887lcQM2YQzkff",
@@ -5900,21 +3702,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.625,
-            "energy": 0.693,
-            "valence": 0.506,
-            "tempo": 111.2,
-            "acousticness": 0.231,
-            "instrumentalness": 0.0025,
-            "liveness": 0.118,
-            "speechiness": 0.154,
-            "loudness": -5.72,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6NO34L9gTYMaR6CoE47E9k",
@@ -5936,21 +3724,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.859,
-            "valence": 0.706,
-            "tempo": 113.2,
-            "acousticness": 0.221,
-            "instrumentalness": 0.0267,
-            "liveness": 0.05,
-            "speechiness": 0.05,
-            "loudness": -3.98,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6z5y2kdxF4XrEVRFVqdGVL",
@@ -5976,21 +3750,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.773,
-            "energy": 0.81,
-            "valence": 0.598,
-            "tempo": 99.2,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0655,
-            "liveness": 0.155,
-            "speechiness": 0.201,
-            "loudness": -5.9,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "51psaXOJAkOUdRQrp2Wjsa",
@@ -6017,21 +3777,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-02-10",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.66,
-            "valence": 0.786,
-            "tempo": 117.0,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0218,
-            "liveness": 0.152,
-            "speechiness": 0.075,
-            "loudness": -4.36,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6oOCGD2Sp9UTcDsuDz8Hdu",
@@ -6056,21 +3802,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.765,
-            "valence": 0.697,
-            "tempo": 125.0,
-            "acousticness": 0.098,
-            "instrumentalness": 0.029,
-            "liveness": 0.252,
-            "speechiness": 0.3,
-            "loudness": -6.84,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6sU8QgAAnDjk3fcuxNdXU5",
@@ -6090,21 +3822,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.607,
-            "energy": 0.866,
-            "valence": 0.494,
-            "tempo": 120.2,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0048,
-            "liveness": 0.113,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "053gEEIZpXxEOpIycmlyqA",
@@ -6129,21 +3847,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-09",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.758,
-            "energy": 0.714,
-            "valence": 0.651,
-            "tempo": 94.3,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0419,
-            "liveness": 0.173,
-            "speechiness": 0.27,
-            "loudness": -8.78,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4A4rJg1jarJOEKPYolxlKd",
@@ -6164,21 +3868,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.694,
-            "energy": 0.749,
-            "valence": 0.687,
-            "tempo": 117.7,
-            "acousticness": 0.135,
-            "instrumentalness": 0.0344,
-            "liveness": 0.209,
-            "speechiness": 0.222,
-            "loudness": -3.9,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "42ZEsLX8elDiaBuXfVu6r7",
@@ -6199,21 +3889,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.799,
-            "energy": 0.788,
-            "valence": 0.417,
-            "tempo": 117.9,
-            "acousticness": 0.297,
-            "instrumentalness": 0.0271,
-            "liveness": 0.226,
-            "speechiness": 0.261,
-            "loudness": -5.6,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7AoQcUEi2ZzF6vOrutcoZU",
@@ -6239,21 +3915,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.616,
-            "energy": 0.911,
-            "valence": 0.542,
-            "tempo": 135.0,
-            "acousticness": 0.223,
-            "instrumentalness": 0.0453,
-            "liveness": 0.179,
-            "speechiness": 0.144,
-            "loudness": -4.96,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3UDA2JUNThwhhKNss8ell2",
@@ -6271,21 +3933,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.725,
-            "valence": 0.553,
-            "tempo": 99.3,
-            "acousticness": 0.173,
-            "instrumentalness": 0.0751,
-            "liveness": 0.243,
-            "speechiness": 0.067,
-            "loudness": -5.47,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6Kzmtd2m9sMt8kQu0Flane",
@@ -6306,21 +3954,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-15",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.76,
-            "energy": 0.825,
-            "valence": 0.706,
-            "tempo": 120.8,
-            "acousticness": 0.198,
-            "instrumentalness": 0.0002,
-            "liveness": 0.137,
-            "speechiness": 0.3,
-            "loudness": -4.6,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "50QMIrDDZinUwLci7Ljq9d",
@@ -6341,21 +3975,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.679,
-            "valence": 0.495,
-            "tempo": 127.3,
-            "acousticness": 0.186,
-            "instrumentalness": 0.0286,
-            "liveness": 0.238,
-            "speechiness": 0.215,
-            "loudness": -5.66,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4nLvL9KiB4S5Y1YziYrNcY",
@@ -6377,21 +3997,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.814,
-            "valence": 0.879,
-            "tempo": 111.5,
-            "acousticness": 0.188,
-            "instrumentalness": 0.0139,
-            "liveness": 0.164,
-            "speechiness": 0.3,
-            "loudness": -5.39,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4oeH9c9ca6CS2xHytLLRnP",
@@ -6404,7 +4010,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 41,
           "artistPopularity": 54,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afroswing",
@@ -6417,21 +4023,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.784,
-            "energy": 0.653,
-            "valence": 0.707,
-            "tempo": 100.4,
-            "acousticness": 0.125,
-            "instrumentalness": 0.0152,
-            "liveness": 0.18,
-            "speechiness": 0.3,
-            "loudness": -4.5,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7sueGADEdmPwjEiS64w4wI",
@@ -6453,21 +4045,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.802,
-            "valence": 0.437,
-            "tempo": 121.2,
-            "acousticness": 0.176,
-            "instrumentalness": 0.0354,
-            "liveness": 0.257,
-            "speechiness": 0.166,
-            "loudness": -5.06,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7IFoyt4ZL7raIETupyDCYM",
@@ -6481,7 +4059,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 47,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat",
             "nigerian drill",
             "afro r&b",
@@ -6495,21 +4073,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-17",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.78,
-            "valence": 0.433,
-            "tempo": 118.1,
-            "acousticness": 0.173,
-            "instrumentalness": 0.0532,
-            "liveness": 0.115,
-            "speechiness": 0.202,
-            "loudness": -5.84,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6emHtrL2szIFVt5WT7ZVjY",
@@ -6531,21 +4095,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.587,
-            "valence": 0.35,
-            "tempo": 98.4,
-            "acousticness": 0.228,
-            "instrumentalness": 0.0579,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2oO6BQKdkpZo1Zk6h5IZV5",
@@ -6566,21 +4116,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.703,
-            "energy": 0.748,
-            "valence": 0.508,
-            "tempo": 113.2,
-            "acousticness": 0.106,
-            "instrumentalness": 0.0556,
-            "liveness": 0.25,
-            "speechiness": 0.069,
-            "loudness": -6.83,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7KxF2PRMI5LtQVLTQVFJJZ",
@@ -6604,21 +4140,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.732,
-            "valence": 0.626,
-            "tempo": 104.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0613,
-            "liveness": 0.247,
-            "speechiness": 0.154,
-            "loudness": -7.88,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "649wzzjX1Xz739rJxqbyWm",
@@ -6639,21 +4161,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.819,
-            "energy": 0.635,
-            "valence": 0.703,
-            "tempo": 109.9,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0156,
-            "liveness": 0.27,
-            "speechiness": 0.277,
-            "loudness": -3.77,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0lhLSwvRKGHfIcVEz3uQK6",
@@ -6678,21 +4186,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.608,
-            "energy": 0.788,
-            "valence": 0.753,
-            "tempo": 128.5,
-            "acousticness": 0.132,
-            "instrumentalness": 0.15,
-            "liveness": 0.11,
-            "speechiness": 0.3,
-            "loudness": -5.31,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5eruJWvf52JfnV5fq6C1av",
@@ -6713,21 +4207,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.698,
-            "valence": 0.789,
-            "tempo": 104.6,
-            "acousticness": 0.09,
-            "instrumentalness": 0.1018,
-            "liveness": 0.284,
-            "speechiness": 0.3,
-            "loudness": -6.2,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "65thfBUCW8mMgKwg8HKHjF",
@@ -6748,21 +4228,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.785,
-            "valence": 0.663,
-            "tempo": 109.9,
-            "acousticness": 0.308,
-            "instrumentalness": 0.0961,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.05,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4pb8beXEiltoV6DYCWg05m",
@@ -6783,21 +4249,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-02",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.579,
-            "energy": 0.731,
-            "valence": 0.612,
-            "tempo": 102.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1161,
-            "liveness": 0.199,
-            "speechiness": 0.243,
-            "loudness": -6.3,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1flcGZmkCESuJd5sAJpgek",
@@ -6820,21 +4272,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.619,
-            "valence": 0.714,
-            "tempo": 108.4,
-            "acousticness": 0.333,
-            "instrumentalness": 0.0291,
-            "liveness": 0.207,
-            "speechiness": 0.22,
-            "loudness": -5.06,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1WTpk9TzR3YFL8DCNpSdNh",
@@ -6855,21 +4293,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-29",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.718,
-            "valence": 0.571,
-            "tempo": 119.3,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0928,
-            "liveness": 0.194,
-            "speechiness": 0.149,
-            "loudness": -4.14,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4hbadZZrbM08KZIQZomWaI",
@@ -6884,7 +4308,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -6892,21 +4316,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.779,
-            "valence": 0.61,
-            "tempo": 113.5,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0205,
-            "liveness": 0.221,
-            "speechiness": 0.3,
-            "loudness": -7.45,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6TTR7tXftck5lU7BPRY7bV",
@@ -6921,7 +4331,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afroswing",
             "afropop",
@@ -6932,21 +4342,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-02-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.754,
-            "valence": 0.54,
-            "tempo": 95.1,
-            "acousticness": 0.283,
-            "instrumentalness": 0.0556,
-            "liveness": 0.35,
-            "speechiness": 0.203,
-            "loudness": -3.0,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2i4sHsGE1aXD1cBCCWXBBj",
@@ -6967,21 +4363,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.805,
-            "energy": 0.623,
-            "valence": 0.773,
-            "tempo": 90.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0076,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -4.91,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1YAkPboKKCxhsyyaCCyhi5",
@@ -7002,21 +4384,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-02",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.648,
-            "valence": 0.581,
-            "tempo": 125.3,
-            "acousticness": 0.181,
-            "instrumentalness": 0.0554,
-            "liveness": 0.155,
-            "speechiness": 0.279,
-            "loudness": -5.64,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6rglbXafPHF3J7gM9ssgkM",
@@ -7041,21 +4409,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.683,
-            "valence": 0.557,
-            "tempo": 110.9,
-            "acousticness": 0.251,
-            "instrumentalness": 0.0337,
-            "liveness": 0.234,
-            "speechiness": 0.3,
-            "loudness": -6.71,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5WyJAdQCX7QAZsx2ohO15a",
@@ -7079,21 +4433,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.668,
-            "valence": 0.76,
-            "tempo": 131.4,
-            "acousticness": 0.319,
-            "instrumentalness": 0.064,
-            "liveness": 0.275,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5zBdKlW87ft4N6qf6JzPDZ",
@@ -7107,7 +4447,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -7115,21 +4455,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.799,
-            "valence": 0.828,
-            "tempo": 129.1,
-            "acousticness": 0.16,
-            "instrumentalness": 0.0175,
-            "liveness": 0.258,
-            "speechiness": 0.3,
-            "loudness": -8.04,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5Gs9kgBaJcBxmeuw5A4iL7",
@@ -7150,21 +4476,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.781,
-            "valence": 0.717,
-            "tempo": 112.0,
-            "acousticness": 0.285,
-            "instrumentalness": 0.0155,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.99,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7od7AQDGyj8mM44djQpBGW",
@@ -7186,21 +4498,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.756,
-            "energy": 0.798,
-            "valence": 0.877,
-            "tempo": 109.9,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0711,
-            "liveness": 0.137,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5FG7Tl93LdH117jEKYl3Cm",
@@ -7226,21 +4524,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-10-29",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.672,
-            "valence": 0.784,
-            "tempo": 113.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0514,
-            "liveness": 0.084,
-            "speechiness": 0.3,
-            "loudness": -4.9,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4HTiNf8qskIPNFWIe2ZMDk",
@@ -7262,21 +4546,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.836,
-            "energy": 0.645,
-            "valence": 0.579,
-            "tempo": 124.3,
-            "acousticness": 0.081,
-            "instrumentalness": 0.0151,
-            "liveness": 0.155,
-            "speechiness": 0.3,
-            "loudness": -4.05,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4Gasn91fsCefnN8zM5GjA8",
@@ -7300,21 +4570,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-03-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.665,
-            "valence": 0.722,
-            "tempo": 94.6,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -8.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4Q0nTj4TyprPk5bTpeSrGk",
@@ -7338,21 +4594,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.612,
-            "energy": 0.763,
-            "valence": 0.609,
-            "tempo": 110.1,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0612,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4XUlITMqY3Hr7xGZq2SVMH",
@@ -7372,21 +4614,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-24",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.815,
-            "energy": 0.748,
-            "valence": 0.498,
-            "tempo": 122.8,
-            "acousticness": 0.082,
-            "instrumentalness": 0.0175,
-            "liveness": 0.307,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "653qlMK83PbWIAiCUEdI39",
@@ -7407,21 +4635,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-12",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.754,
-            "energy": 0.919,
-            "valence": 0.674,
-            "tempo": 91.3,
-            "acousticness": 0.163,
-            "instrumentalness": 0.001,
-            "liveness": 0.056,
-            "speechiness": 0.246,
-            "loudness": -3.48,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6pFItbFfi3fNagHGCeXCUF",
@@ -7441,7 +4655,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afroswing",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "azonto"
           ],
@@ -7450,21 +4664,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.667,
-            "energy": 0.736,
-            "valence": 0.746,
-            "tempo": 108.3,
-            "acousticness": 0.138,
-            "instrumentalness": 0.008,
-            "liveness": 0.068,
-            "speechiness": 0.3,
-            "loudness": -3.67,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1g6oUieqBNYOcFYvANYytl",
@@ -7485,21 +4685,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.569,
-            "energy": 0.699,
-            "valence": 0.7,
-            "tempo": 110.9,
-            "acousticness": 0.19,
-            "instrumentalness": 0.0329,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3lwmzgzAU2IS0GLPGNdZ4b",
@@ -7527,21 +4713,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-19",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.723,
-            "energy": 0.592,
-            "valence": 0.802,
-            "tempo": 117.6,
-            "acousticness": 0.306,
-            "instrumentalness": 0.1426,
-            "liveness": 0.246,
-            "speechiness": 0.191,
-            "loudness": -5.93,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6s2Axyc8OgfFFlDMK3XtqZ",
@@ -7566,21 +4738,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-28",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.676,
-            "energy": 0.761,
-            "valence": 0.609,
-            "tempo": 115.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0166,
-            "liveness": 0.161,
-            "speechiness": 0.3,
-            "loudness": -5.26,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5sJJ7blz2ECewKmgXMPNKZ",
@@ -7601,21 +4759,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-16",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.72,
-            "energy": 0.649,
-            "valence": 0.812,
-            "tempo": 124.4,
-            "acousticness": 0.245,
-            "instrumentalness": 0.0769,
-            "liveness": 0.072,
-            "speechiness": 0.3,
-            "loudness": -5.4,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1IMRi5UVOV77PsAgdWDvzh",
@@ -7641,21 +4785,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-15",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.831,
-            "energy": 0.758,
-            "valence": 0.66,
-            "tempo": 126.8,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0336,
-            "liveness": 0.08,
-            "speechiness": 0.151,
-            "loudness": -4.17,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2mHJRHQfazVxl5VzC47Zf6",
@@ -7676,21 +4806,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-02",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.711,
-            "energy": 0.697,
-            "valence": 0.685,
-            "tempo": 130.0,
-            "acousticness": 0.081,
-            "instrumentalness": 0.0233,
-            "liveness": 0.283,
-            "speechiness": 0.3,
-            "loudness": -6.19,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1YUrCnmAEQbdmTeucn3WCl",
@@ -7706,33 +4822,19 @@ window.AFROBEATS_DATA = {
             "afro adura",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "nigerian drill",
             "afro soul",
-            "fújì"
+            "f\u00faj\u00ec"
           ],
           "artistId": "7kK5badbqOjd8WlT2XWMeM",
           "playlistPosition": 86,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-10-26",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.743,
-            "valence": 0.714,
-            "tempo": 100.1,
-            "acousticness": 0.092,
-            "instrumentalness": 0.0201,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.55,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3hWgzSu4k15x0sodxGivhy",
@@ -7753,21 +4855,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-19",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.725,
-            "energy": 0.78,
-            "valence": 0.575,
-            "tempo": 118.1,
-            "acousticness": 0.049,
-            "instrumentalness": 0.15,
-            "liveness": 0.35,
-            "speechiness": 0.234,
-            "loudness": -7.0,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2gCEsaKvuL8FrVcBzimC7P",
@@ -7787,21 +4875,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-19",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.747,
-            "valence": 0.725,
-            "tempo": 103.7,
-            "acousticness": 0.297,
-            "instrumentalness": 0.0461,
-            "liveness": 0.189,
-            "speechiness": 0.138,
-            "loudness": -5.16,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0rokUVmbamE8i3r2Vlvltp",
@@ -7819,21 +4893,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.725,
-            "valence": 0.662,
-            "tempo": 135.0,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0732,
-            "liveness": 0.196,
-            "speechiness": 0.3,
-            "loudness": -9.61,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "41NLb4pKv95oKASWqmYhmm",
@@ -7854,21 +4914,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.688,
-            "valence": 0.671,
-            "tempo": 102.1,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0256,
-            "liveness": 0.276,
-            "speechiness": 0.3,
-            "loudness": -8.34,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1rHPk2p3MQTh2wloo3P9zE",
@@ -7896,21 +4942,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-26",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.788,
-            "valence": 0.721,
-            "tempo": 113.5,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0621,
-            "liveness": 0.117,
-            "speechiness": 0.282,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "31jkD22MNUrpebszwU7ZFz",
@@ -7936,21 +4968,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.655,
-            "valence": 0.641,
-            "tempo": 124.8,
-            "acousticness": 0.202,
-            "instrumentalness": 0.1223,
-            "liveness": 0.085,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6OGC3FiJ6pIALSVTYtYF6W",
@@ -7964,7 +4982,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -7972,21 +4990,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.796,
-            "energy": 0.736,
-            "valence": 0.511,
-            "tempo": 132.0,
-            "acousticness": 0.082,
-            "instrumentalness": 0.0309,
-            "liveness": 0.204,
-            "speechiness": 0.167,
-            "loudness": -5.8,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6FXRZs4H5N8YytItv9OMVo",
@@ -8012,21 +5016,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.793,
-            "energy": 0.742,
-            "valence": 0.791,
-            "tempo": 107.9,
-            "acousticness": 0.043,
-            "instrumentalness": 0.0822,
-            "liveness": 0.204,
-            "speechiness": 0.3,
-            "loudness": -5.0,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2Ntz1CuI3R2igytxjkekKQ",
@@ -8048,21 +5038,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.755,
-            "energy": 0.65,
-            "valence": 0.694,
-            "tempo": 108.0,
-            "acousticness": 0.082,
-            "instrumentalness": 0.0036,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -4.21,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "154GtlyXeS8mEwNytNJyI4",
@@ -8085,21 +5061,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-18",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.731,
-            "energy": 0.653,
-            "valence": 0.738,
-            "tempo": 92.6,
-            "acousticness": 0.186,
-            "instrumentalness": 0.0036,
-            "liveness": 0.248,
-            "speechiness": 0.224,
-            "loudness": -5.32,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1eG1R1oAfI9eP3rXYgO8d8",
@@ -8120,21 +5082,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.573,
-            "energy": 0.673,
-            "valence": 0.726,
-            "tempo": 107.6,
-            "acousticness": 0.019,
-            "instrumentalness": 0.0074,
-            "liveness": 0.125,
-            "speechiness": 0.269,
-            "loudness": -6.7,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -8157,21 +5105,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0Bq1rqhMXWbsTvzgbh2L5Q",
@@ -8191,21 +5125,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.887,
-            "valence": 0.725,
-            "tempo": 90.0,
-            "acousticness": 0.185,
-            "instrumentalness": 0.0009,
-            "liveness": 0.35,
-            "speechiness": 0.23,
-            "loudness": -4.29,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7a0ndvdB17TuyHylT74KGw",
@@ -8225,21 +5145,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-26",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.753,
-            "energy": 0.653,
-            "valence": 0.74,
-            "tempo": 95.5,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0604,
-            "liveness": 0.05,
-            "speechiness": 0.294,
-            "loudness": -5.1,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "10qXip0ufKnf9w0rCp5s3B",
@@ -8260,21 +5166,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.704,
-            "valence": 0.502,
-            "tempo": 107.1,
-            "acousticness": 0.142,
-            "instrumentalness": 0.017,
-            "liveness": 0.065,
-            "speechiness": 0.3,
-            "loudness": -5.58,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0D6XSXGNj5CTGQQzKQKQQ2",
@@ -8289,7 +5181,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -8297,21 +5189,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.553,
-            "energy": 0.769,
-            "valence": 0.672,
-            "tempo": 121.6,
-            "acousticness": 0.342,
-            "instrumentalness": 0.0806,
-            "liveness": 0.058,
-            "speechiness": 0.3,
-            "loudness": -7.52,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7tNztQC6lr9IBGw5jhuOGp",
@@ -8331,21 +5209,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.807,
-            "valence": 0.706,
-            "tempo": 105.8,
-            "acousticness": 0.185,
-            "instrumentalness": 0.0565,
-            "liveness": 0.301,
-            "speechiness": 0.187,
-            "loudness": -3.22,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7qxtOyjZ2zSaxBPH8fLyNi",
@@ -8369,21 +5233,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-13",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.736,
-            "valence": 0.619,
-            "tempo": 100.8,
-            "acousticness": 0.381,
-            "instrumentalness": 0.031,
-            "liveness": 0.316,
-            "speechiness": 0.3,
-            "loudness": -5.08,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7eecj1HXy8EbnkknaQiaRC",
@@ -8403,21 +5253,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-04",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.722,
-            "valence": 0.9,
-            "tempo": 119.3,
-            "acousticness": 0.018,
-            "instrumentalness": 0.0842,
-            "liveness": 0.112,
-            "speechiness": 0.3,
-            "loudness": -3.89,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6mfbxEMTJdbl2wiT99oGzC",
@@ -8437,21 +5273,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.747,
-            "valence": 0.797,
-            "tempo": 129.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0819,
-            "liveness": 0.056,
-            "speechiness": 0.254,
-            "loudness": -6.03,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4v4MjawXhFtghMwrmnbHlS",
@@ -8471,21 +5293,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.668,
-            "energy": 0.705,
-            "valence": 0.694,
-            "tempo": 125.1,
-            "acousticness": 0.119,
-            "instrumentalness": 0.0047,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.61,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6cyXHTix4NQ069gKJEYv41",
@@ -8509,21 +5317,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-13",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.72,
-            "valence": 0.678,
-            "tempo": 114.3,
-            "acousticness": 0.131,
-            "instrumentalness": 0.0386,
-            "liveness": 0.05,
-            "speechiness": 0.276,
-            "loudness": -5.65,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3PqBqyqKDp59DyixbwjklD",
@@ -8545,21 +5339,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.803,
-            "valence": 0.404,
-            "tempo": 107.6,
-            "acousticness": 0.106,
-            "instrumentalness": 0.1019,
-            "liveness": 0.058,
-            "speechiness": 0.3,
-            "loudness": -3.91,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0DVj9NqROYmSFoaa4MUyE4",
@@ -8585,21 +5365,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.77,
-            "energy": 0.723,
-            "valence": 0.609,
-            "tempo": 123.6,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0716,
-            "liveness": 0.051,
-            "speechiness": 0.226,
-            "loudness": -7.24,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1nx6LKAkJ595JFmvFNDn5s",
@@ -8613,7 +5379,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 66,
           "artistGenres": [
             "afroswing",
-            "alté",
+            "alt\u00e9",
             "uk r&b",
             "afro r&b",
             "afrobeats",
@@ -8625,21 +5391,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.757,
-            "valence": 0.57,
-            "tempo": 103.0,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0386,
-            "liveness": 0.172,
-            "speechiness": 0.3,
-            "loudness": -6.13,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2JkjBVJIukdat5jNJeYyzz",
@@ -8664,21 +5416,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-28",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.723,
-            "energy": 0.642,
-            "valence": 0.885,
-            "tempo": 113.9,
-            "acousticness": 0.135,
-            "instrumentalness": 0.1077,
-            "liveness": 0.35,
-            "speechiness": 0.107,
-            "loudness": -6.07,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1tmjbuUxZQxC1ZGkoDwGR9",
@@ -8692,7 +5430,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -8700,21 +5438,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.54,
-            "valence": 0.772,
-            "tempo": 107.5,
-            "acousticness": 0.142,
-            "instrumentalness": 0.0017,
-            "liveness": 0.165,
-            "speechiness": 0.182,
-            "loudness": -7.46,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2AsdsBTAtp5EckmvsbUKtH",
@@ -8728,7 +5452,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 66,
           "artistGenres": [
             "afroswing",
-            "alté",
+            "alt\u00e9",
             "uk r&b",
             "afro r&b",
             "afrobeats",
@@ -8740,21 +5464,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.699,
-            "valence": 0.764,
-            "tempo": 98.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.172,
-            "speechiness": 0.222,
-            "loudness": -4.44,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0AN9fzMZLsbEfLVmiYtar4",
@@ -8776,21 +5486,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.734,
-            "valence": 0.627,
-            "tempo": 111.1,
-            "acousticness": 0.326,
-            "instrumentalness": 0.008,
-            "liveness": 0.09,
-            "speechiness": 0.149,
-            "loudness": -4.74,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "06RfkwsuJMUee15z3qyXtc",
@@ -8811,21 +5507,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-29",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.78,
-            "energy": 0.709,
-            "valence": 0.757,
-            "tempo": 123.6,
-            "acousticness": 0.095,
-            "instrumentalness": 0.0371,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2YNLzBRGyCAzHEGPO3J2Sb",
@@ -8850,21 +5532,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.772,
-            "valence": 0.876,
-            "tempo": 109.9,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0344,
-            "liveness": 0.078,
-            "speechiness": 0.192,
-            "loudness": -6.39,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3h5IdmPoFnEYNXUGV50FP3",
@@ -8878,7 +5546,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -8886,25 +5554,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.829,
-            "valence": 0.687,
-            "tempo": 96.1,
-            "acousticness": 0.365,
-            "instrumentalness": 0.0072,
-            "liveness": 0.214,
-            "speechiness": 0.142,
-            "loudness": -5.5,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "18TFbCHdZbnnyNIsJHcyGe",
-          "title": "IT’S TRUE (feat. Nora Fatehi)",
+          "title": "IT\u2019S TRUE (feat. Nora Fatehi)",
           "artist": "CKay, Nora Fatehi",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -8923,21 +5577,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-18",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.676,
-            "energy": 0.616,
-            "valence": 0.633,
-            "tempo": 105.2,
-            "acousticness": 0.247,
-            "instrumentalness": 0.0071,
-            "liveness": 0.159,
-            "speechiness": 0.3,
-            "loudness": -5.3,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5f2oBhVjNto8F78Yg4iA0U",
@@ -8957,21 +5597,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-14",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.707,
-            "energy": 0.65,
-            "valence": 0.752,
-            "tempo": 90.3,
-            "acousticness": 0.187,
-            "instrumentalness": 0.0115,
-            "liveness": 0.157,
-            "speechiness": 0.078,
-            "loudness": -7.52,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7axVXVx1LGtSEzysi4P5F2",
@@ -8993,21 +5619,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.676,
-            "energy": 0.634,
-            "valence": 0.605,
-            "tempo": 115.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0724,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3OAOs8ZRaExRuN988U1EBR",
@@ -9027,21 +5639,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.748,
-            "valence": 0.35,
-            "tempo": 110.5,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0074,
-            "liveness": 0.074,
-            "speechiness": 0.3,
-            "loudness": -5.77,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "307by3C3h1hRqzRTm3aK91",
@@ -9061,21 +5659,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-09",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.801,
-            "energy": 0.685,
-            "valence": 0.734,
-            "tempo": 127.5,
-            "acousticness": 0.242,
-            "instrumentalness": 0.0269,
-            "liveness": 0.344,
-            "speechiness": 0.29,
-            "loudness": -7.71,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5Wxkvvb6pLky16pwq4gBI3",
@@ -9100,21 +5684,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.669,
-            "valence": 0.59,
-            "tempo": 116.1,
-            "acousticness": 0.222,
-            "instrumentalness": 0.0373,
-            "liveness": 0.35,
-            "speechiness": 0.097,
-            "loudness": -7.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2zSmhMfkY8MPO5kHg70Cqd",
@@ -9134,21 +5704,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.767,
-            "energy": 0.76,
-            "valence": 0.839,
-            "tempo": 112.6,
-            "acousticness": 0.235,
-            "instrumentalness": 0.0309,
-            "liveness": 0.341,
-            "speechiness": 0.296,
-            "loudness": -8.17,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "46xlcFkCnRkPQGfXIoRY8K",
@@ -9169,21 +5725,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-30",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.604,
-            "energy": 0.754,
-            "valence": 0.672,
-            "tempo": 103.2,
-            "acousticness": 0.241,
-            "instrumentalness": 0.0081,
-            "liveness": 0.073,
-            "speechiness": 0.284,
-            "loudness": -6.97,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3EedyRBEZu0u5FH6Z9tHU1",
@@ -9205,21 +5747,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.832,
-            "energy": 0.72,
-            "valence": 0.551,
-            "tempo": 112.4,
-            "acousticness": 0.159,
-            "instrumentalness": 0.0557,
-            "liveness": 0.303,
-            "speechiness": 0.166,
-            "loudness": -7.33,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5CCw7Qu2fEh0iJ34iLx0Xl",
@@ -9239,21 +5767,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.739,
-            "valence": 0.449,
-            "tempo": 121.1,
-            "acousticness": 0.221,
-            "instrumentalness": 0.15,
-            "liveness": 0.076,
-            "speechiness": 0.3,
-            "loudness": -3.46,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5c86UmBcVZJkpUttaeKsKo",
@@ -9274,21 +5788,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.621,
-            "valence": 0.552,
-            "tempo": 103.1,
-            "acousticness": 0.189,
-            "instrumentalness": 0.0688,
-            "liveness": 0.154,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4Qgpt6M4MsuETnD5ljBR9N",
@@ -9308,21 +5808,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.691,
-            "energy": 0.691,
-            "valence": 0.9,
-            "tempo": 111.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0878,
-            "liveness": 0.096,
-            "speechiness": 0.05,
-            "loudness": -4.37,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "47hsUYxvbTlBAN3sP9dEOd",
@@ -9337,7 +5823,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -9345,21 +5831,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.597,
-            "valence": 0.661,
-            "tempo": 96.3,
-            "acousticness": 0.17,
-            "instrumentalness": 0.0026,
-            "liveness": 0.157,
-            "speechiness": 0.116,
-            "loudness": -3.06,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1A4H9bQd3nUrM57FHQ7vOE",
@@ -9380,21 +5852,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.571,
-            "energy": 0.777,
-            "valence": 0.692,
-            "tempo": 107.4,
-            "acousticness": 0.154,
-            "instrumentalness": 0.1476,
-            "liveness": 0.076,
-            "speechiness": 0.3,
-            "loudness": -6.93,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1TKveCXUDWanm2HldlMoVx",
@@ -9414,21 +5872,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.775,
-            "valence": 0.617,
-            "tempo": 117.4,
-            "acousticness": 0.168,
-            "instrumentalness": 0.0028,
-            "liveness": 0.216,
-            "speechiness": 0.14,
-            "loudness": -6.38,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1zl9OkuwkRKErXqF5hBeVB",
@@ -9450,21 +5894,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.565,
-            "energy": 0.662,
-            "valence": 0.681,
-            "tempo": 109.2,
-            "acousticness": 0.042,
-            "instrumentalness": 0.0255,
-            "liveness": 0.35,
-            "speechiness": 0.255,
-            "loudness": -3.9,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -9491,21 +5921,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0bkq8SCKDRY1RBFKIADCQK",
@@ -9528,21 +5944,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-18",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.691,
-            "energy": 0.703,
-            "valence": 0.552,
-            "tempo": 121.1,
-            "acousticness": 0.155,
-            "instrumentalness": 0.1076,
-            "liveness": 0.068,
-            "speechiness": 0.255,
-            "loudness": -5.8,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1EgTxq6tc9yk08ChNoUnKM",
@@ -9563,21 +5965,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-17",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.763,
-            "energy": 0.722,
-            "valence": 0.672,
-            "tempo": 92.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.0169,
-            "liveness": 0.333,
-            "speechiness": 0.3,
-            "loudness": -7.29,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0OHtC5RTuZLwbQRgbtxG9n",
@@ -9591,7 +5979,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -9599,21 +5987,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.795,
-            "valence": 0.822,
-            "tempo": 117.1,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0178,
-            "liveness": 0.169,
-            "speechiness": 0.3,
-            "loudness": -3.53,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3qSk5TP4A8gQIsb8iNVwnx",
@@ -9630,7 +6004,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afroswing",
             "azonto"
@@ -9640,21 +6014,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-19",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.777,
-            "energy": 0.849,
-            "valence": 0.495,
-            "tempo": 122.1,
-            "acousticness": 0.203,
-            "instrumentalness": 0.0389,
-            "liveness": 0.3,
-            "speechiness": 0.078,
-            "loudness": -5.71,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2OFAr2yi74OpnFNbfgN6rf",
@@ -9675,21 +6035,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.581,
-            "valence": 0.521,
-            "tempo": 111.3,
-            "acousticness": 0.067,
-            "instrumentalness": 0.0665,
-            "liveness": 0.097,
-            "speechiness": 0.3,
-            "loudness": -9.64,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4HuciJ6VfCUkwoX4YFYj3f",
@@ -9712,21 +6058,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-30",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.607,
-            "energy": 0.913,
-            "valence": 0.715,
-            "tempo": 115.7,
-            "acousticness": 0.163,
-            "instrumentalness": 0.0784,
-            "liveness": 0.078,
-            "speechiness": 0.268,
-            "loudness": -6.4,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6oCFUiZlqOwdUbyER0Lyr6",
@@ -9748,21 +6080,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.651,
-            "energy": 0.763,
-            "valence": 0.598,
-            "tempo": 103.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0178,
-            "liveness": 0.114,
-            "speechiness": 0.3,
-            "loudness": -6.87,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0b3NkRxZt5FYAinS8rk1Xi",
@@ -9785,21 +6103,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-29",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.739,
-            "energy": 0.733,
-            "valence": 0.612,
-            "tempo": 98.4,
-            "acousticness": 0.08,
-            "instrumentalness": 0.036,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -5.5,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -9822,21 +6126,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3GK7tB8DdWL6Fw8ozbSBcp",
@@ -9856,21 +6146,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-04-30",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.5,
-            "valence": 0.713,
-            "tempo": 102.0,
-            "acousticness": 0.169,
-            "instrumentalness": 0.1178,
-            "liveness": 0.098,
-            "speechiness": 0.179,
-            "loudness": -5.6,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5zEvExCGtqGUzQEpBgkiie",
@@ -9886,7 +6162,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -9897,21 +6173,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-12",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.82,
-            "energy": 0.837,
-            "valence": 0.561,
-            "tempo": 135.0,
-            "acousticness": 0.046,
-            "instrumentalness": 0.0358,
-            "liveness": 0.233,
-            "speechiness": 0.198,
-            "loudness": -6.79,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "05hDg3tNpzplnyWoxmw9Pj",
@@ -9931,21 +6193,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-30",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.743,
-            "valence": 0.671,
-            "tempo": 104.0,
-            "acousticness": 0.22,
-            "instrumentalness": 0.0829,
-            "liveness": 0.207,
-            "speechiness": 0.3,
-            "loudness": -4.36,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0JHiAVySqpLE1RpBMkZnau",
@@ -9967,21 +6215,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-15",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.769,
-            "energy": 0.818,
-            "valence": 0.591,
-            "tempo": 113.4,
-            "acousticness": 0.289,
-            "instrumentalness": 0.0008,
-            "liveness": 0.336,
-            "speechiness": 0.3,
-            "loudness": -6.11,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4elt86Mgijb74wnuO1nTcG",
@@ -9997,7 +6231,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afro r&b",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afropop"
           ],
@@ -10006,21 +6240,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.614,
-            "energy": 0.677,
-            "valence": 0.641,
-            "tempo": 90.0,
-            "acousticness": 0.263,
-            "instrumentalness": 0.013,
-            "liveness": 0.241,
-            "speechiness": 0.133,
-            "loudness": -8.05,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4FzcGdWxuwiFmqoOL6AsFg",
@@ -10034,7 +6254,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 31,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "4kM3LGXvoA2XsvjxBmVyR2",
@@ -10042,21 +6262,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.635,
-            "energy": 0.607,
-            "valence": 0.571,
-            "tempo": 106.5,
-            "acousticness": 0.112,
-            "instrumentalness": 0.0581,
-            "liveness": 0.104,
-            "speechiness": 0.278,
-            "loudness": -6.32,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4HclkElcH5XYdWZNxeuIvn",
@@ -10074,28 +6280,14 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afropop",
             "afro soul",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "4f8vvLN5Rt3WszqOqVR9e9",
           "playlistPosition": 151,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.774,
-            "valence": 0.447,
-            "tempo": 128.7,
-            "acousticness": 0.095,
-            "instrumentalness": 0.0022,
-            "liveness": 0.125,
-            "speechiness": 0.262,
-            "loudness": -3.94,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5XHZWCpKc4XJghIYi8uHgi",
@@ -10120,25 +6312,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-09",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.729,
-            "valence": 0.655,
-            "tempo": 116.9,
-            "acousticness": 0.139,
-            "instrumentalness": 0.1156,
-            "liveness": 0.35,
-            "speechiness": 0.212,
-            "loudness": -4.91,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1qARhbZRfGv4kCpf9R8Xjk",
-          "title": "Ọmọ",
+          "title": "\u1eccm\u1ecd",
           "artist": "Rolla",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -10154,21 +6332,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-19",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.61,
-            "valence": 0.69,
-            "tempo": 114.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0394,
-            "liveness": 0.075,
-            "speechiness": 0.103,
-            "loudness": -6.32,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0IWQ4RhteeVvOXqiixHG3k",
@@ -10189,21 +6353,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.673,
-            "valence": 0.745,
-            "tempo": 108.4,
-            "acousticness": 0.207,
-            "instrumentalness": 0.1049,
-            "liveness": 0.148,
-            "speechiness": 0.3,
-            "loudness": -6.19,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6bW7YnPQQffit1iwule5Vv",
@@ -10226,21 +6376,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-23",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.656,
-            "valence": 0.533,
-            "tempo": 116.5,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0114,
-            "liveness": 0.132,
-            "speechiness": 0.3,
-            "loudness": -5.03,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4ekRx0pTjxVuvb9nUZDwu0",
@@ -10262,21 +6398,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.667,
-            "valence": 0.52,
-            "tempo": 97.8,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0133,
-            "liveness": 0.264,
-            "speechiness": 0.212,
-            "loudness": -7.31,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -10301,21 +6423,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2gOBTGJTMUjr4p2CUlMW00",
@@ -10334,28 +6442,14 @@ window.AFROBEATS_DATA = {
             "afropop",
             "afro soul",
             "afropiano",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "0ZvsEkINadmEV4qzS4ollh",
           "playlistPosition": 158,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.593,
-            "valence": 0.557,
-            "tempo": 111.2,
-            "acousticness": 0.06,
-            "instrumentalness": 0.0112,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.44,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1m393XweDjBki9dUzjArmK",
@@ -10376,21 +6470,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-20",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.608,
-            "energy": 0.712,
-            "valence": 0.462,
-            "tempo": 92.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0416,
-            "liveness": 0.144,
-            "speechiness": 0.195,
-            "loudness": -7.68,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "1MJtvkBO5xb81zVgwXIbg6",
@@ -10410,21 +6490,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-22",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.647,
-            "energy": 0.795,
-            "valence": 0.579,
-            "tempo": 113.2,
-            "acousticness": 0.041,
-            "instrumentalness": 0.0154,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.68,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7pXUJ1q7w3bRNcZMv3dxGe",
@@ -10444,21 +6510,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.71,
-            "valence": 0.479,
-            "tempo": 96.1,
-            "acousticness": 0.182,
-            "instrumentalness": 0.0508,
-            "liveness": 0.064,
-            "speechiness": 0.179,
-            "loudness": -5.14,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2w82JyPaIey14wPUg2E9Fe",
@@ -10480,21 +6532,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-11",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.708,
-            "energy": 0.757,
-            "valence": 0.54,
-            "tempo": 90.0,
-            "acousticness": 0.145,
-            "instrumentalness": 0.0236,
-            "liveness": 0.05,
-            "speechiness": 0.233,
-            "loudness": -5.27,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7EIJilXEkWf5EE6d0qinNw",
@@ -10517,21 +6555,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-04-08",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.675,
-            "valence": 0.834,
-            "tempo": 117.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1062,
-            "liveness": 0.214,
-            "speechiness": 0.292,
-            "loudness": -5.26,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "4a8qsJdTh6LlY3mzFxdoC1",
@@ -10552,21 +6576,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.709,
-            "valence": 0.604,
-            "tempo": 112.6,
-            "acousticness": 0.093,
-            "instrumentalness": 0.0051,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.39,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0oac2HUP1cw6XxAAqQCTwH",
@@ -10586,21 +6596,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.714,
-            "valence": 0.686,
-            "tempo": 106.4,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0259,
-            "liveness": 0.229,
-            "speechiness": 0.3,
-            "loudness": -5.4,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3Dc2Ad9xzWaKY15VjomqQR",
@@ -10625,21 +6621,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-03",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.64,
-            "energy": 0.687,
-            "valence": 0.627,
-            "tempo": 116.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1169,
-            "liveness": 0.258,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2Cz1ppqlF9Ozk1UgumS7Oc",
@@ -10665,21 +6647,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.685,
-            "valence": 0.54,
-            "tempo": 112.3,
-            "acousticness": 0.251,
-            "instrumentalness": 0.0223,
-            "liveness": 0.184,
-            "speechiness": 0.3,
-            "loudness": -5.56,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5OBoc1QPOmdMSUeqNaiJKL",
@@ -10701,21 +6669,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-06",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.686,
-            "valence": 0.649,
-            "tempo": 90.0,
-            "acousticness": 0.16,
-            "instrumentalness": 0.0503,
-            "liveness": 0.255,
-            "speechiness": 0.267,
-            "loudness": -3.94,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7zKTbDcINjbxk5cfov6jrt",
@@ -10735,21 +6689,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-28",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.707,
-            "energy": 0.681,
-            "valence": 0.728,
-            "tempo": 94.5,
-            "acousticness": 0.163,
-            "instrumentalness": 0.0955,
-            "liveness": 0.35,
-            "speechiness": 0.168,
-            "loudness": -4.95,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "5InZPeVHSPOMM7qvzu9I6x",
@@ -10770,25 +6710,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.746,
-            "energy": 0.731,
-            "valence": 0.61,
-            "tempo": 90.0,
-            "acousticness": 0.35,
-            "instrumentalness": 0.0387,
-            "liveness": 0.161,
-            "speechiness": 0.3,
-            "loudness": -6.49,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "2n9NiEPGijWRuPkW6it5Dy",
-          "title": "Loved Me Then ​(f​eat​. Lojay​)",
+          "title": "Loved Me Then \u200b(f\u200beat\u200b. Lojay\u200b)",
           "artist": "Sarz, Lojay",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -10799,7 +6725,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -10809,21 +6735,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.606,
-            "valence": 0.563,
-            "tempo": 99.9,
-            "acousticness": 0.285,
-            "instrumentalness": 0.0313,
-            "liveness": 0.105,
-            "speechiness": 0.3,
-            "loudness": -3.94,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "6jCxKz9szmm6TESrlK6TR1",
@@ -10839,7 +6751,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afro r&b",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afropop"
           ],
@@ -10848,26 +6760,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-01",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.727,
-            "valence": 0.778,
-            "tempo": 105.4,
-            "acousticness": 0.159,
-            "instrumentalness": 0.0536,
-            "liveness": 0.18,
-            "speechiness": 0.3,
-            "loudness": -5.21,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "7qZOtiN7oiDpKqEVW7szZc",
           "title": "Some More",
-          "artist": "TÖME",
+          "artist": "T\u00d6ME",
           "artistCountry": "Canada",
           "regionGroup": "North America",
           "diaspora": false,
@@ -10875,7 +6773,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 44,
           "artistPopularity": 27,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afro soul",
             "afropop"
@@ -10885,21 +6783,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.564,
-            "valence": 0.706,
-            "tempo": 111.0,
-            "acousticness": 0.377,
-            "instrumentalness": 0.0234,
-            "liveness": 0.127,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "3SU9GElvRPatdvyfSfz6Cg",
@@ -10920,21 +6804,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.572,
-            "energy": 0.797,
-            "valence": 0.815,
-            "tempo": 112.0,
-            "acousticness": 0.023,
-            "instrumentalness": 0.1035,
-            "liveness": 0.285,
-            "speechiness": 0.186,
-            "loudness": -7.37,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         },
         {
           "id": "0PbB7yLkcKmwD36Vc8mg3B",
@@ -10955,21 +6825,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-31",
-          "addedAt": "2025-11-14T17:52:39Z",
-          "features": {
-            "danceability": 0.758,
-            "energy": 0.791,
-            "valence": 0.459,
-            "tempo": 102.5,
-            "acousticness": 0.13,
-            "instrumentalness": 0.0818,
-            "liveness": 0.19,
-            "speechiness": 0.172,
-            "loudness": -5.02,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:52:39Z"
         }
       ]
     },
@@ -10984,7 +6840,7 @@ window.AFROBEATS_DATA = {
       "tracks": [
         {
           "id": "1HJr3tp2LIrvXFexwiyn7s",
-          "title": "Getting Paid ​(f​eat​. Asake, Wizkid, Skillibeng​)",
+          "title": "Getting Paid \u200b(f\u200beat\u200b. Asake, Wizkid, Skillibeng\u200b)",
           "artist": "Sarz, Asake, Wizkid, Skillibeng",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -10995,7 +6851,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -11005,21 +6861,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-09-27T22:01:40Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.533,
-            "valence": 0.706,
-            "tempo": 112.9,
-            "acousticness": 0.134,
-            "instrumentalness": 0.1102,
-            "liveness": 0.255,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-27T22:01:40Z"
         },
         {
           "id": "3wxFGa444tOpit0dsToPd6",
@@ -11035,7 +6877,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -11045,21 +6887,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-09-26T22:33:45Z",
-          "features": {
-            "danceability": 0.779,
-            "energy": 0.635,
-            "valence": 0.735,
-            "tempo": 135.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0024,
-            "liveness": 0.154,
-            "speechiness": 0.244,
-            "loudness": -4.91,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-26T22:33:45Z"
         },
         {
           "id": "4FHlbOMdOcPnOYmfH8dl1Z",
@@ -11084,21 +6912,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-21T05:06:40Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.701,
-            "valence": 0.64,
-            "tempo": 117.4,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0155,
-            "liveness": 0.104,
-            "speechiness": 0.3,
-            "loudness": -4.12,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-21T05:06:40Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -11125,21 +6939,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "3WOyHOoclSEljLRkTUa3ex",
@@ -11157,21 +6957,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-18T10:11:35Z",
-          "features": {
-            "danceability": 0.763,
-            "energy": 0.756,
-            "valence": 0.758,
-            "tempo": 95.3,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0219,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.46,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T10:11:35Z"
         },
         {
           "id": "1AvGLhaYkQlnxl1a3Anhnz",
@@ -11189,21 +6975,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-11-16T13:01:00Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.729,
-            "valence": 0.613,
-            "tempo": 108.6,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0516,
-            "liveness": 0.05,
-            "speechiness": 0.055,
-            "loudness": -6.19,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-16T13:01:00Z"
         },
         {
           "id": "2h1aaSSMUspQfHKDl5uISY",
@@ -11216,7 +6988,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -11228,21 +7000,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-22",
-          "addedAt": "2025-10-02T00:59:29Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.812,
-            "valence": 0.413,
-            "tempo": 126.1,
-            "acousticness": 0.306,
-            "instrumentalness": 0.049,
-            "liveness": 0.128,
-            "speechiness": 0.087,
-            "loudness": -6.82,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-02T00:59:29Z"
         },
         {
           "id": "5Y5yXkiGjavArSh4gqJAGm",
@@ -11260,21 +7018,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-10",
-          "addedAt": "2025-11-14T19:31:38Z",
-          "features": {
-            "danceability": 0.677,
-            "energy": 0.711,
-            "valence": 0.729,
-            "tempo": 104.0,
-            "acousticness": 0.297,
-            "instrumentalness": 0.0412,
-            "liveness": 0.056,
-            "speechiness": 0.205,
-            "loudness": -7.36,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T19:31:38Z"
         },
         {
           "id": "7lRBrno3yGe096YlW8sJo3",
@@ -11292,21 +7036,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-22",
-          "addedAt": "2025-11-13T17:39:16Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.744,
-            "valence": 0.648,
-            "tempo": 113.0,
-            "acousticness": 0.308,
-            "instrumentalness": 0.0367,
-            "liveness": 0.315,
-            "speechiness": 0.099,
-            "loudness": -4.81,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T17:39:16Z"
         },
         {
           "id": "05lhFsOWPXRjfGA7xY7XJz",
@@ -11330,21 +7060,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.796,
-            "valence": 0.545,
-            "tempo": 111.8,
-            "acousticness": 0.069,
-            "instrumentalness": 0.03,
-            "liveness": 0.34,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "0EJwcwxMlY0sSU1KbbZVpt",
@@ -11362,21 +7078,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-10-25T20:43:11Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.836,
-            "valence": 0.9,
-            "tempo": 128.4,
-            "acousticness": 0.092,
-            "instrumentalness": 0.0313,
-            "liveness": 0.175,
-            "speechiness": 0.125,
-            "loudness": -5.22,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-25T20:43:11Z"
         },
         {
           "id": "64sgHdwetzIsoSJFklckB7",
@@ -11394,21 +7096,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-23",
-          "addedAt": "2025-10-22T19:53:53Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.831,
-            "valence": 0.533,
-            "tempo": 97.3,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0768,
-            "liveness": 0.298,
-            "speechiness": 0.233,
-            "loudness": -6.81,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-22T19:53:53Z"
         },
         {
           "id": "3wdV4OJ37JdoLyUJMm50UW",
@@ -11434,21 +7122,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.661,
-            "valence": 0.717,
-            "tempo": 103.4,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0038,
-            "liveness": 0.059,
-            "speechiness": 0.154,
-            "loudness": -6.32,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -11475,21 +7149,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "3w0eFAME3IxlonearUIaXJ",
@@ -11513,21 +7173,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-20",
-          "addedAt": "2025-08-25T09:56:03Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.756,
-            "valence": 0.9,
-            "tempo": 112.3,
-            "acousticness": 0.23,
-            "instrumentalness": 0.0748,
-            "liveness": 0.304,
-            "speechiness": 0.3,
-            "loudness": -5.24,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-25T09:56:03Z"
         },
         {
           "id": "2IocWgGPI0o6rmRDeb7Zrz",
@@ -11546,7 +7192,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -11555,21 +7201,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-02",
-          "addedAt": "2025-08-22T13:44:29Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.733,
-            "valence": 0.652,
-            "tempo": 104.8,
-            "acousticness": 0.206,
-            "instrumentalness": 0.0672,
-            "liveness": 0.298,
-            "speechiness": 0.143,
-            "loudness": -3.64,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-22T13:44:29Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -11594,21 +7226,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "1lWcw1YdBbYbFzJ9BKyDqc",
@@ -11621,7 +7239,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 54,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -11637,21 +7255,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-04",
-          "addedAt": "2025-07-03T23:55:08Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.718,
-            "valence": 0.654,
-            "tempo": 121.6,
-            "acousticness": 0.18,
-            "instrumentalness": 0.0348,
-            "liveness": 0.151,
-            "speechiness": 0.129,
-            "loudness": -8.21,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-03T23:55:08Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -11674,21 +7278,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "6n6J0mZb0ltWlt2AqobHVd",
@@ -11713,21 +7303,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.612,
-            "energy": 0.841,
-            "valence": 0.571,
-            "tempo": 119.0,
-            "acousticness": 0.062,
-            "instrumentalness": 0.0589,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.67,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -11752,21 +7328,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "6qP0WJrZVJMWQHGWoYrvuo",
@@ -11786,21 +7348,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-21",
-          "addedAt": "2025-08-25T09:55:16Z",
-          "features": {
-            "danceability": 0.658,
-            "energy": 0.635,
-            "valence": 0.553,
-            "tempo": 120.0,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0608,
-            "liveness": 0.155,
-            "speechiness": 0.3,
-            "loudness": -5.37,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-25T09:55:16Z"
         },
         {
           "id": "4SF9cN3XnLIo51bUPy97EM",
@@ -11818,21 +7366,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-21",
-          "addedAt": "2025-08-25T09:57:16Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.693,
-            "valence": 0.523,
-            "tempo": 117.5,
-            "acousticness": 0.04,
-            "instrumentalness": 0.0099,
-            "liveness": 0.077,
-            "speechiness": 0.133,
-            "loudness": -3.05,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-25T09:57:16Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -11860,21 +7394,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4otA4JHWkokv4qAj1Pp2U5",
@@ -11899,21 +7419,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.75,
-            "valence": 0.718,
-            "tempo": 115.0,
-            "acousticness": 0.373,
-            "instrumentalness": 0.108,
-            "liveness": 0.086,
-            "speechiness": 0.3,
-            "loudness": -5.53,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -11938,21 +7444,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "7LZkMeX1k8PXQJ0SVYn1A5",
@@ -11980,21 +7472,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.799,
-            "valence": 0.7,
-            "tempo": 92.4,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0074,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "52ZxqHSe1HesJPwuuBiW4U",
@@ -12018,21 +7496,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.743,
-            "valence": 0.595,
-            "tempo": 127.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.15,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -3.63,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "5rFZHAhav5kGsSAKtQHRHq",
@@ -12056,21 +7520,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.848,
-            "valence": 0.47,
-            "tempo": 90.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0366,
-            "liveness": 0.133,
-            "speechiness": 0.3,
-            "loudness": -4.95,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2j8n2hpZlEMvtrjJ7n0ZIy",
@@ -12096,21 +7546,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.549,
-            "valence": 0.68,
-            "tempo": 117.5,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0082,
-            "liveness": 0.101,
-            "speechiness": 0.165,
-            "loudness": -5.89,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "3ZR7IlqBPK8TrJyZYfFX9L",
@@ -12136,21 +7572,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-05",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.895,
-            "valence": 0.648,
-            "tempo": 112.8,
-            "acousticness": 0.227,
-            "instrumentalness": 0.0621,
-            "liveness": 0.171,
-            "speechiness": 0.281,
-            "loudness": -3.88,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "0OWPr4POCQ7iH9BGmTxOZV",
@@ -12166,7 +7588,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -12176,21 +7598,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.762,
-            "valence": 0.662,
-            "tempo": 113.1,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0264,
-            "liveness": 0.05,
-            "speechiness": 0.278,
-            "loudness": -5.83,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "5nmYNuBSh99LNDdZ0iSe2O",
@@ -12215,21 +7623,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.706,
-            "valence": 0.605,
-            "tempo": 111.2,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0914,
-            "liveness": 0.219,
-            "speechiness": 0.298,
-            "loudness": -3.57,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "3RMr94P81nO3GtW9MfqNp5",
@@ -12245,7 +7639,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -12255,21 +7649,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.798,
-            "valence": 0.62,
-            "tempo": 112.9,
-            "acousticness": 0.114,
-            "instrumentalness": 0.0667,
-            "liveness": 0.222,
-            "speechiness": 0.188,
-            "loudness": -5.72,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "07eJSSPcNlkR34wVlkrCcY",
@@ -12285,33 +7665,19 @@ window.AFROBEATS_DATA = {
             "afro adura",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "nigerian drill",
             "afro soul",
-            "fújì"
+            "f\u00faj\u00ec"
           ],
           "artistId": "7kK5badbqOjd8WlT2XWMeM",
           "playlistPosition": 35,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.695,
-            "energy": 0.692,
-            "valence": 0.565,
-            "tempo": 119.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0363,
-            "liveness": 0.218,
-            "speechiness": 0.218,
-            "loudness": -4.19,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -12335,21 +7701,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "7mdvPu1ZAOIgMzr3sfpAqk",
@@ -12373,21 +7725,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-26",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.656,
-            "valence": 0.61,
-            "tempo": 108.6,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -4.91,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2v7r3nItoWRbCQBS1qFQnD",
@@ -12413,21 +7751,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-13",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.756,
-            "valence": 0.702,
-            "tempo": 111.0,
-            "acousticness": 0.254,
-            "instrumentalness": 0.0141,
-            "liveness": 0.191,
-            "speechiness": 0.115,
-            "loudness": -6.6,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4XHrQHvHWlE0RldeG8Nslq",
@@ -12451,21 +7775,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 121.8,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0891,
-            "liveness": 0.074,
-            "speechiness": 0.175,
-            "loudness": -3.51,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -12492,21 +7802,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4WnlAkJ3S0r6C7ofHy6kNP",
@@ -12531,21 +7827,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-15",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.611,
-            "energy": 0.785,
-            "valence": 0.62,
-            "tempo": 99.9,
-            "acousticness": 0.205,
-            "instrumentalness": 0.0572,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -4.64,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2YwBdxvMFsWUSCaL1U6xIg",
@@ -12569,21 +7851,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.597,
-            "valence": 0.615,
-            "tempo": 105.0,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0263,
-            "liveness": 0.195,
-            "speechiness": 0.105,
-            "loudness": -5.31,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -12606,21 +7874,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "7fA7mrYaXVDVVGCAV65NRN",
@@ -12645,21 +7899,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-27",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.581,
-            "valence": 0.704,
-            "tempo": 128.6,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0267,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -5.06,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "6CSbf15NZhlB39CAjDU16b",
@@ -12686,21 +7926,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-02",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.611,
-            "energy": 0.805,
-            "valence": 0.504,
-            "tempo": 111.5,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0158,
-            "liveness": 0.172,
-            "speechiness": 0.113,
-            "loudness": -6.71,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "5EMD7ozaMBD2GJCUHD5nVn",
@@ -12726,21 +7952,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-23",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.595,
-            "energy": 0.66,
-            "valence": 0.65,
-            "tempo": 109.7,
-            "acousticness": 0.101,
-            "instrumentalness": 0.0212,
-            "liveness": 0.202,
-            "speechiness": 0.3,
-            "loudness": -6.62,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -12753,7 +7965,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -12766,26 +7978,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2pNjk1fIZTMtj8ry6SdEmB",
           "title": "Venus",
-          "artist": "Faceless, Serøtonin",
+          "artist": "Faceless, Ser\u00f8tonin",
           "artistCountry": "Ghana",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -12804,21 +8002,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-28",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.705,
-            "valence": 0.558,
-            "tempo": 114.1,
-            "acousticness": 0.288,
-            "instrumentalness": 0.1393,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.45,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4gNOP9BGhyl2apkm8Xy7Eg",
@@ -12833,7 +8017,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afro adura",
             "nigerian drill",
-            "alté",
+            "alt\u00e9",
             "afrobeat",
             "afro soul",
             "afrobeats"
@@ -12843,21 +8027,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.695,
-            "valence": 0.817,
-            "tempo": 124.4,
-            "acousticness": 0.292,
-            "instrumentalness": 0.023,
-            "liveness": 0.053,
-            "speechiness": 0.056,
-            "loudness": -5.48,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "2Wj5YuUfvbAOzA2kxRlnqi",
@@ -12882,21 +8052,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.78,
-            "valence": 0.54,
-            "tempo": 107.5,
-            "acousticness": 0.143,
-            "instrumentalness": 0.15,
-            "liveness": 0.171,
-            "speechiness": 0.181,
-            "loudness": -6.51,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "7msfmSm4KbVnIds5DvsGzT",
@@ -12921,21 +8077,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-14",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.766,
-            "energy": 0.616,
-            "valence": 0.654,
-            "tempo": 127.8,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1154,
-            "liveness": 0.266,
-            "speechiness": 0.273,
-            "loudness": -5.31,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "6Xf8PfUrnPoosRiAbNGnur",
@@ -12953,7 +8095,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afropop"
           ],
           "artistId": "3hz0ZIs5SlEnlK0ML7FmNc",
@@ -12961,21 +8103,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-25",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.794,
-            "valence": 0.561,
-            "tempo": 90.0,
-            "acousticness": 0.157,
-            "instrumentalness": 0.0144,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "7L1DT2ByQ331AJkDfjvI5N",
@@ -12998,21 +8126,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-25",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.59,
-            "valence": 0.451,
-            "tempo": 111.4,
-            "acousticness": 0.096,
-            "instrumentalness": 0.0348,
-            "liveness": 0.333,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "3H2bLX6U4kNuv04iTkCrSp",
@@ -13035,21 +8149,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-01",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.737,
-            "valence": 0.798,
-            "tempo": 108.1,
-            "acousticness": 0.051,
-            "instrumentalness": 0.1027,
-            "liveness": 0.225,
-            "speechiness": 0.114,
-            "loudness": -4.37,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "1136eJrkWsDvReASbjLTaU",
@@ -13074,21 +8174,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-07",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.607,
-            "valence": 0.548,
-            "tempo": 110.9,
-            "acousticness": 0.378,
-            "instrumentalness": 0.0032,
-            "liveness": 0.175,
-            "speechiness": 0.144,
-            "loudness": -4.44,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "5Wxkvvb6pLky16pwq4gBI3",
@@ -13113,21 +8199,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.669,
-            "valence": 0.59,
-            "tempo": 116.1,
-            "acousticness": 0.222,
-            "instrumentalness": 0.0373,
-            "liveness": 0.35,
-            "speechiness": 0.097,
-            "loudness": -7.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "20l4NPs2c9OBKBKUKRjxIy",
@@ -13141,7 +8213,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 59,
           "artistGenres": [
             "afro adura",
-            "alté",
+            "alt\u00e9",
             "nigerian drill",
             "afrobeat",
             "afrobeats",
@@ -13152,21 +8224,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-08",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.676,
-            "energy": 0.545,
-            "valence": 0.483,
-            "tempo": 111.4,
-            "acousticness": 0.352,
-            "instrumentalness": 0.0628,
-            "liveness": 0.242,
-            "speechiness": 0.3,
-            "loudness": -3.21,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "5hphSVebVxTpDfrk09W0hS",
@@ -13190,21 +8248,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.843,
-            "energy": 0.629,
-            "valence": 0.554,
-            "tempo": 113.9,
-            "acousticness": 0.218,
-            "instrumentalness": 0.0394,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.91,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "1YsGGtMNVuyvlq2enrwL35",
@@ -13222,7 +8266,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afropop"
           ],
           "artistId": "3hz0ZIs5SlEnlK0ML7FmNc",
@@ -13230,21 +8274,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-25",
-          "addedAt": "2025-05-31T11:32:39Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.776,
-            "valence": 0.711,
-            "tempo": 90.0,
-            "acousticness": 0.084,
-            "instrumentalness": 0.052,
-            "liveness": 0.09,
-            "speechiness": 0.3,
-            "loudness": -7.42,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:32:39Z"
         },
         {
           "id": "4vHy2IHzf3EabEa7oMpUZB",
@@ -13266,21 +8296,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-23",
-          "addedAt": "2024-10-06T22:46:07Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.75,
-            "valence": 0.751,
-            "tempo": 110.1,
-            "acousticness": 0.137,
-            "instrumentalness": 0.008,
-            "liveness": 0.114,
-            "speechiness": 0.133,
-            "loudness": -6.25,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-06T22:46:07Z"
         },
         {
           "id": "403UULZfsCNgiCJlf7kii4",
@@ -13302,21 +8318,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-03",
-          "addedAt": "2024-10-06T22:46:07Z",
-          "features": {
-            "danceability": 0.67,
-            "energy": 0.737,
-            "valence": 0.522,
-            "tempo": 105.8,
-            "acousticness": 0.021,
-            "instrumentalness": 0.004,
-            "liveness": 0.306,
-            "speechiness": 0.234,
-            "loudness": -6.06,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-06T22:46:07Z"
         },
         {
           "id": "2h1aaSSMUspQfHKDl5uISY",
@@ -13329,7 +8331,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -13341,21 +8343,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-22",
-          "addedAt": "2025-10-02T01:00:11Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.812,
-            "valence": 0.413,
-            "tempo": 126.1,
-            "acousticness": 0.306,
-            "instrumentalness": 0.049,
-            "liveness": 0.128,
-            "speechiness": 0.087,
-            "loudness": -6.82,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-02T01:00:11Z"
         }
       ]
     },
@@ -13383,7 +8371,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -13394,21 +8382,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-29T02:03:43Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-29T02:03:43Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -13433,21 +8407,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7mdvPu1ZAOIgMzr3sfpAqk",
@@ -13471,21 +8431,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-26",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.656,
-            "valence": 0.61,
-            "tempo": 108.6,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -4.91,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7c5uGV9Rys18JP2570ykTu",
@@ -13512,21 +8458,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.603,
-            "energy": 0.657,
-            "valence": 0.695,
-            "tempo": 113.7,
-            "acousticness": 0.23,
-            "instrumentalness": 0.0966,
-            "liveness": 0.131,
-            "speechiness": 0.223,
-            "loudness": -7.53,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "5BLQKcKyZgLJ24Bo5jK79q",
@@ -13546,21 +8478,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-13",
-          "addedAt": "2025-11-17T16:38:12Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.701,
-            "valence": 0.756,
-            "tempo": 112.0,
-            "acousticness": 0.259,
-            "instrumentalness": 0.0126,
-            "liveness": 0.199,
-            "speechiness": 0.3,
-            "loudness": -5.97,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-17T16:38:12Z"
         },
         {
           "id": "2FUkhFheZr1eDeWBN7Sb1Z",
@@ -13581,21 +8499,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-26",
-          "addedAt": "2025-11-15T20:25:57Z",
-          "features": {
-            "danceability": 0.562,
-            "energy": 0.712,
-            "valence": 0.708,
-            "tempo": 135.0,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0196,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -5.86,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-15T20:25:57Z"
         },
         {
           "id": "4SjfsqsR3TIR3SO7kcTlFX",
@@ -13620,21 +8524,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-02T08:03:43Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.692,
-            "valence": 0.616,
-            "tempo": 115.1,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0121,
-            "liveness": 0.168,
-            "speechiness": 0.3,
-            "loudness": -6.72,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-02T08:03:43Z"
         },
         {
           "id": "58cWj2jnd4e6vYBhEcuniK",
@@ -13652,21 +8542,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-12",
-          "addedAt": "2025-11-14T07:48:10Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.662,
-            "valence": 0.424,
-            "tempo": 90.0,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0648,
-            "liveness": 0.294,
-            "speechiness": 0.3,
-            "loudness": -7.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T07:48:10Z"
         },
         {
           "id": "2tJnnTCNuzXMKVn1ZUdpIo",
@@ -13684,21 +8560,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-01",
-          "addedAt": "2025-11-12T18:52:35Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.738,
-            "valence": 0.718,
-            "tempo": 112.1,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0457,
-            "liveness": 0.27,
-            "speechiness": 0.3,
-            "loudness": -4.93,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-12T18:52:35Z"
         },
         {
           "id": "0FU7ERQTOECwmEIaWDgdIG",
@@ -13725,21 +8587,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-27T20:34:33Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.774,
-            "valence": 0.825,
-            "tempo": 112.3,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0037,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-27T20:34:33Z"
         },
         {
           "id": "4xwelpBmymMpUMyg9RVvgx",
@@ -13757,21 +8605,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-03",
-          "addedAt": "2025-11-10T12:15:46Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.849,
-            "valence": 0.69,
-            "tempo": 90.2,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0024,
-            "liveness": 0.256,
-            "speechiness": 0.248,
-            "loudness": -4.7,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-10T12:15:46Z"
         },
         {
           "id": "3Q6Mb0nGaXPH68CHPAz1uM",
@@ -13789,21 +8623,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-06",
-          "addedAt": "2025-11-08T18:31:13Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.769,
-            "valence": 0.762,
-            "tempo": 111.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.338,
-            "speechiness": 0.195,
-            "loudness": -5.05,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-08T18:31:13Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -13831,21 +8651,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "2L1d4v89mkj6yiA2EvtDcK",
@@ -13863,21 +8669,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-30",
-          "addedAt": "2025-11-06T09:56:42Z",
-          "features": {
-            "danceability": 0.777,
-            "energy": 0.727,
-            "valence": 0.588,
-            "tempo": 114.1,
-            "acousticness": 0.238,
-            "instrumentalness": 0.0137,
-            "liveness": 0.35,
-            "speechiness": 0.124,
-            "loudness": -4.18,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T09:56:42Z"
         },
         {
           "id": "3yPjml0TSJG4odmyvZTOj2",
@@ -13895,26 +8687,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-28",
-          "addedAt": "2025-11-05T09:55:06Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.818,
-            "valence": 0.644,
-            "tempo": 102.8,
-            "acousticness": 0.104,
-            "instrumentalness": 0.0882,
-            "liveness": 0.245,
-            "speechiness": 0.3,
-            "loudness": -5.88,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-05T09:55:06Z"
         },
         {
           "id": "2pNjk1fIZTMtj8ry6SdEmB",
           "title": "Venus",
-          "artist": "Faceless, Serøtonin",
+          "artist": "Faceless, Ser\u00f8tonin",
           "artistCountry": "Ghana",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -13933,21 +8711,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-28",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.705,
-            "valence": 0.558,
-            "tempo": 114.1,
-            "acousticness": 0.288,
-            "instrumentalness": 0.1393,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.45,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "5wgkJpPvIFCGsAwXXRZBxg",
@@ -13965,21 +8729,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-02T19:05:38Z",
-          "features": {
-            "danceability": 0.659,
-            "energy": 0.777,
-            "valence": 0.772,
-            "tempo": 101.4,
-            "acousticness": 0.208,
-            "instrumentalness": 0.03,
-            "liveness": 0.277,
-            "speechiness": 0.293,
-            "loudness": -4.59,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-02T19:05:38Z"
         },
         {
           "id": "2If2ZvVUmelsB9xHZ3EJDq",
@@ -13997,21 +8747,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-10",
-          "addedAt": "2025-11-01T15:14:05Z",
-          "features": {
-            "danceability": 0.57,
-            "energy": 0.729,
-            "valence": 0.69,
-            "tempo": 118.5,
-            "acousticness": 0.149,
-            "instrumentalness": 0.0883,
-            "liveness": 0.329,
-            "speechiness": 0.3,
-            "loudness": -4.57,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T15:14:05Z"
         },
         {
           "id": "1136eJrkWsDvReASbjLTaU",
@@ -14036,21 +8772,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-07",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.607,
-            "valence": 0.548,
-            "tempo": 110.9,
-            "acousticness": 0.378,
-            "instrumentalness": 0.0032,
-            "liveness": 0.175,
-            "speechiness": 0.144,
-            "loudness": -4.44,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "4T1pvpkH0wRCFEdKLOUZL3",
@@ -14068,21 +8790,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-01T14:23:04Z",
-          "features": {
-            "danceability": 0.759,
-            "energy": 0.624,
-            "valence": 0.676,
-            "tempo": 101.7,
-            "acousticness": 0.398,
-            "instrumentalness": 0.0237,
-            "liveness": 0.074,
-            "speechiness": 0.154,
-            "loudness": -4.79,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T14:23:04Z"
         },
         {
           "id": "3LqSC22h4KjbBcfzEqWqgi",
@@ -14100,21 +8808,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-30",
-          "addedAt": "2025-10-30T11:39:37Z",
-          "features": {
-            "danceability": 0.607,
-            "energy": 0.845,
-            "valence": 0.473,
-            "tempo": 118.8,
-            "acousticness": 0.18,
-            "instrumentalness": 0.0981,
-            "liveness": 0.062,
-            "speechiness": 0.293,
-            "loudness": -5.53,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-30T11:39:37Z"
         },
         {
           "id": "5c1rWQAa8GX8LgCC9h3d1N",
@@ -14133,28 +8827,14 @@ window.AFROBEATS_DATA = {
             "afropop",
             "afro soul",
             "afropiano",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "0ZvsEkINadmEV4qzS4ollh",
           "playlistPosition": 22,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-17",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.57,
-            "energy": 0.596,
-            "valence": 0.696,
-            "tempo": 90.0,
-            "acousticness": 0.159,
-            "instrumentalness": 0.0036,
-            "liveness": 0.183,
-            "speechiness": 0.3,
-            "loudness": -5.98,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "0CJouk1O0etf6dRGZ2SgDx",
@@ -14172,21 +8852,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-10-29T08:21:01Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.756,
-            "valence": 0.645,
-            "tempo": 103.2,
-            "acousticness": 0.072,
-            "instrumentalness": 0.0155,
-            "liveness": 0.169,
-            "speechiness": 0.3,
-            "loudness": -6.44,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-29T08:21:01Z"
         },
         {
           "id": "1OeLdCP89Be3jMeIAVUJST",
@@ -14206,21 +8872,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-23",
-          "addedAt": "2025-10-27T18:53:25Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.798,
-            "valence": 0.645,
-            "tempo": 124.8,
-            "acousticness": 0.238,
-            "instrumentalness": 0.0086,
-            "liveness": 0.335,
-            "speechiness": 0.11,
-            "loudness": -8.3,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-27T18:53:25Z"
         },
         {
           "id": "1IMRi5UVOV77PsAgdWDvzh",
@@ -14246,21 +8898,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-15",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.831,
-            "energy": 0.758,
-            "valence": 0.66,
-            "tempo": 126.8,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0336,
-            "liveness": 0.08,
-            "speechiness": 0.151,
-            "loudness": -4.17,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "1r9VA1Ly6uOryyOHfj9kBW",
@@ -14280,21 +8918,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-10-24T10:51:07Z",
-          "features": {
-            "danceability": 0.623,
-            "energy": 0.72,
-            "valence": 0.9,
-            "tempo": 135.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0247,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T10:51:07Z"
         },
         {
           "id": "3wY8vXTwpXsgDXo7wWtOW3",
@@ -14312,21 +8936,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-10-25T10:11:23Z",
-          "features": {
-            "danceability": 0.842,
-            "energy": 0.781,
-            "valence": 0.596,
-            "tempo": 105.8,
-            "acousticness": 0.327,
-            "instrumentalness": 0.0139,
-            "liveness": 0.189,
-            "speechiness": 0.118,
-            "loudness": -5.08,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-25T10:11:23Z"
         },
         {
           "id": "5ZtK8XAVnoaGdBXZWCEVCY",
@@ -14353,21 +8963,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-15",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.643,
-            "energy": 0.66,
-            "valence": 0.654,
-            "tempo": 98.3,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0833,
-            "liveness": 0.05,
-            "speechiness": 0.17,
-            "loudness": -7.72,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "44BBSmVfQms745Z8RpinSi",
@@ -14385,21 +8981,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-08",
-          "addedAt": "2025-10-22T19:42:32Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.84,
-            "valence": 0.637,
-            "tempo": 123.0,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0029,
-            "liveness": 0.096,
-            "speechiness": 0.289,
-            "loudness": -5.34,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-22T19:42:32Z"
         },
         {
           "id": "24A42dGRJRqq1llKoV6ECQ",
@@ -14420,21 +9002,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-26",
-          "addedAt": "2025-10-21T20:26:34Z",
-          "features": {
-            "danceability": 0.616,
-            "energy": 0.735,
-            "valence": 0.732,
-            "tempo": 123.2,
-            "acousticness": 0.13,
-            "instrumentalness": 0.0444,
-            "liveness": 0.225,
-            "speechiness": 0.052,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T20:26:34Z"
         },
         {
           "id": "7ElIoXjT2p1bcDzsUL3X89",
@@ -14453,7 +9021,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -14461,21 +9029,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.769,
-            "valence": 0.566,
-            "tempo": 100.2,
-            "acousticness": 0.332,
-            "instrumentalness": 0.0022,
-            "liveness": 0.241,
-            "speechiness": 0.3,
-            "loudness": -4.26,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6HB55hSM2WME9S7lCVkWee",
@@ -14493,21 +9047,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-16",
-          "addedAt": "2025-10-18T19:26:05Z",
-          "features": {
-            "danceability": 0.748,
-            "energy": 0.699,
-            "valence": 0.549,
-            "tempo": 113.3,
-            "acousticness": 0.178,
-            "instrumentalness": 0.0271,
-            "liveness": 0.156,
-            "speechiness": 0.07,
-            "loudness": -8.36,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-18T19:26:05Z"
         },
         {
           "id": "7MD8gswt08VhFwVF1PR8Mg",
@@ -14531,21 +9071,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-08",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.674,
-            "energy": 0.749,
-            "valence": 0.588,
-            "tempo": 115.0,
-            "acousticness": 0.089,
-            "instrumentalness": 0.0138,
-            "liveness": 0.241,
-            "speechiness": 0.214,
-            "loudness": -7.52,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7msfmSm4KbVnIds5DvsGzT",
@@ -14570,21 +9096,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-14",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.766,
-            "energy": 0.616,
-            "valence": 0.654,
-            "tempo": 127.8,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1154,
-            "liveness": 0.266,
-            "speechiness": 0.273,
-            "loudness": -5.31,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6O2hrfRRPBJ59PwKhSKFHz",
@@ -14608,21 +9120,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.594,
-            "energy": 0.614,
-            "valence": 0.846,
-            "tempo": 106.9,
-            "acousticness": 0.338,
-            "instrumentalness": 0.062,
-            "liveness": 0.096,
-            "speechiness": 0.3,
-            "loudness": -4.44,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "2irQkcW7o3v0tZoGZrtUsO",
@@ -14645,21 +9143,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.634,
-            "energy": 0.683,
-            "valence": 0.553,
-            "tempo": 106.3,
-            "acousticness": 0.08,
-            "instrumentalness": 0.0546,
-            "liveness": 0.169,
-            "speechiness": 0.243,
-            "loudness": -6.19,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "4WnlAkJ3S0r6C7ofHy6kNP",
@@ -14684,21 +9168,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-15",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.611,
-            "energy": 0.785,
-            "valence": 0.62,
-            "tempo": 99.9,
-            "acousticness": 0.205,
-            "instrumentalness": 0.0572,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -4.64,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "0DGP0pRR8yz4OW2xxjIskt",
@@ -14723,21 +9193,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-12",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.576,
-            "valence": 0.719,
-            "tempo": 122.1,
-            "acousticness": 0.164,
-            "instrumentalness": 0.0391,
-            "liveness": 0.191,
-            "speechiness": 0.246,
-            "loudness": -4.01,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "3JW9hNUjUN51X9jZyn2HVV",
@@ -14762,21 +9218,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-23",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.808,
-            "energy": 0.831,
-            "valence": 0.457,
-            "tempo": 103.3,
-            "acousticness": 0.3,
-            "instrumentalness": 0.0142,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.9,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "73MJ65QLIfsU2GyCt5KQ3a",
@@ -14802,21 +9244,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.641,
-            "energy": 0.622,
-            "valence": 0.669,
-            "tempo": 119.5,
-            "acousticness": 0.288,
-            "instrumentalness": 0.0048,
-            "liveness": 0.21,
-            "speechiness": 0.3,
-            "loudness": -4.72,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "4QdFYz1hjkDVDTqAKmIdOx",
@@ -14842,21 +9270,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.659,
-            "valence": 0.661,
-            "tempo": 116.2,
-            "acousticness": 0.097,
-            "instrumentalness": 0.0713,
-            "liveness": 0.134,
-            "speechiness": 0.3,
-            "loudness": -7.27,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6e0YUaVAfDxUabmybOjguy",
@@ -14884,21 +9298,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-31",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.736,
-            "valence": 0.549,
-            "tempo": 120.4,
-            "acousticness": 0.215,
-            "instrumentalness": 0.0941,
-            "liveness": 0.157,
-            "speechiness": 0.3,
-            "loudness": -5.78,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7ySC0IjVS1PMEdsZOvsUK2",
@@ -14921,21 +9321,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.752,
-            "valence": 0.807,
-            "tempo": 90.0,
-            "acousticness": 0.104,
-            "instrumentalness": 0.0437,
-            "liveness": 0.085,
-            "speechiness": 0.267,
-            "loudness": -4.16,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6BdhR1gE0lAGdPbHi53sOp",
@@ -14952,7 +9338,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop"
           ],
@@ -14961,21 +9347,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-20",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.794,
-            "valence": 0.519,
-            "tempo": 128.3,
-            "acousticness": 0.306,
-            "instrumentalness": 0.0185,
-            "liveness": 0.153,
-            "speechiness": 0.181,
-            "loudness": -5.2,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "3grPhZBf0HUjUX5IOLwIfV",
@@ -14989,7 +9361,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 41,
           "artistGenres": [
             "nigerian drill",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afro soul"
           ],
@@ -14998,21 +9370,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-20",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.753,
-            "valence": 0.766,
-            "tempo": 111.0,
-            "acousticness": 0.232,
-            "instrumentalness": 0.0067,
-            "liveness": 0.119,
-            "speechiness": 0.3,
-            "loudness": -6.05,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7onM6Fbiu7ufnMQnbd5oZJ",
@@ -15031,28 +9389,14 @@ window.AFROBEATS_DATA = {
             "afropop",
             "afro soul",
             "afropiano",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "0ZvsEkINadmEV4qzS4ollh",
           "playlistPosition": 46,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-21",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.67,
-            "valence": 0.491,
-            "tempo": 114.8,
-            "acousticness": 0.034,
-            "instrumentalness": 0.0175,
-            "liveness": 0.346,
-            "speechiness": 0.172,
-            "loudness": -5.67,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "5GQPBzoRBDxcAjwSSluQXD",
@@ -15072,26 +9416,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "1962-04-10",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.832,
-            "energy": 0.658,
-            "valence": 0.9,
-            "tempo": 117.2,
-            "acousticness": 0.111,
-            "instrumentalness": 0.0308,
-            "liveness": 0.114,
-            "speechiness": 0.3,
-            "loudness": -5.59,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7dzuYJwwtNnfcptmbD58aJ",
-          "title": "4 Kampé",
-          "artist": "Joé Dwèt Filé",
+          "title": "4 Kamp\u00e9",
+          "artist": "Jo\u00e9 Dw\u00e8t Fil\u00e9",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -15111,21 +9441,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-25",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.795,
-            "valence": 0.609,
-            "tempo": 103.8,
-            "acousticness": 0.347,
-            "instrumentalness": 0.0344,
-            "liveness": 0.158,
-            "speechiness": 0.135,
-            "loudness": -6.18,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "09m46Qi4alQpglRAx1w0zs",
@@ -15143,21 +9459,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-07-03",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.788,
-            "energy": 0.841,
-            "valence": 0.539,
-            "tempo": 107.8,
-            "acousticness": 0.166,
-            "instrumentalness": 0.0667,
-            "liveness": 0.151,
-            "speechiness": 0.298,
-            "loudness": -6.64,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "4XHrQHvHWlE0RldeG8Nslq",
@@ -15181,21 +9483,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 121.8,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0891,
-            "liveness": 0.074,
-            "speechiness": 0.175,
-            "loudness": -3.51,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "5TsjcsZxlhw85ChHMktd2g",
@@ -15220,21 +9508,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-12",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.834,
-            "valence": 0.626,
-            "tempo": 127.2,
-            "acousticness": 0.188,
-            "instrumentalness": 0.0158,
-            "liveness": 0.2,
-            "speechiness": 0.3,
-            "loudness": -5.28,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "0QCIpQV3twfqo9kh0t8Zza",
@@ -15247,28 +9521,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 84,
           "artistPopularity": 73,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "2hVWBpjLW4Q7fboYz2pVYK",
           "playlistPosition": 52,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.792,
-            "valence": 0.829,
-            "tempo": 122.1,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0424,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -7.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6nGdXbbpp0idpmhDe3NAUQ",
@@ -15290,21 +9550,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.836,
-            "energy": 0.781,
-            "valence": 0.646,
-            "tempo": 123.4,
-            "acousticness": 0.036,
-            "instrumentalness": 0.0041,
-            "liveness": 0.069,
-            "speechiness": 0.211,
-            "loudness": -3.66,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -15327,21 +9573,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "7ADy8k9CTu3m5kZrrwpGet",
@@ -15363,21 +9595,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-01",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.69,
-            "valence": 0.719,
-            "tempo": 98.3,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0269,
-            "liveness": 0.064,
-            "speechiness": 0.143,
-            "loudness": -4.25,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "6cyXHTix4NQ069gKJEYv41",
@@ -15401,21 +9619,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-13",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.72,
-            "valence": 0.678,
-            "tempo": 114.3,
-            "acousticness": 0.131,
-            "instrumentalness": 0.0386,
-            "liveness": 0.05,
-            "speechiness": 0.276,
-            "loudness": -5.65,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "27durTCg4qj3qAbKsSVNX4",
@@ -15441,21 +9645,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-15",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.7,
-            "energy": 0.876,
-            "valence": 0.57,
-            "tempo": 96.8,
-            "acousticness": 0.015,
-            "instrumentalness": 0.0082,
-            "liveness": 0.243,
-            "speechiness": 0.253,
-            "loudness": -7.97,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "3I4gLtctVBOdvboAYFYqCQ",
@@ -15471,7 +9661,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "hiplife",
             "afro adura",
             "afro r&b",
@@ -15483,21 +9673,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-24",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.601,
-            "energy": 0.704,
-            "valence": 0.778,
-            "tempo": 105.2,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0068,
-            "liveness": 0.303,
-            "speechiness": 0.3,
-            "loudness": -3.95,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "47r4tUxUEOiDICuhfkIFKl",
@@ -15522,21 +9698,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-10",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.814,
-            "energy": 0.632,
-            "valence": 0.683,
-            "tempo": 122.2,
-            "acousticness": 0.163,
-            "instrumentalness": 0.0201,
-            "liveness": 0.051,
-            "speechiness": 0.23,
-            "loudness": -4.64,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "5Wxkvvb6pLky16pwq4gBI3",
@@ -15561,21 +9723,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.669,
-            "valence": 0.59,
-            "tempo": 116.1,
-            "acousticness": 0.222,
-            "instrumentalness": 0.0373,
-            "liveness": 0.35,
-            "speechiness": 0.097,
-            "loudness": -7.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -15588,7 +9736,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -15601,21 +9749,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-05-31T09:26:16Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T09:26:16Z"
         },
         {
           "id": "1tkbKvnA6Wo8JvdhDICBcW",
@@ -15633,21 +9767,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-24",
-          "addedAt": "2025-05-24T12:35:22Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.68,
-            "valence": 0.784,
-            "tempo": 119.7,
-            "acousticness": 0.156,
-            "instrumentalness": 0.019,
-            "liveness": 0.165,
-            "speechiness": 0.27,
-            "loudness": -4.52,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:22Z"
         },
         {
           "id": "6aTVum9E5h5ItpZ7CRMCA7",
@@ -15667,21 +9787,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-10",
-          "addedAt": "2025-05-24T12:35:36Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.729,
-            "valence": 0.685,
-            "tempo": 123.2,
-            "acousticness": 0.063,
-            "instrumentalness": 0.0237,
-            "liveness": 0.089,
-            "speechiness": 0.18,
-            "loudness": -7.23,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:36Z"
         },
         {
           "id": "47OLTclA8MAeW8VPua3l40",
@@ -15699,21 +9805,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-24",
-          "addedAt": "2025-05-24T12:35:37Z",
-          "features": {
-            "danceability": 0.701,
-            "energy": 0.789,
-            "valence": 0.642,
-            "tempo": 132.7,
-            "acousticness": 0.061,
-            "instrumentalness": 0.0096,
-            "liveness": 0.289,
-            "speechiness": 0.3,
-            "loudness": -4.98,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:37Z"
         },
         {
           "id": "4UYC8YkBKVzUsAhgUF3LOq",
@@ -15731,21 +9823,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2025-05-24T12:35:38Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.65,
-            "valence": 0.708,
-            "tempo": 117.3,
-            "acousticness": 0.088,
-            "instrumentalness": 0.0027,
-            "liveness": 0.238,
-            "speechiness": 0.187,
-            "loudness": -4.49,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:38Z"
         },
         {
           "id": "2p9LqIflC2ibcKmfzREN0O",
@@ -15763,21 +9841,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-05-24T12:35:39Z",
-          "features": {
-            "danceability": 0.692,
-            "energy": 0.896,
-            "valence": 0.726,
-            "tempo": 125.9,
-            "acousticness": 0.382,
-            "instrumentalness": 0.0085,
-            "liveness": 0.35,
-            "speechiness": 0.182,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:39Z"
         },
         {
           "id": "02xdxs0agRlmspgHwvCZ0L",
@@ -15798,21 +9862,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-09-10",
-          "addedAt": "2025-05-24T12:35:40Z",
-          "features": {
-            "danceability": 0.79,
-            "energy": 0.76,
-            "valence": 0.714,
-            "tempo": 90.0,
-            "acousticness": 0.059,
-            "instrumentalness": 0.0629,
-            "liveness": 0.165,
-            "speechiness": 0.206,
-            "loudness": -6.37,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:40Z"
         },
         {
           "id": "41EAG8Aan4RW4sm3MUmY7W",
@@ -15830,21 +9880,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-11",
-          "addedAt": "2025-05-24T12:35:41Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.828,
-            "valence": 0.658,
-            "tempo": 106.2,
-            "acousticness": 0.104,
-            "instrumentalness": 0.0789,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -6.23,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:41Z"
         },
         {
           "id": "4JfUkMqonKWlhCdqE2bGMj",
@@ -15862,21 +9898,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-10-04",
-          "addedAt": "2025-05-24T12:35:42Z",
-          "features": {
-            "danceability": 0.791,
-            "energy": 0.747,
-            "valence": 0.716,
-            "tempo": 119.2,
-            "acousticness": 0.128,
-            "instrumentalness": 0.044,
-            "liveness": 0.254,
-            "speechiness": 0.09,
-            "loudness": -6.08,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:42Z"
         },
         {
           "id": "7EtVZf1air5yAflvTFjWRr",
@@ -15894,21 +9916,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-22",
-          "addedAt": "2025-05-24T12:35:42Z",
-          "features": {
-            "danceability": 0.67,
-            "energy": 0.69,
-            "valence": 0.551,
-            "tempo": 126.7,
-            "acousticness": 0.25,
-            "instrumentalness": 0.0888,
-            "liveness": 0.1,
-            "speechiness": 0.121,
-            "loudness": -4.56,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:42Z"
         },
         {
           "id": "58dmN7yBaIgBuPRW17i5Rr",
@@ -15928,21 +9936,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-06",
-          "addedAt": "2025-05-24T12:35:43Z",
-          "features": {
-            "danceability": 0.596,
-            "energy": 0.682,
-            "valence": 0.644,
-            "tempo": 104.6,
-            "acousticness": 0.054,
-            "instrumentalness": 0.0332,
-            "liveness": 0.28,
-            "speechiness": 0.3,
-            "loudness": -5.4,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:43Z"
         },
         {
           "id": "3pxRZ6HlgENLgehMJ7Rm3H",
@@ -15960,21 +9954,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-05-24T12:35:47Z",
-          "features": {
-            "danceability": 0.748,
-            "energy": 0.798,
-            "valence": 0.866,
-            "tempo": 108.9,
-            "acousticness": 0.26,
-            "instrumentalness": 0.0015,
-            "liveness": 0.176,
-            "speechiness": 0.284,
-            "loudness": -8.64,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:47Z"
         },
         {
           "id": "2lDMnJEElyu0lbZWlAhgdx",
@@ -15992,21 +9972,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-05-24T12:35:51Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.764,
-            "valence": 0.666,
-            "tempo": 95.3,
-            "acousticness": 0.189,
-            "instrumentalness": 0.0089,
-            "liveness": 0.188,
-            "speechiness": 0.186,
-            "loudness": -8.25,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:35:51Z"
         },
         {
           "id": "0Z5j70LsKra0XqBObq9dL4",
@@ -16024,21 +9990,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-28",
-          "addedAt": "2025-05-24T12:36:00Z",
-          "features": {
-            "danceability": 0.779,
-            "energy": 0.82,
-            "valence": 0.767,
-            "tempo": 117.4,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0163,
-            "liveness": 0.35,
-            "speechiness": 0.199,
-            "loudness": -6.74,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:00Z"
         },
         {
           "id": "5i7Pj9YUiqhqvtZdJBtp19",
@@ -16052,28 +10004,14 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 7,
           "artistGenres": [
             "rap ivoire",
-            "coupé décalé"
+            "coup\u00e9 d\u00e9cal\u00e9"
           ],
           "artistId": "7pdqEUfByowi1RO4ucWKcz",
           "playlistPosition": 75,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-11",
-          "addedAt": "2025-05-24T12:36:02Z",
-          "features": {
-            "danceability": 0.825,
-            "energy": 0.698,
-            "valence": 0.657,
-            "tempo": 90.0,
-            "acousticness": 0.099,
-            "instrumentalness": 0.0606,
-            "liveness": 0.106,
-            "speechiness": 0.3,
-            "loudness": -5.5,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:02Z"
         },
         {
           "id": "31PjI6ZQvreqzeHc2kA3Hi",
@@ -16091,21 +10029,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-01",
-          "addedAt": "2025-05-24T12:36:03Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.793,
-            "valence": 0.659,
-            "tempo": 127.2,
-            "acousticness": 0.34,
-            "instrumentalness": 0.15,
-            "liveness": 0.181,
-            "speechiness": 0.224,
-            "loudness": -4.63,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:03Z"
         },
         {
           "id": "7EVdi6tFDGt7TZe6qdNZ9x",
@@ -16123,21 +10047,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-28",
-          "addedAt": "2025-05-24T12:36:04Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.575,
-            "valence": 0.708,
-            "tempo": 107.0,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0456,
-            "liveness": 0.109,
-            "speechiness": 0.143,
-            "loudness": -5.39,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:04Z"
         },
         {
           "id": "4Tznr4RdzMV4BrfIecJm0m",
@@ -16155,21 +10065,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-01",
-          "addedAt": "2025-05-24T12:36:05Z",
-          "features": {
-            "danceability": 0.694,
-            "energy": 0.761,
-            "valence": 0.613,
-            "tempo": 96.4,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0683,
-            "liveness": 0.077,
-            "speechiness": 0.25,
-            "loudness": -5.27,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:05Z"
         },
         {
           "id": "4RjIwQzxSocg4OSWYPU7EV",
@@ -16187,21 +10083,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-05-24T12:36:06Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.668,
-            "valence": 0.699,
-            "tempo": 106.6,
-            "acousticness": 0.291,
-            "instrumentalness": 0.0012,
-            "liveness": 0.345,
-            "speechiness": 0.3,
-            "loudness": -4.96,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:06Z"
         },
         {
           "id": "5UggTfICaTJUjTtbYAx13s",
@@ -16219,21 +10101,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021",
-          "addedAt": "2025-05-24T12:36:08Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.619,
-            "valence": 0.42,
-            "tempo": 128.5,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0091,
-            "liveness": 0.158,
-            "speechiness": 0.188,
-            "loudness": -6.68,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:08Z"
         },
         {
           "id": "2IAsLqNATLZYjBCCpA7nAO",
@@ -16251,21 +10119,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-28",
-          "addedAt": "2025-05-24T12:36:09Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.791,
-            "valence": 0.709,
-            "tempo": 98.8,
-            "acousticness": 0.06,
-            "instrumentalness": 0.0082,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -4.68,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:09Z"
         },
         {
           "id": "2yPRJ2INvUECE8V2o7EoJA",
@@ -16286,21 +10140,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-06",
-          "addedAt": "2025-05-24T12:36:10Z",
-          "features": {
-            "danceability": 0.564,
-            "energy": 0.704,
-            "valence": 0.723,
-            "tempo": 120.3,
-            "acousticness": 0.119,
-            "instrumentalness": 0.0347,
-            "liveness": 0.173,
-            "speechiness": 0.3,
-            "loudness": -4.74,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:10Z"
         },
         {
           "id": "2DsId5hup5u0JBx0Ksjnok",
@@ -16320,21 +10160,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-24",
-          "addedAt": "2025-05-24T12:36:11Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.78,
-            "valence": 0.576,
-            "tempo": 90.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0632,
-            "liveness": 0.085,
-            "speechiness": 0.05,
-            "loudness": -5.83,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:11Z"
         },
         {
           "id": "07GYB4oDxXREpUCQziFmf5",
@@ -16352,21 +10178,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-25",
-          "addedAt": "2025-05-24T12:36:12Z",
-          "features": {
-            "danceability": 0.796,
-            "energy": 0.771,
-            "valence": 0.753,
-            "tempo": 118.7,
-            "acousticness": 0.063,
-            "instrumentalness": 0.0135,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.73,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:12Z"
         },
         {
           "id": "0rdw8SqpcN9BfksVIotlAF",
@@ -16384,21 +10196,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-07",
-          "addedAt": "2025-05-24T12:36:12Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.526,
-            "valence": 0.811,
-            "tempo": 93.7,
-            "acousticness": 0.258,
-            "instrumentalness": 0.0445,
-            "liveness": 0.283,
-            "speechiness": 0.245,
-            "loudness": -3.03,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:12Z"
         },
         {
           "id": "6nFimjv6J546q35N8RfZz6",
@@ -16416,21 +10214,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-01",
-          "addedAt": "2025-05-24T12:36:14Z",
-          "features": {
-            "danceability": 0.707,
-            "energy": 0.906,
-            "valence": 0.459,
-            "tempo": 112.6,
-            "acousticness": 0.236,
-            "instrumentalness": 0.0322,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -5.72,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:14Z"
         },
         {
           "id": "5gagmSHd6MYdFDYdi0LHWy",
@@ -16451,21 +10235,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-10-01",
-          "addedAt": "2025-05-24T12:36:15Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.639,
-            "valence": 0.696,
-            "tempo": 112.4,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0228,
-            "liveness": 0.16,
-            "speechiness": 0.217,
-            "loudness": -4.36,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:15Z"
         },
         {
           "id": "0IvVjvx8nQ2scrnm4oZm28",
@@ -16483,21 +10253,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-30",
-          "addedAt": "2025-05-24T12:36:16Z",
-          "features": {
-            "danceability": 0.723,
-            "energy": 0.688,
-            "valence": 0.706,
-            "tempo": 110.8,
-            "acousticness": 0.195,
-            "instrumentalness": 0.0151,
-            "liveness": 0.204,
-            "speechiness": 0.3,
-            "loudness": -8.75,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T12:36:16Z"
         }
       ]
     },
@@ -16535,21 +10291,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-03T03:48:10Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.774,
-            "valence": 0.825,
-            "tempo": 112.3,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0037,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-03T03:48:10Z"
         },
         {
           "id": "5ht0zFXsezKxVvu8eMiewq",
@@ -16566,7 +10308,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -16577,21 +10319,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-08T12:01:17Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-08T12:01:17Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -16616,21 +10344,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-04T06:04:31Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-04T06:04:31Z"
         },
         {
           "id": "6aoKNOL481xVNuqeayQjPj",
@@ -16653,21 +10367,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-05T10:02:19Z",
-          "features": {
-            "danceability": 0.559,
-            "energy": 0.711,
-            "valence": 0.739,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0275,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-05T10:02:19Z"
         },
         {
           "id": "5BLQKcKyZgLJ24Bo5jK79q",
@@ -16687,21 +10387,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-13",
-          "addedAt": "2025-11-17T16:32:27Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.701,
-            "valence": 0.756,
-            "tempo": 112.0,
-            "acousticness": 0.259,
-            "instrumentalness": 0.0126,
-            "liveness": 0.199,
-            "speechiness": 0.3,
-            "loudness": -5.97,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-17T16:32:27Z"
         },
         {
           "id": "2FUkhFheZr1eDeWBN7Sb1Z",
@@ -16722,25 +10408,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-26",
-          "addedAt": "2025-11-15T20:19:48Z",
-          "features": {
-            "danceability": 0.562,
-            "energy": 0.712,
-            "valence": 0.708,
-            "tempo": 135.0,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0196,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -5.86,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-15T20:19:48Z"
         },
         {
           "id": "1HJr3tp2LIrvXFexwiyn7s",
-          "title": "Getting Paid ​(f​eat​. Asake, Wizkid, Skillibeng​)",
+          "title": "Getting Paid \u200b(f\u200beat\u200b. Asake, Wizkid, Skillibeng\u200b)",
           "artist": "Sarz, Asake, Wizkid, Skillibeng",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -16751,7 +10423,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -16761,21 +10433,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-10-04T00:55:10Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.533,
-            "valence": 0.706,
-            "tempo": 112.9,
-            "acousticness": 0.134,
-            "instrumentalness": 0.1102,
-            "liveness": 0.255,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T00:55:10Z"
         },
         {
           "id": "58cWj2jnd4e6vYBhEcuniK",
@@ -16793,21 +10451,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-12",
-          "addedAt": "2025-11-14T07:43:13Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.662,
-            "valence": 0.424,
-            "tempo": 90.0,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0648,
-            "liveness": 0.294,
-            "speechiness": 0.3,
-            "loudness": -7.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T07:43:13Z"
         },
         {
           "id": "2tJnnTCNuzXMKVn1ZUdpIo",
@@ -16825,21 +10469,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-01",
-          "addedAt": "2025-11-12T18:51:06Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.738,
-            "valence": 0.718,
-            "tempo": 112.1,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0457,
-            "liveness": 0.27,
-            "speechiness": 0.3,
-            "loudness": -4.93,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-12T18:51:06Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -16862,21 +10492,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-16T22:35:58Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-16T22:35:58Z"
         },
         {
           "id": "2prjlTWj6WwuQPzU0bx7tX",
@@ -16897,21 +10513,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-10",
-          "addedAt": "2025-11-10T11:40:47Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.839,
-            "valence": 0.563,
-            "tempo": 111.6,
-            "acousticness": 0.157,
-            "instrumentalness": 0.0679,
-            "liveness": 0.177,
-            "speechiness": 0.205,
-            "loudness": -4.26,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-10T11:40:47Z"
         },
         {
           "id": "5szO7A3ra205nHZqMBYCFO",
@@ -16929,21 +10531,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-08T19:11:06Z",
-          "features": {
-            "danceability": 0.808,
-            "energy": 0.81,
-            "valence": 0.456,
-            "tempo": 116.9,
-            "acousticness": 0.101,
-            "instrumentalness": 0.0266,
-            "liveness": 0.199,
-            "speechiness": 0.137,
-            "loudness": -7.16,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-08T19:11:06Z"
         },
         {
           "id": "0WjpZZPLAAADeY9Hdam4Nr",
@@ -16969,21 +10557,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-04",
-          "addedAt": "2025-09-14T18:58:23Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.819,
-            "valence": 0.786,
-            "tempo": 116.4,
-            "acousticness": 0.238,
-            "instrumentalness": 0.0394,
-            "liveness": 0.241,
-            "speechiness": 0.3,
-            "loudness": -5.26,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-14T18:58:23Z"
         },
         {
           "id": "220JHdLGy70YKZbMj0C5lf",
@@ -17001,21 +10575,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-07T18:22:14Z",
-          "features": {
-            "danceability": 0.623,
-            "energy": 0.766,
-            "valence": 0.662,
-            "tempo": 111.6,
-            "acousticness": 0.294,
-            "instrumentalness": 0.0043,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.54,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-07T18:22:14Z"
         },
         {
           "id": "7zPDxm3uCo8apUw8746J9q",
@@ -17033,21 +10593,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-05",
-          "addedAt": "2025-11-07T16:38:03Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.68,
-            "valence": 0.565,
-            "tempo": 96.9,
-            "acousticness": 0.307,
-            "instrumentalness": 0.0417,
-            "liveness": 0.299,
-            "speechiness": 0.191,
-            "loudness": -4.4,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-07T16:38:03Z"
         },
         {
           "id": "4SjfsqsR3TIR3SO7kcTlFX",
@@ -17072,21 +10618,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-02T08:46:03Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.692,
-            "valence": 0.616,
-            "tempo": 115.1,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0121,
-            "liveness": 0.168,
-            "speechiness": 0.3,
-            "loudness": -6.72,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-02T08:46:03Z"
         },
         {
           "id": "2qer6IHVJgLvh6m6wzC0T4",
@@ -17104,21 +10636,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-11-06T05:29:33Z",
-          "features": {
-            "danceability": 0.763,
-            "energy": 0.863,
-            "valence": 0.604,
-            "tempo": 90.0,
-            "acousticness": 0.097,
-            "instrumentalness": 0.0097,
-            "liveness": 0.244,
-            "speechiness": 0.271,
-            "loudness": -4.24,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T05:29:33Z"
         },
         {
           "id": "6lCbQFhuEqH6Y0Ayv1HIb5",
@@ -17138,21 +10656,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-11-05T13:21:26Z",
-          "features": {
-            "danceability": 0.791,
-            "energy": 0.798,
-            "valence": 0.612,
-            "tempo": 90.0,
-            "acousticness": 0.099,
-            "instrumentalness": 0.0213,
-            "liveness": 0.117,
-            "speechiness": 0.3,
-            "loudness": -3.49,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-05T13:21:26Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -17177,21 +10681,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "21MfD5tll5XZeuCxwitjkS",
@@ -17211,21 +10701,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-15",
-          "addedAt": "2025-11-04T08:05:24Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.718,
-            "valence": 0.647,
-            "tempo": 124.4,
-            "acousticness": 0.045,
-            "instrumentalness": 0.0931,
-            "liveness": 0.072,
-            "speechiness": 0.22,
-            "loudness": -7.78,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-04T08:05:24Z"
         },
         {
           "id": "1Bmmbb6Da9VAPEQlDu9D90",
@@ -17243,21 +10719,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-25",
-          "addedAt": "2025-10-29T08:31:48Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.564,
-            "valence": 0.83,
-            "tempo": 116.8,
-            "acousticness": 0.232,
-            "instrumentalness": 0.1174,
-            "liveness": 0.215,
-            "speechiness": 0.101,
-            "loudness": -6.32,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-29T08:31:48Z"
         },
         {
           "id": "7mdvPu1ZAOIgMzr3sfpAqk",
@@ -17281,21 +10743,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-26",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.656,
-            "valence": 0.61,
-            "tempo": 108.6,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -4.91,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "3KY6a9uWUtiv1asOdqbxXA",
@@ -17315,21 +10763,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-01",
-          "addedAt": "2025-10-25T19:40:28Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.688,
-            "valence": 0.668,
-            "tempo": 109.1,
-            "acousticness": 0.181,
-            "instrumentalness": 0.0169,
-            "liveness": 0.235,
-            "speechiness": 0.251,
-            "loudness": -3.52,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-25T19:40:28Z"
         },
         {
           "id": "4iULXeemhyYbM28tChpzo8",
@@ -17349,25 +10783,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-13",
-          "addedAt": "2025-10-25T10:40:53Z",
-          "features": {
-            "danceability": 0.679,
-            "energy": 0.581,
-            "valence": 0.738,
-            "tempo": 90.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0076,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -8.0,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-25T10:40:53Z"
         },
         {
           "id": "6ptu4Fyc5N5u4VLt81CCJF",
-          "title": "Forévà",
+          "title": "For\u00e9v\u00e0",
           "artist": "Tayc",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
@@ -17386,21 +10806,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.624,
-            "energy": 0.794,
-            "valence": 0.573,
-            "tempo": 109.3,
-            "acousticness": 0.22,
-            "instrumentalness": 0.0052,
-            "liveness": 0.151,
-            "speechiness": 0.203,
-            "loudness": -4.07,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "6gJLLrwydueklSfCA3xKVS",
@@ -17420,21 +10826,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-22T18:30:17Z",
-          "features": {
-            "danceability": 0.691,
-            "energy": 0.662,
-            "valence": 0.658,
-            "tempo": 117.2,
-            "acousticness": 0.178,
-            "instrumentalness": 0.0203,
-            "liveness": 0.347,
-            "speechiness": 0.3,
-            "loudness": -7.0,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-22T18:30:17Z"
         },
         {
           "id": "33p0ilW7BTCCNHyH9xmpcF",
@@ -17454,21 +10846,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-21T07:57:01Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.704,
-            "valence": 0.785,
-            "tempo": 101.3,
-            "acousticness": 0.087,
-            "instrumentalness": 0.0754,
-            "liveness": 0.222,
-            "speechiness": 0.228,
-            "loudness": -5.14,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T07:57:01Z"
         },
         {
           "id": "4sm7xhaW2PT4iLuTtXaKa1",
@@ -17495,21 +10873,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-09",
-          "addedAt": "2025-06-15T18:33:31Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.809,
-            "valence": 0.706,
-            "tempo": 92.7,
-            "acousticness": 0.258,
-            "instrumentalness": 0.0167,
-            "liveness": 0.099,
-            "speechiness": 0.285,
-            "loudness": -4.06,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-15T18:33:31Z"
         },
         {
           "id": "6htKkPfjSAbw7jpuoLu2fP",
@@ -17529,21 +10893,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-10-20T14:10:03Z",
-          "features": {
-            "danceability": 0.61,
-            "energy": 0.754,
-            "valence": 0.505,
-            "tempo": 100.7,
-            "acousticness": 0.18,
-            "instrumentalness": 0.068,
-            "liveness": 0.22,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-20T14:10:03Z"
         },
         {
           "id": "6HB55hSM2WME9S7lCVkWee",
@@ -17561,21 +10911,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-16",
-          "addedAt": "2025-10-18T19:27:59Z",
-          "features": {
-            "danceability": 0.748,
-            "energy": 0.699,
-            "valence": 0.549,
-            "tempo": 113.3,
-            "acousticness": 0.178,
-            "instrumentalness": 0.0271,
-            "liveness": 0.156,
-            "speechiness": 0.07,
-            "loudness": -8.36,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-18T19:27:59Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -17603,21 +10939,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -17642,26 +10964,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "7arCRGABaKdEFvGa3gCM9d",
           "title": "Baddies",
-          "artist": "Aya Nakamura, Joé Dwèt Filé",
+          "artist": "Aya Nakamura, Jo\u00e9 Dw\u00e8t Fil\u00e9",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -17677,21 +10985,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.667,
-            "energy": 0.72,
-            "valence": 0.468,
-            "tempo": 103.9,
-            "acousticness": 0.245,
-            "instrumentalness": 0.0218,
-            "liveness": 0.116,
-            "speechiness": 0.249,
-            "loudness": -6.13,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -17718,21 +11012,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-06-15T18:35:06Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-15T18:35:06Z"
         },
         {
           "id": "4einxxnYgyAqINv83N6OJf",
@@ -17754,21 +11034,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.736,
-            "valence": 0.705,
-            "tempo": 100.5,
-            "acousticness": 0.11,
-            "instrumentalness": 0.0034,
-            "liveness": 0.206,
-            "speechiness": 0.186,
-            "loudness": -4.76,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "3VSO45erUjYsPi1IFuc43Q",
@@ -17791,21 +11057,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-20",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.655,
-            "valence": 0.756,
-            "tempo": 111.8,
-            "acousticness": 0.067,
-            "instrumentalness": 0.0066,
-            "liveness": 0.35,
-            "speechiness": 0.243,
-            "loudness": -3.0,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "5XUgM0C0xmGSav4HzA4ifZ",
@@ -17823,21 +11075,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-05-31T20:29:49Z",
-          "features": {
-            "danceability": 0.725,
-            "energy": 0.659,
-            "valence": 0.664,
-            "tempo": 114.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0247,
-            "liveness": 0.139,
-            "speechiness": 0.173,
-            "loudness": -4.72,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T20:29:49Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -17862,21 +11100,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "2n7RaPQ79YbjHlyBFYqm1V",
@@ -17899,21 +11123,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-16",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.697,
-            "valence": 0.564,
-            "tempo": 109.6,
-            "acousticness": 0.201,
-            "instrumentalness": 0.0635,
-            "liveness": 0.05,
-            "speechiness": 0.216,
-            "loudness": -5.62,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "5Z15WSSa7fvaPJZRI4OgDS",
@@ -17936,21 +11146,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.746,
-            "energy": 0.651,
-            "valence": 0.636,
-            "tempo": 111.1,
-            "acousticness": 0.251,
-            "instrumentalness": 0.0372,
-            "liveness": 0.05,
-            "speechiness": 0.075,
-            "loudness": -5.12,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -17973,26 +11169,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "3xYkZkwCIcolLD1Y8j9144",
-          "title": "On se comprend (Musique originale inspirée du film \"Indomptables\")",
-          "artist": "Fally Ipupa, KLN, Merveille, Dany Synthé",
+          "title": "On se comprend (Musique originale inspir\u00e9e du film \"Indomptables\")",
+          "artist": "Fally Ipupa, KLN, Merveille, Dany Synth\u00e9",
           "artistCountry": "Democratic Republic of the Congo",
           "regionGroup": "Central Africa",
           "diaspora": false,
@@ -18002,7 +11184,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "rumba congolaise",
             "ndombolo",
-            "coupé décalé",
+            "coup\u00e9 d\u00e9cal\u00e9",
             "french r&b",
             "afrobeat",
             "pop urbaine",
@@ -18013,21 +11195,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-30",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.566,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 95.7,
-            "acousticness": 0.271,
-            "instrumentalness": 0.0176,
-            "liveness": 0.059,
-            "speechiness": 0.266,
-            "loudness": -4.82,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "27durTCg4qj3qAbKsSVNX4",
@@ -18053,21 +11221,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-15",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.7,
-            "energy": 0.876,
-            "valence": 0.57,
-            "tempo": 96.8,
-            "acousticness": 0.015,
-            "instrumentalness": 0.0082,
-            "liveness": 0.243,
-            "speechiness": 0.253,
-            "loudness": -7.97,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "12ETuEC0kPFjRuQokNZRjr",
@@ -18094,21 +11248,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.589,
-            "energy": 0.768,
-            "valence": 0.828,
-            "tempo": 101.6,
-            "acousticness": 0.301,
-            "instrumentalness": 0.0168,
-            "liveness": 0.065,
-            "speechiness": 0.288,
-            "loudness": -5.69,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "2YNLzBRGyCAzHEGPO3J2Sb",
@@ -18133,21 +11273,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-23",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.772,
-            "valence": 0.876,
-            "tempo": 109.9,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0344,
-            "liveness": 0.078,
-            "speechiness": 0.192,
-            "loudness": -6.39,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "79VtonGgvoyENawzktwOrt",
@@ -18171,21 +11297,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-30",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.689,
-            "valence": 0.772,
-            "tempo": 122.6,
-            "acousticness": 0.224,
-            "instrumentalness": 0.0672,
-            "liveness": 0.339,
-            "speechiness": 0.275,
-            "loudness": -5.87,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "4ZLPVrjMb6dkY0v9Tf3UKt",
@@ -18208,21 +11320,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.572,
-            "energy": 0.692,
-            "valence": 0.851,
-            "tempo": 101.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0208,
-            "liveness": 0.35,
-            "speechiness": 0.119,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "3SBBYSbzkLvx96bKzneYsF",
@@ -18244,21 +11342,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.721,
-            "valence": 0.799,
-            "tempo": 116.4,
-            "acousticness": 0.24,
-            "instrumentalness": 0.0228,
-            "liveness": 0.129,
-            "speechiness": 0.241,
-            "loudness": -5.46,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "1TvfZiJDDxAZgYjKyazZBe",
@@ -18286,21 +11370,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.798,
-            "energy": 0.8,
-            "valence": 0.726,
-            "tempo": 110.0,
-            "acousticness": 0.088,
-            "instrumentalness": 0.0014,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.78,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "0qNgxeW3EHbX5XjkBS4Dlh",
@@ -18321,21 +11391,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.676,
-            "valence": 0.504,
-            "tempo": 128.6,
-            "acousticness": 0.219,
-            "instrumentalness": 0.0442,
-            "liveness": 0.118,
-            "speechiness": 0.3,
-            "loudness": -3.64,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "3s4WNh0WnfhwvIlrp6RTBj",
@@ -18353,21 +11409,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.586,
-            "valence": 0.613,
-            "tempo": 127.7,
-            "acousticness": 0.124,
-            "instrumentalness": 0.0993,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.34,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "6c5Acg0PycVeEolq6zuJ9w",
@@ -18390,21 +11432,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-08",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.707,
-            "energy": 0.758,
-            "valence": 0.536,
-            "tempo": 96.9,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.202,
-            "speechiness": 0.3,
-            "loudness": -7.74,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "40t1l3IPtEIjlhAUPxn7jd",
@@ -18430,26 +11458,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-15",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.748,
-            "valence": 0.837,
-            "tempo": 105.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0403,
-            "liveness": 0.222,
-            "speechiness": 0.3,
-            "loudness": -8.03,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "2CvcJUV3IRsCZd59WOEgok",
-          "title": "Tout gâcher",
-          "artist": "ZEG P, Anitta, Joé Dwèt Filé",
+          "title": "Tout g\u00e2cher",
+          "artist": "ZEG P, Anitta, Jo\u00e9 Dw\u00e8t Fil\u00e9",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -18464,21 +11478,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.728,
-            "energy": 0.742,
-            "valence": 0.629,
-            "tempo": 110.7,
-            "acousticness": 0.261,
-            "instrumentalness": 0.0163,
-            "liveness": 0.302,
-            "speechiness": 0.255,
-            "loudness": -5.24,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "5QT8vKUxzP90FDio8JTk4e",
@@ -18499,21 +11499,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.733,
-            "energy": 0.694,
-            "valence": 0.45,
-            "tempo": 109.6,
-            "acousticness": 0.224,
-            "instrumentalness": 0.0121,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "4GlUBqfPOLCPirtduhOkwz",
@@ -18539,21 +11525,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-23",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.819,
-            "valence": 0.789,
-            "tempo": 98.2,
-            "acousticness": 0.178,
-            "instrumentalness": 0.0417,
-            "liveness": 0.108,
-            "speechiness": 0.3,
-            "loudness": -4.54,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "1136eJrkWsDvReASbjLTaU",
@@ -18578,21 +11550,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-07",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.607,
-            "valence": 0.548,
-            "tempo": 110.9,
-            "acousticness": 0.378,
-            "instrumentalness": 0.0032,
-            "liveness": 0.175,
-            "speechiness": 0.144,
-            "loudness": -4.44,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "73UvOEAResEqdDU9a2aG7v",
@@ -18617,21 +11575,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-19",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.823,
-            "valence": 0.596,
-            "tempo": 90.0,
-            "acousticness": 0.209,
-            "instrumentalness": 0.0029,
-            "liveness": 0.092,
-            "speechiness": 0.13,
-            "loudness": -7.72,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "1QkUnVCGx3ghx0WG8XO4J7",
@@ -18657,21 +11601,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-05-31T07:47:29Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.837,
-            "valence": 0.644,
-            "tempo": 101.6,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0294,
-            "liveness": 0.059,
-            "speechiness": 0.205,
-            "loudness": -5.72,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:47:29Z"
         },
         {
           "id": "0GC6q3xNRB7dJ8ALXZBcWQ",
@@ -18689,21 +11619,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-15",
-          "addedAt": "2025-05-24T09:11:41Z",
-          "features": {
-            "danceability": 0.752,
-            "energy": 0.776,
-            "valence": 0.523,
-            "tempo": 90.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0104,
-            "liveness": 0.095,
-            "speechiness": 0.27,
-            "loudness": -5.62,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:11:41Z"
         },
         {
           "id": "3SgxsVintVsVFFv6J1jeY5",
@@ -18721,21 +11637,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2015-12-01",
-          "addedAt": "2025-05-24T09:12:08Z",
-          "features": {
-            "danceability": 0.653,
-            "energy": 0.776,
-            "valence": 0.528,
-            "tempo": 90.0,
-            "acousticness": 0.15,
-            "instrumentalness": 0.014,
-            "liveness": 0.055,
-            "speechiness": 0.168,
-            "loudness": -4.57,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:08Z"
         },
         {
           "id": "63Vz2KhGFAuVSSGQypICMF",
@@ -18753,21 +11655,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-06-16",
-          "addedAt": "2025-05-24T09:12:09Z",
-          "features": {
-            "danceability": 0.711,
-            "energy": 0.812,
-            "valence": 0.72,
-            "tempo": 129.5,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0619,
-            "liveness": 0.35,
-            "speechiness": 0.125,
-            "loudness": -5.63,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:09Z"
         },
         {
           "id": "0EXdriAkzVOq4wtaD8J0o4",
@@ -18785,21 +11673,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-11-07",
-          "addedAt": "2025-05-24T09:12:10Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.724,
-            "valence": 0.504,
-            "tempo": 103.9,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0493,
-            "liveness": 0.286,
-            "speechiness": 0.3,
-            "loudness": -4.83,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:10Z"
         },
         {
           "id": "5HXtqVgQz1cfdD8v8WUEW9",
@@ -18821,21 +11695,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-25",
-          "addedAt": "2025-05-24T09:12:10Z",
-          "features": {
-            "danceability": 0.582,
-            "energy": 0.733,
-            "valence": 0.597,
-            "tempo": 102.9,
-            "acousticness": 0.279,
-            "instrumentalness": 0.0367,
-            "liveness": 0.255,
-            "speechiness": 0.222,
-            "loudness": -7.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:10Z"
         },
         {
           "id": "14EgfG2MXMviLAEDnv53B0",
@@ -18853,21 +11713,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-03-18",
-          "addedAt": "2025-05-24T09:12:11Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.632,
-            "valence": 0.663,
-            "tempo": 109.3,
-            "acousticness": 0.147,
-            "instrumentalness": 0.0267,
-            "liveness": 0.05,
-            "speechiness": 0.081,
-            "loudness": -5.38,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:11Z"
         },
         {
           "id": "1NuwnMPGgcJsxtv3wz5DVO",
@@ -18888,21 +11734,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-02-12",
-          "addedAt": "2025-05-24T09:12:12Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.711,
-            "valence": 0.632,
-            "tempo": 97.5,
-            "acousticness": 0.256,
-            "instrumentalness": 0.0077,
-            "liveness": 0.162,
-            "speechiness": 0.3,
-            "loudness": -6.8,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:12Z"
         },
         {
           "id": "2ZgQejmdXjlY35jRK41BFI",
@@ -18920,21 +11752,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2012-09-17",
-          "addedAt": "2025-05-24T09:12:13Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.755,
-            "valence": 0.731,
-            "tempo": 131.0,
-            "acousticness": 0.258,
-            "instrumentalness": 0.0135,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.69,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:13Z"
         },
         {
           "id": "2Zzxr6pYSlwo70QeKvUYsX",
@@ -18952,21 +11770,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2016-10-26",
-          "addedAt": "2025-05-24T09:12:14Z",
-          "features": {
-            "danceability": 0.822,
-            "energy": 0.685,
-            "valence": 0.804,
-            "tempo": 128.0,
-            "acousticness": 0.077,
-            "instrumentalness": 0.0524,
-            "liveness": 0.148,
-            "speechiness": 0.155,
-            "loudness": -7.73,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:14Z"
         },
         {
           "id": "76YT8IbGMrhToKoFKR77p4",
@@ -18984,21 +11788,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2009-07-01",
-          "addedAt": "2025-05-24T09:12:15Z",
-          "features": {
-            "danceability": 0.801,
-            "energy": 0.757,
-            "valence": 0.681,
-            "tempo": 119.7,
-            "acousticness": 0.397,
-            "instrumentalness": 0.0581,
-            "liveness": 0.112,
-            "speechiness": 0.3,
-            "loudness": -6.55,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:15Z"
         },
         {
           "id": "6BF3vVbVaXWgUgMA7GAp6y",
@@ -19021,21 +11811,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-12-19",
-          "addedAt": "2025-05-24T09:12:16Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.689,
-            "valence": 0.569,
-            "tempo": 107.9,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0376,
-            "liveness": 0.136,
-            "speechiness": 0.3,
-            "loudness": -6.56,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:16Z"
         },
         {
           "id": "6fIHFTrkmN08dIktBmcKet",
@@ -19055,21 +11831,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2016-06-05",
-          "addedAt": "2025-05-24T09:12:18Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.774,
-            "valence": 0.856,
-            "tempo": 110.8,
-            "acousticness": 0.086,
-            "instrumentalness": 0.084,
-            "liveness": 0.148,
-            "speechiness": 0.3,
-            "loudness": -7.32,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:18Z"
         },
         {
           "id": "0z6s6ceAy8BSC7urs7OHnH",
@@ -19087,21 +11849,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2011-12-27",
-          "addedAt": "2025-05-24T09:12:19Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.708,
-            "valence": 0.604,
-            "tempo": 111.4,
-            "acousticness": 0.096,
-            "instrumentalness": 0.0007,
-            "liveness": 0.091,
-            "speechiness": 0.169,
-            "loudness": -7.51,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:19Z"
         },
         {
           "id": "7nfyr0gmro3ThJLzxhXGpX",
@@ -19119,21 +11867,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-12-28",
-          "addedAt": "2025-05-24T09:12:21Z",
-          "features": {
-            "danceability": 0.59,
-            "energy": 0.742,
-            "valence": 0.787,
-            "tempo": 111.0,
-            "acousticness": 0.077,
-            "instrumentalness": 0.0965,
-            "liveness": 0.186,
-            "speechiness": 0.251,
-            "loudness": -7.27,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:21Z"
         },
         {
           "id": "1r1is1KeRkQrW3U5sV0DsA",
@@ -19153,21 +11887,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2012-04-21",
-          "addedAt": "2025-05-24T09:12:22Z",
-          "features": {
-            "danceability": 0.777,
-            "energy": 0.716,
-            "valence": 0.614,
-            "tempo": 121.7,
-            "acousticness": 0.391,
-            "instrumentalness": 0.0648,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.87,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:22Z"
         },
         {
           "id": "0bKO4Zx0ZkBryZQMq5oRu9",
@@ -19185,21 +11905,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2010-01-01",
-          "addedAt": "2025-05-24T09:12:22Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.711,
-            "valence": 0.658,
-            "tempo": 94.2,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0985,
-            "liveness": 0.103,
-            "speechiness": 0.292,
-            "loudness": -4.84,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:22Z"
         },
         {
           "id": "4XgW0aDuwiF41LFaZdJB7I",
@@ -19219,21 +11925,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-02-02",
-          "addedAt": "2025-05-24T09:12:23Z",
-          "features": {
-            "danceability": 0.624,
-            "energy": 0.828,
-            "valence": 0.773,
-            "tempo": 101.1,
-            "acousticness": 0.079,
-            "instrumentalness": 0.0385,
-            "liveness": 0.104,
-            "speechiness": 0.3,
-            "loudness": -7.55,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:23Z"
         },
         {
           "id": "569HhaSVxz9WWPDEUMtIre",
@@ -19253,21 +11945,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2014-09-12",
-          "addedAt": "2025-05-24T09:12:23Z",
-          "features": {
-            "danceability": 0.748,
-            "energy": 0.68,
-            "valence": 0.481,
-            "tempo": 100.7,
-            "acousticness": 0.098,
-            "instrumentalness": 0.0335,
-            "liveness": 0.27,
-            "speechiness": 0.137,
-            "loudness": -3.97,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:23Z"
         },
         {
           "id": "154ywJUPwuKbj1pm2b9RcU",
@@ -19287,21 +11965,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2010-01-01",
-          "addedAt": "2025-05-24T09:12:24Z",
-          "features": {
-            "danceability": 0.749,
-            "energy": 0.624,
-            "valence": 0.712,
-            "tempo": 110.6,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0091,
-            "liveness": 0.166,
-            "speechiness": 0.164,
-            "loudness": -6.5,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:24Z"
         },
         {
           "id": "5MYxZWSDV7BsX4873BffUS",
@@ -19319,21 +11983,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-30",
-          "addedAt": "2025-05-24T09:12:25Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.659,
-            "valence": 0.42,
-            "tempo": 107.9,
-            "acousticness": 0.092,
-            "instrumentalness": 0.0354,
-            "liveness": 0.205,
-            "speechiness": 0.3,
-            "loudness": -5.56,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:25Z"
         },
         {
           "id": "1D2zWBEtVx9dnWdu1xKJ57",
@@ -19353,21 +12003,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2014-02-01",
-          "addedAt": "2025-05-24T09:12:26Z",
-          "features": {
-            "danceability": 0.754,
-            "energy": 0.683,
-            "valence": 0.747,
-            "tempo": 91.2,
-            "acousticness": 0.315,
-            "instrumentalness": 0.048,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.3,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:26Z"
         },
         {
           "id": "3hGxTmr0T7eyjZlRnF9s8x",
@@ -19385,21 +12021,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2013-07-17",
-          "addedAt": "2025-05-24T09:12:26Z",
-          "features": {
-            "danceability": 0.656,
-            "energy": 0.629,
-            "valence": 0.73,
-            "tempo": 106.5,
-            "acousticness": 0.295,
-            "instrumentalness": 0.0194,
-            "liveness": 0.35,
-            "speechiness": 0.233,
-            "loudness": -6.85,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:26Z"
         },
         {
           "id": "5EHXJ2IYRPVoJdDu8CuBN6",
@@ -19417,21 +12039,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-02-20",
-          "addedAt": "2025-05-24T09:12:27Z",
-          "features": {
-            "danceability": 0.591,
-            "energy": 0.749,
-            "valence": 0.458,
-            "tempo": 108.5,
-            "acousticness": 0.137,
-            "instrumentalness": 0.0291,
-            "liveness": 0.05,
-            "speechiness": 0.275,
-            "loudness": -6.84,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:27Z"
         },
         {
           "id": "14bgtyaXk7JvRzYg7DmBtj",
@@ -19449,21 +12057,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2025-05-24T09:12:28Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.75,
-            "valence": 0.623,
-            "tempo": 119.4,
-            "acousticness": 0.055,
-            "instrumentalness": 0.0237,
-            "liveness": 0.101,
-            "speechiness": 0.3,
-            "loudness": -7.54,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:28Z"
         },
         {
           "id": "0OJdqX8aIhWScAM6sMtc8I",
@@ -19484,21 +12078,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2010-07-18",
-          "addedAt": "2025-05-24T09:12:28Z",
-          "features": {
-            "danceability": 0.826,
-            "energy": 0.744,
-            "valence": 0.672,
-            "tempo": 116.3,
-            "acousticness": 0.19,
-            "instrumentalness": 0.0328,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -5.69,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:28Z"
         },
         {
           "id": "3mx4suVT4mhrj4wj3pXoku",
@@ -19516,21 +12096,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-09-07",
-          "addedAt": "2025-05-24T09:12:29Z",
-          "features": {
-            "danceability": 0.647,
-            "energy": 0.614,
-            "valence": 0.695,
-            "tempo": 114.4,
-            "acousticness": 0.157,
-            "instrumentalness": 0.0285,
-            "liveness": 0.287,
-            "speechiness": 0.05,
-            "loudness": -3.36,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:29Z"
         },
         {
           "id": "2OCDPHTEG7kof6jRnEWSgL",
@@ -19550,21 +12116,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2015-05-01",
-          "addedAt": "2025-05-24T09:12:30Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.681,
-            "valence": 0.685,
-            "tempo": 125.9,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0033,
-            "liveness": 0.055,
-            "speechiness": 0.23,
-            "loudness": -5.14,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:30Z"
         },
         {
           "id": "2cXjY5Yhd8AH5DowHileQU",
@@ -19582,21 +12134,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-09",
-          "addedAt": "2025-05-24T09:12:31Z",
-          "features": {
-            "danceability": 0.839,
-            "energy": 0.668,
-            "valence": 0.853,
-            "tempo": 125.2,
-            "acousticness": 0.26,
-            "instrumentalness": 0.0467,
-            "liveness": 0.241,
-            "speechiness": 0.3,
-            "loudness": -5.64,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:31Z"
         },
         {
           "id": "1L60lZ0sTD8Shq54lBx4Tp",
@@ -19614,21 +12152,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-01-09",
-          "addedAt": "2025-05-24T09:12:31Z",
-          "features": {
-            "danceability": 0.642,
-            "energy": 0.636,
-            "valence": 0.776,
-            "tempo": 91.9,
-            "acousticness": 0.135,
-            "instrumentalness": 0.0929,
-            "liveness": 0.329,
-            "speechiness": 0.158,
-            "loudness": -6.84,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:31Z"
         },
         {
           "id": "56wJPg7rrKiyfWhwjqCbjd",
@@ -19651,21 +12175,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-07-11",
-          "addedAt": "2025-05-24T09:12:32Z",
-          "features": {
-            "danceability": 0.816,
-            "energy": 0.781,
-            "valence": 0.47,
-            "tempo": 95.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0213,
-            "liveness": 0.125,
-            "speechiness": 0.3,
-            "loudness": -4.2,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:32Z"
         },
         {
           "id": "51mzLOU9kWCIS9c64Ld4Ij",
@@ -19687,21 +12197,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2012-07-28",
-          "addedAt": "2025-05-24T09:12:32Z",
-          "features": {
-            "danceability": 0.67,
-            "energy": 0.691,
-            "valence": 0.381,
-            "tempo": 104.3,
-            "acousticness": 0.196,
-            "instrumentalness": 0.0055,
-            "liveness": 0.114,
-            "speechiness": 0.3,
-            "loudness": -5.58,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:32Z"
         },
         {
           "id": "6qcBvs9Lb0FuZ5gM957LON",
@@ -19723,21 +12219,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-12-23",
-          "addedAt": "2025-05-24T09:12:33Z",
-          "features": {
-            "danceability": 0.758,
-            "energy": 0.76,
-            "valence": 0.71,
-            "tempo": 129.5,
-            "acousticness": 0.235,
-            "instrumentalness": 0.0899,
-            "liveness": 0.153,
-            "speechiness": 0.08,
-            "loudness": -6.05,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:33Z"
         },
         {
           "id": "5UmFdhnrJoeGmPIVfxf0bs",
@@ -19759,21 +12241,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-11-13",
-          "addedAt": "2025-05-24T09:12:33Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.814,
-            "valence": 0.757,
-            "tempo": 104.2,
-            "acousticness": 0.29,
-            "instrumentalness": 0.0244,
-            "liveness": 0.35,
-            "speechiness": 0.152,
-            "loudness": -5.08,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:12:33Z"
         }
       ]
     },
@@ -19800,7 +12268,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -19810,21 +12278,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-10-21T18:48:06Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.725,
-            "valence": 0.702,
-            "tempo": 116.2,
-            "acousticness": 0.315,
-            "instrumentalness": 0.0019,
-            "liveness": 0.174,
-            "speechiness": 0.3,
-            "loudness": -7.97,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T18:48:06Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -19849,21 +12303,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-15T22:17:38Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-15T22:17:38Z"
         },
         {
           "id": "4VRHdDqcdjv5YWQqXk1tRm",
@@ -19881,21 +12321,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-01",
-          "addedAt": "2025-11-14T12:52:27Z",
-          "features": {
-            "danceability": 0.61,
-            "energy": 0.697,
-            "valence": 0.682,
-            "tempo": 116.0,
-            "acousticness": 0.346,
-            "instrumentalness": 0.0742,
-            "liveness": 0.35,
-            "speechiness": 0.121,
-            "loudness": -6.05,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T12:52:27Z"
         },
         {
           "id": "5Rk2nKbOcjehSVpHlWPCAF",
@@ -19915,21 +12341,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-08T19:41:05Z",
-          "features": {
-            "danceability": 0.586,
-            "energy": 0.61,
-            "valence": 0.542,
-            "tempo": 123.3,
-            "acousticness": 0.138,
-            "instrumentalness": 0.15,
-            "liveness": 0.118,
-            "speechiness": 0.3,
-            "loudness": -6.77,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-08T19:41:05Z"
         },
         {
           "id": "6aoKNOL481xVNuqeayQjPj",
@@ -19952,21 +12364,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-15T22:17:38Z",
-          "features": {
-            "danceability": 0.559,
-            "energy": 0.711,
-            "valence": 0.739,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0275,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-15T22:17:38Z"
         },
         {
           "id": "32gOczSWFyNpvCasSX42tA",
@@ -19984,21 +12382,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-19",
-          "addedAt": "2025-10-28T11:31:22Z",
-          "features": {
-            "danceability": 0.596,
-            "energy": 0.687,
-            "valence": 0.57,
-            "tempo": 93.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.121,
-            "speechiness": 0.3,
-            "loudness": -4.02,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-28T11:31:22Z"
         },
         {
           "id": "0rvU8yE1WBubDg9TMPzH0R",
@@ -20016,21 +12400,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-10-27T12:18:19Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.703,
-            "valence": 0.668,
-            "tempo": 118.9,
-            "acousticness": 0.28,
-            "instrumentalness": 0.0144,
-            "liveness": 0.05,
-            "speechiness": 0.109,
-            "loudness": -5.66,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-27T12:18:19Z"
         },
         {
           "id": "4zGLBKonWuLSeK35mrUXf0",
@@ -20046,7 +12416,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -20056,21 +12426,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-05",
-          "addedAt": "2025-10-21T18:48:09Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.814,
-            "valence": 0.654,
-            "tempo": 100.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.051,
-            "liveness": 0.079,
-            "speechiness": 0.259,
-            "loudness": -6.19,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T18:48:09Z"
         },
         {
           "id": "0HNAlYk4UqUU1QolSpaG7K",
@@ -20088,21 +12444,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-30",
-          "addedAt": "2025-10-24T09:45:34Z",
-          "features": {
-            "danceability": 0.651,
-            "energy": 0.735,
-            "valence": 0.461,
-            "tempo": 105.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0117,
-            "liveness": 0.197,
-            "speechiness": 0.235,
-            "loudness": -3.82,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T09:45:34Z"
         },
         {
           "id": "4GacpGn6tqDiD4STY6w0wO",
@@ -20124,21 +12466,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-10-21T18:47:55Z",
-          "features": {
-            "danceability": 0.64,
-            "energy": 0.778,
-            "valence": 0.781,
-            "tempo": 108.9,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0164,
-            "liveness": 0.326,
-            "speechiness": 0.188,
-            "loudness": -6.23,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T18:47:55Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -20166,21 +12494,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-08-15T22:17:38Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-15T22:17:38Z"
         },
         {
           "id": "0JHz2pE6QFzzjaDUXk41Nh",
@@ -20198,21 +12512,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-21T11:02:51Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.758,
-            "valence": 0.824,
-            "tempo": 97.4,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0579,
-            "liveness": 0.113,
-            "speechiness": 0.3,
-            "loudness": -3.49,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T11:02:51Z"
         },
         {
           "id": "5KsSOi6e0OgoD47KjqSRiE",
@@ -20232,21 +12532,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-10-10T00:09:49Z",
-          "features": {
-            "danceability": 0.687,
-            "energy": 0.709,
-            "valence": 0.598,
-            "tempo": 106.7,
-            "acousticness": 0.124,
-            "instrumentalness": 0.0251,
-            "liveness": 0.26,
-            "speechiness": 0.285,
-            "loudness": -7.09,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-10T00:09:49Z"
         },
         {
           "id": "2h1aaSSMUspQfHKDl5uISY",
@@ -20259,7 +12545,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -20271,21 +12557,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-22",
-          "addedAt": "2025-08-15T22:17:38Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.812,
-            "valence": 0.413,
-            "tempo": 126.1,
-            "acousticness": 0.306,
-            "instrumentalness": 0.049,
-            "liveness": 0.128,
-            "speechiness": 0.087,
-            "loudness": -6.82,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-15T22:17:38Z"
         },
         {
           "id": "0mCxHKr5bp05PMdD7jU4rW",
@@ -20310,21 +12582,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-06-22T11:04:11Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.635,
-            "valence": 0.419,
-            "tempo": 96.8,
-            "acousticness": 0.353,
-            "instrumentalness": 0.0403,
-            "liveness": 0.077,
-            "speechiness": 0.262,
-            "loudness": -6.47,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-22T11:04:11Z"
         },
         {
           "id": "3wdV4OJ37JdoLyUJMm50UW",
@@ -20350,21 +12608,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-06-22T11:04:21Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.661,
-            "valence": 0.717,
-            "tempo": 103.4,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0038,
-            "liveness": 0.059,
-            "speechiness": 0.154,
-            "loudness": -6.32,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-22T11:04:21Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -20391,21 +12635,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-05-05T20:59:47Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-05T20:59:47Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -20430,21 +12660,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-04-26T07:54:13Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-26T07:54:13Z"
         },
         {
           "id": "25oHQt2nwWQ6ILjkwZRRIy",
@@ -20470,21 +12686,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.715,
-            "energy": 0.5,
-            "valence": 0.835,
-            "tempo": 90.0,
-            "acousticness": 0.087,
-            "instrumentalness": 0.0003,
-            "liveness": 0.064,
-            "speechiness": 0.106,
-            "loudness": -6.12,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "2Wj5YuUfvbAOzA2kxRlnqi",
@@ -20509,25 +12711,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.78,
-            "valence": 0.54,
-            "tempo": 107.5,
-            "acousticness": 0.143,
-            "instrumentalness": 0.15,
-            "liveness": 0.171,
-            "speechiness": 0.181,
-            "loudness": -6.51,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "55pTjtdEONZz5e4la7WmBV",
-          "title": "Majẹkajá",
+          "title": "Maj\u1eb9kaj\u00e1",
           "artist": "Kunmie",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -20548,21 +12736,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.564,
-            "energy": 0.719,
-            "valence": 0.748,
-            "tempo": 125.3,
-            "acousticness": 0.125,
-            "instrumentalness": 0.0877,
-            "liveness": 0.122,
-            "speechiness": 0.3,
-            "loudness": -8.13,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "2v7r3nItoWRbCQBS1qFQnD",
@@ -20588,25 +12762,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-13",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.756,
-            "valence": 0.702,
-            "tempo": 111.0,
-            "acousticness": 0.254,
-            "instrumentalness": 0.0141,
-            "liveness": 0.191,
-            "speechiness": 0.115,
-            "loudness": -6.6,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "4NGKfHySAPw7810jTT3cwC",
-          "title": "Don’t Bother Me (feat. Monaky)",
+          "title": "Don\u2019t Bother Me (feat. Monaky)",
           "artist": "Lil Kesh, Monaky",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -20626,21 +12786,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.735,
-            "valence": 0.794,
-            "tempo": 116.8,
-            "acousticness": 0.133,
-            "instrumentalness": 0.0993,
-            "liveness": 0.05,
-            "speechiness": 0.289,
-            "loudness": -5.09,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "71d4wliLLDL2fhUcwalp11",
@@ -20666,21 +12812,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.817,
-            "energy": 0.703,
-            "valence": 0.648,
-            "tempo": 124.9,
-            "acousticness": 0.265,
-            "instrumentalness": 0.0174,
-            "liveness": 0.328,
-            "speechiness": 0.161,
-            "loudness": -5.82,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "7ouRkgZUc2OOrsdf1hQUDx",
@@ -20704,21 +12836,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.738,
-            "valence": 0.687,
-            "tempo": 101.4,
-            "acousticness": 0.32,
-            "instrumentalness": 0.0303,
-            "liveness": 0.055,
-            "speechiness": 0.3,
-            "loudness": -6.33,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -20743,21 +12861,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-04-26T07:53:59Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-26T07:53:59Z"
         },
         {
           "id": "5AC6BDevTa7wKqxkI0GKtq",
@@ -20784,21 +12888,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.86,
-            "valence": 0.687,
-            "tempo": 99.7,
-            "acousticness": 0.022,
-            "instrumentalness": 0.1189,
-            "liveness": 0.256,
-            "speechiness": 0.3,
-            "loudness": -7.89,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "4hFxfeTWAKx6u1YQk33uxv",
@@ -20823,21 +12913,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-09",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.719,
-            "valence": 0.671,
-            "tempo": 116.8,
-            "acousticness": 0.151,
-            "instrumentalness": 0.0013,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.96,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "1fyhqGc41gcZ587gqBrvqA",
@@ -20863,21 +12939,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.839,
-            "valence": 0.831,
-            "tempo": 120.6,
-            "acousticness": 0.386,
-            "instrumentalness": 0.0527,
-            "liveness": 0.16,
-            "speechiness": 0.104,
-            "loudness": -4.6,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "1tdsA7q55NsE9PYdL5i6Xj",
@@ -20900,21 +12962,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.772,
-            "valence": 0.666,
-            "tempo": 109.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0345,
-            "liveness": 0.15,
-            "speechiness": 0.3,
-            "loudness": -4.33,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "4Mnc9lGRf3C7oYPgbUiEzu",
@@ -20937,25 +12985,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.844,
-            "valence": 0.677,
-            "tempo": 114.5,
-            "acousticness": 0.311,
-            "instrumentalness": 0.0589,
-            "liveness": 0.05,
-            "speechiness": 0.273,
-            "loudness": -6.07,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "3sxcR3k3ZkNmvmXQB28Qnr",
-          "title": "Bouwéy",
+          "title": "Bouw\u00e9y",
           "artist": "1T1, Theomaa",
           "artistCountry": "Guadeloupe",
           "regionGroup": "Caribbean",
@@ -20974,21 +13008,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.627,
-            "energy": 0.657,
-            "valence": 0.7,
-            "tempo": 112.3,
-            "acousticness": 0.362,
-            "instrumentalness": 0.0081,
-            "liveness": 0.156,
-            "speechiness": 0.11,
-            "loudness": -6.33,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "3kea45Zl41BwV83RxCxBbw",
@@ -21004,7 +13024,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afro r&b"
           ],
@@ -21013,21 +13033,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.772,
-            "energy": 0.906,
-            "valence": 0.599,
-            "tempo": 104.9,
-            "acousticness": 0.098,
-            "instrumentalness": 0.05,
-            "liveness": 0.086,
-            "speechiness": 0.237,
-            "loudness": -5.55,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "5T6B5u7napNSymqsdluzuV",
@@ -21052,21 +13058,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-26",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.715,
-            "energy": 0.741,
-            "valence": 0.68,
-            "tempo": 93.9,
-            "acousticness": 0.191,
-            "instrumentalness": 0.0466,
-            "liveness": 0.144,
-            "speechiness": 0.106,
-            "loudness": -3.0,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "2h1eU2bFf4bpEp8eCjYrOM",
@@ -21091,21 +13083,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.762,
-            "valence": 0.737,
-            "tempo": 97.2,
-            "acousticness": 0.167,
-            "instrumentalness": 0.017,
-            "liveness": 0.216,
-            "speechiness": 0.141,
-            "loudness": -5.73,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "7g31Io2YE8QGPPHIx14WHS",
@@ -21129,21 +13107,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-06",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.733,
-            "energy": 0.785,
-            "valence": 0.58,
-            "tempo": 104.6,
-            "acousticness": 0.4,
-            "instrumentalness": 0.056,
-            "liveness": 0.052,
-            "speechiness": 0.3,
-            "loudness": -3.31,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "6WJlYrrcn8LSuyf7SXrzKH",
@@ -21167,21 +13131,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-02",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.827,
-            "energy": 0.675,
-            "valence": 0.705,
-            "tempo": 116.4,
-            "acousticness": 0.344,
-            "instrumentalness": 0.029,
-            "liveness": 0.244,
-            "speechiness": 0.3,
-            "loudness": -5.19,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "0NEVYvt0Evz01fy43n29R2",
@@ -21206,21 +13156,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-03",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.734,
-            "valence": 0.787,
-            "tempo": 126.7,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1072,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -6.83,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         },
         {
           "id": "5rFZHAhav5kGsSAKtQHRHq",
@@ -21244,21 +13180,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-04-18T09:14:11Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.848,
-            "valence": 0.47,
-            "tempo": 90.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0366,
-            "liveness": 0.133,
-            "speechiness": 0.3,
-            "loudness": -4.95,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T09:14:11Z"
         }
       ]
     },
@@ -21296,21 +13218,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.774,
-            "valence": 0.825,
-            "tempo": 112.3,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0037,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5ht0zFXsezKxVvu8eMiewq",
@@ -21327,7 +13235,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -21338,21 +13246,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3wdV4OJ37JdoLyUJMm50UW",
@@ -21378,21 +13272,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.661,
-            "valence": 0.717,
-            "tempo": 103.4,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0038,
-            "liveness": 0.059,
-            "speechiness": 0.154,
-            "loudness": -6.32,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2iCI6gHilTbSiD8a138KMU",
@@ -21417,21 +13297,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-06",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.64,
-            "energy": 0.806,
-            "valence": 0.491,
-            "tempo": 112.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0688,
-            "liveness": 0.335,
-            "speechiness": 0.219,
-            "loudness": -5.37,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3lseGa1fkutR9X3C1qPsnk",
@@ -21449,21 +13315,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-22",
-          "addedAt": "2025-11-18T06:17:51Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.64,
-            "valence": 0.831,
-            "tempo": 121.8,
-            "acousticness": 0.122,
-            "instrumentalness": 0.1047,
-            "liveness": 0.147,
-            "speechiness": 0.3,
-            "loudness": -7.69,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T06:17:51Z"
         },
         {
           "id": "6uwajjePMvHDQFuBtYozFs",
@@ -21484,21 +13336,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-15T11:02:29Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.742,
-            "valence": 0.654,
-            "tempo": 108.4,
-            "acousticness": 0.305,
-            "instrumentalness": 0.0173,
-            "liveness": 0.267,
-            "speechiness": 0.221,
-            "loudness": -3.0,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-15T11:02:29Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -21521,21 +13359,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "64JKqxBOU8QmROBKYYQpPI",
@@ -21553,21 +13377,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-13T19:39:41Z",
-          "features": {
-            "danceability": 0.701,
-            "energy": 0.658,
-            "valence": 0.609,
-            "tempo": 109.9,
-            "acousticness": 0.202,
-            "instrumentalness": 0.0515,
-            "liveness": 0.087,
-            "speechiness": 0.3,
-            "loudness": -7.47,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T19:39:41Z"
         },
         {
           "id": "35Hcr1vHOMgR5rjjsO5wpx",
@@ -21585,21 +13395,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-22",
-          "addedAt": "2025-11-12T09:57:53Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.667,
-            "valence": 0.631,
-            "tempo": 116.4,
-            "acousticness": 0.206,
-            "instrumentalness": 0.0996,
-            "liveness": 0.16,
-            "speechiness": 0.3,
-            "loudness": -5.34,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-12T09:57:53Z"
         },
         {
           "id": "6whWtO0zIA5LUUGSGhojRu",
@@ -21624,21 +13420,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-28",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.73,
-            "valence": 0.545,
-            "tempo": 115.0,
-            "acousticness": 0.114,
-            "instrumentalness": 0.1364,
-            "liveness": 0.35,
-            "speechiness": 0.197,
-            "loudness": -5.11,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "0wsmUufqtAqQXlRzN6UB1A",
@@ -21656,21 +13438,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-30",
-          "addedAt": "2025-11-10T20:36:04Z",
-          "features": {
-            "danceability": 0.656,
-            "energy": 0.67,
-            "valence": 0.484,
-            "tempo": 111.7,
-            "acousticness": 0.28,
-            "instrumentalness": 0.0121,
-            "liveness": 0.35,
-            "speechiness": 0.12,
-            "loudness": -9.08,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-10T20:36:04Z"
         },
         {
           "id": "0UE2LUhbAaVEJwFwcqFaZ9",
@@ -21688,21 +13456,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-09T17:21:45Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.7,
-            "valence": 0.634,
-            "tempo": 124.9,
-            "acousticness": 0.198,
-            "instrumentalness": 0.0053,
-            "liveness": 0.075,
-            "speechiness": 0.3,
-            "loudness": -5.61,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-09T17:21:45Z"
         },
         {
           "id": "4SjfsqsR3TIR3SO7kcTlFX",
@@ -21727,21 +13481,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.692,
-            "valence": 0.616,
-            "tempo": 115.1,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0121,
-            "liveness": 0.168,
-            "speechiness": 0.3,
-            "loudness": -6.72,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "7wSMBcWfwsjAlSeGSM8dmt",
@@ -21759,21 +13499,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-07T16:50:43Z",
-          "features": {
-            "danceability": 0.763,
-            "energy": 0.778,
-            "valence": 0.76,
-            "tempo": 120.3,
-            "acousticness": 0.36,
-            "instrumentalness": 0.122,
-            "liveness": 0.104,
-            "speechiness": 0.085,
-            "loudness": -6.36,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-07T16:50:43Z"
         },
         {
           "id": "546y3I4E6vKJjEJfDg7hY3",
@@ -21791,21 +13517,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-06T08:17:48Z",
-          "features": {
-            "danceability": 0.708,
-            "energy": 0.679,
-            "valence": 0.436,
-            "tempo": 107.8,
-            "acousticness": 0.235,
-            "instrumentalness": 0.0251,
-            "liveness": 0.169,
-            "speechiness": 0.3,
-            "loudness": -7.91,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T08:17:48Z"
         },
         {
           "id": "65cRt4uGMzo51AzXqptVsX",
@@ -21832,21 +13544,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.873,
-            "valence": 0.759,
-            "tempo": 107.4,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0384,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -3.75,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5sqRFsZ5w6was2KYC6wjVW",
@@ -21864,21 +13562,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-03T10:09:03Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.641,
-            "valence": 0.788,
-            "tempo": 90.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0845,
-            "liveness": 0.064,
-            "speechiness": 0.249,
-            "loudness": -4.32,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-03T10:09:03Z"
         },
         {
           "id": "67uhNA6ntWbBrP0nmygNaW",
@@ -21896,21 +13580,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-01T14:25:45Z",
-          "features": {
-            "danceability": 0.772,
-            "energy": 0.741,
-            "valence": 0.511,
-            "tempo": 123.8,
-            "acousticness": 0.226,
-            "instrumentalness": 0.0538,
-            "liveness": 0.152,
-            "speechiness": 0.259,
-            "loudness": -5.33,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T14:25:45Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -21933,21 +13603,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3AhLyQ4LpCvNoEX3rY83xo",
@@ -21965,21 +13621,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-31T12:48:17Z",
-          "features": {
-            "danceability": 0.659,
-            "energy": 0.696,
-            "valence": 0.791,
-            "tempo": 95.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0257,
-            "liveness": 0.14,
-            "speechiness": 0.143,
-            "loudness": -3.79,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-31T12:48:17Z"
         },
         {
           "id": "7H6lXGPBLbEAe3lHQNLNtP",
@@ -21997,21 +13639,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-31T07:08:41Z",
-          "features": {
-            "danceability": 0.754,
-            "energy": 0.761,
-            "valence": 0.9,
-            "tempo": 108.9,
-            "acousticness": 0.124,
-            "instrumentalness": 0.039,
-            "liveness": 0.295,
-            "speechiness": 0.216,
-            "loudness": -3.41,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-31T07:08:41Z"
         },
         {
           "id": "1m7j6RWUxeBzTOY4hcWsoj",
@@ -22031,21 +13659,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-08",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.816,
-            "valence": 0.771,
-            "tempo": 129.2,
-            "acousticness": 0.083,
-            "instrumentalness": 0.0138,
-            "liveness": 0.35,
-            "speechiness": 0.185,
-            "loudness": -7.06,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "6kceM3OyL1sm1B4COBene8",
@@ -22063,21 +13677,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-10-25T08:28:50Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.813,
-            "valence": 0.665,
-            "tempo": 114.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1222,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.64,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-25T08:28:50Z"
         },
         {
           "id": "0uaPLMqtFgurfYhgEnCqGx",
@@ -22097,21 +13697,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-11",
-          "addedAt": "2025-10-24T09:00:06Z",
-          "features": {
-            "danceability": 0.696,
-            "energy": 0.743,
-            "valence": 0.755,
-            "tempo": 98.1,
-            "acousticness": 0.247,
-            "instrumentalness": 0.1225,
-            "liveness": 0.096,
-            "speechiness": 0.3,
-            "loudness": -5.34,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T09:00:06Z"
         },
         {
           "id": "05lhFsOWPXRjfGA7xY7XJz",
@@ -22135,21 +13721,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.796,
-            "valence": 0.545,
-            "tempo": 111.8,
-            "acousticness": 0.069,
-            "instrumentalness": 0.03,
-            "liveness": 0.34,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2ZewbJKNcQBqyWEVHNEEQr",
@@ -22169,21 +13741,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-06",
-          "addedAt": "2025-10-23T08:55:04Z",
-          "features": {
-            "danceability": 0.723,
-            "energy": 0.681,
-            "valence": 0.78,
-            "tempo": 105.3,
-            "acousticness": 0.229,
-            "instrumentalness": 0.15,
-            "liveness": 0.208,
-            "speechiness": 0.132,
-            "loudness": -6.02,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-23T08:55:04Z"
         },
         {
           "id": "24A42dGRJRqq1llKoV6ECQ",
@@ -22204,21 +13762,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-26",
-          "addedAt": "2025-10-21T20:17:35Z",
-          "features": {
-            "danceability": 0.616,
-            "energy": 0.735,
-            "valence": 0.732,
-            "tempo": 123.2,
-            "acousticness": 0.13,
-            "instrumentalness": 0.0444,
-            "liveness": 0.225,
-            "speechiness": 0.052,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T20:17:35Z"
         },
         {
           "id": "0WsC4ETIXyiHDMXRaPMvKe",
@@ -22238,21 +13782,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-08",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.633,
-            "energy": 0.72,
-            "valence": 0.777,
-            "tempo": 99.0,
-            "acousticness": 0.379,
-            "instrumentalness": 0.0778,
-            "liveness": 0.33,
-            "speechiness": 0.3,
-            "loudness": -4.17,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "64sUOmMq8mv2C6payNjaim",
@@ -22270,21 +13800,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-08",
-          "addedAt": "2025-10-20T13:48:02Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.63,
-            "valence": 0.35,
-            "tempo": 106.5,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0347,
-            "liveness": 0.112,
-            "speechiness": 0.27,
-            "loudness": -4.78,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-20T13:48:02Z"
         },
         {
           "id": "6WeTbp5mBThgTQ0fUTKGzG",
@@ -22302,21 +13818,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-10-19T08:47:55Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.862,
-            "valence": 0.786,
-            "tempo": 112.4,
-            "acousticness": 0.363,
-            "instrumentalness": 0.0628,
-            "liveness": 0.248,
-            "speechiness": 0.3,
-            "loudness": -3.25,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-19T08:47:55Z"
         },
         {
           "id": "2SBXfZ0nBROtPHwEk1CoE0",
@@ -22334,21 +13836,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-12",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.882,
-            "valence": 0.491,
-            "tempo": 111.4,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0451,
-            "liveness": 0.181,
-            "speechiness": 0.3,
-            "loudness": -7.67,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "7msfmSm4KbVnIds5DvsGzT",
@@ -22373,21 +13861,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-14",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.766,
-            "energy": 0.616,
-            "valence": 0.654,
-            "tempo": 127.8,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1154,
-            "liveness": 0.266,
-            "speechiness": 0.273,
-            "loudness": -5.31,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "54HwZc6fEmR5EnjRT4oBq5",
@@ -22406,7 +13880,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -22415,21 +13889,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-04",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.733,
-            "valence": 0.569,
-            "tempo": 115.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0227,
-            "liveness": 0.35,
-            "speechiness": 0.285,
-            "loudness": -7.53,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -22454,21 +13914,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5nmYNuBSh99LNDdZ0iSe2O",
@@ -22493,21 +13939,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.706,
-            "valence": 0.605,
-            "tempo": 111.2,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0914,
-            "liveness": 0.219,
-            "speechiness": 0.298,
-            "loudness": -3.57,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -22534,21 +13966,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -22575,21 +13993,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "52ZxqHSe1HesJPwuuBiW4U",
@@ -22613,21 +14017,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.743,
-            "valence": 0.595,
-            "tempo": 127.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.15,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -3.63,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2j8n2hpZlEMvtrjJ7n0ZIy",
@@ -22653,21 +14043,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.549,
-            "valence": 0.68,
-            "tempo": 117.5,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0082,
-            "liveness": 0.101,
-            "speechiness": 0.165,
-            "loudness": -5.89,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4XHrQHvHWlE0RldeG8Nslq",
@@ -22691,21 +14067,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 121.8,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0891,
-            "liveness": 0.074,
-            "speechiness": 0.175,
-            "loudness": -3.51,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "20l4NPs2c9OBKBKUKRjxIy",
@@ -22719,7 +14081,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 59,
           "artistGenres": [
             "afro adura",
-            "alté",
+            "alt\u00e9",
             "nigerian drill",
             "afrobeat",
             "afrobeats",
@@ -22730,21 +14092,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-08",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.676,
-            "energy": 0.545,
-            "valence": 0.483,
-            "tempo": 111.4,
-            "acousticness": 0.352,
-            "instrumentalness": 0.0628,
-            "liveness": 0.242,
-            "speechiness": 0.3,
-            "loudness": -3.21,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -22771,21 +14119,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -22809,21 +14143,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "7L1DT2ByQ331AJkDfjvI5N",
@@ -22846,21 +14166,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-25",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.59,
-            "valence": 0.451,
-            "tempo": 111.4,
-            "acousticness": 0.096,
-            "instrumentalness": 0.0348,
-            "liveness": 0.333,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3ZR7IlqBPK8TrJyZYfFX9L",
@@ -22886,21 +14192,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-05",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.895,
-            "valence": 0.648,
-            "tempo": 112.8,
-            "acousticness": 0.227,
-            "instrumentalness": 0.0621,
-            "liveness": 0.171,
-            "speechiness": 0.281,
-            "loudness": -3.88,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "07eJSSPcNlkR34wVlkrCcY",
@@ -22916,33 +14208,19 @@ window.AFROBEATS_DATA = {
             "afro adura",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "nigerian drill",
             "afro soul",
-            "fújì"
+            "f\u00faj\u00ec"
           ],
           "artistId": "7kK5badbqOjd8WlT2XWMeM",
           "playlistPosition": 46,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.695,
-            "energy": 0.692,
-            "valence": 0.565,
-            "tempo": 119.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0363,
-            "liveness": 0.218,
-            "speechiness": 0.218,
-            "loudness": -4.19,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "1xFkc8KXwVk1FoG5xhcU3H",
@@ -22964,21 +14242,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.757,
-            "energy": 0.68,
-            "valence": 0.615,
-            "tempo": 116.6,
-            "acousticness": 0.075,
-            "instrumentalness": 0.1193,
-            "liveness": 0.191,
-            "speechiness": 0.3,
-            "loudness": -4.65,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -22991,7 +14255,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -23004,21 +14268,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "32ricrpPgci8zrxFBpLBI6",
@@ -23034,7 +14284,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -23044,21 +14294,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.677,
-            "energy": 0.612,
-            "valence": 0.862,
-            "tempo": 117.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0288,
-            "liveness": 0.146,
-            "speechiness": 0.184,
-            "loudness": -7.28,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "7LZkMeX1k8PXQJ0SVYn1A5",
@@ -23086,21 +14322,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.799,
-            "valence": 0.7,
-            "tempo": 92.4,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0074,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3H2bLX6U4kNuv04iTkCrSp",
@@ -23123,21 +14345,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-01",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.737,
-            "valence": 0.798,
-            "tempo": 108.1,
-            "acousticness": 0.051,
-            "instrumentalness": 0.1027,
-            "liveness": 0.225,
-            "speechiness": 0.114,
-            "loudness": -4.37,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2YwBdxvMFsWUSCaL1U6xIg",
@@ -23161,21 +14369,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.597,
-            "valence": 0.615,
-            "tempo": 105.0,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0263,
-            "liveness": 0.195,
-            "speechiness": 0.105,
-            "loudness": -5.31,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "771KDfpsOtJPQmocQpMdkR",
@@ -23194,7 +14388,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -23203,21 +14397,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-15",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.686,
-            "valence": 0.394,
-            "tempo": 115.3,
-            "acousticness": 0.179,
-            "instrumentalness": 0.0849,
-            "liveness": 0.089,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3MldGIMtPcupNBI4Dnxolr",
@@ -23240,21 +14420,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-28",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.866,
-            "valence": 0.553,
-            "tempo": 111.7,
-            "acousticness": 0.318,
-            "instrumentalness": 0.0427,
-            "liveness": 0.157,
-            "speechiness": 0.3,
-            "loudness": -3.86,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3HdiLzN2f7VpCzBR0Zz3JP",
@@ -23282,21 +14448,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.706,
-            "valence": 0.588,
-            "tempo": 98.0,
-            "acousticness": 0.215,
-            "instrumentalness": 0.0665,
-            "liveness": 0.05,
-            "speechiness": 0.286,
-            "loudness": -6.06,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2GSK9VfsKWpVOV6ZzKiMA4",
@@ -23322,21 +14474,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-04",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.719,
-            "valence": 0.63,
-            "tempo": 124.0,
-            "acousticness": 0.165,
-            "instrumentalness": 0.0551,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.78,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4KZMoDuxwSYP63bhbnMqe3",
@@ -23361,21 +14499,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-12",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.711,
-            "valence": 0.722,
-            "tempo": 90.0,
-            "acousticness": 0.16,
-            "instrumentalness": 0.0277,
-            "liveness": 0.224,
-            "speechiness": 0.219,
-            "loudness": -7.49,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4ZLPVrjMb6dkY0v9Tf3UKt",
@@ -23398,21 +14522,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.572,
-            "energy": 0.692,
-            "valence": 0.851,
-            "tempo": 101.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0208,
-            "liveness": 0.35,
-            "speechiness": 0.119,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2qdwZPTNCHb8DXfQin53WK",
@@ -23436,21 +14546,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-13",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.693,
-            "valence": 0.479,
-            "tempo": 135.0,
-            "acousticness": 0.055,
-            "instrumentalness": 0.0613,
-            "liveness": 0.116,
-            "speechiness": 0.05,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5hohPxxNfGRbW0PG2R0mhd",
@@ -23478,21 +14574,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.839,
-            "energy": 0.8,
-            "valence": 0.704,
-            "tempo": 105.4,
-            "acousticness": 0.381,
-            "instrumentalness": 0.0484,
-            "liveness": 0.201,
-            "speechiness": 0.3,
-            "loudness": -6.06,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "73UvOEAResEqdDU9a2aG7v",
@@ -23517,21 +14599,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-19",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.823,
-            "valence": 0.596,
-            "tempo": 90.0,
-            "acousticness": 0.209,
-            "instrumentalness": 0.0029,
-            "liveness": 0.092,
-            "speechiness": 0.13,
-            "loudness": -7.72,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "6XBIOtdSL47qn201KKNCA0",
@@ -23554,21 +14622,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.669,
-            "valence": 0.682,
-            "tempo": 90.0,
-            "acousticness": 0.091,
-            "instrumentalness": 0.0991,
-            "liveness": 0.326,
-            "speechiness": 0.188,
-            "loudness": -5.7,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4gNOP9BGhyl2apkm8Xy7Eg",
@@ -23583,7 +14637,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afro adura",
             "nigerian drill",
-            "alté",
+            "alt\u00e9",
             "afrobeat",
             "afro soul",
             "afrobeats"
@@ -23593,21 +14647,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.695,
-            "valence": 0.817,
-            "tempo": 124.4,
-            "acousticness": 0.292,
-            "instrumentalness": 0.023,
-            "liveness": 0.053,
-            "speechiness": 0.056,
-            "loudness": -5.48,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2YNLzBRGyCAzHEGPO3J2Sb",
@@ -23632,21 +14672,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-23",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.772,
-            "valence": 0.876,
-            "tempo": 109.9,
-            "acousticness": 0.068,
-            "instrumentalness": 0.0344,
-            "liveness": 0.078,
-            "speechiness": 0.192,
-            "loudness": -6.39,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "4YsaoPT9suZfd5PKdwvBXx",
@@ -23664,21 +14690,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.691,
-            "energy": 0.758,
-            "valence": 0.75,
-            "tempo": 90.0,
-            "acousticness": 0.091,
-            "instrumentalness": 0.0313,
-            "liveness": 0.2,
-            "speechiness": 0.3,
-            "loudness": -6.4,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5MJmOqDa45FfqSXTsA5cXw",
@@ -23692,7 +14704,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 7,
           "artistGenres": [
             "ghanaian hip hop",
-            "alté",
+            "alt\u00e9",
             "asakaa",
             "hiplife"
           ],
@@ -23701,21 +14713,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-01",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.691,
-            "valence": 0.631,
-            "tempo": 113.1,
-            "acousticness": 0.099,
-            "instrumentalness": 0.0077,
-            "liveness": 0.293,
-            "speechiness": 0.3,
-            "loudness": -6.05,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "1keuQm1cu41zNJ83bpxoGO",
@@ -23736,21 +14734,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-29",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.588,
-            "valence": 0.682,
-            "tempo": 90.0,
-            "acousticness": 0.274,
-            "instrumentalness": 0.0458,
-            "liveness": 0.197,
-            "speechiness": 0.05,
-            "loudness": -8.15,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "0tUJijI5shKAS2SVYXXaam",
@@ -23770,21 +14754,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.57,
-            "valence": 0.501,
-            "tempo": 120.3,
-            "acousticness": 0.171,
-            "instrumentalness": 0.1495,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -6.51,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "04bJ35MV8Wk1UAuq5zCyiC",
@@ -23802,21 +14772,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-11-05",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.724,
-            "valence": 0.642,
-            "tempo": 133.6,
-            "acousticness": 0.225,
-            "instrumentalness": 0.0001,
-            "liveness": 0.075,
-            "speechiness": 0.152,
-            "loudness": -5.9,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3mhr4Jil2OBl91sxWYT1d8",
@@ -23834,26 +14790,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.604,
-            "valence": 0.701,
-            "tempo": 116.5,
-            "acousticness": 0.328,
-            "instrumentalness": 0.0205,
-            "liveness": 0.273,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3djYYAnUDZ20updSomysBj",
           "title": "Pepper Dem",
-          "artist": "T.F.W, Gmix, Nú, Tvdz",
+          "artist": "T.F.W, Gmix, N\u00fa, Tvdz",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -23866,21 +14808,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-18",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.805,
-            "valence": 0.684,
-            "tempo": 119.8,
-            "acousticness": 0.14,
-            "instrumentalness": 0.0416,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -6.88,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "6qnc1vpeldVeDkTgdqah22",
@@ -23898,21 +14826,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.741,
-            "energy": 0.818,
-            "valence": 0.664,
-            "tempo": 123.4,
-            "acousticness": 0.073,
-            "instrumentalness": 0.0308,
-            "liveness": 0.05,
-            "speechiness": 0.228,
-            "loudness": -9.28,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5PEQbAM6yzFxhAcaTM9qdX",
@@ -23925,7 +14839,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 0,
           "artistPopularity": 17,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano"
           ],
@@ -23934,21 +14848,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-01-01",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.633,
-            "energy": 0.786,
-            "valence": 0.744,
-            "tempo": 90.0,
-            "acousticness": 0.239,
-            "instrumentalness": 0.0221,
-            "liveness": 0.273,
-            "speechiness": 0.3,
-            "loudness": -3.93,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "3W0pEoZwAHZylpW9Mw0Lbo",
@@ -23961,28 +14861,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 7,
           "artistPopularity": 7,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "7AYnAz0ZZqOU3szX6e332o",
           "playlistPosition": 74,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.727,
-            "energy": 0.693,
-            "valence": 0.43,
-            "tempo": 107.7,
-            "acousticness": 0.079,
-            "instrumentalness": 0.15,
-            "liveness": 0.284,
-            "speechiness": 0.3,
-            "loudness": -3.7,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5i7Pj9YUiqhqvtZdJBtp19",
@@ -23996,28 +14882,14 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 7,
           "artistGenres": [
             "rap ivoire",
-            "coupé décalé"
+            "coup\u00e9 d\u00e9cal\u00e9"
           ],
           "artistId": "7pdqEUfByowi1RO4ucWKcz",
           "playlistPosition": 75,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-11",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.825,
-            "energy": 0.698,
-            "valence": 0.657,
-            "tempo": 90.0,
-            "acousticness": 0.099,
-            "instrumentalness": 0.0606,
-            "liveness": 0.106,
-            "speechiness": 0.3,
-            "loudness": -5.5,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "0U9fHwMtr6aY6spzVVWNnf",
@@ -24030,7 +14902,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 19,
           "artistPopularity": 18,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro adura"
           ],
           "artistId": "77nPExxF79dZnp7LDXsZEr",
@@ -24038,21 +14910,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-16",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.683,
-            "energy": 0.747,
-            "valence": 0.595,
-            "tempo": 105.3,
-            "acousticness": 0.184,
-            "instrumentalness": 0.0456,
-            "liveness": 0.281,
-            "speechiness": 0.3,
-            "loudness": -4.84,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "5wHeNHP5dNtGhLYYSIkqzR",
@@ -24070,21 +14928,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-10",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.691,
-            "valence": 0.424,
-            "tempo": 111.4,
-            "acousticness": 0.074,
-            "instrumentalness": 0.0398,
-            "liveness": 0.142,
-            "speechiness": 0.3,
-            "loudness": -6.77,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "2N0U0JrwaN1Y9iB3lDf029",
@@ -24102,21 +14946,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-19",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.79,
-            "energy": 0.722,
-            "valence": 0.605,
-            "tempo": 111.5,
-            "acousticness": 0.028,
-            "instrumentalness": 0.0848,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.98,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         },
         {
           "id": "0YXKoQmXTthZwGpLhYL361",
@@ -24134,32 +14964,18 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-21",
-          "addedAt": "2025-09-30T15:23:47Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.631,
-            "valence": 0.501,
-            "tempo": 109.2,
-            "acousticness": 0.273,
-            "instrumentalness": 0.019,
-            "liveness": 0.153,
-            "speechiness": 0.244,
-            "loudness": -7.21,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-30T15:23:47Z"
         }
       ]
     },
     {
       "id": "afrobeats-hits-indie",
-      "name": "AFROBEATS 2025, 2024, 2023 🔥🌴",
+      "name": "AFROBEATS 2025, 2024, 2023 \ud83d\udd25\ud83c\udf34",
       "curatorType": "Independent Curator",
       "curator": "DJ Boat",
       "followerCount": 76806,
       "launchYear": 2022,
-      "description": "💛🙏💛FOLLOW &amp; SHARE💛🙏💛… Sounds of Africa, from the streets to the charts…",
+      "description": "\ud83d\udc9b\ud83d\ude4f\ud83d\udc9bFOLLOW &amp; SHARE\ud83d\udc9b\ud83d\ude4f\ud83d\udc9b\u2026 Sounds of Africa, from the streets to the charts\u2026",
       "tracks": [
         {
           "id": "1rrqJ9QkOBYJlsZgqqwxgB",
@@ -24184,21 +15000,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-16",
-          "addedAt": "2025-06-14T09:52:11Z",
-          "features": {
-            "danceability": 0.79,
-            "energy": 0.627,
-            "valence": 0.478,
-            "tempo": 118.2,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0144,
-            "liveness": 0.073,
-            "speechiness": 0.3,
-            "loudness": -5.65,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-14T09:52:11Z"
         },
         {
           "id": "4Gasn91fsCefnN8zM5GjA8",
@@ -24222,21 +15024,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-03-03",
-          "addedAt": "2025-08-31T12:08:44Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.665,
-            "valence": 0.722,
-            "tempo": 94.6,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -8.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-31T12:08:44Z"
         },
         {
           "id": "1PoJXULCvl03b1fiZmMxmd",
@@ -24261,21 +15049,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-25",
-          "addedAt": "2025-08-31T12:08:39Z",
-          "features": {
-            "danceability": 0.649,
-            "energy": 0.741,
-            "valence": 0.723,
-            "tempo": 135.0,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0393,
-            "liveness": 0.182,
-            "speechiness": 0.141,
-            "loudness": -6.77,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-31T12:08:39Z"
         },
         {
           "id": "7vAXxDFUHDPxWzSujxb8jB",
@@ -24300,21 +15074,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2025-06-14T09:58:42Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.675,
-            "valence": 0.705,
-            "tempo": 105.1,
-            "acousticness": 0.169,
-            "instrumentalness": 0.108,
-            "liveness": 0.169,
-            "speechiness": 0.3,
-            "loudness": -5.25,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-14T09:58:42Z"
         },
         {
           "id": "2yskKhqtDAHJ73obmJh8tf",
@@ -24340,21 +15100,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-02",
-          "addedAt": "2025-06-01T11:53:32Z",
-          "features": {
-            "danceability": 0.748,
-            "energy": 0.832,
-            "valence": 0.9,
-            "tempo": 109.3,
-            "acousticness": 0.3,
-            "instrumentalness": 0.0087,
-            "liveness": 0.094,
-            "speechiness": 0.128,
-            "loudness": -6.06,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-01T11:53:32Z"
         },
         {
           "id": "1DA2ADZs6O28y2rmdmpekw",
@@ -24380,21 +15126,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-11-11",
-          "addedAt": "2025-06-14T09:58:53Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.745,
-            "valence": 0.649,
-            "tempo": 121.0,
-            "acousticness": 0.1,
-            "instrumentalness": 0.0031,
-            "liveness": 0.279,
-            "speechiness": 0.111,
-            "loudness": -4.29,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-14T09:58:53Z"
         },
         {
           "id": "0sHyVWNc3nfxAYOTOwOlPx",
@@ -24420,21 +15152,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-11-11",
-          "addedAt": "2025-08-02T19:57:15Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.779,
-            "valence": 0.649,
-            "tempo": 129.0,
-            "acousticness": 0.095,
-            "instrumentalness": 0.0201,
-            "liveness": 0.251,
-            "speechiness": 0.3,
-            "loudness": -7.09,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-02T19:57:15Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -24459,21 +15177,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-09-22T15:04:08Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-22T15:04:08Z"
         },
         {
           "id": "1myE3bHoWoSO5hyr3MxdHJ",
@@ -24493,21 +15197,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-24",
-          "addedAt": "2025-09-17T12:15:04Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.731,
-            "valence": 0.699,
-            "tempo": 124.1,
-            "acousticness": 0.153,
-            "instrumentalness": 0.0648,
-            "liveness": 0.332,
-            "speechiness": 0.225,
-            "loudness": -3.6,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-17T12:15:04Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -24530,21 +15220,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-09-24T13:10:29Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-24T13:10:29Z"
         },
         {
           "id": "1Cbl3Yq8rHo7hhDQmLQagU",
@@ -24564,21 +15240,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-11",
-          "addedAt": "2025-10-04T22:38:59Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.666,
-            "valence": 0.531,
-            "tempo": 134.0,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0369,
-            "liveness": 0.246,
-            "speechiness": 0.09,
-            "loudness": -6.43,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T22:38:59Z"
         },
         {
           "id": "0FU7ERQTOECwmEIaWDgdIG",
@@ -24605,21 +15267,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-10-04T22:38:44Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.774,
-            "valence": 0.825,
-            "tempo": 112.3,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0037,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T22:38:44Z"
         },
         {
           "id": "4Q0nTj4TyprPk5bTpeSrGk",
@@ -24643,21 +15291,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-08-29T07:59:01Z",
-          "features": {
-            "danceability": 0.612,
-            "energy": 0.763,
-            "valence": 0.609,
-            "tempo": 110.1,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0612,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-29T07:59:01Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -24684,21 +15318,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-07-20T17:28:52Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-20T17:28:52Z"
         },
         {
           "id": "05A6mr7C2bP7uPrEQrj9qk",
@@ -24723,21 +15343,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-23",
-          "addedAt": "2025-07-17T09:24:05Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.826,
-            "valence": 0.404,
-            "tempo": 128.2,
-            "acousticness": 0.319,
-            "instrumentalness": 0.0523,
-            "liveness": 0.271,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-17T09:24:05Z"
         },
         {
           "id": "1D1M805zV8DwhYXsvJdQZx",
@@ -24752,7 +15358,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -24760,21 +15366,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2024-12-13T08:57:50Z",
-          "features": {
-            "danceability": 0.592,
-            "energy": 0.678,
-            "valence": 0.713,
-            "tempo": 102.4,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0371,
-            "liveness": 0.205,
-            "speechiness": 0.3,
-            "loudness": -7.59,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-13T08:57:50Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -24797,21 +15389,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-06-24T20:38:37Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-24T20:38:37Z"
         },
         {
           "id": "4Q0nTj4TyprPk5bTpeSrGk",
@@ -24835,25 +15413,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-06T15:44:22Z",
-          "features": {
-            "danceability": 0.612,
-            "energy": 0.763,
-            "valence": 0.609,
-            "tempo": 110.1,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0612,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-06T15:44:22Z"
         },
         {
           "id": "6XaN4trfoMvRFEy8HoB4nC",
-          "title": "Who’s Dat Girl",
+          "title": "Who\u2019s Dat Girl",
           "artist": "Ayra Starr, Rema",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -24874,21 +15438,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-19T10:12:22Z",
-          "features": {
-            "danceability": 0.605,
-            "energy": 0.746,
-            "valence": 0.751,
-            "tempo": 90.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1082,
-            "liveness": 0.35,
-            "speechiness": 0.259,
-            "loudness": -5.68,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-19T10:12:22Z"
         },
         {
           "id": "1RMEvuPu0Lq5GzBedlzEdA",
@@ -24915,21 +15465,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-06-26T23:32:23Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.777,
-            "valence": 0.64,
-            "tempo": 102.4,
-            "acousticness": 0.375,
-            "instrumentalness": 0.0128,
-            "liveness": 0.251,
-            "speechiness": 0.195,
-            "loudness": -5.04,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-26T23:32:23Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -24954,21 +15490,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-07-07T13:53:11Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-07T13:53:11Z"
         },
         {
           "id": "4GXW3Ne1jzdORKHvHjK31V",
@@ -24993,21 +15515,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-01",
-          "addedAt": "2024-12-13T08:57:39Z",
-          "features": {
-            "danceability": 0.806,
-            "energy": 0.785,
-            "valence": 0.625,
-            "tempo": 92.2,
-            "acousticness": 0.042,
-            "instrumentalness": 0.0115,
-            "liveness": 0.345,
-            "speechiness": 0.182,
-            "loudness": -6.33,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-13T08:57:39Z"
         },
         {
           "id": "47hsUYxvbTlBAN3sP9dEOd",
@@ -25022,7 +15530,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -25030,21 +15538,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-25",
-          "addedAt": "2024-10-09T22:49:08Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.597,
-            "valence": 0.661,
-            "tempo": 96.3,
-            "acousticness": 0.17,
-            "instrumentalness": 0.0026,
-            "liveness": 0.157,
-            "speechiness": 0.116,
-            "loudness": -3.06,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-09T22:49:08Z"
         },
         {
           "id": "4M5SBrPQQrSImtg1PCxEe0",
@@ -25062,21 +15556,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-25",
-          "addedAt": "2025-10-29T23:09:56Z",
-          "features": {
-            "danceability": 0.836,
-            "energy": 0.69,
-            "valence": 0.568,
-            "tempo": 92.2,
-            "acousticness": 0.241,
-            "instrumentalness": 0.0506,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.65,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-29T23:09:56Z"
         },
         {
           "id": "0WtM2NBVQNNJLh6scP13H8",
@@ -25099,21 +15579,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-08-25",
-          "addedAt": "2024-12-07T21:52:47Z",
-          "features": {
-            "danceability": 0.58,
-            "energy": 0.716,
-            "valence": 0.713,
-            "tempo": 113.0,
-            "acousticness": 0.332,
-            "instrumentalness": 0.0568,
-            "liveness": 0.11,
-            "speechiness": 0.123,
-            "loudness": -4.67,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-07T21:52:47Z"
         },
         {
           "id": "7aVBqiVYeTIgbu9o6IFT4q",
@@ -25137,21 +15603,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-05-02T07:52:19Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.738,
-            "valence": 0.599,
-            "tempo": 135.0,
-            "acousticness": 0.196,
-            "instrumentalness": 0.0259,
-            "liveness": 0.316,
-            "speechiness": 0.236,
-            "loudness": -6.15,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-02T07:52:19Z"
         },
         {
           "id": "5CTQCPv51aLWpwTbqo8mEL",
@@ -25177,21 +15629,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-13",
-          "addedAt": "2024-10-06T01:07:52Z",
-          "features": {
-            "danceability": 0.669,
-            "energy": 0.656,
-            "valence": 0.519,
-            "tempo": 114.9,
-            "acousticness": 0.105,
-            "instrumentalness": 0.0455,
-            "liveness": 0.075,
-            "speechiness": 0.231,
-            "loudness": -5.41,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-06T01:07:52Z"
         },
         {
           "id": "4kYR66ZNCcfQ6pyASeW8tw",
@@ -25216,21 +15654,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-14",
-          "addedAt": "2024-10-02T12:15:04Z",
-          "features": {
-            "danceability": 0.687,
-            "energy": 0.714,
-            "valence": 0.724,
-            "tempo": 113.9,
-            "acousticness": 0.126,
-            "instrumentalness": 0.0304,
-            "liveness": 0.099,
-            "speechiness": 0.3,
-            "loudness": -5.92,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-02T12:15:04Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -25255,21 +15679,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-07-16T09:28:31Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T09:28:31Z"
         },
         {
           "id": "0d5L2bTyEj8ARJTwqueDLS",
@@ -25293,21 +15703,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-01T07:58:51Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.72,
-            "valence": 0.628,
-            "tempo": 95.4,
-            "acousticness": 0.224,
-            "instrumentalness": 0.1246,
-            "liveness": 0.141,
-            "speechiness": 0.3,
-            "loudness": -3.95,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-01T07:58:51Z"
         },
         {
           "id": "0PL6nMizDHRnXNWZ3hO0c9",
@@ -25330,21 +15726,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-04-18T14:45:08Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.64,
-            "valence": 0.774,
-            "tempo": 97.1,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0469,
-            "liveness": 0.325,
-            "speechiness": 0.197,
-            "loudness": -5.99,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-18T14:45:08Z"
         },
         {
           "id": "6vFtGl6zGGz3eqD6wEF9T2",
@@ -25368,21 +15750,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-03",
-          "addedAt": "2025-06-24T20:37:21Z",
-          "features": {
-            "danceability": 0.758,
-            "energy": 0.736,
-            "valence": 0.688,
-            "tempo": 90.0,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0283,
-            "liveness": 0.275,
-            "speechiness": 0.3,
-            "loudness": -7.73,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-24T20:37:21Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -25410,21 +15778,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-07-16T09:27:56Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T09:27:56Z"
         },
         {
           "id": "7iCvoWlfuJ1y7zibnh1EW9",
@@ -25449,21 +15803,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-07-16T09:27:47Z",
-          "features": {
-            "danceability": 0.703,
-            "energy": 0.7,
-            "valence": 0.672,
-            "tempo": 106.4,
-            "acousticness": 0.239,
-            "instrumentalness": 0.0461,
-            "liveness": 0.057,
-            "speechiness": 0.3,
-            "loudness": -5.74,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T09:27:47Z"
         },
         {
           "id": "0d5L2bTyEj8ARJTwqueDLS",
@@ -25487,21 +15827,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-02T19:55:48Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.72,
-            "valence": 0.628,
-            "tempo": 95.4,
-            "acousticness": 0.224,
-            "instrumentalness": 0.1246,
-            "liveness": 0.141,
-            "speechiness": 0.3,
-            "loudness": -3.95,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-02T19:55:48Z"
         },
         {
           "id": "6oOQSvqz8JL9hUTdXQiNEo",
@@ -25525,21 +15851,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2024-12-13T08:48:58Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.837,
-            "valence": 0.9,
-            "tempo": 101.8,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0229,
-            "liveness": 0.183,
-            "speechiness": 0.3,
-            "loudness": -4.3,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-13T08:48:58Z"
         },
         {
           "id": "6JvWMLscnWYkgX1zPufIGT",
@@ -25565,21 +15877,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-05-18T09:53:00Z",
-          "features": {
-            "danceability": 0.635,
-            "energy": 0.604,
-            "valence": 0.668,
-            "tempo": 134.5,
-            "acousticness": 0.183,
-            "instrumentalness": 0.0039,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -4.2,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-18T09:53:00Z"
         },
         {
           "id": "1ZedegcFMjMTyIngsQbXjb",
@@ -25604,21 +15902,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-19",
-          "addedAt": "2025-03-11T13:58:37Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.588,
-            "valence": 0.841,
-            "tempo": 114.8,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0296,
-            "liveness": 0.089,
-            "speechiness": 0.3,
-            "loudness": -6.41,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-11T13:58:37Z"
         },
         {
           "id": "7LZkMeX1k8PXQJ0SVYn1A5",
@@ -25646,21 +15930,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2024-12-07T21:29:01Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.799,
-            "valence": 0.7,
-            "tempo": 92.4,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0074,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-07T21:29:01Z"
         },
         {
           "id": "7msfmSm4KbVnIds5DvsGzT",
@@ -25685,21 +15955,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-14",
-          "addedAt": "2025-05-18T09:53:06Z",
-          "features": {
-            "danceability": 0.766,
-            "energy": 0.616,
-            "valence": 0.654,
-            "tempo": 127.8,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1154,
-            "liveness": 0.266,
-            "speechiness": 0.273,
-            "loudness": -5.31,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-18T09:53:06Z"
         },
         {
           "id": "0PL6nMizDHRnXNWZ3hO0c9",
@@ -25722,21 +15978,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-07-16T09:27:30Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.64,
-            "valence": 0.774,
-            "tempo": 97.1,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0469,
-            "liveness": 0.325,
-            "speechiness": 0.197,
-            "loudness": -5.99,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T09:27:30Z"
         },
         {
           "id": "0UP1t8bOHiRzdeet1WYXLo",
@@ -25754,21 +15996,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-26",
-          "addedAt": "2025-04-24T15:45:54Z",
-          "features": {
-            "danceability": 0.781,
-            "energy": 0.705,
-            "valence": 0.644,
-            "tempo": 90.0,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1476,
-            "liveness": 0.088,
-            "speechiness": 0.3,
-            "loudness": -4.5,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-24T15:45:54Z"
         },
         {
           "id": "1mSdbey7RstGLY2udgXv74",
@@ -25794,21 +16022,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-08-13",
-          "addedAt": "2024-12-07T21:52:35Z",
-          "features": {
-            "danceability": 0.656,
-            "energy": 0.671,
-            "valence": 0.625,
-            "tempo": 120.8,
-            "acousticness": 0.352,
-            "instrumentalness": 0.0355,
-            "liveness": 0.193,
-            "speechiness": 0.3,
-            "loudness": -4.36,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-07T21:52:35Z"
         },
         {
           "id": "6rOqLUy3kp0PVQQEtNPpbQ",
@@ -25823,7 +16037,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -25833,21 +16047,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-07",
-          "addedAt": "2024-10-08T15:26:48Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.692,
-            "valence": 0.563,
-            "tempo": 119.9,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0981,
-            "liveness": 0.35,
-            "speechiness": 0.132,
-            "loudness": -5.62,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T15:26:48Z"
         },
         {
           "id": "7aVBqiVYeTIgbu9o6IFT4q",
@@ -25871,21 +16071,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-07-16T09:26:04Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.738,
-            "valence": 0.599,
-            "tempo": 135.0,
-            "acousticness": 0.196,
-            "instrumentalness": 0.0259,
-            "liveness": 0.316,
-            "speechiness": 0.236,
-            "loudness": -6.15,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T09:26:04Z"
         },
         {
           "id": "3ZHp0uqvOEvwQ609XxePnQ",
@@ -25909,21 +16095,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-04-24T08:28:21Z",
-          "features": {
-            "danceability": 0.829,
-            "energy": 0.769,
-            "valence": 0.693,
-            "tempo": 94.7,
-            "acousticness": 0.059,
-            "instrumentalness": 0.0765,
-            "liveness": 0.346,
-            "speechiness": 0.224,
-            "loudness": -3.76,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-24T08:28:21Z"
         },
         {
           "id": "4FwFYYUzsA3YN2cNeVtdgg",
@@ -25947,21 +16119,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-02-14T09:14:36Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.697,
-            "valence": 0.463,
-            "tempo": 100.3,
-            "acousticness": 0.357,
-            "instrumentalness": 0.0253,
-            "liveness": 0.22,
-            "speechiness": 0.3,
-            "loudness": -6.48,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-02-14T09:14:36Z"
         },
         {
           "id": "2rDtfPMI5mDJVTwYYG00QI",
@@ -25980,7 +16138,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -25988,21 +16146,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-22",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.809,
-            "valence": 0.664,
-            "tempo": 90.0,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0183,
-            "liveness": 0.218,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "1LRGZESVn8eF7WVY5DzLNy",
@@ -26025,21 +16169,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-04-14",
-          "addedAt": "2024-09-24T14:21:22Z",
-          "features": {
-            "danceability": 0.631,
-            "energy": 0.599,
-            "valence": 0.582,
-            "tempo": 98.9,
-            "acousticness": 0.323,
-            "instrumentalness": 0.1392,
-            "liveness": 0.078,
-            "speechiness": 0.215,
-            "loudness": -5.47,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-09-24T14:21:22Z"
         },
         {
           "id": "3FskQrDXcY24ur2fCvz35O",
@@ -26064,21 +16194,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-01-26",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.668,
-            "energy": 0.731,
-            "valence": 0.619,
-            "tempo": 113.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0164,
-            "liveness": 0.328,
-            "speechiness": 0.217,
-            "loudness": -6.33,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "6XM53PbvlzhuNtJZtpl7RP",
@@ -26100,21 +16216,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-12-13",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.713,
-            "energy": 0.714,
-            "valence": 0.63,
-            "tempo": 104.3,
-            "acousticness": 0.187,
-            "instrumentalness": 0.0628,
-            "liveness": 0.173,
-            "speechiness": 0.208,
-            "loudness": -3.51,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "4vb777iaycnlFxVkJMmtfd",
@@ -26140,21 +16242,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-12-23",
-          "addedAt": "2024-08-18T23:56:48Z",
-          "features": {
-            "danceability": 0.765,
-            "energy": 0.683,
-            "valence": 0.768,
-            "tempo": 128.8,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0361,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.08,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-18T23:56:48Z"
         },
         {
           "id": "4ou5xyFUJX4VwX76tw1qb1",
@@ -26182,21 +16270,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-06-02",
-          "addedAt": "2024-10-02T12:15:22Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.743,
-            "valence": 0.538,
-            "tempo": 90.0,
-            "acousticness": 0.146,
-            "instrumentalness": 0.0651,
-            "liveness": 0.289,
-            "speechiness": 0.172,
-            "loudness": -5.07,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-02T12:15:22Z"
         },
         {
           "id": "0dCOSNPQizhMMjO6UxGlzi",
@@ -26221,21 +16295,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-07-06",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.735,
-            "valence": 0.594,
-            "tempo": 116.1,
-            "acousticness": 0.113,
-            "instrumentalness": 0.0189,
-            "liveness": 0.323,
-            "speechiness": 0.216,
-            "loudness": -4.67,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "3z4CGd63tpUn9a6oQSG0CI",
@@ -26258,21 +16318,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-03-08",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.862,
-            "valence": 0.859,
-            "tempo": 135.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0393,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.3,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "4slSrbTK1sNK4I1mDYEthf",
@@ -26292,21 +16338,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-03-04",
-          "addedAt": "2024-09-24T14:02:56Z",
-          "features": {
-            "danceability": 0.641,
-            "energy": 0.595,
-            "valence": 0.605,
-            "tempo": 121.7,
-            "acousticness": 0.105,
-            "instrumentalness": 0.019,
-            "liveness": 0.056,
-            "speechiness": 0.204,
-            "loudness": -7.93,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-09-24T14:02:56Z"
         },
         {
           "id": "0PXukVbYpvz40KcEFKnIw7",
@@ -26328,21 +16360,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-11-07",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.698,
-            "valence": 0.632,
-            "tempo": 113.2,
-            "acousticness": 0.29,
-            "instrumentalness": 0.0307,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.25,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "3mARtPEP8hi1LzMctEwVN4",
@@ -26363,21 +16381,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2024-08-09T23:56:19Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.694,
-            "valence": 0.741,
-            "tempo": 98.5,
-            "acousticness": 0.156,
-            "instrumentalness": 0.0124,
-            "liveness": 0.067,
-            "speechiness": 0.082,
-            "loudness": -6.27,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-09T23:56:19Z"
         },
         {
           "id": "5aIVCx5tnk0ntmdiinnYvw",
@@ -26397,21 +16401,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-28",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.764,
-            "valence": 0.624,
-            "tempo": 113.3,
-            "acousticness": 0.228,
-            "instrumentalness": 0.0285,
-            "liveness": 0.303,
-            "speechiness": 0.3,
-            "loudness": -7.86,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "5YbPxJwPfrj7uswNwoF1pJ",
@@ -26436,21 +16426,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.605,
-            "valence": 0.75,
-            "tempo": 90.0,
-            "acousticness": 0.288,
-            "instrumentalness": 0.0379,
-            "liveness": 0.182,
-            "speechiness": 0.3,
-            "loudness": -4.81,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "4gvrJnKCKIPiacNsWVQwEU",
@@ -26473,21 +16449,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-09-09",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.74,
-            "valence": 0.63,
-            "tempo": 127.8,
-            "acousticness": 0.302,
-            "instrumentalness": 0.0201,
-            "liveness": 0.35,
-            "speechiness": 0.25,
-            "loudness": -6.05,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "2WigMwGJysIh9fRnSJvpjn",
@@ -26504,7 +16466,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afroswing",
             "afropiano"
@@ -26514,21 +16476,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-10",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.595,
-            "energy": 0.648,
-            "valence": 0.584,
-            "tempo": 100.6,
-            "acousticness": 0.092,
-            "instrumentalness": 0.039,
-            "liveness": 0.147,
-            "speechiness": 0.218,
-            "loudness": -3.0,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "5Wt7ngK753xBhSjb9lRfSR",
@@ -26541,7 +16489,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 49,
           "artistPopularity": 43,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afro r&b",
             "afrobeat",
@@ -26554,26 +16502,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-02-07",
-          "addedAt": "2024-10-10T20:37:55Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.842,
-            "valence": 0.71,
-            "tempo": 108.2,
-            "acousticness": 0.156,
-            "instrumentalness": 0.0528,
-            "liveness": 0.211,
-            "speechiness": 0.3,
-            "loudness": -5.36,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:37:55Z"
         },
         {
           "id": "1A1ifX8sWzelNpkL5PxcHT",
           "title": "Last Heartbreak Song (feat. Giveon)",
-          "artist": "Ayra Starr, GIVĒON",
+          "artist": "Ayra Starr, GIV\u0112ON",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -26593,21 +16527,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2024-08-09T23:51:04Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.925,
-            "valence": 0.373,
-            "tempo": 122.9,
-            "acousticness": 0.182,
-            "instrumentalness": 0.0539,
-            "liveness": 0.257,
-            "speechiness": 0.194,
-            "loudness": -5.03,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-09T23:51:04Z"
         },
         {
           "id": "3QO1m6i0nsrp8aOnapvbkx",
@@ -26633,21 +16553,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-10-29",
-          "addedAt": "2024-10-08T21:17:31Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.718,
-            "valence": 0.43,
-            "tempo": 135.0,
-            "acousticness": 0.149,
-            "instrumentalness": 0.0747,
-            "liveness": 0.098,
-            "speechiness": 0.3,
-            "loudness": -5.94,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T21:17:31Z"
         },
         {
           "id": "6F5bERiTAIAVAP8ZUh0tqE",
@@ -26672,21 +16578,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-25",
-          "addedAt": "2024-10-08T21:19:53Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.815,
-            "valence": 0.61,
-            "tempo": 92.8,
-            "acousticness": 0.141,
-            "instrumentalness": 0.0544,
-            "liveness": 0.29,
-            "speechiness": 0.3,
-            "loudness": -7.17,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T21:19:53Z"
         },
         {
           "id": "7rpWDu9GPlLxbLorYKVys7",
@@ -26711,21 +16603,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-25",
-          "addedAt": "2024-10-08T21:24:05Z",
-          "features": {
-            "danceability": 0.687,
-            "energy": 0.793,
-            "valence": 0.845,
-            "tempo": 96.0,
-            "acousticness": 0.227,
-            "instrumentalness": 0.0335,
-            "liveness": 0.05,
-            "speechiness": 0.161,
-            "loudness": -4.99,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T21:24:05Z"
         },
         {
           "id": "11RIJRbBfyLlJut96itSFd",
@@ -26746,21 +16624,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-06-20",
-          "addedAt": "2025-08-02T19:56:58Z",
-          "features": {
-            "danceability": 0.782,
-            "energy": 0.642,
-            "valence": 0.705,
-            "tempo": 105.1,
-            "acousticness": 0.182,
-            "instrumentalness": 0.15,
-            "liveness": 0.35,
-            "speechiness": 0.168,
-            "loudness": -6.01,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-02T19:56:58Z"
         },
         {
           "id": "6XpEm7VJ7TZxZTawH8BCSW",
@@ -26780,21 +16644,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-22",
-          "addedAt": "2024-12-07T21:31:57Z",
-          "features": {
-            "danceability": 0.623,
-            "energy": 0.8,
-            "valence": 0.562,
-            "tempo": 110.4,
-            "acousticness": 0.083,
-            "instrumentalness": 0.0115,
-            "liveness": 0.095,
-            "speechiness": 0.3,
-            "loudness": -3.48,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-07T21:31:57Z"
         },
         {
           "id": "6HTjqv0AsiZ34fOMcGCbSX",
@@ -26819,21 +16669,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-09",
-          "addedAt": "2024-08-09T23:54:25Z",
-          "features": {
-            "danceability": 0.794,
-            "energy": 0.597,
-            "valence": 0.518,
-            "tempo": 113.9,
-            "acousticness": 0.154,
-            "instrumentalness": 0.053,
-            "liveness": 0.35,
-            "speechiness": 0.284,
-            "loudness": -5.43,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-09T23:54:25Z"
         },
         {
           "id": "7u4rtLutaP41FJs5dva48a",
@@ -26855,21 +16691,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-09-13",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.857,
-            "valence": 0.666,
-            "tempo": 101.1,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0099,
-            "liveness": 0.164,
-            "speechiness": 0.3,
-            "loudness": -4.87,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "2QcTf5lLMrrWTiElDInpTb",
@@ -26892,21 +16714,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2024-10-08T15:11:59Z",
-          "features": {
-            "danceability": 0.576,
-            "energy": 0.69,
-            "valence": 0.638,
-            "tempo": 97.2,
-            "acousticness": 0.223,
-            "instrumentalness": 0.1188,
-            "liveness": 0.184,
-            "speechiness": 0.3,
-            "loudness": -3.84,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T15:11:59Z"
         },
         {
           "id": "44SSviC4R1TkAdsyptjDpE",
@@ -26931,21 +16739,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-25",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.76,
-            "energy": 0.579,
-            "valence": 0.373,
-            "tempo": 118.6,
-            "acousticness": 0.228,
-            "instrumentalness": 0.0123,
-            "liveness": 0.255,
-            "speechiness": 0.217,
-            "loudness": -6.12,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "3ltc9j6uh3LvO7FuXm6Ix3",
@@ -26970,21 +16764,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-06",
-          "addedAt": "2024-10-08T15:12:31Z",
-          "features": {
-            "danceability": 0.755,
-            "energy": 0.584,
-            "valence": 0.665,
-            "tempo": 115.4,
-            "acousticness": 0.156,
-            "instrumentalness": 0.071,
-            "liveness": 0.094,
-            "speechiness": 0.052,
-            "loudness": -3.0,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-08T15:12:31Z"
         },
         {
           "id": "6sfdU1tGLpXhjjLjGJa0zA",
@@ -27012,21 +16792,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2017-11-10",
-          "addedAt": "2024-08-18T23:56:56Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.662,
-            "valence": 0.54,
-            "tempo": 108.6,
-            "acousticness": 0.097,
-            "instrumentalness": 0.025,
-            "liveness": 0.241,
-            "speechiness": 0.3,
-            "loudness": -3.42,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-18T23:56:56Z"
         },
         {
           "id": "0SjQBdIddPvKSWxr8vk6QX",
@@ -27049,21 +16815,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-03-22",
-          "addedAt": "2025-08-02T19:56:50Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.783,
-            "valence": 0.487,
-            "tempo": 102.7,
-            "acousticness": 0.143,
-            "instrumentalness": 0.09,
-            "liveness": 0.121,
-            "speechiness": 0.07,
-            "loudness": -4.9,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-02T19:56:50Z"
         },
         {
           "id": "22uU5EVRx6rVpuUANTFEhn",
@@ -27085,21 +16837,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-05-24",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.801,
-            "valence": 0.517,
-            "tempo": 102.2,
-            "acousticness": 0.369,
-            "instrumentalness": 0.0153,
-            "liveness": 0.142,
-            "speechiness": 0.112,
-            "loudness": -3.81,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "5ZtK8XAVnoaGdBXZWCEVCY",
@@ -27126,21 +16864,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-15",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.643,
-            "energy": 0.66,
-            "valence": 0.654,
-            "tempo": 98.3,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0833,
-            "liveness": 0.05,
-            "speechiness": 0.17,
-            "loudness": -7.72,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "5YEVBJnnt2qMM67NGCjEdV",
@@ -27157,7 +16881,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afroswing",
             "afropiano"
@@ -27167,21 +16891,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-12",
-          "addedAt": "2024-10-10T20:34:30Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.718,
-            "valence": 0.638,
-            "tempo": 118.1,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0442,
-            "liveness": 0.348,
-            "speechiness": 0.143,
-            "loudness": -5.72,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:34:30Z"
         },
         {
           "id": "2OjTITI1CrRiIiqiNj9KOu",
@@ -27201,21 +16911,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-09",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.801,
-            "valence": 0.664,
-            "tempo": 113.5,
-            "acousticness": 0.241,
-            "instrumentalness": 0.0579,
-            "liveness": 0.256,
-            "speechiness": 0.237,
-            "loudness": -3.0,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "1rHPk2p3MQTh2wloo3P9zE",
@@ -27243,21 +16939,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-26",
-          "addedAt": "2024-10-10T20:35:35Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.788,
-            "valence": 0.721,
-            "tempo": 113.5,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0621,
-            "liveness": 0.117,
-            "speechiness": 0.282,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:35:35Z"
         },
         {
           "id": "3KSnA0j67IFkiwmEotMGin",
@@ -27282,21 +16964,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-25",
-          "addedAt": "2024-10-10T20:30:47Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.644,
-            "valence": 0.819,
-            "tempo": 112.8,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0857,
-            "liveness": 0.184,
-            "speechiness": 0.196,
-            "loudness": -5.33,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:30:47Z"
         },
         {
           "id": "6hyTI3In7vu6fqFRoypcuz",
@@ -27321,21 +16989,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2024-10-10T20:40:41Z",
-          "features": {
-            "danceability": 0.708,
-            "energy": 0.682,
-            "valence": 0.592,
-            "tempo": 100.3,
-            "acousticness": 0.31,
-            "instrumentalness": 0.0256,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -5.76,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:40:41Z"
         },
         {
           "id": "54UrIc5qQRjX128jcvMKIT",
@@ -27362,21 +17016,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-11-09",
-          "addedAt": "2024-10-10T20:31:07Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.779,
-            "valence": 0.697,
-            "tempo": 106.2,
-            "acousticness": 0.185,
-            "instrumentalness": 0.1094,
-            "liveness": 0.179,
-            "speechiness": 0.171,
-            "loudness": -5.52,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:31:07Z"
         },
         {
           "id": "1Ad8oEhaNWDe5shUeZYlYH",
@@ -27401,21 +17041,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-23",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.751,
-            "energy": 0.676,
-            "valence": 0.581,
-            "tempo": 127.2,
-            "acousticness": 0.171,
-            "instrumentalness": 0.007,
-            "liveness": 0.05,
-            "speechiness": 0.178,
-            "loudness": -5.49,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "5s7j77zpP6e9uz2Q1DU851",
@@ -27439,21 +17065,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-08-08",
-          "addedAt": "2024-10-10T20:37:19Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.809,
-            "valence": 0.893,
-            "tempo": 121.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.105,
-            "liveness": 0.181,
-            "speechiness": 0.281,
-            "loudness": -4.99,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:37:19Z"
         },
         {
           "id": "4i8ObH2xPP4DSNniUJlgar",
@@ -27477,21 +17089,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-02-02",
-          "addedAt": "2024-10-11T00:08:18Z",
-          "features": {
-            "danceability": 0.752,
-            "energy": 0.701,
-            "valence": 0.743,
-            "tempo": 90.0,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0377,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-11T00:08:18Z"
         },
         {
           "id": "6oOCGD2Sp9UTcDsuDz8Hdu",
@@ -27516,21 +17114,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-14",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.765,
-            "valence": 0.697,
-            "tempo": 125.0,
-            "acousticness": 0.098,
-            "instrumentalness": 0.029,
-            "liveness": 0.252,
-            "speechiness": 0.3,
-            "loudness": -6.84,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "18t2ofQiViidZHxOBVjpD1",
@@ -27557,21 +17141,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-08-27",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.569,
-            "energy": 0.801,
-            "valence": 0.664,
-            "tempo": 124.2,
-            "acousticness": 0.143,
-            "instrumentalness": 0.0273,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.46,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "4wvnXoQqjIOoEis5eyTbCl",
@@ -27594,21 +17164,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-22",
-          "addedAt": "2024-10-10T20:42:55Z",
-          "features": {
-            "danceability": 0.569,
-            "energy": 0.592,
-            "valence": 0.721,
-            "tempo": 120.6,
-            "acousticness": 0.11,
-            "instrumentalness": 0.0241,
-            "liveness": 0.137,
-            "speechiness": 0.3,
-            "loudness": -4.36,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:42:55Z"
         },
         {
           "id": "5c549LWiKCWGvcDsZwMN6v",
@@ -27631,21 +17187,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-06-10",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.726,
-            "valence": 0.839,
-            "tempo": 113.7,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0281,
-            "liveness": 0.07,
-            "speechiness": 0.206,
-            "loudness": -4.81,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "6lZ5p6VTbZ2ZvnsdTlLv7I",
@@ -27668,21 +17210,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-03-04",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.831,
-            "valence": 0.659,
-            "tempo": 122.4,
-            "acousticness": 0.264,
-            "instrumentalness": 0.0853,
-            "liveness": 0.113,
-            "speechiness": 0.3,
-            "loudness": -5.94,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "4tr4oHjFijp0EgISHYDIXe",
@@ -27708,21 +17236,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-09-24",
-          "addedAt": "2024-01-01T20:12:36Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.729,
-            "valence": 0.658,
-            "tempo": 108.6,
-            "acousticness": 0.044,
-            "instrumentalness": 0.072,
-            "liveness": 0.191,
-            "speechiness": 0.183,
-            "loudness": -4.01,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-01T20:12:36Z"
         },
         {
           "id": "33dN3Nd9aRz4nzha4oIGnX",
@@ -27747,21 +17261,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-11-20",
-          "addedAt": "2024-10-10T20:46:57Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.643,
-            "valence": 0.654,
-            "tempo": 121.4,
-            "acousticness": 0.223,
-            "instrumentalness": 0.1408,
-            "liveness": 0.349,
-            "speechiness": 0.3,
-            "loudness": -7.2,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:46:57Z"
         },
         {
           "id": "4AxG1T6UJJ4xCX4Wz6JDLG",
@@ -27782,21 +17282,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-31",
-          "addedAt": "2024-10-10T20:50:48Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.705,
-            "valence": 0.724,
-            "tempo": 119.8,
-            "acousticness": 0.358,
-            "instrumentalness": 0.0298,
-            "liveness": 0.05,
-            "speechiness": 0.244,
-            "loudness": -4.77,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:50:48Z"
         },
         {
           "id": "6z5y2kdxF4XrEVRFVqdGVL",
@@ -27822,26 +17308,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-11-14",
-          "addedAt": "2024-10-10T20:50:43Z",
-          "features": {
-            "danceability": 0.773,
-            "energy": 0.81,
-            "valence": 0.598,
-            "tempo": 99.2,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0655,
-            "liveness": 0.155,
-            "speechiness": 0.201,
-            "loudness": -5.9,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:50:43Z"
         },
         {
           "id": "6tgEc2O1uFHcZDKPoo6PC8",
           "title": "ALREADY",
-          "artist": "Beyoncé, Shatta Wale, Major Lazer",
+          "artist": "Beyonc\u00e9, Shatta Wale, Major Lazer",
           "artistCountry": "United States",
           "regionGroup": "North America",
           "diaspora": true,
@@ -27854,21 +17326,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-07-19",
-          "addedAt": "2025-10-04T22:38:25Z",
-          "features": {
-            "danceability": 0.801,
-            "energy": 0.734,
-            "valence": 0.751,
-            "tempo": 118.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0075,
-            "liveness": 0.172,
-            "speechiness": 0.249,
-            "loudness": -6.43,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T22:38:25Z"
         },
         {
           "id": "0hW02S9ACVYANz1ica10jH",
@@ -27893,21 +17351,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-02-09",
-          "addedAt": "2024-10-10T20:50:16Z",
-          "features": {
-            "danceability": 0.551,
-            "energy": 0.697,
-            "valence": 0.67,
-            "tempo": 102.9,
-            "acousticness": 0.12,
-            "instrumentalness": 0.011,
-            "liveness": 0.099,
-            "speechiness": 0.196,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:50:16Z"
         },
         {
           "id": "3jWAkZ9nUbGzPDapyrAIw2",
@@ -27932,21 +17376,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-04-08",
-          "addedAt": "2024-10-10T20:50:11Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.811,
-            "valence": 0.664,
-            "tempo": 111.2,
-            "acousticness": 0.127,
-            "instrumentalness": 0.0046,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -7.33,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:50:11Z"
         },
         {
           "id": "4lVEVXrlQlXPdYWMGTwrFe",
@@ -27971,21 +17401,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-05-13",
-          "addedAt": "2024-10-10T20:50:06Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.845,
-            "valence": 0.592,
-            "tempo": 133.0,
-            "acousticness": 0.158,
-            "instrumentalness": 0.0704,
-            "liveness": 0.196,
-            "speechiness": 0.291,
-            "loudness": -6.29,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-10-10T20:50:06Z"
         },
         {
           "id": "4dvfxZKehPxpz3UZ7A5Fni",
@@ -28008,21 +17424,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-08",
-          "addedAt": "2025-10-04T22:38:10Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.83,
-            "valence": 0.625,
-            "tempo": 117.3,
-            "acousticness": 0.167,
-            "instrumentalness": 0.15,
-            "liveness": 0.278,
-            "speechiness": 0.238,
-            "loudness": -3.86,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T22:38:10Z"
         }
       ]
     },
@@ -28049,7 +17451,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28059,21 +17461,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-01",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.733,
-            "valence": 0.522,
-            "tempo": 108.9,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0975,
-            "liveness": 0.284,
-            "speechiness": 0.132,
-            "loudness": -4.22,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "35MU2MEhQMw0NhXZztAP9m",
@@ -28089,7 +17477,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28099,21 +17487,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-06",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.801,
-            "valence": 0.777,
-            "tempo": 105.3,
-            "acousticness": 0.125,
-            "instrumentalness": 0.0231,
-            "liveness": 0.135,
-            "speechiness": 0.3,
-            "loudness": -3.32,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6XBIOtdSL47qn201KKNCA0",
@@ -28136,21 +17510,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.669,
-            "valence": 0.682,
-            "tempo": 90.0,
-            "acousticness": 0.091,
-            "instrumentalness": 0.0991,
-            "liveness": 0.326,
-            "speechiness": 0.188,
-            "loudness": -5.7,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "7fkCiUlTXr6AAHXXtrIRd4",
@@ -28166,7 +17526,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28176,21 +17536,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-20",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.798,
-            "valence": 0.612,
-            "tempo": 120.0,
-            "acousticness": 0.23,
-            "instrumentalness": 0.1244,
-            "liveness": 0.26,
-            "speechiness": 0.121,
-            "loudness": -3.0,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -28215,21 +17561,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "4tvoZzMGhx23HAlS5GUVCa",
@@ -28245,7 +17577,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28255,21 +17587,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-06",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.734,
-            "valence": 0.599,
-            "tempo": 118.3,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0189,
-            "liveness": 0.23,
-            "speechiness": 0.273,
-            "loudness": -4.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "3RMr94P81nO3GtW9MfqNp5",
@@ -28285,7 +17603,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28295,21 +17613,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.798,
-            "valence": 0.62,
-            "tempo": 112.9,
-            "acousticness": 0.114,
-            "instrumentalness": 0.0667,
-            "liveness": 0.222,
-            "speechiness": 0.188,
-            "loudness": -5.72,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "2h1aaSSMUspQfHKDl5uISY",
@@ -28322,7 +17626,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -28334,21 +17638,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-22",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.812,
-            "valence": 0.413,
-            "tempo": 126.1,
-            "acousticness": 0.306,
-            "instrumentalness": 0.049,
-            "liveness": 0.128,
-            "speechiness": 0.087,
-            "loudness": -6.82,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1gc2RyrBm1PYdSnG65yuAl",
@@ -28371,21 +17661,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.814,
-            "valence": 0.72,
-            "tempo": 116.5,
-            "acousticness": 0.033,
-            "instrumentalness": 0.0347,
-            "liveness": 0.069,
-            "speechiness": 0.215,
-            "loudness": -6.66,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "73citYWxPuCPU6eR50mBOs",
@@ -28410,21 +17686,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-23",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.733,
-            "energy": 0.667,
-            "valence": 0.707,
-            "tempo": 116.4,
-            "acousticness": 0.221,
-            "instrumentalness": 0.0342,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.57,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6BWgLorAwF17ofyu8361HM",
@@ -28449,21 +17711,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-10",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.602,
-            "energy": 0.721,
-            "valence": 0.815,
-            "tempo": 119.5,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0163,
-            "liveness": 0.273,
-            "speechiness": 0.221,
-            "loudness": -9.07,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1sEIkVGd7fG4K5wFQS6f6y",
@@ -28479,7 +17727,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -28489,21 +17737,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-23",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.632,
-            "energy": 0.705,
-            "valence": 0.596,
-            "tempo": 103.3,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0751,
-            "liveness": 0.188,
-            "speechiness": 0.156,
-            "loudness": -6.03,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "7u6T1ywvmYjg6bhSCL922T",
@@ -28526,21 +17760,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.805,
-            "energy": 0.767,
-            "valence": 0.663,
-            "tempo": 113.8,
-            "acousticness": 0.325,
-            "instrumentalness": 0.0293,
-            "liveness": 0.121,
-            "speechiness": 0.3,
-            "loudness": -8.67,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "0yoXHeL4gJg0DNheK4xqJB",
@@ -28563,21 +17783,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-12-27",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.76,
-            "energy": 0.681,
-            "valence": 0.796,
-            "tempo": 116.9,
-            "acousticness": 0.27,
-            "instrumentalness": 0.0525,
-            "liveness": 0.171,
-            "speechiness": 0.174,
-            "loudness": -5.36,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "2Jy4EdqIZswDZvVDh5dx3A",
@@ -28602,21 +17808,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-03-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.752,
-            "valence": 0.648,
-            "tempo": 100.9,
-            "acousticness": 0.142,
-            "instrumentalness": 0.0545,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6mHwUPpljnYwbzuua5jY3N",
@@ -28629,7 +17821,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 50,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -28645,21 +17837,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-10-31",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.601,
-            "energy": 0.701,
-            "valence": 0.705,
-            "tempo": 101.2,
-            "acousticness": 0.27,
-            "instrumentalness": 0.0105,
-            "liveness": 0.147,
-            "speechiness": 0.3,
-            "loudness": -3.98,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "4AaXmQvHMWNwZSoqi4kcsK",
@@ -28682,21 +17860,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-10-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.727,
-            "valence": 0.35,
-            "tempo": 119.3,
-            "acousticness": 0.262,
-            "instrumentalness": 0.0695,
-            "liveness": 0.152,
-            "speechiness": 0.3,
-            "loudness": -5.92,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6YvcLedQCbwEN9PWeGjK46",
@@ -28719,21 +17883,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-12-06",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.744,
-            "valence": 0.553,
-            "tempo": 116.5,
-            "acousticness": 0.063,
-            "instrumentalness": 0.008,
-            "liveness": 0.057,
-            "speechiness": 0.3,
-            "loudness": -7.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5qNHVaV0ud0vFer0xnc2AZ",
@@ -28756,21 +17906,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.696,
-            "valence": 0.78,
-            "tempo": 108.2,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0395,
-            "liveness": 0.211,
-            "speechiness": 0.3,
-            "loudness": -4.67,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "3mARtPEP8hi1LzMctEwVN4",
@@ -28791,21 +17927,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-01",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.694,
-            "valence": 0.741,
-            "tempo": 98.5,
-            "acousticness": 0.156,
-            "instrumentalness": 0.0124,
-            "liveness": 0.067,
-            "speechiness": 0.082,
-            "loudness": -6.27,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1WNbXkIVNxBM8wEeZnHcun",
@@ -28829,21 +17951,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.72,
-            "energy": 0.781,
-            "valence": 0.478,
-            "tempo": 135.0,
-            "acousticness": 0.192,
-            "instrumentalness": 0.0037,
-            "liveness": 0.268,
-            "speechiness": 0.3,
-            "loudness": -3.4,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "34eKUydsaj9GeMTT1ybutO",
@@ -28869,21 +17977,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.77,
-            "energy": 0.632,
-            "valence": 0.681,
-            "tempo": 118.8,
-            "acousticness": 0.202,
-            "instrumentalness": 0.0006,
-            "liveness": 0.214,
-            "speechiness": 0.176,
-            "loudness": -5.54,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "0wGxQ8OwsI0kKlQdYCUYYK",
@@ -28908,21 +18002,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-09",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.676,
-            "valence": 0.48,
-            "tempo": 124.7,
-            "acousticness": 0.26,
-            "instrumentalness": 0.1365,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "4nLJnkaFq9VNYVz1SxJsXi",
@@ -28947,21 +18027,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-01-29",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.779,
-            "valence": 0.604,
-            "tempo": 105.8,
-            "acousticness": 0.191,
-            "instrumentalness": 0.0104,
-            "liveness": 0.055,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "0XSYoJ0MJpMB2tddyRcBEC",
@@ -28986,21 +18052,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-19",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.565,
-            "valence": 0.689,
-            "tempo": 100.4,
-            "acousticness": 0.248,
-            "instrumentalness": 0.131,
-            "liveness": 0.094,
-            "speechiness": 0.081,
-            "loudness": -3.0,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6V4cXOqj8TBjhyH9M5cqG0",
@@ -29025,21 +18077,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-10-22",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.624,
-            "valence": 0.858,
-            "tempo": 103.0,
-            "acousticness": 0.328,
-            "instrumentalness": 0.0305,
-            "liveness": 0.187,
-            "speechiness": 0.3,
-            "loudness": -5.23,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "7p64Asup56DN10QbHGpJ2r",
@@ -29062,21 +18100,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.634,
-            "valence": 0.729,
-            "tempo": 107.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0437,
-            "liveness": 0.147,
-            "speechiness": 0.144,
-            "loudness": -5.76,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "2P8hApHWd4j7sY3osUpWQY",
@@ -29099,21 +18123,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-26",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.723,
-            "valence": 0.633,
-            "tempo": 102.6,
-            "acousticness": 0.224,
-            "instrumentalness": 0.0699,
-            "liveness": 0.162,
-            "speechiness": 0.212,
-            "loudness": -6.2,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "7JNPhwzFNg4pb7wZqfR5ms",
@@ -29138,21 +18148,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-12",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.725,
-            "energy": 0.876,
-            "valence": 0.547,
-            "tempo": 111.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0002,
-            "liveness": 0.35,
-            "speechiness": 0.184,
-            "loudness": -6.82,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5Scl2X5AJSC95Pfsh2FWGY",
@@ -29177,26 +18173,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.562,
-            "valence": 0.798,
-            "tempo": 99.3,
-            "acousticness": 0.13,
-            "instrumentalness": 0.1254,
-            "liveness": 0.13,
-            "speechiness": 0.253,
-            "loudness": -4.12,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "4BqQz2hmIC9sxHC1I9iDYk",
-          "title": "F33L1NG GÖOD",
-          "artist": "MÖRDA, Brenden Praise, Kwamzy",
+          "title": "F33L1NG G\u00d6OD",
+          "artist": "M\u00d6RDA, Brenden Praise, Kwamzy",
           "artistCountry": "South Africa",
           "regionGroup": "Southern Africa",
           "diaspora": false,
@@ -29218,21 +18200,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-07",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.773,
-            "valence": 0.704,
-            "tempo": 95.9,
-            "acousticness": 0.337,
-            "instrumentalness": 0.0491,
-            "liveness": 0.308,
-            "speechiness": 0.3,
-            "loudness": -5.23,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1Yf58S4QQwxqYSJZm5JxmA",
@@ -29245,7 +18213,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -29257,21 +18225,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.754,
-            "valence": 0.537,
-            "tempo": 127.4,
-            "acousticness": 0.049,
-            "instrumentalness": 0.0288,
-            "liveness": 0.216,
-            "speechiness": 0.204,
-            "loudness": -6.64,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "3gy4VsTVZCfBsCMKHiRb7B",
@@ -29284,7 +18238,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 60,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -29296,21 +18250,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-01",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.631,
-            "energy": 0.598,
-            "valence": 0.725,
-            "tempo": 110.0,
-            "acousticness": 0.245,
-            "instrumentalness": 0.15,
-            "liveness": 0.126,
-            "speechiness": 0.3,
-            "loudness": -6.42,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "0WheF6yGnxE4gzGg8ScAji",
@@ -29323,11 +18263,11 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 50,
           "artistPopularity": 46,
           "artistGenres": [
-            "fújì",
+            "f\u00faj\u00ec",
             "afropiano",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afro soul"
           ],
           "artistId": "6T8LsW0wEmWLi2IriLoQgA",
@@ -29335,21 +18275,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.746,
-            "valence": 0.609,
-            "tempo": 108.1,
-            "acousticness": 0.374,
-            "instrumentalness": 0.0764,
-            "liveness": 0.217,
-            "speechiness": 0.3,
-            "loudness": -3.82,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -29377,21 +18303,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5ht0zFXsezKxVvu8eMiewq",
@@ -29408,7 +18320,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -29419,21 +18331,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -29460,21 +18358,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6JvWMLscnWYkgX1zPufIGT",
@@ -29500,21 +18384,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.635,
-            "energy": 0.604,
-            "valence": 0.668,
-            "tempo": 134.5,
-            "acousticness": 0.183,
-            "instrumentalness": 0.0039,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -4.2,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "73YOLxia81uwDIy7g1TClf",
@@ -29529,28 +18399,14 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afroswing",
             "afrobeats",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "5nCeWRjxptrgFwtvLlHsj1",
           "playlistPosition": 39,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-29",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.752,
-            "energy": 0.709,
-            "valence": 0.561,
-            "tempo": 109.1,
-            "acousticness": 0.186,
-            "instrumentalness": 0.0362,
-            "liveness": 0.35,
-            "speechiness": 0.063,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "57DarSfRMIVRCeDBGW0l5S",
@@ -29575,21 +18431,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-06",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.701,
-            "energy": 0.643,
-            "valence": 0.525,
-            "tempo": 121.5,
-            "acousticness": 0.147,
-            "instrumentalness": 0.0351,
-            "liveness": 0.05,
-            "speechiness": 0.18,
-            "loudness": -3.11,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1ViD8tjPZVFZKAC8O7Gmfi",
@@ -29607,21 +18449,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-14",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.606,
-            "energy": 0.715,
-            "valence": 0.6,
-            "tempo": 120.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.2,
-            "speechiness": 0.198,
-            "loudness": -4.47,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "77q3rIpcqFsTo7qNvKNiOh",
@@ -29648,21 +18476,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.6,
-            "energy": 0.704,
-            "valence": 0.494,
-            "tempo": 112.0,
-            "acousticness": 0.12,
-            "instrumentalness": 0.0305,
-            "liveness": 0.122,
-            "speechiness": 0.129,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "7CIhImlbs2RtT58oKnvROT",
@@ -29686,21 +18500,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-20",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.911,
-            "valence": 0.613,
-            "tempo": 112.7,
-            "acousticness": 0.191,
-            "instrumentalness": 0.079,
-            "liveness": 0.198,
-            "speechiness": 0.3,
-            "loudness": -7.08,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5O7fTE396BVFRTkQv5ENSo",
@@ -29725,21 +18525,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-07",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.758,
-            "valence": 0.662,
-            "tempo": 115.3,
-            "acousticness": 0.096,
-            "instrumentalness": 0.011,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "5B7CN5EWwW5mo07wAymrLB",
@@ -29762,21 +18548,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-09",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.637,
-            "energy": 0.771,
-            "valence": 0.718,
-            "tempo": 118.5,
-            "acousticness": 0.264,
-            "instrumentalness": 0.0887,
-            "liveness": 0.215,
-            "speechiness": 0.119,
-            "loudness": -5.08,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "1QWiwXbGU9TxbMEyrEUooe",
@@ -29792,7 +18564,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -29802,21 +18574,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-21",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.71,
-            "valence": 0.632,
-            "tempo": 108.4,
-            "acousticness": 0.064,
-            "instrumentalness": 0.0618,
-            "liveness": 0.277,
-            "speechiness": 0.268,
-            "loudness": -4.45,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         },
         {
           "id": "6zZixF6uYbtG8uiNzDO2LH",
@@ -29844,21 +18602,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-09-25T10:23:44Z",
-          "features": {
-            "danceability": 0.804,
-            "energy": 0.729,
-            "valence": 0.798,
-            "tempo": 112.4,
-            "acousticness": 0.123,
-            "instrumentalness": 0.0212,
-            "liveness": 0.137,
-            "speechiness": 0.145,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-25T10:23:44Z"
         }
       ]
     },
@@ -29892,21 +18636,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-11T00:07:22Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-11T00:07:22Z"
         },
         {
           "id": "1Yf58S4QQwxqYSJZm5JxmA",
@@ -29919,7 +18649,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -29931,21 +18661,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-11T00:07:30Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.754,
-            "valence": 0.537,
-            "tempo": 127.4,
-            "acousticness": 0.049,
-            "instrumentalness": 0.0288,
-            "liveness": 0.216,
-            "speechiness": 0.204,
-            "loudness": -6.64,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-11T00:07:30Z"
         },
         {
           "id": "65cRt4uGMzo51AzXqptVsX",
@@ -29972,21 +18688,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-22T16:32:13Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.873,
-            "valence": 0.759,
-            "tempo": 107.4,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0384,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -3.75,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-22T16:32:13Z"
         },
         {
           "id": "6teayPHJeebZj4s9eMPCyY",
@@ -30011,21 +18713,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-13T15:11:41Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.781,
-            "valence": 0.423,
-            "tempo": 126.2,
-            "acousticness": 0.203,
-            "instrumentalness": 0.1443,
-            "liveness": 0.293,
-            "speechiness": 0.119,
-            "loudness": -6.21,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-13T15:11:41Z"
         },
         {
           "id": "4lz4aKs60vUoyZP4pNy3aD",
@@ -30052,21 +18740,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-28",
-          "addedAt": "2025-09-13T15:12:08Z",
-          "features": {
-            "danceability": 0.715,
-            "energy": 0.606,
-            "valence": 0.62,
-            "tempo": 107.1,
-            "acousticness": 0.35,
-            "instrumentalness": 0.0417,
-            "liveness": 0.099,
-            "speechiness": 0.149,
-            "loudness": -4.71,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-13T15:12:08Z"
         },
         {
           "id": "2MGy7iXQV9uuz339uVKdWu",
@@ -30091,21 +18765,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-12T21:18:20Z",
-          "features": {
-            "danceability": 0.598,
-            "energy": 0.785,
-            "valence": 0.657,
-            "tempo": 98.4,
-            "acousticness": 0.083,
-            "instrumentalness": 0.1078,
-            "liveness": 0.129,
-            "speechiness": 0.3,
-            "loudness": -3.07,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-12T21:18:20Z"
         },
         {
           "id": "0yVYclELnoKUoTWrbs5MfX",
@@ -30123,21 +18783,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-11-18T08:01:11Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.67,
-            "valence": 0.699,
-            "tempo": 117.7,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0614,
-            "liveness": 0.259,
-            "speechiness": 0.191,
-            "loudness": -6.38,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T08:01:11Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -30162,21 +18808,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-10T23:28:17Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-10T23:28:17Z"
         },
         {
           "id": "6aoKNOL481xVNuqeayQjPj",
@@ -30199,21 +18831,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-10T23:27:37Z",
-          "features": {
-            "danceability": 0.559,
-            "energy": 0.711,
-            "valence": 0.739,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0275,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-10T23:27:37Z"
         },
         {
           "id": "6SAdT2RWrwOQJ6eoFEdLPg",
@@ -30227,7 +18845,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 5,
           "artistGenres": [
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeats"
           ],
           "artistId": "5g5hCH0RGtNQUAGPsKEISR",
@@ -30235,21 +18853,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-16T12:45:45Z",
-          "features": {
-            "danceability": 0.73,
-            "energy": 0.784,
-            "valence": 0.647,
-            "tempo": 110.3,
-            "acousticness": 0.06,
-            "instrumentalness": 0.0342,
-            "liveness": 0.084,
-            "speechiness": 0.3,
-            "loudness": -5.24,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-16T12:45:45Z"
         },
         {
           "id": "05lhFsOWPXRjfGA7xY7XJz",
@@ -30273,21 +18877,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-25T19:16:32Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.796,
-            "valence": 0.545,
-            "tempo": 111.8,
-            "acousticness": 0.069,
-            "instrumentalness": 0.03,
-            "liveness": 0.34,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-25T19:16:32Z"
         },
         {
           "id": "4FHlbOMdOcPnOYmfH8dl1Z",
@@ -30312,21 +18902,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-12T21:18:38Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.701,
-            "valence": 0.64,
-            "tempo": 117.4,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0155,
-            "liveness": 0.104,
-            "speechiness": 0.3,
-            "loudness": -4.12,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-12T21:18:38Z"
         },
         {
           "id": "4uCDZFnENwARP68xh9v9Il",
@@ -30346,21 +18922,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-14T18:51:25Z",
-          "features": {
-            "danceability": 0.645,
-            "energy": 0.887,
-            "valence": 0.544,
-            "tempo": 125.0,
-            "acousticness": 0.295,
-            "instrumentalness": 0.0249,
-            "liveness": 0.136,
-            "speechiness": 0.27,
-            "loudness": -4.97,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T18:51:25Z"
         },
         {
           "id": "4SjfsqsR3TIR3SO7kcTlFX",
@@ -30385,21 +18947,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-02T08:42:16Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.692,
-            "valence": 0.616,
-            "tempo": 115.1,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0121,
-            "liveness": 0.168,
-            "speechiness": 0.3,
-            "loudness": -6.72,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-02T08:42:16Z"
         },
         {
           "id": "6whWtO0zIA5LUUGSGhojRu",
@@ -30424,21 +18972,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-28",
-          "addedAt": "2025-09-02T08:42:23Z",
-          "features": {
-            "danceability": 0.735,
-            "energy": 0.73,
-            "valence": 0.545,
-            "tempo": 115.0,
-            "acousticness": 0.114,
-            "instrumentalness": 0.1364,
-            "liveness": 0.35,
-            "speechiness": 0.197,
-            "loudness": -5.11,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-02T08:42:23Z"
         },
         {
           "id": "1lFgYxIMB4pTQUIYLKUqkj",
@@ -30456,21 +18990,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-06",
-          "addedAt": "2025-11-07T18:50:54Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.766,
-            "valence": 0.625,
-            "tempo": 98.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0646,
-            "liveness": 0.193,
-            "speechiness": 0.159,
-            "loudness": -4.03,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-07T18:50:54Z"
         },
         {
           "id": "1QWiwXbGU9TxbMEyrEUooe",
@@ -30486,7 +19006,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -30496,21 +19016,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-21",
-          "addedAt": "2025-08-25T10:02:08Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.71,
-            "valence": 0.632,
-            "tempo": 108.4,
-            "acousticness": 0.064,
-            "instrumentalness": 0.0618,
-            "liveness": 0.277,
-            "speechiness": 0.268,
-            "loudness": -4.45,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-25T10:02:08Z"
         },
         {
           "id": "2h1aaSSMUspQfHKDl5uISY",
@@ -30523,7 +19029,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -30535,21 +19041,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-22",
-          "addedAt": "2025-08-25T10:02:18Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.812,
-            "valence": 0.413,
-            "tempo": 126.1,
-            "acousticness": 0.306,
-            "instrumentalness": 0.049,
-            "liveness": 0.128,
-            "speechiness": 0.087,
-            "loudness": -6.82,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-25T10:02:18Z"
         },
         {
           "id": "03FaewFCXKjhFEjQLl5l7t",
@@ -30571,21 +19063,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-08",
-          "addedAt": "2025-11-06T13:34:09Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.725,
-            "valence": 0.509,
-            "tempo": 122.3,
-            "acousticness": 0.363,
-            "instrumentalness": 0.0313,
-            "liveness": 0.183,
-            "speechiness": 0.274,
-            "loudness": -4.69,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T13:34:09Z"
         },
         {
           "id": "2IOMDdgUZfjlsPYXGeeoaH",
@@ -30613,21 +19091,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-13T21:43:55Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.798,
-            "valence": 0.599,
-            "tempo": 105.5,
-            "acousticness": 0.137,
-            "instrumentalness": 0.15,
-            "liveness": 0.101,
-            "speechiness": 0.213,
-            "loudness": -7.7,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-13T21:43:55Z"
         },
         {
           "id": "75NaRkat24l3uKOyfymyzJ",
@@ -30654,21 +19118,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-22T16:32:23Z",
-          "features": {
-            "danceability": 0.826,
-            "energy": 0.697,
-            "valence": 0.549,
-            "tempo": 121.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0481,
-            "liveness": 0.232,
-            "speechiness": 0.3,
-            "loudness": -5.15,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-22T16:32:23Z"
         },
         {
           "id": "4bG3UJHntL9IifJ7zpELRQ",
@@ -30686,21 +19136,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-04T18:59:12Z",
-          "features": {
-            "danceability": 0.633,
-            "energy": 0.788,
-            "valence": 0.649,
-            "tempo": 128.3,
-            "acousticness": 0.127,
-            "instrumentalness": 0.1299,
-            "liveness": 0.05,
-            "speechiness": 0.249,
-            "loudness": -4.32,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-04T18:59:12Z"
         },
         {
           "id": "5ht0zFXsezKxVvu8eMiewq",
@@ -30717,7 +19153,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -30728,21 +19164,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-07-31T03:16:00Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-31T03:16:00Z"
         },
         {
           "id": "1myE3bHoWoSO5hyr3MxdHJ",
@@ -30762,21 +19184,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-24",
-          "addedAt": "2025-07-31T03:16:10Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.731,
-            "valence": 0.699,
-            "tempo": 124.1,
-            "acousticness": 0.153,
-            "instrumentalness": 0.0648,
-            "liveness": 0.332,
-            "speechiness": 0.225,
-            "loudness": -3.6,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-31T03:16:10Z"
         },
         {
           "id": "6InOHBgRxu6GDMnamzIZBa",
@@ -30794,21 +19202,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-10-31T15:04:18Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.748,
-            "valence": 0.389,
-            "tempo": 95.9,
-            "acousticness": 0.059,
-            "instrumentalness": 0.0768,
-            "liveness": 0.162,
-            "speechiness": 0.3,
-            "loudness": -7.66,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-31T15:04:18Z"
         },
         {
           "id": "3wdV4OJ37JdoLyUJMm50UW",
@@ -30834,21 +19228,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-06-05T12:17:53Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.661,
-            "valence": 0.717,
-            "tempo": 103.4,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0038,
-            "liveness": 0.059,
-            "speechiness": 0.154,
-            "loudness": -6.32,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-05T12:17:53Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -30873,21 +19253,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-25T19:16:24Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-25T19:16:24Z"
         },
         {
           "id": "3LqSC22h4KjbBcfzEqWqgi",
@@ -30905,21 +19271,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-30",
-          "addedAt": "2025-10-30T11:14:32Z",
-          "features": {
-            "danceability": 0.607,
-            "energy": 0.845,
-            "valence": 0.473,
-            "tempo": 118.8,
-            "acousticness": 0.18,
-            "instrumentalness": 0.0981,
-            "liveness": 0.062,
-            "speechiness": 0.293,
-            "loudness": -5.53,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-30T11:14:32Z"
         },
         {
           "id": "1lWcw1YdBbYbFzJ9BKyDqc",
@@ -30932,7 +19284,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 54,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -30948,21 +19300,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-04",
-          "addedAt": "2025-07-06T00:48:12Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.718,
-            "valence": 0.654,
-            "tempo": 121.6,
-            "acousticness": 0.18,
-            "instrumentalness": 0.0348,
-            "liveness": 0.151,
-            "speechiness": 0.129,
-            "loudness": -8.21,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-06T00:48:12Z"
         },
         {
           "id": "32a4IaGEJUhfy45yV5JH84",
@@ -30981,7 +19319,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -30990,21 +19328,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-02",
-          "addedAt": "2025-07-06T00:48:39Z",
-          "features": {
-            "danceability": 0.751,
-            "energy": 0.705,
-            "valence": 0.562,
-            "tempo": 90.0,
-            "acousticness": 0.014,
-            "instrumentalness": 0.0147,
-            "liveness": 0.094,
-            "speechiness": 0.21,
-            "loudness": -5.93,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-06T00:48:39Z"
         },
         {
           "id": "1iYvRicsqT4Y3dcZSgwr66",
@@ -31022,21 +19346,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-10-19T08:57:44Z",
-          "features": {
-            "danceability": 0.708,
-            "energy": 0.697,
-            "valence": 0.669,
-            "tempo": 103.8,
-            "acousticness": 0.123,
-            "instrumentalness": 0.0083,
-            "liveness": 0.116,
-            "speechiness": 0.3,
-            "loudness": -6.48,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-19T08:57:44Z"
         },
         {
           "id": "0SmcKaXjPCCK7nq0coN6B2",
@@ -31061,21 +19371,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-25",
-          "addedAt": "2025-06-26T09:24:46Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.769,
-            "valence": 0.686,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0089,
-            "liveness": 0.183,
-            "speechiness": 0.128,
-            "loudness": -4.09,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-26T09:24:46Z"
         },
         {
           "id": "5G5R93fhTnLMXVcoIO6QNa",
@@ -31098,21 +19394,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-26T09:25:04Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.642,
-            "valence": 0.642,
-            "tempo": 105.0,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0276,
-            "liveness": 0.05,
-            "speechiness": 0.106,
-            "loudness": -5.49,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-26T09:25:04Z"
         },
         {
           "id": "3mhr4Jil2OBl91sxWYT1d8",
@@ -31130,21 +19412,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-10-24T09:14:31Z",
-          "features": {
-            "danceability": 0.62,
-            "energy": 0.604,
-            "valence": 0.701,
-            "tempo": 116.5,
-            "acousticness": 0.328,
-            "instrumentalness": 0.0205,
-            "liveness": 0.273,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T09:14:31Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -31168,21 +19436,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-29T22:23:59Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-29T22:23:59Z"
         },
         {
           "id": "2XK9IBANTQh5lswSm2Dq39",
@@ -31206,21 +19460,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-13T21:44:05Z",
-          "features": {
-            "danceability": 0.713,
-            "energy": 0.741,
-            "valence": 0.777,
-            "tempo": 113.4,
-            "acousticness": 0.221,
-            "instrumentalness": 0.0376,
-            "liveness": 0.344,
-            "speechiness": 0.191,
-            "loudness": -8.83,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-13T21:44:05Z"
         },
         {
           "id": "4sm7xhaW2PT4iLuTtXaKa1",
@@ -31247,21 +19487,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-09",
-          "addedAt": "2025-06-10T13:50:37Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.809,
-            "valence": 0.706,
-            "tempo": 92.7,
-            "acousticness": 0.258,
-            "instrumentalness": 0.0167,
-            "liveness": 0.099,
-            "speechiness": 0.285,
-            "loudness": -4.06,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-10T13:50:37Z"
         },
         {
           "id": "13zAP5YNZNSSSF8hPnfeZs",
@@ -31289,21 +19515,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-06-10T13:51:00Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.555,
-            "valence": 0.69,
-            "tempo": 116.6,
-            "acousticness": 0.147,
-            "instrumentalness": 0.0073,
-            "liveness": 0.135,
-            "speechiness": 0.189,
-            "loudness": -5.24,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-10T13:51:00Z"
         },
         {
           "id": "2iCI6gHilTbSiD8a138KMU",
@@ -31328,21 +19540,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-06",
-          "addedAt": "2025-06-07T12:52:14Z",
-          "features": {
-            "danceability": 0.64,
-            "energy": 0.806,
-            "valence": 0.491,
-            "tempo": 112.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0688,
-            "liveness": 0.335,
-            "speechiness": 0.219,
-            "loudness": -5.37,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-07T12:52:14Z"
         },
         {
           "id": "54HwZc6fEmR5EnjRT4oBq5",
@@ -31361,7 +19559,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -31370,21 +19568,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-04",
-          "addedAt": "2025-06-05T12:18:00Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.733,
-            "valence": 0.569,
-            "tempo": 115.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0227,
-            "liveness": 0.35,
-            "speechiness": 0.285,
-            "loudness": -7.53,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-05T12:18:00Z"
         },
         {
           "id": "0mCxHKr5bp05PMdD7jU4rW",
@@ -31409,21 +19593,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-06-07T12:52:33Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.635,
-            "valence": 0.419,
-            "tempo": 96.8,
-            "acousticness": 0.353,
-            "instrumentalness": 0.0403,
-            "liveness": 0.077,
-            "speechiness": 0.262,
-            "loudness": -6.47,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-07T12:52:33Z"
         },
         {
           "id": "0QCIpQV3twfqo9kh0t8Zza",
@@ -31436,28 +19606,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 84,
           "artistPopularity": 73,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "2hVWBpjLW4Q7fboYz2pVYK",
           "playlistPosition": 42,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-05-29T22:24:20Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.792,
-            "valence": 0.829,
-            "tempo": 122.1,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0424,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -7.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-29T22:24:20Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -31484,21 +19640,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-05-06T13:54:48Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-06T13:54:48Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -31523,21 +19665,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-06T13:54:58Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-06T13:54:58Z"
         },
         {
           "id": "4dnjLEblR5XKUMJ5ELQceh",
@@ -31557,21 +19685,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-09",
-          "addedAt": "2025-05-09T12:41:39Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.673,
-            "valence": 0.633,
-            "tempo": 103.9,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0281,
-            "liveness": 0.075,
-            "speechiness": 0.3,
-            "loudness": -3.01,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T12:41:39Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -31596,26 +19710,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-09T12:41:51Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T12:41:51Z"
         },
         {
           "id": "3BRna1YDKLEtiEiJ0ArbSA",
-          "title": "Offa Me (feat. Victoria Monét)",
-          "artist": "Davido, Victoria Monét",
+          "title": "Offa Me (feat. Victoria Mon\u00e9t)",
+          "artist": "Davido, Victoria Mon\u00e9t",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -31638,21 +19738,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-04-19T10:57:57Z",
-          "features": {
-            "danceability": 0.784,
-            "energy": 0.793,
-            "valence": 0.653,
-            "tempo": 90.0,
-            "acousticness": 0.203,
-            "instrumentalness": 0.0617,
-            "liveness": 0.35,
-            "speechiness": 0.242,
-            "loudness": -4.59,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-19T10:57:57Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -31675,26 +19761,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-11T10:38:26Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-11T10:38:26Z"
         },
         {
           "id": "5VceXjXeBMGOHC04rjpyC7",
-          "title": "4 Kampé II",
-          "artist": "Joé Dwèt Filé, Burna Boy",
+          "title": "4 Kamp\u00e9 II",
+          "artist": "Jo\u00e9 Dw\u00e8t Fil\u00e9, Burna Boy",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -31714,21 +19786,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-27",
-          "addedAt": "2025-04-14T08:55:06Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.681,
-            "valence": 0.555,
-            "tempo": 100.5,
-            "acousticness": 0.104,
-            "instrumentalness": 0.1214,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-14T08:55:06Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -31756,21 +19814,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-04-19T10:58:16Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-19T10:58:16Z"
         },
         {
           "id": "5nmYNuBSh99LNDdZ0iSe2O",
@@ -31795,21 +19839,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-04-14T08:55:42Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.706,
-            "valence": 0.605,
-            "tempo": 111.2,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0914,
-            "liveness": 0.219,
-            "speechiness": 0.298,
-            "loudness": -3.57,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-14T08:55:42Z"
         },
         {
           "id": "07eJSSPcNlkR34wVlkrCcY",
@@ -31825,33 +19855,19 @@ window.AFROBEATS_DATA = {
             "afro adura",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "nigerian drill",
             "afro soul",
-            "fújì"
+            "f\u00faj\u00ec"
           ],
           "artistId": "7kK5badbqOjd8WlT2XWMeM",
           "playlistPosition": 52,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-04-23T21:28:05Z",
-          "features": {
-            "danceability": 0.695,
-            "energy": 0.692,
-            "valence": 0.565,
-            "tempo": 119.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0363,
-            "liveness": 0.218,
-            "speechiness": 0.218,
-            "loudness": -4.19,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-23T21:28:05Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -31864,7 +19880,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -31877,21 +19893,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-04-23T21:28:16Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-23T21:28:16Z"
         },
         {
           "id": "0OWPr4POCQ7iH9BGmTxOZV",
@@ -31907,7 +19909,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -31917,21 +19919,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-04-11T10:38:43Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.762,
-            "valence": 0.662,
-            "tempo": 113.1,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0264,
-            "liveness": 0.05,
-            "speechiness": 0.278,
-            "loudness": -5.83,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-11T10:38:43Z"
         },
         {
           "id": "73UvOEAResEqdDU9a2aG7v",
@@ -31956,21 +19944,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-19",
-          "addedAt": "2025-03-24T00:39:07Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.823,
-            "valence": 0.596,
-            "tempo": 90.0,
-            "acousticness": 0.209,
-            "instrumentalness": 0.0029,
-            "liveness": 0.092,
-            "speechiness": 0.13,
-            "loudness": -7.72,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-24T00:39:07Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -31997,21 +19971,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-03-24T00:39:15Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-24T00:39:15Z"
         },
         {
           "id": "5hohPxxNfGRbW0PG2R0mhd",
@@ -32039,21 +19999,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-03-14T13:07:33Z",
-          "features": {
-            "danceability": 0.839,
-            "energy": 0.8,
-            "valence": 0.704,
-            "tempo": 105.4,
-            "acousticness": 0.381,
-            "instrumentalness": 0.0484,
-            "liveness": 0.201,
-            "speechiness": 0.3,
-            "loudness": -6.06,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-14T13:07:33Z"
         },
         {
           "id": "6VX4hVDmDMfClxp6EwDNQP",
@@ -32078,21 +20024,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2024-07-20T09:05:13Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.64,
-            "valence": 0.573,
-            "tempo": 135.0,
-            "acousticness": 0.025,
-            "instrumentalness": 0.0058,
-            "liveness": 0.08,
-            "speechiness": 0.075,
-            "loudness": -5.63,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:13Z"
         },
         {
           "id": "2YwBdxvMFsWUSCaL1U6xIg",
@@ -32116,21 +20048,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-03-14T13:09:00Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.597,
-            "valence": 0.615,
-            "tempo": 105.0,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0263,
-            "liveness": 0.195,
-            "speechiness": 0.105,
-            "loudness": -5.31,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-14T13:09:00Z"
         },
         {
           "id": "7ySC0IjVS1PMEdsZOvsUK2",
@@ -32153,21 +20071,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2024-07-20T09:08:16Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.752,
-            "valence": 0.807,
-            "tempo": 90.0,
-            "acousticness": 0.104,
-            "instrumentalness": 0.0437,
-            "liveness": 0.085,
-            "speechiness": 0.267,
-            "loudness": -4.16,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:08:16Z"
         },
         {
           "id": "7LZkMeX1k8PXQJ0SVYn1A5",
@@ -32195,21 +20099,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2024-12-10T22:11:47Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.799,
-            "valence": 0.7,
-            "tempo": 92.4,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0074,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-10T22:11:47Z"
         },
         {
           "id": "2j8n2hpZlEMvtrjJ7n0ZIy",
@@ -32235,21 +20125,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2024-12-10T22:12:05Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.549,
-            "valence": 0.68,
-            "tempo": 117.5,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0082,
-            "liveness": 0.101,
-            "speechiness": 0.165,
-            "loudness": -5.89,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-10T22:12:05Z"
         },
         {
           "id": "1QkUnVCGx3ghx0WG8XO4J7",
@@ -32275,21 +20151,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-02-18T08:10:04Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.837,
-            "valence": 0.644,
-            "tempo": 101.6,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0294,
-            "liveness": 0.059,
-            "speechiness": 0.205,
-            "loudness": -5.72,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-02-18T08:10:04Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -32312,21 +20174,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-02-18T08:10:23Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-02-18T08:10:23Z"
         },
         {
           "id": "771KDfpsOtJPQmocQpMdkR",
@@ -32345,7 +20193,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -32354,21 +20202,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-15",
-          "addedAt": "2025-01-11T10:40:27Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.686,
-            "valence": 0.394,
-            "tempo": 115.3,
-            "acousticness": 0.179,
-            "instrumentalness": 0.0849,
-            "liveness": 0.089,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-01-11T10:40:27Z"
         },
         {
           "id": "6e0YUaVAfDxUabmybOjguy",
@@ -32396,21 +20230,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-31",
-          "addedAt": "2025-01-11T10:40:36Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.736,
-            "valence": 0.549,
-            "tempo": 120.4,
-            "acousticness": 0.215,
-            "instrumentalness": 0.0941,
-            "liveness": 0.157,
-            "speechiness": 0.3,
-            "loudness": -5.78,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-01-11T10:40:36Z"
         },
         {
           "id": "7JMkjelaEgUOdV7926uzGi",
@@ -32433,21 +20253,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-02",
-          "addedAt": "2025-01-04T00:33:40Z",
-          "features": {
-            "danceability": 0.707,
-            "energy": 0.672,
-            "valence": 0.642,
-            "tempo": 127.6,
-            "acousticness": 0.14,
-            "instrumentalness": 0.0166,
-            "liveness": 0.197,
-            "speechiness": 0.243,
-            "loudness": -5.76,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-01-04T00:33:40Z"
         },
         {
           "id": "7MD8gswt08VhFwVF1PR8Mg",
@@ -32471,21 +20277,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-08",
-          "addedAt": "2025-01-04T00:33:49Z",
-          "features": {
-            "danceability": 0.674,
-            "energy": 0.749,
-            "valence": 0.588,
-            "tempo": 115.0,
-            "acousticness": 0.089,
-            "instrumentalness": 0.0138,
-            "liveness": 0.241,
-            "speechiness": 0.214,
-            "loudness": -7.52,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-01-04T00:33:49Z"
         },
         {
           "id": "6IEYlownuHoYdpMikoyj58",
@@ -32512,21 +20304,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2024-08-17T15:07:15Z",
-          "features": {
-            "danceability": 0.754,
-            "energy": 0.733,
-            "valence": 0.557,
-            "tempo": 133.5,
-            "acousticness": 0.378,
-            "instrumentalness": 0.0661,
-            "liveness": 0.05,
-            "speechiness": 0.138,
-            "loudness": -5.62,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-17T15:07:15Z"
         },
         {
           "id": "6Qb4XQnsuRnMlGxwR3GOGV",
@@ -32550,21 +20328,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-12",
-          "addedAt": "2024-07-20T09:05:55Z",
-          "features": {
-            "danceability": 0.749,
-            "energy": 0.502,
-            "valence": 0.548,
-            "tempo": 129.0,
-            "acousticness": 0.017,
-            "instrumentalness": 0.0248,
-            "liveness": 0.264,
-            "speechiness": 0.215,
-            "loudness": -4.71,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:55Z"
         },
         {
           "id": "3jzdiPzvbVGH3kSTlsMxNo",
@@ -32589,21 +20353,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-17",
-          "addedAt": "2024-12-17T19:00:53Z",
-          "features": {
-            "danceability": 0.608,
-            "energy": 0.744,
-            "valence": 0.782,
-            "tempo": 119.9,
-            "acousticness": 0.06,
-            "instrumentalness": 0.15,
-            "liveness": 0.104,
-            "speechiness": 0.3,
-            "loudness": -8.19,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-17T19:00:53Z"
         },
         {
           "id": "0PmnXWLh2KXKF4K65HH0SY",
@@ -32618,7 +20368,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -32628,21 +20378,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-12",
-          "addedAt": "2024-12-17T19:01:10Z",
-          "features": {
-            "danceability": 0.724,
-            "energy": 0.757,
-            "valence": 0.456,
-            "tempo": 128.2,
-            "acousticness": 0.15,
-            "instrumentalness": 0.0248,
-            "liveness": 0.291,
-            "speechiness": 0.168,
-            "loudness": -5.02,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-17T19:01:10Z"
         },
         {
           "id": "3tH6wzTJ1IdlBoMJh6oG8a",
@@ -32665,21 +20401,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-15",
-          "addedAt": "2024-12-11T18:21:04Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.754,
-            "valence": 0.701,
-            "tempo": 99.9,
-            "acousticness": 0.116,
-            "instrumentalness": 0.0314,
-            "liveness": 0.095,
-            "speechiness": 0.3,
-            "loudness": -7.31,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-11T18:21:04Z"
         },
         {
           "id": "6XBIOtdSL47qn201KKNCA0",
@@ -32702,21 +20424,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2024-12-11T18:22:35Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.669,
-            "valence": 0.682,
-            "tempo": 90.0,
-            "acousticness": 0.091,
-            "instrumentalness": 0.0991,
-            "liveness": 0.326,
-            "speechiness": 0.188,
-            "loudness": -5.7,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-11T18:22:35Z"
         },
         {
           "id": "6O2hrfRRPBJ59PwKhSKFHz",
@@ -32740,21 +20448,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:06:11Z",
-          "features": {
-            "danceability": 0.594,
-            "energy": 0.614,
-            "valence": 0.846,
-            "tempo": 106.9,
-            "acousticness": 0.338,
-            "instrumentalness": 0.062,
-            "liveness": 0.096,
-            "speechiness": 0.3,
-            "loudness": -4.44,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:11Z"
         },
         {
           "id": "2WHM3orrvvqziSkG0xp8sy",
@@ -32781,21 +20475,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2024-08-17T15:07:18Z",
-          "features": {
-            "danceability": 0.625,
-            "energy": 0.783,
-            "valence": 0.626,
-            "tempo": 104.1,
-            "acousticness": 0.278,
-            "instrumentalness": 0.0401,
-            "liveness": 0.112,
-            "speechiness": 0.131,
-            "loudness": -5.94,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-17T15:07:18Z"
         },
         {
           "id": "7BOgyrWA7OURpdJ9YksRFR",
@@ -32819,21 +20499,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-24",
-          "addedAt": "2024-12-30T22:14:48Z",
-          "features": {
-            "danceability": 0.736,
-            "energy": 0.907,
-            "valence": 0.537,
-            "tempo": 107.9,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0026,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.98,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-12-30T22:14:48Z"
         },
         {
           "id": "5oUDNEJSEjsVT7LeWya4Gv",
@@ -32856,21 +20522,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2024-07-20T09:05:07Z",
-          "features": {
-            "danceability": 0.838,
-            "energy": 0.715,
-            "valence": 0.9,
-            "tempo": 107.6,
-            "acousticness": 0.227,
-            "instrumentalness": 0.1385,
-            "liveness": 0.078,
-            "speechiness": 0.153,
-            "loudness": -6.09,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:07Z"
         },
         {
           "id": "0WeU5EfNFu1wmlmCdMNDEJ",
@@ -32897,21 +20549,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:05:20Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.662,
-            "valence": 0.824,
-            "tempo": 105.5,
-            "acousticness": 0.066,
-            "instrumentalness": 0.0422,
-            "liveness": 0.05,
-            "speechiness": 0.091,
-            "loudness": -4.63,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:20Z"
         },
         {
           "id": "4EoYs4KY7oHQpJPTuxD7mU",
@@ -32937,21 +20575,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-17",
-          "addedAt": "2024-07-20T09:05:16Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.562,
-            "valence": 0.747,
-            "tempo": 105.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.048,
-            "liveness": 0.203,
-            "speechiness": 0.148,
-            "loudness": -3.82,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:16Z"
         },
         {
           "id": "5hphSVebVxTpDfrk09W0hS",
@@ -32975,21 +20599,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2024-07-20T09:04:53Z",
-          "features": {
-            "danceability": 0.843,
-            "energy": 0.629,
-            "valence": 0.554,
-            "tempo": 113.9,
-            "acousticness": 0.218,
-            "instrumentalness": 0.0394,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -4.91,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:04:53Z"
         },
         {
           "id": "0ww0GM0f5USzNZidkcoCVX",
@@ -33014,21 +20624,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-12",
-          "addedAt": "2024-07-20T09:05:18Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.692,
-            "valence": 0.842,
-            "tempo": 105.7,
-            "acousticness": 0.206,
-            "instrumentalness": 0.0733,
-            "liveness": 0.315,
-            "speechiness": 0.264,
-            "loudness": -5.9,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:18Z"
         },
         {
           "id": "3GLF4uV3uS1ImSEPyhLZLp",
@@ -33052,21 +20648,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-07",
-          "addedAt": "2024-07-20T09:05:19Z",
-          "features": {
-            "danceability": 0.722,
-            "energy": 0.635,
-            "valence": 0.575,
-            "tempo": 96.2,
-            "acousticness": 0.067,
-            "instrumentalness": 0.0188,
-            "liveness": 0.156,
-            "speechiness": 0.3,
-            "loudness": -3.92,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:19Z"
         },
         {
           "id": "4Q1kTtOhw3SosBs43un1bu",
@@ -33089,25 +20671,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2024-07-20T09:05:22Z",
-          "features": {
-            "danceability": 0.701,
-            "energy": 0.815,
-            "valence": 0.769,
-            "tempo": 117.2,
-            "acousticness": 0.143,
-            "instrumentalness": 0.0002,
-            "liveness": 0.078,
-            "speechiness": 0.3,
-            "loudness": -6.51,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:22Z"
         },
         {
           "id": "1oFabnkoJ01ksmSmyjELDl",
-          "title": "Where I’m from",
+          "title": "Where I\u2019m from",
           "artist": "Tml Vibez, Seyi Vibez",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -33126,21 +20694,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-28",
-          "addedAt": "2024-07-20T09:05:28Z",
-          "features": {
-            "danceability": 0.705,
-            "energy": 0.794,
-            "valence": 0.899,
-            "tempo": 104.1,
-            "acousticness": 0.053,
-            "instrumentalness": 0.0674,
-            "liveness": 0.102,
-            "speechiness": 0.3,
-            "loudness": -4.7,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:28Z"
         },
         {
           "id": "2DRHfIWD9Mg70QgTxAKn4m",
@@ -33164,21 +20718,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-06",
-          "addedAt": "2024-07-20T09:05:23Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.797,
-            "valence": 0.698,
-            "tempo": 121.2,
-            "acousticness": 0.244,
-            "instrumentalness": 0.0095,
-            "liveness": 0.119,
-            "speechiness": 0.193,
-            "loudness": -3.69,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:23Z"
         },
         {
           "id": "3W3y3pGDnfhUQHeCoUwFLe",
@@ -33205,21 +20745,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:05:45Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.611,
-            "valence": 0.607,
-            "tempo": 109.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0533,
-            "liveness": 0.165,
-            "speechiness": 0.116,
-            "loudness": -7.33,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:45Z"
         },
         {
           "id": "55nKxeuQ63YLqhtxPWMCgN",
@@ -33236,7 +20762,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -33247,21 +20773,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2024-07-20T09:05:25Z",
-          "features": {
-            "danceability": 0.764,
-            "energy": 0.82,
-            "valence": 0.576,
-            "tempo": 109.5,
-            "acousticness": 0.263,
-            "instrumentalness": 0.0668,
-            "liveness": 0.077,
-            "speechiness": 0.3,
-            "loudness": -4.04,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:25Z"
         },
         {
           "id": "1gc2RyrBm1PYdSnG65yuAl",
@@ -33284,21 +20796,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2024-07-20T09:05:11Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.814,
-            "valence": 0.72,
-            "tempo": 116.5,
-            "acousticness": 0.033,
-            "instrumentalness": 0.0347,
-            "liveness": 0.069,
-            "speechiness": 0.215,
-            "loudness": -6.66,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:11Z"
         },
         {
           "id": "1HDF5JQ4dlT4rontWpQp91",
@@ -33322,21 +20820,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2024-07-20T09:04:57Z",
-          "features": {
-            "danceability": 0.656,
-            "energy": 0.745,
-            "valence": 0.603,
-            "tempo": 114.2,
-            "acousticness": 0.302,
-            "instrumentalness": 0.0034,
-            "liveness": 0.143,
-            "speechiness": 0.3,
-            "loudness": -5.22,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:04:57Z"
         },
         {
           "id": "6YYnBEMEaj960IX1evcTun",
@@ -33360,21 +20844,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-10",
-          "addedAt": "2024-07-20T09:05:47Z",
-          "features": {
-            "danceability": 0.836,
-            "energy": 0.65,
-            "valence": 0.672,
-            "tempo": 120.6,
-            "acousticness": 0.138,
-            "instrumentalness": 0.0224,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -5.12,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:47Z"
         },
         {
           "id": "1zM2WWrMOt5Jt2jR39cBDp",
@@ -33398,26 +20868,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-02",
-          "addedAt": "2024-07-20T09:05:34Z",
-          "features": {
-            "danceability": 0.694,
-            "energy": 0.802,
-            "valence": 0.699,
-            "tempo": 111.6,
-            "acousticness": 0.184,
-            "instrumentalness": 0.1175,
-            "liveness": 0.192,
-            "speechiness": 0.185,
-            "loudness": -8.04,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:34Z"
         },
         {
           "id": "1A1ifX8sWzelNpkL5PxcHT",
           "title": "Last Heartbreak Song (feat. Giveon)",
-          "artist": "Ayra Starr, GIVĒON",
+          "artist": "Ayra Starr, GIV\u0112ON",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -33437,21 +20893,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2024-07-20T09:05:15Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.925,
-            "valence": 0.373,
-            "tempo": 122.9,
-            "acousticness": 0.182,
-            "instrumentalness": 0.0539,
-            "liveness": 0.257,
-            "speechiness": 0.194,
-            "loudness": -5.03,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:15Z"
         },
         {
           "id": "5MK0laOw0gGrdzejgs2viA",
@@ -33475,21 +20917,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-08",
-          "addedAt": "2024-07-20T09:05:31Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.806,
-            "valence": 0.687,
-            "tempo": 121.8,
-            "acousticness": 0.076,
-            "instrumentalness": 0.091,
-            "liveness": 0.226,
-            "speechiness": 0.3,
-            "loudness": -3.97,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:31Z"
         },
         {
           "id": "7FPSLHsGzmWQApCj3nyh83",
@@ -33508,7 +20936,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -33516,21 +20944,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2024-07-20T09:05:40Z",
-          "features": {
-            "danceability": 0.627,
-            "energy": 0.729,
-            "valence": 0.631,
-            "tempo": 119.7,
-            "acousticness": 0.26,
-            "instrumentalness": 0.0284,
-            "liveness": 0.264,
-            "speechiness": 0.3,
-            "loudness": -4.95,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:40Z"
         },
         {
           "id": "3raxjPdY70b4a9ks1Bd0mz",
@@ -33545,7 +20959,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -33553,21 +20967,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2024-07-20T09:06:27Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.676,
-            "valence": 0.691,
-            "tempo": 104.2,
-            "acousticness": 0.112,
-            "instrumentalness": 0.0534,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.59,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:27Z"
         },
         {
           "id": "7vdGiPrjK0gJBoZE8UhDMJ",
@@ -33594,21 +20994,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:05:37Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.662,
-            "valence": 0.838,
-            "tempo": 110.9,
-            "acousticness": 0.4,
-            "instrumentalness": 0.15,
-            "liveness": 0.256,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:37Z"
         },
         {
           "id": "1kW728xFsRBvunN1yiTsNf",
@@ -33634,21 +21020,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-17",
-          "addedAt": "2024-07-20T09:05:52Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.595,
-            "valence": 0.659,
-            "tempo": 120.6,
-            "acousticness": 0.141,
-            "instrumentalness": 0.15,
-            "liveness": 0.201,
-            "speechiness": 0.219,
-            "loudness": -3.17,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:52Z"
         },
         {
           "id": "780BUxpCmW9vOVYZsqdLLE",
@@ -33675,21 +21047,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-20",
-          "addedAt": "2024-07-20T09:05:57Z",
-          "features": {
-            "danceability": 0.764,
-            "energy": 0.878,
-            "valence": 0.798,
-            "tempo": 90.0,
-            "acousticness": 0.289,
-            "instrumentalness": 0.1376,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -8.53,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:05:57Z"
         },
         {
           "id": "77q3rIpcqFsTo7qNvKNiOh",
@@ -33716,21 +21074,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:06:17Z",
-          "features": {
-            "danceability": 0.6,
-            "energy": 0.704,
-            "valence": 0.494,
-            "tempo": 112.0,
-            "acousticness": 0.12,
-            "instrumentalness": 0.0305,
-            "liveness": 0.122,
-            "speechiness": 0.129,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:17Z"
         },
         {
           "id": "1eDI5oU04SLsXl0TfxfwYf",
@@ -33745,7 +21089,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -33753,21 +21097,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2024-07-20T09:06:00Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.787,
-            "valence": 0.541,
-            "tempo": 90.0,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0171,
-            "liveness": 0.152,
-            "speechiness": 0.213,
-            "loudness": -7.33,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:00Z"
         },
         {
           "id": "5RUpDkJA6juStPgIEBbBRo",
@@ -33787,21 +21117,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-29",
-          "addedAt": "2024-11-10T14:06:44Z",
-          "features": {
-            "danceability": 0.813,
-            "energy": 0.768,
-            "valence": 0.474,
-            "tempo": 92.6,
-            "acousticness": 0.074,
-            "instrumentalness": 0.0109,
-            "liveness": 0.05,
-            "speechiness": 0.05,
-            "loudness": -8.67,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-11-10T14:06:44Z"
         },
         {
           "id": "55gLtEmwF6yOkMUbSIXKUG",
@@ -33825,21 +21141,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-31",
-          "addedAt": "2024-07-20T09:06:23Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.799,
-            "valence": 0.751,
-            "tempo": 116.3,
-            "acousticness": 0.176,
-            "instrumentalness": 0.0511,
-            "liveness": 0.17,
-            "speechiness": 0.3,
-            "loudness": -7.16,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:23Z"
         },
         {
           "id": "6ZBXya9ewPZa6zXDRfPhog",
@@ -33862,21 +21164,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-19",
-          "addedAt": "2024-07-20T09:06:03Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.538,
-            "valence": 0.463,
-            "tempo": 119.7,
-            "acousticness": 0.122,
-            "instrumentalness": 0.0158,
-            "liveness": 0.088,
-            "speechiness": 0.203,
-            "loudness": -7.94,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:03Z"
         },
         {
           "id": "6HGeYNFZe51bX0yYOXuvcO",
@@ -33902,21 +21190,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-05",
-          "addedAt": "2024-07-20T09:06:30Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.675,
-            "valence": 0.706,
-            "tempo": 92.3,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0006,
-            "liveness": 0.174,
-            "speechiness": 0.194,
-            "loudness": -5.96,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:30Z"
         },
         {
           "id": "5Wxkvvb6pLky16pwq4gBI3",
@@ -33941,21 +21215,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2024-07-20T09:06:34Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.669,
-            "valence": 0.59,
-            "tempo": 116.1,
-            "acousticness": 0.222,
-            "instrumentalness": 0.0373,
-            "liveness": 0.35,
-            "speechiness": 0.097,
-            "loudness": -7.78,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:34Z"
         },
         {
           "id": "2k6OU00K9obF3R1eqA2mJP",
@@ -33980,21 +21240,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2024-07-20T09:06:39Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.673,
-            "valence": 0.496,
-            "tempo": 135.0,
-            "acousticness": 0.079,
-            "instrumentalness": 0.0075,
-            "liveness": 0.178,
-            "speechiness": 0.3,
-            "loudness": -5.55,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:39Z"
         },
         {
           "id": "6MM54UW97YvBPPz2Z0Eokf",
@@ -34014,21 +21260,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-10",
-          "addedAt": "2024-07-20T09:06:46Z",
-          "features": {
-            "danceability": 0.587,
-            "energy": 0.677,
-            "valence": 0.635,
-            "tempo": 118.6,
-            "acousticness": 0.19,
-            "instrumentalness": 0.015,
-            "liveness": 0.105,
-            "speechiness": 0.3,
-            "loudness": -7.21,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:46Z"
         },
         {
           "id": "74CA9T8IpFzrLNFV6EoY3a",
@@ -34054,21 +21286,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-17",
-          "addedAt": "2024-07-20T09:06:49Z",
-          "features": {
-            "danceability": 0.726,
-            "energy": 0.781,
-            "valence": 0.675,
-            "tempo": 113.8,
-            "acousticness": 0.219,
-            "instrumentalness": 0.0332,
-            "liveness": 0.126,
-            "speechiness": 0.3,
-            "loudness": -4.72,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:06:49Z"
         },
         {
           "id": "4OXlgrOv4FtLuMnuqsI69c",
@@ -34095,21 +21313,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-26",
-          "addedAt": "2024-07-20T09:07:11Z",
-          "features": {
-            "danceability": 0.847,
-            "energy": 0.5,
-            "valence": 0.699,
-            "tempo": 97.8,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0108,
-            "liveness": 0.214,
-            "speechiness": 0.176,
-            "loudness": -6.46,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:11Z"
         },
         {
           "id": "4ZlXMudBkzL4izYJzY7xBU",
@@ -34129,21 +21333,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-01",
-          "addedAt": "2024-07-20T09:07:15Z",
-          "features": {
-            "danceability": 0.66,
-            "energy": 0.663,
-            "valence": 0.439,
-            "tempo": 113.3,
-            "acousticness": 0.187,
-            "instrumentalness": 0.0415,
-            "liveness": 0.091,
-            "speechiness": 0.273,
-            "loudness": -6.94,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:15Z"
         },
         {
           "id": "3sKBph3ElueH1dVLmkHWZZ",
@@ -34166,21 +21356,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-10",
-          "addedAt": "2024-07-20T09:07:21Z",
-          "features": {
-            "danceability": 0.711,
-            "energy": 0.726,
-            "valence": 0.631,
-            "tempo": 109.9,
-            "acousticness": 0.161,
-            "instrumentalness": 0.0317,
-            "liveness": 0.152,
-            "speechiness": 0.3,
-            "loudness": -4.78,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:21Z"
         },
         {
           "id": "0clDhQSahgP1U8vZUfblWS",
@@ -34193,7 +21369,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 35,
           "artistPopularity": 53,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afro r&b",
@@ -34208,21 +21384,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-17",
-          "addedAt": "2024-07-20T09:07:27Z",
-          "features": {
-            "danceability": 0.808,
-            "energy": 0.775,
-            "valence": 0.652,
-            "tempo": 104.8,
-            "acousticness": 0.159,
-            "instrumentalness": 0.15,
-            "liveness": 0.231,
-            "speechiness": 0.3,
-            "loudness": -7.59,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:27Z"
         },
         {
           "id": "7fA7mrYaXVDVVGCAV65NRN",
@@ -34247,21 +21409,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-27",
-          "addedAt": "2024-07-20T09:07:51Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.581,
-            "valence": 0.704,
-            "tempo": 128.6,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0267,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -5.06,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:51Z"
         },
         {
           "id": "6UTXf9k0H3JDus2ZZDwGpC",
@@ -34284,21 +21432,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-02",
-          "addedAt": "2024-07-20T09:07:53Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.637,
-            "valence": 0.644,
-            "tempo": 125.1,
-            "acousticness": 0.188,
-            "instrumentalness": 0.0322,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -7.48,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:53Z"
         },
         {
           "id": "6LTnqcYe8dq4QC5Lh7vneM",
@@ -34317,7 +21451,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -34325,21 +21459,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-21",
-          "addedAt": "2024-07-20T09:07:57Z",
-          "features": {
-            "danceability": 0.732,
-            "energy": 0.687,
-            "valence": 0.597,
-            "tempo": 99.5,
-            "acousticness": 0.069,
-            "instrumentalness": 0.0565,
-            "liveness": 0.233,
-            "speechiness": 0.212,
-            "loudness": -6.22,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:07:57Z"
         },
         {
           "id": "5cXQQa5G0hyc6m5Mk1rM2i",
@@ -34357,21 +21477,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-13",
-          "addedAt": "2024-07-20T09:08:07Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.806,
-            "valence": 0.419,
-            "tempo": 93.7,
-            "acousticness": 0.246,
-            "instrumentalness": 0.0573,
-            "liveness": 0.189,
-            "speechiness": 0.3,
-            "loudness": -4.81,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-07-20T09:08:07Z"
         },
         {
           "id": "0zVk3uuV9UhxAt48F3OL12",
@@ -34396,21 +21502,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-10",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.673,
-            "valence": 0.799,
-            "tempo": 124.7,
-            "acousticness": 0.035,
-            "instrumentalness": 0.0145,
-            "liveness": 0.335,
-            "speechiness": 0.3,
-            "loudness": -4.59,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "1mk8ZC9OeTZMr8Wy31LqRj",
@@ -34438,21 +21530,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-30",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.696,
-            "energy": 0.655,
-            "valence": 0.365,
-            "tempo": 92.5,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0237,
-            "liveness": 0.134,
-            "speechiness": 0.3,
-            "loudness": -4.01,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0x3sDnom0itB72oEVrRE7v",
@@ -34478,21 +21556,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-21",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.73,
-            "energy": 0.767,
-            "valence": 0.554,
-            "tempo": 102.0,
-            "acousticness": 0.065,
-            "instrumentalness": 0.0693,
-            "liveness": 0.079,
-            "speechiness": 0.3,
-            "loudness": -5.39,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "4RoKNqyZ9622tcAeNPNv5k",
@@ -34517,21 +21581,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-24",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.747,
-            "valence": 0.609,
-            "tempo": 109.4,
-            "acousticness": 0.013,
-            "instrumentalness": 0.0202,
-            "liveness": 0.312,
-            "speechiness": 0.238,
-            "loudness": -5.94,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0GeZh7YiQRqYwHS2IdEskL",
@@ -34558,21 +21608,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-12",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.78,
-            "energy": 0.874,
-            "valence": 0.86,
-            "tempo": 127.0,
-            "acousticness": 0.205,
-            "instrumentalness": 0.0267,
-            "liveness": 0.252,
-            "speechiness": 0.3,
-            "loudness": -4.24,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "04caQq1IeChrnBnvch1FQf",
@@ -34599,21 +21635,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-15",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.687,
-            "energy": 0.805,
-            "valence": 0.493,
-            "tempo": 111.3,
-            "acousticness": 0.262,
-            "instrumentalness": 0.0501,
-            "liveness": 0.35,
-            "speechiness": 0.273,
-            "loudness": -7.37,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "4nFrcGM7MY1mpoQCC7Kefj",
@@ -34628,7 +21650,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -34636,21 +21658,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-05",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.833,
-            "valence": 0.41,
-            "tempo": 100.0,
-            "acousticness": 0.121,
-            "instrumentalness": 0.0217,
-            "liveness": 0.215,
-            "speechiness": 0.223,
-            "loudness": -5.39,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "2rDtfPMI5mDJVTwYYG00QI",
@@ -34669,7 +21677,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -34677,21 +21685,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-22",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.809,
-            "valence": 0.664,
-            "tempo": 90.0,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0183,
-            "liveness": 0.218,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "35MU2MEhQMw0NhXZztAP9m",
@@ -34707,7 +21701,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -34717,21 +21711,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-06",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.706,
-            "energy": 0.801,
-            "valence": 0.777,
-            "tempo": 105.3,
-            "acousticness": 0.125,
-            "instrumentalness": 0.0231,
-            "liveness": 0.135,
-            "speechiness": 0.3,
-            "loudness": -3.32,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "6rOqLUy3kp0PVQQEtNPpbQ",
@@ -34746,7 +21726,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -34756,21 +21736,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-07",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.692,
-            "valence": 0.563,
-            "tempo": 119.9,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0981,
-            "liveness": 0.35,
-            "speechiness": 0.132,
-            "loudness": -5.62,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0ectw8g5yRkC7GNsh6gP4h",
@@ -34795,21 +21761,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-15",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.654,
-            "energy": 0.833,
-            "valence": 0.657,
-            "tempo": 116.1,
-            "acousticness": 0.206,
-            "instrumentalness": 0.0083,
-            "liveness": 0.186,
-            "speechiness": 0.182,
-            "loudness": -4.77,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "7yKjDDd9w01nFEOD5adoHq",
@@ -34836,21 +21788,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-19",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.68,
-            "energy": 0.661,
-            "valence": 0.815,
-            "tempo": 90.3,
-            "acousticness": 0.307,
-            "instrumentalness": 0.0559,
-            "liveness": 0.304,
-            "speechiness": 0.3,
-            "loudness": -7.41,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0YeUYYOh25Cn57DKTC8uS4",
@@ -34869,7 +21807,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -34878,21 +21816,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-04",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.799,
-            "energy": 0.628,
-            "valence": 0.506,
-            "tempo": 105.0,
-            "acousticness": 0.102,
-            "instrumentalness": 0.057,
-            "liveness": 0.294,
-            "speechiness": 0.3,
-            "loudness": -5.19,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "5mhM7bfzv52bzfCzlq8vH1",
@@ -34916,21 +21840,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-21",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.572,
-            "valence": 0.655,
-            "tempo": 129.4,
-            "acousticness": 0.048,
-            "instrumentalness": 0.0391,
-            "liveness": 0.174,
-            "speechiness": 0.3,
-            "loudness": -3.73,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "1rHPk2p3MQTh2wloo3P9zE",
@@ -34958,21 +21868,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-26",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.788,
-            "valence": 0.721,
-            "tempo": 113.5,
-            "acousticness": 0.167,
-            "instrumentalness": 0.0621,
-            "liveness": 0.117,
-            "speechiness": 0.282,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "2kaH2Z8ezDUKf6fNw250rZ",
@@ -35000,21 +21896,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-30",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.66,
-            "energy": 0.805,
-            "valence": 0.735,
-            "tempo": 113.4,
-            "acousticness": 0.209,
-            "instrumentalness": 0.0237,
-            "liveness": 0.215,
-            "speechiness": 0.248,
-            "loudness": -9.5,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0Em4eY10PGyiBlmjWxcav3",
@@ -35030,7 +21912,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -35041,21 +21923,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-14",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.731,
-            "energy": 0.761,
-            "valence": 0.672,
-            "tempo": 115.8,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0042,
-            "liveness": 0.203,
-            "speechiness": 0.3,
-            "loudness": -6.98,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "2H0w7oYDjUvgsFlNQ5swIg",
@@ -35082,21 +21950,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-15",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.64,
-            "energy": 0.786,
-            "valence": 0.56,
-            "tempo": 106.9,
-            "acousticness": 0.279,
-            "instrumentalness": 0.0172,
-            "liveness": 0.186,
-            "speechiness": 0.3,
-            "loudness": -4.81,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "4jyZRIiSAEkziHwhZsfmXc",
@@ -35124,21 +21978,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-06",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.553,
-            "energy": 0.728,
-            "valence": 0.454,
-            "tempo": 93.7,
-            "acousticness": 0.095,
-            "instrumentalness": 0.0206,
-            "liveness": 0.228,
-            "speechiness": 0.135,
-            "loudness": -4.86,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0ESoMa1oGHddkMeNodec7u",
@@ -35162,21 +22002,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-02",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.533,
-            "valence": 0.707,
-            "tempo": 113.5,
-            "acousticness": 0.288,
-            "instrumentalness": 0.068,
-            "liveness": 0.241,
-            "speechiness": 0.138,
-            "loudness": -6.3,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "0XL0niXGoEmf0IJs3A8tjt",
@@ -35202,21 +22028,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-07",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.7,
-            "valence": 0.846,
-            "tempo": 100.8,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0681,
-            "liveness": 0.053,
-            "speechiness": 0.3,
-            "loudness": -5.63,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "5KV5UXd1uNZZafWTudrVft",
@@ -35242,21 +22054,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-21",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.786,
-            "energy": 0.684,
-            "valence": 0.476,
-            "tempo": 126.2,
-            "acousticness": 0.101,
-            "instrumentalness": 0.0043,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.18,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "7ydy7ryXw7XM5QtE3bNYaW",
@@ -35269,7 +22067,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 53,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -35285,21 +22083,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-27",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.765,
-            "valence": 0.44,
-            "tempo": 105.1,
-            "acousticness": 0.339,
-            "instrumentalness": 0.0056,
-            "liveness": 0.162,
-            "speechiness": 0.3,
-            "loudness": -5.0,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "3Aq8OvogNStehUPJcNDEZT",
@@ -35324,21 +22108,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-24",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.733,
-            "energy": 0.693,
-            "valence": 0.821,
-            "tempo": 114.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0077,
-            "liveness": 0.144,
-            "speechiness": 0.167,
-            "loudness": -5.44,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         },
         {
           "id": "4jcrO2T6XJ1B7hXsAEJ3ve",
@@ -35357,7 +22127,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -35366,21 +22136,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-04",
-          "addedAt": "2024-01-13T05:21:00Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.693,
-            "valence": 0.583,
-            "tempo": 117.8,
-            "acousticness": 0.352,
-            "instrumentalness": 0.0006,
-            "liveness": 0.072,
-            "speechiness": 0.137,
-            "loudness": -8.25,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T05:21:00Z"
         }
       ]
     },
@@ -35391,11 +22147,11 @@ window.AFROBEATS_DATA = {
       "curator": "Afrikan Radar",
       "followerCount": 12215,
       "launchYear": 2025,
-      "description": "Blending African styles and genres from across the continent, Afro-Fusion bridge cultures to create new sonic amalgamations—steeped in Africa, and relevant around the world.",
+      "description": "Blending African styles and genres from across the continent, Afro-Fusion bridge cultures to create new sonic amalgamations\u2014steeped in Africa, and relevant around the world.",
       "tracks": [
         {
           "id": "6XaN4trfoMvRFEy8HoB4nC",
-          "title": "Who’s Dat Girl",
+          "title": "Who\u2019s Dat Girl",
           "artist": "Ayra Starr, Rema",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -35416,21 +22172,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.605,
-            "energy": 0.746,
-            "valence": 0.751,
-            "tempo": 90.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.1082,
-            "liveness": 0.35,
-            "speechiness": 0.259,
-            "loudness": -5.68,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "3yzs58LteW16AjEb4J5vvi",
@@ -35443,7 +22185,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 70,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -35455,21 +22197,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.75,
-            "valence": 0.65,
-            "tempo": 114.6,
-            "acousticness": 0.136,
-            "instrumentalness": 0.0124,
-            "liveness": 0.18,
-            "speechiness": 0.3,
-            "loudness": -3.82,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "4zGLBKonWuLSeK35mrUXf0",
@@ -35485,7 +22213,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -35495,21 +22223,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-05",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.814,
-            "valence": 0.654,
-            "tempo": 100.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.051,
-            "liveness": 0.079,
-            "speechiness": 0.259,
-            "loudness": -6.19,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "3RtoMZxgC3lpyfxmZ29Rpu",
@@ -35533,21 +22247,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-28",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.709,
-            "valence": 0.564,
-            "tempo": 115.6,
-            "acousticness": 0.192,
-            "instrumentalness": 0.0854,
-            "liveness": 0.35,
-            "speechiness": 0.184,
-            "loudness": -6.48,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "3oTuTpF1F3A7rEC6RKsMRz",
@@ -35570,21 +22270,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-23",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.794,
-            "energy": 0.782,
-            "valence": 0.865,
-            "tempo": 124.1,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0995,
-            "liveness": 0.125,
-            "speechiness": 0.237,
-            "loudness": -5.99,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "3YaLrZQLOggK3fPxUAihUW",
@@ -35609,21 +22295,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-11-13T11:02:36Z",
-          "features": {
-            "danceability": 0.552,
-            "energy": 0.674,
-            "valence": 0.626,
-            "tempo": 135.0,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0295,
-            "liveness": 0.13,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-13T11:02:36Z"
         },
         {
           "id": "5tDBOi27xYmWFMbfSZ1IwF",
@@ -35641,21 +22313,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-18T19:14:18Z",
-          "features": {
-            "danceability": 0.572,
-            "energy": 0.858,
-            "valence": 0.725,
-            "tempo": 90.0,
-            "acousticness": 0.074,
-            "instrumentalness": 0.0923,
-            "liveness": 0.142,
-            "speechiness": 0.22,
-            "loudness": -3.0,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T19:14:18Z"
         },
         {
           "id": "0EI0H7VQ7SNk7cwpuxG1DC",
@@ -35681,21 +22339,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-05-29T22:11:39Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.678,
-            "valence": 0.674,
-            "tempo": 95.0,
-            "acousticness": 0.368,
-            "instrumentalness": 0.0219,
-            "liveness": 0.184,
-            "speechiness": 0.3,
-            "loudness": -8.17,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-29T22:11:39Z"
         },
         {
           "id": "04yGQ4xzVt9LVAqop42ja6",
@@ -35720,21 +22364,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-03T14:32:26Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.791,
-            "valence": 0.609,
-            "tempo": 93.8,
-            "acousticness": 0.057,
-            "instrumentalness": 0.0825,
-            "liveness": 0.32,
-            "speechiness": 0.3,
-            "loudness": -5.1,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-03T14:32:26Z"
         },
         {
           "id": "0yVYclELnoKUoTWrbs5MfX",
@@ -35752,25 +22382,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-11-18T07:58:19Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.67,
-            "valence": 0.699,
-            "tempo": 117.7,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0614,
-            "liveness": 0.259,
-            "speechiness": 0.191,
-            "loudness": -6.38,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T07:58:19Z"
         },
         {
           "id": "1HJr3tp2LIrvXFexwiyn7s",
-          "title": "Getting Paid ​(f​eat​. Asake, Wizkid, Skillibeng​)",
+          "title": "Getting Paid \u200b(f\u200beat\u200b. Asake, Wizkid, Skillibeng\u200b)",
           "artist": "Sarz, Asake, Wizkid, Skillibeng",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -35781,7 +22397,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -35791,21 +22407,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-25",
-          "addedAt": "2025-10-04T15:19:31Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.533,
-            "valence": 0.706,
-            "tempo": 112.9,
-            "acousticness": 0.134,
-            "instrumentalness": 0.1102,
-            "liveness": 0.255,
-            "speechiness": 0.3,
-            "loudness": -5.33,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-04T15:19:31Z"
         },
         {
           "id": "65cRt4uGMzo51AzXqptVsX",
@@ -35832,21 +22434,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-19T22:09:57Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.873,
-            "valence": 0.759,
-            "tempo": 107.4,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0384,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -3.75,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-19T22:09:57Z"
         },
         {
           "id": "4Goljy9GHyi3zkBua0ivqE",
@@ -35859,28 +22447,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 6,
           "artistPopularity": 2,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "5oeShBwFaZWwZhWRktv3aX",
           "playlistPosition": 13,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-17T04:39:09Z",
-          "features": {
-            "danceability": 0.74,
-            "energy": 0.762,
-            "valence": 0.593,
-            "tempo": 108.2,
-            "acousticness": 0.198,
-            "instrumentalness": 0.0023,
-            "liveness": 0.282,
-            "speechiness": 0.242,
-            "loudness": -6.09,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-17T04:39:09Z"
         },
         {
           "id": "1QWiwXbGU9TxbMEyrEUooe",
@@ -35896,7 +22470,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -35906,21 +22480,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-21",
-          "addedAt": "2025-08-22T13:21:15Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.71,
-            "valence": 0.632,
-            "tempo": 108.4,
-            "acousticness": 0.064,
-            "instrumentalness": 0.0618,
-            "liveness": 0.277,
-            "speechiness": 0.268,
-            "loudness": -4.45,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-22T13:21:15Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -35945,21 +22505,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-23T21:32:01Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-23T21:32:01Z"
         },
         {
           "id": "4XxSjfAqiUvuAYWMunj3gf",
@@ -35979,21 +22525,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-09T15:30:41Z",
-          "features": {
-            "danceability": 0.746,
-            "energy": 0.731,
-            "valence": 0.511,
-            "tempo": 98.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0065,
-            "liveness": 0.165,
-            "speechiness": 0.212,
-            "loudness": -4.87,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-09T15:30:41Z"
         },
         {
           "id": "4fuLcIzYkc6MtFc09GG1mZ",
@@ -36006,7 +22538,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 56,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -36022,21 +22554,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-22",
-          "addedAt": "2025-08-22T13:21:38Z",
-          "features": {
-            "danceability": 0.782,
-            "energy": 0.649,
-            "valence": 0.848,
-            "tempo": 94.9,
-            "acousticness": 0.351,
-            "instrumentalness": 0.1272,
-            "liveness": 0.229,
-            "speechiness": 0.3,
-            "loudness": -4.04,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-22T13:21:38Z"
         },
         {
           "id": "2pZvgr0hnj3724N21VvlQo",
@@ -36059,21 +22577,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-16",
-          "addedAt": "2025-08-20T08:15:55Z",
-          "features": {
-            "danceability": 0.691,
-            "energy": 0.8,
-            "valence": 0.528,
-            "tempo": 96.2,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0768,
-            "liveness": 0.339,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-20T08:15:55Z"
         },
         {
           "id": "1lFgYxIMB4pTQUIYLKUqkj",
@@ -36091,21 +22595,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-06",
-          "addedAt": "2025-11-07T18:47:30Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.766,
-            "valence": 0.625,
-            "tempo": 98.5,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0646,
-            "liveness": 0.193,
-            "speechiness": 0.159,
-            "loudness": -4.03,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-07T18:47:30Z"
         },
         {
           "id": "3XoYWo0jdGq0T25KfNIr3L",
@@ -36124,7 +22614,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -36132,21 +22622,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-08",
-          "addedAt": "2025-08-20T08:16:29Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.774,
-            "valence": 0.78,
-            "tempo": 105.9,
-            "acousticness": 0.281,
-            "instrumentalness": 0.0402,
-            "liveness": 0.307,
-            "speechiness": 0.108,
-            "loudness": -5.3,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-20T08:16:29Z"
         },
         {
           "id": "75NaRkat24l3uKOyfymyzJ",
@@ -36173,21 +22649,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-19T22:10:07Z",
-          "features": {
-            "danceability": 0.826,
-            "energy": 0.697,
-            "valence": 0.549,
-            "tempo": 121.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0481,
-            "liveness": 0.232,
-            "speechiness": 0.3,
-            "loudness": -5.15,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-19T22:10:07Z"
         },
         {
           "id": "03FaewFCXKjhFEjQLl5l7t",
@@ -36209,21 +22671,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-08",
-          "addedAt": "2025-11-06T13:27:26Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.725,
-            "valence": 0.509,
-            "tempo": 122.3,
-            "acousticness": 0.363,
-            "instrumentalness": 0.0313,
-            "liveness": 0.183,
-            "speechiness": 0.274,
-            "loudness": -4.69,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T13:27:26Z"
         },
         {
           "id": "5ht0zFXsezKxVvu8eMiewq",
@@ -36240,7 +22688,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -36251,21 +22699,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-14T09:38:31Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-14T09:38:31Z"
         },
         {
           "id": "6aoKNOL481xVNuqeayQjPj",
@@ -36288,21 +22722,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-03T14:33:11Z",
-          "features": {
-            "danceability": 0.559,
-            "energy": 0.711,
-            "valence": 0.739,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0275,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-03T14:33:11Z"
         },
         {
           "id": "7zmkkFwvg9SFlGi1C2Nw05",
@@ -36320,21 +22740,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-05T10:23:59Z",
-          "features": {
-            "danceability": 0.631,
-            "energy": 0.68,
-            "valence": 0.618,
-            "tempo": 114.2,
-            "acousticness": 0.175,
-            "instrumentalness": 0.0308,
-            "liveness": 0.05,
-            "speechiness": 0.089,
-            "loudness": -7.4,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-05T10:23:59Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -36361,21 +22767,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-05-01T13:24:02Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-01T13:24:02Z"
         },
         {
           "id": "1myE3bHoWoSO5hyr3MxdHJ",
@@ -36395,21 +22787,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-24",
-          "addedAt": "2025-07-31T12:40:49Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.731,
-            "valence": 0.699,
-            "tempo": 124.1,
-            "acousticness": 0.153,
-            "instrumentalness": 0.0648,
-            "liveness": 0.332,
-            "speechiness": 0.225,
-            "loudness": -3.6,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-31T12:40:49Z"
         },
         {
           "id": "4w2HZIqslardBh6cpvJKab",
@@ -36427,21 +22805,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-30",
-          "addedAt": "2025-11-01T11:51:40Z",
-          "features": {
-            "danceability": 0.79,
-            "energy": 0.659,
-            "valence": 0.67,
-            "tempo": 119.1,
-            "acousticness": 0.128,
-            "instrumentalness": 0.1062,
-            "liveness": 0.05,
-            "speechiness": 0.174,
-            "loudness": -7.31,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T11:51:40Z"
         },
         {
           "id": "0FU7ERQTOECwmEIaWDgdIG",
@@ -36468,21 +22832,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-07-31T12:41:07Z",
-          "features": {
-            "danceability": 0.619,
-            "energy": 0.774,
-            "valence": 0.825,
-            "tempo": 112.3,
-            "acousticness": 0.154,
-            "instrumentalness": 0.0037,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-31T12:41:07Z"
         },
         {
           "id": "32a4IaGEJUhfy45yV5JH84",
@@ -36501,7 +22851,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -36510,21 +22860,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-02",
-          "addedAt": "2025-07-16T00:24:09Z",
-          "features": {
-            "danceability": 0.751,
-            "energy": 0.705,
-            "valence": 0.562,
-            "tempo": 90.0,
-            "acousticness": 0.014,
-            "instrumentalness": 0.0147,
-            "liveness": 0.094,
-            "speechiness": 0.21,
-            "loudness": -5.93,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T00:24:09Z"
         },
         {
           "id": "0qwdJXnp8X3ZZ7MA88ipiw",
@@ -36542,21 +22878,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-27",
-          "addedAt": "2025-10-28T09:51:33Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.724,
-            "valence": 0.743,
-            "tempo": 106.7,
-            "acousticness": 0.171,
-            "instrumentalness": 0.1271,
-            "liveness": 0.083,
-            "speechiness": 0.185,
-            "loudness": -3.0,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-28T09:51:33Z"
         },
         {
           "id": "28NElMiahjGMfcE1G8Y6TG",
@@ -36575,7 +22897,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -36584,21 +22906,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-02",
-          "addedAt": "2025-07-16T00:24:31Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.717,
-            "valence": 0.565,
-            "tempo": 98.5,
-            "acousticness": 0.105,
-            "instrumentalness": 0.1496,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.89,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T00:24:31Z"
         },
         {
           "id": "3w0eFAME3IxlonearUIaXJ",
@@ -36622,21 +22930,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-20",
-          "addedAt": "2025-07-16T00:22:22Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.756,
-            "valence": 0.9,
-            "tempo": 112.3,
-            "acousticness": 0.23,
-            "instrumentalness": 0.0748,
-            "liveness": 0.304,
-            "speechiness": 0.3,
-            "loudness": -5.24,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T00:22:22Z"
         },
         {
           "id": "6i1QNiSJewjh6Vy2nZWEBY",
@@ -36656,21 +22950,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-08",
-          "addedAt": "2025-10-23T19:26:06Z",
-          "features": {
-            "danceability": 0.713,
-            "energy": 0.594,
-            "valence": 0.695,
-            "tempo": 107.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0037,
-            "liveness": 0.162,
-            "speechiness": 0.3,
-            "loudness": -5.05,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-23T19:26:06Z"
         },
         {
           "id": "2hZSwKDJFiTnxnvObgiQuB",
@@ -36695,21 +22975,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-16T00:25:03Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.741,
-            "valence": 0.598,
-            "tempo": 105.2,
-            "acousticness": 0.36,
-            "instrumentalness": 0.0678,
-            "liveness": 0.294,
-            "speechiness": 0.132,
-            "loudness": -4.66,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-16T00:25:03Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -36722,7 +22988,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -36735,21 +23001,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-05-29T22:11:22Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-29T22:11:22Z"
         },
         {
           "id": "2MGy7iXQV9uuz339uVKdWu",
@@ -36774,21 +23026,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-13T09:21:47Z",
-          "features": {
-            "danceability": 0.598,
-            "energy": 0.785,
-            "valence": 0.657,
-            "tempo": 98.4,
-            "acousticness": 0.083,
-            "instrumentalness": 0.1078,
-            "liveness": 0.129,
-            "speechiness": 0.3,
-            "loudness": -3.07,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-13T09:21:47Z"
         },
         {
           "id": "0BzX5iHjzOJw3j9xK4B5pq",
@@ -36811,21 +23049,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-26",
-          "addedAt": "2025-06-30T19:24:14Z",
-          "features": {
-            "danceability": 0.602,
-            "energy": 0.539,
-            "valence": 0.598,
-            "tempo": 132.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0217,
-            "liveness": 0.082,
-            "speechiness": 0.3,
-            "loudness": -8.76,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-30T19:24:14Z"
         },
         {
           "id": "3yKgOMlm0LFpm9T2AhGWJJ",
@@ -36848,21 +23072,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-19",
-          "addedAt": "2025-06-30T19:23:59Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.702,
-            "valence": 0.725,
-            "tempo": 112.8,
-            "acousticness": 0.295,
-            "instrumentalness": 0.0137,
-            "liveness": 0.265,
-            "speechiness": 0.3,
-            "loudness": -8.33,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-30T19:23:59Z"
         },
         {
           "id": "0SmcKaXjPCCK7nq0coN6B2",
@@ -36887,21 +23097,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-25",
-          "addedAt": "2025-06-26T09:27:00Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.769,
-            "valence": 0.686,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0089,
-            "liveness": 0.183,
-            "speechiness": 0.128,
-            "loudness": -4.09,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-26T09:27:00Z"
         },
         {
           "id": "00uXDC6A3RK2HJlTK6h0Ak",
@@ -36928,21 +23124,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-26T09:28:23Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.764,
-            "valence": 0.849,
-            "tempo": 132.6,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0869,
-            "liveness": 0.105,
-            "speechiness": 0.165,
-            "loudness": -7.0,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-26T09:28:23Z"
         },
         {
           "id": "7EqoATlXAKNwzv45LAlqRt",
@@ -36967,21 +23149,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-08-13",
-          "addedAt": "2025-06-05T11:28:00Z",
-          "features": {
-            "danceability": 0.678,
-            "energy": 0.729,
-            "valence": 0.533,
-            "tempo": 90.0,
-            "acousticness": 0.257,
-            "instrumentalness": 0.1012,
-            "liveness": 0.35,
-            "speechiness": 0.236,
-            "loudness": -4.25,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-05T11:28:00Z"
         },
         {
           "id": "4ZLPVrjMb6dkY0v9Tf3UKt",
@@ -37004,21 +23172,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-06-05T11:28:25Z",
-          "features": {
-            "danceability": 0.572,
-            "energy": 0.692,
-            "valence": 0.851,
-            "tempo": 101.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0208,
-            "liveness": 0.35,
-            "speechiness": 0.119,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-05T11:28:25Z"
         },
         {
           "id": "4gHuikjFbQimWW33jXCEdU",
@@ -37038,21 +23192,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-09",
-          "addedAt": "2025-06-13T19:07:14Z",
-          "features": {
-            "danceability": 0.779,
-            "energy": 0.68,
-            "valence": 0.614,
-            "tempo": 105.3,
-            "acousticness": 0.367,
-            "instrumentalness": 0.1088,
-            "liveness": 0.22,
-            "speechiness": 0.3,
-            "loudness": -4.72,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-13T19:07:14Z"
         },
         {
           "id": "5UKjVTABJpQSx1UynzpHon",
@@ -37068,7 +23208,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afro soul",
             "afropiano"
@@ -37078,21 +23218,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-06-13T19:07:32Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.643,
-            "valence": 0.872,
-            "tempo": 125.7,
-            "acousticness": 0.198,
-            "instrumentalness": 0.1161,
-            "liveness": 0.304,
-            "speechiness": 0.08,
-            "loudness": -4.43,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-13T19:07:32Z"
         },
         {
           "id": "56lGvDVasowdpufZnBJbuB",
@@ -37117,21 +23243,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-05-31T21:28:52Z",
-          "features": {
-            "danceability": 0.811,
-            "energy": 0.591,
-            "valence": 0.678,
-            "tempo": 126.8,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0686,
-            "liveness": 0.122,
-            "speechiness": 0.28,
-            "loudness": -6.3,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T21:28:52Z"
         },
         {
           "id": "54HwZc6fEmR5EnjRT4oBq5",
@@ -37150,7 +23262,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -37159,21 +23271,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-04",
-          "addedAt": "2025-06-04T23:47:21Z",
-          "features": {
-            "danceability": 0.681,
-            "energy": 0.733,
-            "valence": 0.569,
-            "tempo": 115.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0227,
-            "liveness": 0.35,
-            "speechiness": 0.285,
-            "loudness": -7.53,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-04T23:47:21Z"
         },
         {
           "id": "7mdvPu1ZAOIgMzr3sfpAqk",
@@ -37197,21 +23295,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-26",
-          "addedAt": "2025-06-04T23:48:10Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.656,
-            "valence": 0.61,
-            "tempo": 108.6,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -4.91,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-04T23:48:10Z"
         },
         {
           "id": "0mCxHKr5bp05PMdD7jU4rW",
@@ -37236,21 +23320,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-05-31T21:29:04Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.635,
-            "valence": 0.419,
-            "tempo": 96.8,
-            "acousticness": 0.353,
-            "instrumentalness": 0.0403,
-            "liveness": 0.077,
-            "speechiness": 0.262,
-            "loudness": -6.47,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T21:29:04Z"
         },
         {
           "id": "05lhFsOWPXRjfGA7xY7XJz",
@@ -37274,21 +23344,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-23T21:32:01Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.796,
-            "valence": 0.545,
-            "tempo": 111.8,
-            "acousticness": 0.069,
-            "instrumentalness": 0.03,
-            "liveness": 0.34,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-23T21:32:01Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -37313,21 +23369,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-05T20:50:06Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-05T20:50:06Z"
         },
         {
           "id": "52ZxqHSe1HesJPwuuBiW4U",
@@ -37351,21 +23393,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-19T21:48:18Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.743,
-            "valence": 0.595,
-            "tempo": 127.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.15,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -3.63,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-19T21:48:18Z"
         },
         {
           "id": "5HdDeWksXmV7ldWJFQ1wyr",
@@ -37381,7 +23409,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -37391,21 +23419,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-05",
-          "addedAt": "2025-10-06T21:14:56Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.67,
-            "valence": 0.66,
-            "tempo": 94.0,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0308,
-            "liveness": 0.149,
-            "speechiness": 0.3,
-            "loudness": -6.38,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-06T21:14:56Z"
         },
         {
           "id": "4FHlbOMdOcPnOYmfH8dl1Z",
@@ -37430,21 +23444,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-13T09:22:18Z",
-          "features": {
-            "danceability": 0.673,
-            "energy": 0.701,
-            "valence": 0.64,
-            "tempo": 117.4,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0155,
-            "liveness": 0.104,
-            "speechiness": 0.3,
-            "loudness": -4.12,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-13T09:22:18Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -37467,21 +23467,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-11T16:02:44Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-11T16:02:44Z"
         },
         {
           "id": "6pQbYAALQzrKufayaBz8cC",
@@ -37497,7 +23483,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -37507,21 +23493,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-10-06T21:15:24Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.725,
-            "valence": 0.702,
-            "tempo": 116.2,
-            "acousticness": 0.315,
-            "instrumentalness": 0.0019,
-            "liveness": 0.174,
-            "speechiness": 0.3,
-            "loudness": -7.97,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-06T21:15:24Z"
         },
         {
           "id": "2rjXDlyaMpuqL7lzyEh7V4",
@@ -37541,21 +23513,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-07",
-          "addedAt": "2025-08-14T09:37:02Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.701,
-            "valence": 0.659,
-            "tempo": 90.0,
-            "acousticness": 0.056,
-            "instrumentalness": 0.0562,
-            "liveness": 0.193,
-            "speechiness": 0.3,
-            "loudness": -6.46,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-14T09:37:02Z"
         },
         {
           "id": "6teayPHJeebZj4s9eMPCyY",
@@ -37580,21 +23538,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-11T16:02:49Z",
-          "features": {
-            "danceability": 0.704,
-            "energy": 0.781,
-            "valence": 0.423,
-            "tempo": 126.2,
-            "acousticness": 0.203,
-            "instrumentalness": 0.1443,
-            "liveness": 0.293,
-            "speechiness": 0.119,
-            "loudness": -6.21,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-11T16:02:49Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -37621,26 +23565,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-05-19T21:48:24Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-19T21:48:24Z"
         },
         {
           "id": "3BRna1YDKLEtiEiJ0ArbSA",
-          "title": "Offa Me (feat. Victoria Monét)",
-          "artist": "Davido, Victoria Monét",
+          "title": "Offa Me (feat. Victoria Mon\u00e9t)",
+          "artist": "Davido, Victoria Mon\u00e9t",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -37663,21 +23593,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-05T20:50:54Z",
-          "features": {
-            "danceability": 0.784,
-            "energy": 0.793,
-            "valence": 0.653,
-            "tempo": 90.0,
-            "acousticness": 0.203,
-            "instrumentalness": 0.0617,
-            "liveness": 0.35,
-            "speechiness": 0.242,
-            "loudness": -4.59,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-05T20:50:54Z"
         },
         {
           "id": "2Zju2Flw73tLPQNEfqu9gJ",
@@ -37704,21 +23620,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-02",
-          "addedAt": "2025-05-15T20:22:50Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.732,
-            "valence": 0.659,
-            "tempo": 111.9,
-            "acousticness": 0.116,
-            "instrumentalness": 0.013,
-            "liveness": 0.113,
-            "speechiness": 0.257,
-            "loudness": -3.83,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-15T20:22:50Z"
         },
         {
           "id": "04Np3EvsIBgaDLriPvfxQn",
@@ -37737,7 +23639,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -37746,21 +23648,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-07",
-          "addedAt": "2025-05-15T20:23:12Z",
-          "features": {
-            "danceability": 0.784,
-            "energy": 0.747,
-            "valence": 0.665,
-            "tempo": 118.3,
-            "acousticness": 0.382,
-            "instrumentalness": 0.0591,
-            "liveness": 0.121,
-            "speechiness": 0.173,
-            "loudness": -5.35,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-15T20:23:12Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -37785,21 +23673,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-01T13:24:08Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-01T13:24:08Z"
         },
         {
           "id": "6rglbXafPHF3J7gM9ssgkM",
@@ -37824,21 +23698,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-01",
-          "addedAt": "2025-05-03T20:48:39Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.683,
-            "valence": 0.557,
-            "tempo": 110.9,
-            "acousticness": 0.251,
-            "instrumentalness": 0.0337,
-            "liveness": 0.234,
-            "speechiness": 0.3,
-            "loudness": -6.71,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-03T20:48:39Z"
         },
         {
           "id": "4AXybaV9uvaFj9piNGYcue",
@@ -37851,7 +23711,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 18,
           "artistPopularity": 64,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropop",
@@ -37867,26 +23727,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-05-03T20:49:11Z",
-          "features": {
-            "danceability": 0.581,
-            "energy": 0.72,
-            "valence": 0.555,
-            "tempo": 112.2,
-            "acousticness": 0.146,
-            "instrumentalness": 0.0865,
-            "liveness": 0.076,
-            "speechiness": 0.3,
-            "loudness": -6.77,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-03T20:49:11Z"
         },
         {
           "id": "5VceXjXeBMGOHC04rjpyC7",
-          "title": "4 Kampé II",
-          "artist": "Joé Dwèt Filé, Burna Boy",
+          "title": "4 Kamp\u00e9 II",
+          "artist": "Jo\u00e9 Dw\u00e8t Fil\u00e9, Burna Boy",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -37906,21 +23752,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-27",
-          "addedAt": "2025-04-12T23:52:05Z",
-          "features": {
-            "danceability": 0.761,
-            "energy": 0.681,
-            "valence": 0.555,
-            "tempo": 100.5,
-            "acousticness": 0.104,
-            "instrumentalness": 0.1214,
-            "liveness": 0.188,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-12T23:52:05Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -37948,21 +23780,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-04-19T10:31:00Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-19T10:31:00Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -37985,21 +23803,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-04-20T12:26:26Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-20T12:26:26Z"
         },
         {
           "id": "6BZ2DNapAPgzNDMz3tozhU",
@@ -38012,7 +23816,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 32,
           "artistPopularity": 40,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afrobeats",
             "afro soul",
@@ -38023,21 +23827,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-20T12:27:02Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.733,
-            "valence": 0.646,
-            "tempo": 99.8,
-            "acousticness": 0.128,
-            "instrumentalness": 0.0161,
-            "liveness": 0.05,
-            "speechiness": 0.153,
-            "loudness": -6.66,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-20T12:27:02Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -38060,21 +23850,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-04-11T10:34:46Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-11T10:34:46Z"
         },
         {
           "id": "3HdiLzN2f7VpCzBR0Zz3JP",
@@ -38102,21 +23878,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-04-19T10:32:29Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.706,
-            "valence": 0.588,
-            "tempo": 98.0,
-            "acousticness": 0.215,
-            "instrumentalness": 0.0665,
-            "liveness": 0.05,
-            "speechiness": 0.286,
-            "loudness": -6.06,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-19T10:32:29Z"
         },
         {
           "id": "2Vs4jKsqTXgK66WknruQWc",
@@ -38132,7 +23894,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -38142,21 +23904,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-04-12T23:51:52Z",
-          "features": {
-            "danceability": 0.597,
-            "energy": 0.724,
-            "valence": 0.592,
-            "tempo": 130.5,
-            "acousticness": 0.106,
-            "instrumentalness": 0.0496,
-            "liveness": 0.108,
-            "speechiness": 0.293,
-            "loudness": -4.04,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-12T23:51:52Z"
         },
         {
           "id": "0lhLSwvRKGHfIcVEz3uQK6",
@@ -38181,21 +23929,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-03-21T23:42:37Z",
-          "features": {
-            "danceability": 0.608,
-            "energy": 0.788,
-            "valence": 0.753,
-            "tempo": 128.5,
-            "acousticness": 0.132,
-            "instrumentalness": 0.15,
-            "liveness": 0.11,
-            "speechiness": 0.3,
-            "loudness": -5.31,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-21T23:42:37Z"
         },
         {
           "id": "0QCIpQV3twfqo9kh0t8Zza",
@@ -38208,28 +23942,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 84,
           "artistPopularity": 73,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "2hVWBpjLW4Q7fboYz2pVYK",
           "playlistPosition": 74,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-04-15T21:19:06Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.792,
-            "valence": 0.829,
-            "tempo": 122.1,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0424,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -7.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-15T21:19:06Z"
         },
         {
           "id": "6rOqLUy3kp0PVQQEtNPpbQ",
@@ -38244,7 +23964,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "afro r&b"
@@ -38254,21 +23974,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-07",
-          "addedAt": "2024-01-13T04:43:13Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.692,
-            "valence": 0.563,
-            "tempo": 119.9,
-            "acousticness": 0.032,
-            "instrumentalness": 0.0981,
-            "liveness": 0.35,
-            "speechiness": 0.132,
-            "loudness": -5.62,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-01-13T04:43:13Z"
         },
         {
           "id": "3iHp95MVzN1hBiOuR0cJmy",
@@ -38284,7 +23990,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -38294,21 +24000,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-04-15T21:18:31Z",
-          "features": {
-            "danceability": 0.686,
-            "energy": 0.602,
-            "valence": 0.626,
-            "tempo": 103.7,
-            "acousticness": 0.056,
-            "instrumentalness": 0.0472,
-            "liveness": 0.219,
-            "speechiness": 0.3,
-            "loudness": -6.2,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-04-15T21:18:31Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -38332,21 +24024,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-03-21T23:42:43Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-03-21T23:42:43Z"
         },
         {
           "id": "5HeW3DSp2lsfcXXRuJkZUy",
@@ -38372,21 +24050,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2024-11-29T00:31:32Z",
-          "features": {
-            "danceability": 0.67,
-            "energy": 0.873,
-            "valence": 0.79,
-            "tempo": 127.7,
-            "acousticness": 0.047,
-            "instrumentalness": 0.048,
-            "liveness": 0.206,
-            "speechiness": 0.142,
-            "loudness": -4.49,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-11-29T00:31:32Z"
         },
         {
           "id": "2TOk5OzW5sL83ndKYZJmU7",
@@ -38413,21 +24077,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-06",
-          "addedAt": "2024-08-09T00:46:47Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.812,
-            "valence": 0.683,
-            "tempo": 103.2,
-            "acousticness": 0.272,
-            "instrumentalness": 0.1358,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.53,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2024-08-09T00:46:47Z"
         }
       ]
     },
@@ -38455,7 +24105,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro r&b",
             "azonto",
@@ -38466,21 +24116,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-25",
-          "addedAt": "2025-08-20T10:09:13Z",
-          "features": {
-            "danceability": 0.697,
-            "energy": 0.596,
-            "valence": 0.703,
-            "tempo": 102.3,
-            "acousticness": 0.195,
-            "instrumentalness": 0.039,
-            "liveness": 0.35,
-            "speechiness": 0.194,
-            "loudness": -4.31,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-20T10:09:13Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -38503,21 +24139,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-10-01T11:55:35Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-01T11:55:35Z"
         },
         {
           "id": "27t80Pcxx3VWx5qu5kKALD",
@@ -38535,21 +24157,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-01",
-          "addedAt": "2025-11-18T09:37:36Z",
-          "features": {
-            "danceability": 0.746,
-            "energy": 0.671,
-            "valence": 0.489,
-            "tempo": 105.3,
-            "acousticness": 0.355,
-            "instrumentalness": 0.0495,
-            "liveness": 0.331,
-            "speechiness": 0.103,
-            "loudness": -6.81,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T09:37:36Z"
         },
         {
           "id": "12sQMnFKMtaFkySzuk25nD",
@@ -38567,21 +24175,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-17T08:25:13Z",
-          "features": {
-            "danceability": 0.787,
-            "energy": 0.682,
-            "valence": 0.752,
-            "tempo": 131.5,
-            "acousticness": 0.098,
-            "instrumentalness": 0.0707,
-            "liveness": 0.189,
-            "speechiness": 0.3,
-            "loudness": -7.86,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-17T08:25:13Z"
         },
         {
           "id": "7dTEOkCQWc8YuHjuaSolSX",
@@ -38600,7 +24194,7 @@ window.AFROBEATS_DATA = {
             "afro r&b",
             "afro adura",
             "afropiano",
-            "alté",
+            "alt\u00e9",
             "afroswing",
             "afro soul"
           ],
@@ -38609,21 +24203,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-02",
-          "addedAt": "2025-07-13T09:17:30Z",
-          "features": {
-            "danceability": 0.637,
-            "energy": 0.564,
-            "valence": 0.56,
-            "tempo": 90.0,
-            "acousticness": 0.107,
-            "instrumentalness": 0.0696,
-            "liveness": 0.08,
-            "speechiness": 0.255,
-            "loudness": -4.04,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-13T09:17:30Z"
         },
         {
           "id": "4H59BcHlbybN9nIshYJOau",
@@ -38641,21 +24221,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-14T20:58:27Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.639,
-            "valence": 0.672,
-            "tempo": 112.4,
-            "acousticness": 0.012,
-            "instrumentalness": 0.1378,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T20:58:27Z"
         },
         {
           "id": "6PGfQ34Mss9ZqOo5GUUvKN",
@@ -38676,21 +24242,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-24",
-          "addedAt": "2025-11-11T09:14:52Z",
-          "features": {
-            "danceability": 0.662,
-            "energy": 0.635,
-            "valence": 0.641,
-            "tempo": 93.9,
-            "acousticness": 0.235,
-            "instrumentalness": 0.0117,
-            "liveness": 0.239,
-            "speechiness": 0.279,
-            "loudness": -6.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-11T09:14:52Z"
         },
         {
           "id": "65cRt4uGMzo51AzXqptVsX",
@@ -38717,21 +24269,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-28T14:30:09Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.873,
-            "valence": 0.759,
-            "tempo": 107.4,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0384,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -3.75,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-28T14:30:09Z"
         },
         {
           "id": "60pF3Jc1N9xCqIVb0dZ4eM",
@@ -38749,21 +24287,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-01T09:31:39Z",
-          "features": {
-            "danceability": 0.7,
-            "energy": 0.68,
-            "valence": 0.673,
-            "tempo": 114.4,
-            "acousticness": 0.125,
-            "instrumentalness": 0.0127,
-            "liveness": 0.243,
-            "speechiness": 0.214,
-            "loudness": -4.91,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T09:31:39Z"
         },
         {
           "id": "5KaNajhPylaZH88QlUrnBM",
@@ -38784,21 +24308,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-28",
-          "addedAt": "2025-10-31T06:31:10Z",
-          "features": {
-            "danceability": 0.6,
-            "energy": 0.81,
-            "valence": 0.627,
-            "tempo": 109.0,
-            "acousticness": 0.279,
-            "instrumentalness": 0.0115,
-            "liveness": 0.05,
-            "speechiness": 0.181,
-            "loudness": -6.18,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-31T06:31:10Z"
         },
         {
           "id": "6al03F4hh8LUPRMcnrM3H5",
@@ -38812,7 +24322,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 53,
           "artistGenres": [
             "afrobeats",
-            "alté",
+            "alt\u00e9",
             "afrobeat",
             "afro adura",
             "afropop",
@@ -38826,21 +24336,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-13",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.781,
-            "energy": 0.772,
-            "valence": 0.584,
-            "tempo": 90.0,
-            "acousticness": 0.18,
-            "instrumentalness": 0.0031,
-            "liveness": 0.35,
-            "speechiness": 0.055,
-            "loudness": -6.65,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "0Mdpty9ipHzoSUMo6mSx2c",
@@ -38858,21 +24354,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-06",
-          "addedAt": "2025-10-29T15:34:46Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.677,
-            "valence": 0.618,
-            "tempo": 104.9,
-            "acousticness": 0.179,
-            "instrumentalness": 0.0071,
-            "liveness": 0.208,
-            "speechiness": 0.133,
-            "loudness": -7.63,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-29T15:34:46Z"
         },
         {
           "id": "0yVYclELnoKUoTWrbs5MfX",
@@ -38890,21 +24372,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-10-28T12:04:25Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.67,
-            "valence": 0.699,
-            "tempo": 117.7,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0614,
-            "liveness": 0.259,
-            "speechiness": 0.191,
-            "loudness": -6.38,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-28T12:04:25Z"
         },
         {
           "id": "5hohPxxNfGRbW0PG2R0mhd",
@@ -38932,21 +24400,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-14",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.839,
-            "energy": 0.8,
-            "valence": 0.704,
-            "tempo": 105.4,
-            "acousticness": 0.381,
-            "instrumentalness": 0.0484,
-            "liveness": 0.201,
-            "speechiness": 0.3,
-            "loudness": -6.06,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "0rvU8yE1WBubDg9TMPzH0R",
@@ -38964,21 +24418,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-10-27T12:20:10Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.703,
-            "valence": 0.668,
-            "tempo": 118.9,
-            "acousticness": 0.28,
-            "instrumentalness": 0.0144,
-            "liveness": 0.05,
-            "speechiness": 0.109,
-            "loudness": -5.66,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-27T12:20:10Z"
         },
         {
           "id": "4WoKt6qWoKdKR8YnX7ZTYo",
@@ -38996,21 +24436,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-25",
-          "addedAt": "2025-10-24T09:35:57Z",
-          "features": {
-            "danceability": 0.739,
-            "energy": 0.694,
-            "valence": 0.659,
-            "tempo": 128.5,
-            "acousticness": 0.141,
-            "instrumentalness": 0.0381,
-            "liveness": 0.128,
-            "speechiness": 0.3,
-            "loudness": -6.24,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T09:35:57Z"
         },
         {
           "id": "4xVj25uTjTZCaHbSFbYwAE",
@@ -39023,7 +24449,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 61,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afropiano",
@@ -39036,21 +24462,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-19",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.583,
-            "energy": 0.682,
-            "valence": 0.595,
-            "tempo": 105.9,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0149,
-            "liveness": 0.35,
-            "speechiness": 0.189,
-            "loudness": -7.27,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2Afz4bZEgaFObS2IJMD1GP",
@@ -39068,21 +24480,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-20",
-          "addedAt": "2025-10-21T10:29:46Z",
-          "features": {
-            "danceability": 0.66,
-            "energy": 0.756,
-            "valence": 0.598,
-            "tempo": 100.4,
-            "acousticness": 0.145,
-            "instrumentalness": 0.0058,
-            "liveness": 0.147,
-            "speechiness": 0.188,
-            "loudness": -3.7,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-21T10:29:46Z"
         },
         {
           "id": "7EzWkg2eZjwXwHEEhVcnxJ",
@@ -39107,21 +24505,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-28",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.803,
-            "energy": 0.795,
-            "valence": 0.668,
-            "tempo": 96.5,
-            "acousticness": 0.193,
-            "instrumentalness": 0.1274,
-            "liveness": 0.292,
-            "speechiness": 0.3,
-            "loudness": -7.61,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "4rYrmw13Viwwu3c5vM89ty",
@@ -39146,21 +24530,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-10",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.827,
-            "energy": 0.704,
-            "valence": 0.698,
-            "tempo": 117.8,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0486,
-            "liveness": 0.094,
-            "speechiness": 0.261,
-            "loudness": -6.11,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "1QkUnVCGx3ghx0WG8XO4J7",
@@ -39186,21 +24556,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-14",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.65,
-            "energy": 0.837,
-            "valence": 0.644,
-            "tempo": 101.6,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0294,
-            "liveness": 0.059,
-            "speechiness": 0.205,
-            "loudness": -5.72,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2YwBdxvMFsWUSCaL1U6xIg",
@@ -39224,21 +24580,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.597,
-            "valence": 0.615,
-            "tempo": 105.0,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0263,
-            "liveness": 0.195,
-            "speechiness": 0.105,
-            "loudness": -5.31,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2j8n2hpZlEMvtrjJ7n0ZIy",
@@ -39264,21 +24606,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.549,
-            "valence": 0.68,
-            "tempo": 117.5,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0082,
-            "liveness": 0.101,
-            "speechiness": 0.165,
-            "loudness": -5.89,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "5mNEct44dKpHjEyCGVQNsF",
@@ -39303,21 +24631,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-30",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.811,
-            "energy": 0.629,
-            "valence": 0.479,
-            "tempo": 114.3,
-            "acousticness": 0.214,
-            "instrumentalness": 0.0518,
-            "liveness": 0.127,
-            "speechiness": 0.3,
-            "loudness": -4.18,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "09ISd5Xw3QMvxKhvNj5tIC",
@@ -39342,21 +24656,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.655,
-            "valence": 0.768,
-            "tempo": 99.2,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0753,
-            "liveness": 0.145,
-            "speechiness": 0.124,
-            "loudness": -6.38,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "6RNP84XyE9eemCgWPVRni8",
@@ -39373,7 +24673,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afropop",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afro soul",
             "afroswing",
             "afropiano"
@@ -39383,21 +24683,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.601,
-            "energy": 0.701,
-            "valence": 0.543,
-            "tempo": 125.5,
-            "acousticness": 0.07,
-            "instrumentalness": 0.0069,
-            "liveness": 0.136,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "6XBIOtdSL47qn201KKNCA0",
@@ -39420,21 +24706,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-22",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.669,
-            "valence": 0.682,
-            "tempo": 90.0,
-            "acousticness": 0.091,
-            "instrumentalness": 0.0991,
-            "liveness": 0.326,
-            "speechiness": 0.188,
-            "loudness": -5.7,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "3tH6wzTJ1IdlBoMJh6oG8a",
@@ -39457,21 +24729,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-15",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.754,
-            "valence": 0.701,
-            "tempo": 99.9,
-            "acousticness": 0.116,
-            "instrumentalness": 0.0314,
-            "liveness": 0.095,
-            "speechiness": 0.3,
-            "loudness": -7.31,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "6wN5G9LhuljafQRHzb4K6s",
@@ -39495,21 +24753,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-08",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.624,
-            "energy": 0.695,
-            "valence": 0.512,
-            "tempo": 108.4,
-            "acousticness": 0.169,
-            "instrumentalness": 0.0192,
-            "liveness": 0.235,
-            "speechiness": 0.3,
-            "loudness": -6.73,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -39536,21 +24780,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "52ZxqHSe1HesJPwuuBiW4U",
@@ -39574,21 +24804,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.743,
-            "valence": 0.595,
-            "tempo": 127.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.15,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -3.63,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "37PVItglTwpHi9nq0ftOjg",
@@ -39614,26 +24830,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.742,
-            "energy": 0.847,
-            "valence": 0.9,
-            "tempo": 99.9,
-            "acousticness": 0.088,
-            "instrumentalness": 0.0369,
-            "liveness": 0.348,
-            "speechiness": 0.126,
-            "loudness": -5.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "7xUCIZhvKkH4aWrR5eUodN",
           "title": "May 10th",
-          "artist": "Serøtonin",
+          "artist": "Ser\u00f8tonin",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -39646,7 +24848,7 @@ window.AFROBEATS_DATA = {
             "afrobeat",
             "afro r&b",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afropiano"
           ],
           "artistId": "2WBBOY2ru2VV81lWHw6lzp",
@@ -39654,21 +24856,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-11",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.629,
-            "energy": 0.721,
-            "valence": 0.717,
-            "tempo": 113.3,
-            "acousticness": 0.256,
-            "instrumentalness": 0.0584,
-            "liveness": 0.09,
-            "speechiness": 0.207,
-            "loudness": -5.3,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "7L1DT2ByQ331AJkDfjvI5N",
@@ -39691,21 +24879,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-25",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.709,
-            "energy": 0.59,
-            "valence": 0.451,
-            "tempo": 111.4,
-            "acousticness": 0.096,
-            "instrumentalness": 0.0348,
-            "liveness": 0.333,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "3H2bLX6U4kNuv04iTkCrSp",
@@ -39728,21 +24902,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-01",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.721,
-            "energy": 0.737,
-            "valence": 0.798,
-            "tempo": 108.1,
-            "acousticness": 0.051,
-            "instrumentalness": 0.1027,
-            "liveness": 0.225,
-            "speechiness": 0.114,
-            "loudness": -4.37,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "4XHrQHvHWlE0RldeG8Nslq",
@@ -39766,21 +24926,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 121.8,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0891,
-            "liveness": 0.074,
-            "speechiness": 0.175,
-            "loudness": -3.51,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -39804,21 +24950,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2GSK9VfsKWpVOV6ZzKiMA4",
@@ -39844,21 +24976,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-04",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.719,
-            "valence": 0.63,
-            "tempo": 124.0,
-            "acousticness": 0.165,
-            "instrumentalness": 0.0551,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -3.78,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "6e0YUaVAfDxUabmybOjguy",
@@ -39886,21 +25004,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-31",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.736,
-            "valence": 0.549,
-            "tempo": 120.4,
-            "acousticness": 0.215,
-            "instrumentalness": 0.0941,
-            "liveness": 0.157,
-            "speechiness": 0.3,
-            "loudness": -5.78,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2WHM3orrvvqziSkG0xp8sy",
@@ -39927,21 +25031,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.625,
-            "energy": 0.783,
-            "valence": 0.626,
-            "tempo": 104.1,
-            "acousticness": 0.278,
-            "instrumentalness": 0.0401,
-            "liveness": 0.112,
-            "speechiness": 0.131,
-            "loudness": -5.94,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "7BOgyrWA7OURpdJ9YksRFR",
@@ -39965,21 +25055,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-24",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.736,
-            "energy": 0.907,
-            "valence": 0.537,
-            "tempo": 107.9,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0026,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.98,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "2qdwZPTNCHb8DXfQin53WK",
@@ -40003,21 +25079,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-09-13",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.693,
-            "valence": 0.479,
-            "tempo": 135.0,
-            "acousticness": 0.055,
-            "instrumentalness": 0.0613,
-            "liveness": 0.116,
-            "speechiness": 0.05,
-            "loudness": -3.0,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "5nmYNuBSh99LNDdZ0iSe2O",
@@ -40042,21 +25104,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.706,
-            "valence": 0.605,
-            "tempo": 111.2,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0914,
-            "liveness": 0.219,
-            "speechiness": 0.298,
-            "loudness": -3.57,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "4KZMoDuxwSYP63bhbnMqe3",
@@ -40081,21 +25129,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-12",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.711,
-            "valence": 0.722,
-            "tempo": 90.0,
-            "acousticness": 0.16,
-            "instrumentalness": 0.0277,
-            "liveness": 0.224,
-            "speechiness": 0.219,
-            "loudness": -7.49,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         },
         {
           "id": "258dAAbHbmjEuxZCPT3YqC",
@@ -40111,7 +25145,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "hiplife",
             "afro adura",
             "afro r&b",
@@ -40123,21 +25157,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-24",
-          "addedAt": "2025-05-09T17:21:55Z",
-          "features": {
-            "danceability": 0.733,
-            "energy": 0.732,
-            "valence": 0.779,
-            "tempo": 112.8,
-            "acousticness": 0.194,
-            "instrumentalness": 0.0492,
-            "liveness": 0.286,
-            "speechiness": 0.233,
-            "loudness": -4.26,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-09T17:21:55Z"
         }
       ]
     },
@@ -40171,21 +25191,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-01",
-          "addedAt": "2025-08-01T00:35:25Z",
-          "features": {
-            "danceability": 0.559,
-            "energy": 0.711,
-            "valence": 0.739,
-            "tempo": 109.4,
-            "acousticness": 0.253,
-            "instrumentalness": 0.0275,
-            "liveness": 0.269,
-            "speechiness": 0.3,
-            "loudness": -7.12,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-08-01T00:35:25Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -40210,21 +25216,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -40252,21 +25244,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-07-02T21:19:43Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-02T21:19:43Z"
         },
         {
           "id": "0QCIpQV3twfqo9kh0t8Zza",
@@ -40279,28 +25257,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 84,
           "artistPopularity": 73,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "2hVWBpjLW4Q7fboYz2pVYK",
           "playlistPosition": 4,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-21",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.588,
-            "energy": 0.792,
-            "valence": 0.829,
-            "tempo": 122.1,
-            "acousticness": 0.312,
-            "instrumentalness": 0.0424,
-            "liveness": 0.171,
-            "speechiness": 0.3,
-            "loudness": -7.01,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "0yVYclELnoKUoTWrbs5MfX",
@@ -40318,21 +25282,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-11-18T08:06:57Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.67,
-            "valence": 0.699,
-            "tempo": 117.7,
-            "acousticness": 0.05,
-            "instrumentalness": 0.0614,
-            "liveness": 0.259,
-            "speechiness": 0.191,
-            "loudness": -6.38,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-18T08:06:57Z"
         },
         {
           "id": "6SAdT2RWrwOQJ6eoFEdLPg",
@@ -40346,7 +25296,7 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 5,
           "artistGenres": [
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeats"
           ],
           "artistId": "5g5hCH0RGtNQUAGPsKEISR",
@@ -40354,21 +25304,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-07",
-          "addedAt": "2025-11-16T12:50:20Z",
-          "features": {
-            "danceability": 0.73,
-            "energy": 0.784,
-            "valence": 0.647,
-            "tempo": 110.3,
-            "acousticness": 0.06,
-            "instrumentalness": 0.0342,
-            "liveness": 0.084,
-            "speechiness": 0.3,
-            "loudness": -5.24,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-16T12:50:20Z"
         },
         {
           "id": "5HdDeWksXmV7ldWJFQ1wyr",
@@ -40384,7 +25320,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -40394,21 +25330,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-05",
-          "addedAt": "2025-10-13T22:55:21Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.67,
-            "valence": 0.66,
-            "tempo": 94.0,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0308,
-            "liveness": 0.149,
-            "speechiness": 0.3,
-            "loudness": -6.38,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-13T22:55:21Z"
         },
         {
           "id": "4Ny1TGgRCJ3gLFQOVBItTQ",
@@ -40426,21 +25348,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-13",
-          "addedAt": "2025-11-14T17:30:54Z",
-          "features": {
-            "danceability": 0.749,
-            "energy": 0.691,
-            "valence": 0.577,
-            "tempo": 101.5,
-            "acousticness": 0.397,
-            "instrumentalness": 0.0432,
-            "liveness": 0.222,
-            "speechiness": 0.3,
-            "loudness": -3.0,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T17:30:54Z"
         },
         {
           "id": "6bkbq7tIJOJXE7sRLIX7HU",
@@ -40458,21 +25366,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-29",
-          "addedAt": "2025-11-12T19:24:58Z",
-          "features": {
-            "danceability": 0.606,
-            "energy": 0.681,
-            "valence": 0.508,
-            "tempo": 90.0,
-            "acousticness": 0.15,
-            "instrumentalness": 0.0305,
-            "liveness": 0.348,
-            "speechiness": 0.289,
-            "loudness": -4.76,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-12T19:24:58Z"
         },
         {
           "id": "4SjfsqsR3TIR3SO7kcTlFX",
@@ -40497,21 +25391,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-29",
-          "addedAt": "2025-09-03T12:50:42Z",
-          "features": {
-            "danceability": 0.618,
-            "energy": 0.692,
-            "valence": 0.616,
-            "tempo": 115.1,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0121,
-            "liveness": 0.168,
-            "speechiness": 0.3,
-            "loudness": -6.72,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-03T12:50:42Z"
         },
         {
           "id": "0wsmUufqtAqQXlRzN6UB1A",
@@ -40529,21 +25409,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-30",
-          "addedAt": "2025-11-10T20:35:15Z",
-          "features": {
-            "danceability": 0.656,
-            "energy": 0.67,
-            "valence": 0.484,
-            "tempo": 111.7,
-            "acousticness": 0.28,
-            "instrumentalness": 0.0121,
-            "liveness": 0.35,
-            "speechiness": 0.12,
-            "loudness": -9.08,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-10T20:35:15Z"
         },
         {
           "id": "2qer6IHVJgLvh6m6wzC0T4",
@@ -40561,21 +25427,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-11-06T05:25:13Z",
-          "features": {
-            "danceability": 0.763,
-            "energy": 0.863,
-            "valence": 0.604,
-            "tempo": 90.0,
-            "acousticness": 0.097,
-            "instrumentalness": 0.0097,
-            "liveness": 0.244,
-            "speechiness": 0.271,
-            "loudness": -4.24,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-06T05:25:13Z"
         },
         {
           "id": "2JfRd9fkzyZge8BZzs7aUI",
@@ -40595,21 +25447,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-11",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.657,
-            "energy": 0.651,
-            "valence": 0.605,
-            "tempo": 121.4,
-            "acousticness": 0.108,
-            "instrumentalness": 0.0651,
-            "liveness": 0.114,
-            "speechiness": 0.238,
-            "loudness": -7.33,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "5iFCv5n0xZ7Jg2j76Ugjl4",
@@ -40627,21 +25465,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-31",
-          "addedAt": "2025-11-01T10:49:31Z",
-          "features": {
-            "danceability": 0.7,
-            "energy": 0.695,
-            "valence": 0.9,
-            "tempo": 90.0,
-            "acousticness": 0.251,
-            "instrumentalness": 0.0428,
-            "liveness": 0.191,
-            "speechiness": 0.076,
-            "loudness": -5.87,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T10:49:31Z"
         },
         {
           "id": "75oa7LjRMv6vzri9Ssm6pt",
@@ -40659,21 +25483,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-12-01",
-          "addedAt": "2025-11-03T08:39:35Z",
-          "features": {
-            "danceability": 0.703,
-            "energy": 0.622,
-            "valence": 0.446,
-            "tempo": 133.9,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0449,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.77,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-03T08:39:35Z"
         },
         {
           "id": "1LRGZESVn8eF7WVY5DzLNy",
@@ -40696,21 +25506,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-04-14",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.631,
-            "energy": 0.599,
-            "valence": 0.582,
-            "tempo": 98.9,
-            "acousticness": 0.323,
-            "instrumentalness": 0.1392,
-            "liveness": 0.078,
-            "speechiness": 0.215,
-            "loudness": -5.47,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "0qUKOjYWRX3nv5RtkAiAlc",
@@ -40728,21 +25524,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-18",
-          "addedAt": "2025-10-31T19:18:15Z",
-          "features": {
-            "danceability": 0.773,
-            "energy": 0.801,
-            "valence": 0.564,
-            "tempo": 118.7,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0335,
-            "liveness": 0.332,
-            "speechiness": 0.287,
-            "loudness": -7.37,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-31T19:18:15Z"
         },
         {
           "id": "1DK7qt3SPIP18W74hzBPrs",
@@ -40760,21 +25542,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-24",
-          "addedAt": "2025-10-28T20:51:16Z",
-          "features": {
-            "danceability": 0.628,
-            "energy": 0.728,
-            "valence": 0.777,
-            "tempo": 113.1,
-            "acousticness": 0.329,
-            "instrumentalness": 0.15,
-            "liveness": 0.124,
-            "speechiness": 0.248,
-            "loudness": -3.74,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-28T20:51:16Z"
         },
         {
           "id": "51VUNKCTKQSqs76NoVbdPI",
@@ -40799,21 +25567,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-27",
-          "addedAt": "2025-06-29T00:46:20Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.724,
-            "valence": 0.565,
-            "tempo": 91.0,
-            "acousticness": 0.042,
-            "instrumentalness": 0.1318,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.24,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-29T00:46:20Z"
         },
         {
           "id": "1p8aoEoIew1P9qkRR7FUwQ",
@@ -40831,21 +25585,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-26T23:10:22Z",
-          "features": {
-            "danceability": 0.617,
-            "energy": 0.722,
-            "valence": 0.607,
-            "tempo": 135.0,
-            "acousticness": 0.19,
-            "instrumentalness": 0.0805,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.79,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-26T23:10:22Z"
         },
         {
           "id": "3lu7i6hhGlgWeIM5wkmuot",
@@ -40863,26 +25603,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-17",
-          "addedAt": "2025-10-24T11:07:02Z",
-          "features": {
-            "danceability": 0.755,
-            "energy": 0.827,
-            "valence": 0.776,
-            "tempo": 111.6,
-            "acousticness": 0.043,
-            "instrumentalness": 0.0424,
-            "liveness": 0.201,
-            "speechiness": 0.284,
-            "loudness": -8.08,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-24T11:07:02Z"
         },
         {
           "id": "3BRna1YDKLEtiEiJ0ArbSA",
-          "title": "Offa Me (feat. Victoria Monét)",
-          "artist": "Davido, Victoria Monét",
+          "title": "Offa Me (feat. Victoria Mon\u00e9t)",
+          "artist": "Davido, Victoria Mon\u00e9t",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -40905,21 +25631,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.784,
-            "energy": 0.793,
-            "valence": 0.653,
-            "tempo": 90.0,
-            "acousticness": 0.203,
-            "instrumentalness": 0.0617,
-            "liveness": 0.35,
-            "speechiness": 0.242,
-            "loudness": -4.59,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "44BBSmVfQms745Z8RpinSi",
@@ -40937,21 +25649,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-03-08",
-          "addedAt": "2025-10-22T19:44:04Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.84,
-            "valence": 0.637,
-            "tempo": 123.0,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0029,
-            "liveness": 0.096,
-            "speechiness": 0.289,
-            "loudness": -5.34,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-22T19:44:04Z"
         },
         {
           "id": "2oX38zrYm332TIjSKuKlum",
@@ -40969,21 +25667,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-10",
-          "addedAt": "2025-10-19T08:09:55Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.749,
-            "valence": 0.693,
-            "tempo": 90.0,
-            "acousticness": 0.059,
-            "instrumentalness": 0.0667,
-            "liveness": 0.183,
-            "speechiness": 0.265,
-            "loudness": -6.33,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-19T08:09:55Z"
         },
         {
           "id": "1z8yTKgKZA5kCbC8LsBPui",
@@ -40996,7 +25680,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 23,
           "artistPopularity": 34,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afro r&b",
             "afrobeat"
@@ -41006,26 +25690,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-09",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.592,
-            "energy": 0.679,
-            "valence": 0.872,
-            "tempo": 110.5,
-            "acousticness": 0.186,
-            "instrumentalness": 0.15,
-            "liveness": 0.206,
-            "speechiness": 0.3,
-            "loudness": -9.28,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "7arCRGABaKdEFvGa3gCM9d",
           "title": "Baddies",
-          "artist": "Aya Nakamura, Joé Dwèt Filé",
+          "artist": "Aya Nakamura, Jo\u00e9 Dw\u00e8t Fil\u00e9",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -41041,21 +25711,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-15",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.667,
-            "energy": 0.72,
-            "valence": 0.468,
-            "tempo": 103.9,
-            "acousticness": 0.245,
-            "instrumentalness": 0.0218,
-            "liveness": 0.116,
-            "speechiness": 0.249,
-            "loudness": -6.13,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "7qFKhEdrG8Pn9FP64k2Pbe",
@@ -41068,7 +25724,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 41,
           "artistPopularity": 53,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afrobeat",
             "afro r&b",
@@ -41083,21 +25739,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-23",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.769,
-            "energy": 0.736,
-            "valence": 0.637,
-            "tempo": 124.5,
-            "acousticness": 0.199,
-            "instrumentalness": 0.1149,
-            "liveness": 0.052,
-            "speechiness": 0.3,
-            "loudness": -6.43,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3kea45Zl41BwV83RxCxBbw",
@@ -41113,7 +25755,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afro r&b"
           ],
@@ -41122,21 +25764,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.772,
-            "energy": 0.906,
-            "valence": 0.599,
-            "tempo": 104.9,
-            "acousticness": 0.098,
-            "instrumentalness": 0.05,
-            "liveness": 0.086,
-            "speechiness": 0.237,
-            "loudness": -5.55,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "2rDtfPMI5mDJVTwYYG00QI",
@@ -41155,7 +25783,7 @@ window.AFROBEATS_DATA = {
             "afropiano",
             "afro r&b",
             "afro soul",
-            "alté",
+            "alt\u00e9",
             "amapiano"
           ],
           "artistId": "1E5hfn5BduN2nnoZCJmUVG",
@@ -41163,21 +25791,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-22",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.71,
-            "energy": 0.809,
-            "valence": 0.664,
-            "tempo": 90.0,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0183,
-            "liveness": 0.218,
-            "speechiness": 0.3,
-            "loudness": -6.21,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3s4WNh0WnfhwvIlrp6RTBj",
@@ -41195,21 +25809,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.797,
-            "energy": 0.586,
-            "valence": 0.613,
-            "tempo": 127.7,
-            "acousticness": 0.124,
-            "instrumentalness": 0.0993,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -6.34,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3XloH0C8QYXgbYPmXlxf2x",
@@ -41229,21 +25829,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-02",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.846,
-            "energy": 0.637,
-            "valence": 0.614,
-            "tempo": 115.6,
-            "acousticness": 0.276,
-            "instrumentalness": 0.0451,
-            "liveness": 0.309,
-            "speechiness": 0.3,
-            "loudness": -4.25,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "6NaGU9gvPlMZvHJPJNAY2N",
@@ -41269,21 +25855,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-27",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.783,
-            "energy": 0.611,
-            "valence": 0.532,
-            "tempo": 93.6,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0293,
-            "liveness": 0.185,
-            "speechiness": 0.07,
-            "loudness": -5.99,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3cuUZnjDwk4cUJCFinYbAC",
@@ -41298,7 +25870,7 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afrobeats",
             "afro r&b",
-            "alté",
+            "alt\u00e9",
             "afrobeat"
           ],
           "artistId": "687cZJR45JO7jhk1LHIbgq",
@@ -41306,21 +25878,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-06",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.679,
-            "valence": 0.748,
-            "tempo": 117.7,
-            "acousticness": 0.107,
-            "instrumentalness": 0.0247,
-            "liveness": 0.16,
-            "speechiness": 0.3,
-            "loudness": -5.51,
-            "key": 6,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "22YkP95GjCfXkWKyU5k1zZ",
@@ -41338,21 +25896,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.667,
-            "energy": 0.784,
-            "valence": 0.725,
-            "tempo": 96.0,
-            "acousticness": 0.318,
-            "instrumentalness": 0.0516,
-            "liveness": 0.111,
-            "speechiness": 0.216,
-            "loudness": -5.65,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3ltc9j6uh3LvO7FuXm6Ix3",
@@ -41377,21 +25921,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-07-07",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.755,
-            "energy": 0.584,
-            "valence": 0.665,
-            "tempo": 115.4,
-            "acousticness": 0.156,
-            "instrumentalness": 0.071,
-            "liveness": 0.094,
-            "speechiness": 0.052,
-            "loudness": -3.0,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "6b56cSwwp8JXDQiZ4dXkBf",
@@ -41417,21 +25947,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-28",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.661,
-            "valence": 0.661,
-            "tempo": 117.9,
-            "acousticness": 0.134,
-            "instrumentalness": 0.0,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -7.26,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "6nyrnM6E1rRaZM8YiDPbEu",
@@ -41452,21 +25968,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.716,
-            "energy": 0.799,
-            "valence": 0.752,
-            "tempo": 110.9,
-            "acousticness": 0.117,
-            "instrumentalness": 0.0297,
-            "liveness": 0.311,
-            "speechiness": 0.187,
-            "loudness": -9.67,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "1SJQNDyy5OsL8kQHotWSh3",
@@ -41488,21 +25990,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-24",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.629,
-            "valence": 0.715,
-            "tempo": 116.6,
-            "acousticness": 0.105,
-            "instrumentalness": 0.15,
-            "liveness": 0.176,
-            "speechiness": 0.198,
-            "loudness": -6.83,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "5xZ4y9EgfmpogFKf1607lP",
@@ -41530,21 +26018,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.737,
-            "valence": 0.6,
-            "tempo": 90.0,
-            "acousticness": 0.245,
-            "instrumentalness": 0.013,
-            "liveness": 0.221,
-            "speechiness": 0.3,
-            "loudness": -6.62,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "0kYm6ZRybLfuybS4mQRBAN",
@@ -41560,7 +26034,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -41570,21 +26044,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.655,
-            "energy": 0.711,
-            "valence": 0.484,
-            "tempo": 110.0,
-            "acousticness": 0.263,
-            "instrumentalness": 0.0271,
-            "liveness": 0.308,
-            "speechiness": 0.3,
-            "loudness": -7.44,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3NNn2JRgGLXUgBp7lYQ4eZ",
@@ -41597,7 +26057,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 36,
           "artistPopularity": 50,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afroswing",
             "afrobeat",
@@ -41611,21 +26071,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-16",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.8,
-            "valence": 0.747,
-            "tempo": 99.8,
-            "acousticness": 0.335,
-            "instrumentalness": 0.0308,
-            "liveness": 0.35,
-            "speechiness": 0.071,
-            "loudness": -4.49,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "7vVs4XCsQyGn1Au3drvo9Z",
@@ -41645,26 +26091,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-17",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.772,
-            "energy": 0.736,
-            "valence": 0.749,
-            "tempo": 120.0,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0233,
-            "liveness": 0.25,
-            "speechiness": 0.248,
-            "loudness": -7.57,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "43ZEiGYEJ5vcmjlBwanwyW",
-          "title": "Vision Remix (feat. Chlöe)",
-          "artist": "Qing Madi, Chlöe",
+          "title": "Vision Remix (feat. Chl\u00f6e)",
+          "artist": "Qing Madi, Chl\u00f6e",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -41678,28 +26110,14 @@ window.AFROBEATS_DATA = {
             "afropop",
             "afro soul",
             "afropiano",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "0ZvsEkINadmEV4qzS4ollh",
           "playlistPosition": 43,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-03",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.805,
-            "energy": 0.719,
-            "valence": 0.61,
-            "tempo": 101.5,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0389,
-            "liveness": 0.197,
-            "speechiness": 0.275,
-            "loudness": -6.73,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "0RGGAP5gpvToJyUZbiEcXO",
@@ -41724,26 +26142,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-09-28",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.808,
-            "energy": 0.502,
-            "valence": 0.734,
-            "tempo": 114.8,
-            "acousticness": 0.144,
-            "instrumentalness": 0.014,
-            "liveness": 0.089,
-            "speechiness": 0.3,
-            "loudness": -6.32,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "1A1ifX8sWzelNpkL5PxcHT",
           "title": "Last Heartbreak Song (feat. Giveon)",
-          "artist": "Ayra Starr, GIVĒON",
+          "artist": "Ayra Starr, GIV\u0112ON",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -41763,21 +26167,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-30",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.925,
-            "valence": 0.373,
-            "tempo": 122.9,
-            "acousticness": 0.182,
-            "instrumentalness": 0.0539,
-            "liveness": 0.257,
-            "speechiness": 0.194,
-            "loudness": -5.03,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "3k6Y1ESBwF1low4hHsY4wu",
@@ -41793,7 +26183,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "afrobeat",
             "afropop",
-            "alté",
+            "alt\u00e9",
             "afro r&b",
             "afropiano",
             "afro soul",
@@ -41804,21 +26194,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-07-09",
-          "addedAt": "2025-05-31T11:13:13Z",
-          "features": {
-            "danceability": 0.693,
-            "energy": 0.752,
-            "valence": 0.628,
-            "tempo": 90.7,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0199,
-            "liveness": 0.259,
-            "speechiness": 0.123,
-            "loudness": -4.02,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T11:13:13Z"
         },
         {
           "id": "0gTsTsQQ7q7ruqT8eeZs5T",
@@ -41840,21 +26216,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2018-12-14",
-          "addedAt": "2025-05-24T16:33:19Z",
-          "features": {
-            "danceability": 0.756,
-            "energy": 0.803,
-            "valence": 0.573,
-            "tempo": 90.5,
-            "acousticness": 0.044,
-            "instrumentalness": 0.15,
-            "liveness": 0.167,
-            "speechiness": 0.229,
-            "loudness": -8.9,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:19Z"
         },
         {
           "id": "6e4rOG1fbWEAg1xS0rXxq4",
@@ -41872,21 +26234,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-14",
-          "addedAt": "2025-05-24T16:33:21Z",
-          "features": {
-            "danceability": 0.734,
-            "energy": 0.758,
-            "valence": 0.878,
-            "tempo": 95.6,
-            "acousticness": 0.278,
-            "instrumentalness": 0.057,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -5.46,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:21Z"
         },
         {
           "id": "1i3P7AstQoQ32KVBJ2Mpde",
@@ -41904,21 +26252,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-02-01",
-          "addedAt": "2025-05-24T16:33:24Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.676,
-            "valence": 0.401,
-            "tempo": 90.0,
-            "acousticness": 0.04,
-            "instrumentalness": 0.0041,
-            "liveness": 0.153,
-            "speechiness": 0.271,
-            "loudness": -4.56,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:24Z"
         },
         {
           "id": "0R4sNDyvw1QYHod2fLumEP",
@@ -41936,21 +26270,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-12-04",
-          "addedAt": "2025-05-24T16:33:25Z",
-          "features": {
-            "danceability": 0.664,
-            "energy": 0.803,
-            "valence": 0.545,
-            "tempo": 119.2,
-            "acousticness": 0.4,
-            "instrumentalness": 0.061,
-            "liveness": 0.063,
-            "speechiness": 0.201,
-            "loudness": -6.27,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:25Z"
         },
         {
           "id": "3ODd4SvEhm5wqPbVuNGi1F",
@@ -41968,21 +26288,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-05-11",
-          "addedAt": "2025-05-24T16:33:27Z",
-          "features": {
-            "danceability": 0.66,
-            "energy": 0.773,
-            "valence": 0.732,
-            "tempo": 105.4,
-            "acousticness": 0.149,
-            "instrumentalness": 0.0334,
-            "liveness": 0.204,
-            "speechiness": 0.088,
-            "loudness": -5.45,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:27Z"
         },
         {
           "id": "1BiZVoeLqSjg6OyHUwvE3v",
@@ -42002,21 +26308,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-22",
-          "addedAt": "2025-05-24T16:33:31Z",
-          "features": {
-            "danceability": 0.55,
-            "energy": 0.831,
-            "valence": 0.584,
-            "tempo": 103.1,
-            "acousticness": 0.158,
-            "instrumentalness": 0.0631,
-            "liveness": 0.095,
-            "speechiness": 0.197,
-            "loudness": -7.65,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:31Z"
         },
         {
           "id": "4boHX85SGu7fpol4AEwi4A",
@@ -42034,21 +26326,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-12-02",
-          "addedAt": "2025-05-24T16:33:33Z",
-          "features": {
-            "danceability": 0.663,
-            "energy": 0.734,
-            "valence": 0.725,
-            "tempo": 98.2,
-            "acousticness": 0.188,
-            "instrumentalness": 0.0392,
-            "liveness": 0.247,
-            "speechiness": 0.3,
-            "loudness": -7.16,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:33Z"
         },
         {
           "id": "4PzP7nPbyWAUxO6d59puXe",
@@ -42068,21 +26346,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-08-10",
-          "addedAt": "2025-05-24T16:33:37Z",
-          "features": {
-            "danceability": 0.794,
-            "energy": 0.644,
-            "valence": 0.532,
-            "tempo": 106.3,
-            "acousticness": 0.11,
-            "instrumentalness": 0.0957,
-            "liveness": 0.077,
-            "speechiness": 0.232,
-            "loudness": -5.85,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:37Z"
         },
         {
           "id": "5kYyeopDLzQWqjjx8HFcZ3",
@@ -42100,21 +26364,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-09-10",
-          "addedAt": "2025-05-24T16:33:39Z",
-          "features": {
-            "danceability": 0.743,
-            "energy": 0.589,
-            "valence": 0.874,
-            "tempo": 117.4,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0761,
-            "liveness": 0.141,
-            "speechiness": 0.293,
-            "loudness": -5.48,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:39Z"
         },
         {
           "id": "69lC751YOXzB1TFsXLi2IN",
@@ -42134,21 +26384,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-21",
-          "addedAt": "2025-05-24T16:33:40Z",
-          "features": {
-            "danceability": 0.659,
-            "energy": 0.688,
-            "valence": 0.769,
-            "tempo": 116.0,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0997,
-            "liveness": 0.247,
-            "speechiness": 0.218,
-            "loudness": -5.85,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:40Z"
         },
         {
           "id": "0vbgk2dUqz3s9hZSTSx3Bv",
@@ -42166,21 +26402,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-03-31",
-          "addedAt": "2025-05-24T16:33:43Z",
-          "features": {
-            "danceability": 0.803,
-            "energy": 0.628,
-            "valence": 0.845,
-            "tempo": 126.6,
-            "acousticness": 0.099,
-            "instrumentalness": 0.073,
-            "liveness": 0.152,
-            "speechiness": 0.241,
-            "loudness": -4.03,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:43Z"
         },
         {
           "id": "2WAlSChLQe8xVVUjTEfSnX",
@@ -42202,21 +26424,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2019-06-28",
-          "addedAt": "2025-05-24T16:33:48Z",
-          "features": {
-            "danceability": 0.596,
-            "energy": 0.629,
-            "valence": 0.66,
-            "tempo": 106.3,
-            "acousticness": 0.359,
-            "instrumentalness": 0.0557,
-            "liveness": 0.329,
-            "speechiness": 0.3,
-            "loudness": -7.35,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:48Z"
         },
         {
           "id": "1luigctlz4eeKwn94SvUIU",
@@ -42237,21 +26445,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-09",
-          "addedAt": "2025-05-24T16:33:52Z",
-          "features": {
-            "danceability": 0.765,
-            "energy": 0.733,
-            "valence": 0.753,
-            "tempo": 117.9,
-            "acousticness": 0.048,
-            "instrumentalness": 0.0767,
-            "liveness": 0.138,
-            "speechiness": 0.209,
-            "loudness": -5.09,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:52Z"
         },
         {
           "id": "51PR23QP4LAcyDvfL91yPG",
@@ -42269,21 +26463,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-06-10",
-          "addedAt": "2025-05-24T16:33:54Z",
-          "features": {
-            "danceability": 0.685,
-            "energy": 0.795,
-            "valence": 0.636,
-            "tempo": 119.0,
-            "acousticness": 0.313,
-            "instrumentalness": 0.0249,
-            "liveness": 0.252,
-            "speechiness": 0.18,
-            "loudness": -3.27,
-            "key": 3,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:54Z"
         },
         {
           "id": "2c0MxfcyuJvpSzlynx3tS2",
@@ -42301,21 +26481,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2020-07-31",
-          "addedAt": "2025-05-24T16:33:56Z",
-          "features": {
-            "danceability": 0.754,
-            "energy": 0.618,
-            "valence": 0.591,
-            "tempo": 90.0,
-            "acousticness": 0.229,
-            "instrumentalness": 0.0112,
-            "liveness": 0.077,
-            "speechiness": 0.3,
-            "loudness": -5.68,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:33:56Z"
         },
         {
           "id": "0C7UOiFLPR8sUemhvb1rem",
@@ -42335,21 +26501,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-05",
-          "addedAt": "2025-05-24T16:34:16Z",
-          "features": {
-            "danceability": 0.798,
-            "energy": 0.657,
-            "valence": 0.764,
-            "tempo": 103.2,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0974,
-            "liveness": 0.05,
-            "speechiness": 0.28,
-            "loudness": -4.72,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:34:16Z"
         },
         {
           "id": "1qimrgVpb22WgIED8WbiYx",
@@ -42367,21 +26519,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-31",
-          "addedAt": "2025-05-24T16:34:44Z",
-          "features": {
-            "danceability": 0.683,
-            "energy": 0.769,
-            "valence": 0.868,
-            "tempo": 111.6,
-            "acousticness": 0.199,
-            "instrumentalness": 0.0318,
-            "liveness": 0.35,
-            "speechiness": 0.273,
-            "loudness": -5.55,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T16:34:44Z"
         },
         {
           "id": "7Fdp4H4XCGbxlm1u5MJiTF",
@@ -42401,21 +26539,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-26",
-          "addedAt": "2025-07-02T20:57:32Z",
-          "features": {
-            "danceability": 0.83,
-            "energy": 0.697,
-            "valence": 0.557,
-            "tempo": 127.4,
-            "acousticness": 0.286,
-            "instrumentalness": 0.0356,
-            "liveness": 0.18,
-            "speechiness": 0.136,
-            "loudness": -6.66,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-02T20:57:32Z"
         },
         {
           "id": "6XzfiGJO3V2DaaN5CcaXqa",
@@ -42435,21 +26559,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-23",
-          "addedAt": "2025-10-11T05:43:54Z",
-          "features": {
-            "danceability": 0.767,
-            "energy": 0.714,
-            "valence": 0.559,
-            "tempo": 98.8,
-            "acousticness": 0.11,
-            "instrumentalness": 0.0047,
-            "liveness": 0.35,
-            "speechiness": 0.161,
-            "loudness": -5.18,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-11T05:43:54Z"
         },
         {
           "id": "6pQbYAALQzrKufayaBz8cC",
@@ -42465,7 +26575,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -42475,21 +26585,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-03",
-          "addedAt": "2025-10-11T05:44:05Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.725,
-            "valence": 0.702,
-            "tempo": 116.2,
-            "acousticness": 0.315,
-            "instrumentalness": 0.0019,
-            "liveness": 0.174,
-            "speechiness": 0.3,
-            "loudness": -7.97,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-11T05:44:05Z"
         },
         {
           "id": "07Oos0FDTzCoIoPPRirIER",
@@ -42509,21 +26605,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-08-06",
-          "addedAt": "2025-10-11T05:45:46Z",
-          "features": {
-            "danceability": 0.674,
-            "energy": 0.739,
-            "valence": 0.432,
-            "tempo": 94.7,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0729,
-            "liveness": 0.202,
-            "speechiness": 0.162,
-            "loudness": -3.4,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-11T05:45:46Z"
         },
         {
           "id": "5HdDeWksXmV7ldWJFQ1wyr",
@@ -42539,7 +26621,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -42549,21 +26631,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-10-05",
-          "addedAt": "2025-10-13T22:55:51Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.67,
-            "valence": 0.66,
-            "tempo": 94.0,
-            "acousticness": 0.174,
-            "instrumentalness": 0.0308,
-            "liveness": 0.149,
-            "speechiness": 0.3,
-            "loudness": -6.38,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-13T22:55:51Z"
         }
       ]
     },
@@ -42598,21 +26666,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.646,
-            "energy": 0.796,
-            "valence": 0.545,
-            "tempo": 111.8,
-            "acousticness": 0.069,
-            "instrumentalness": 0.03,
-            "liveness": 0.34,
-            "speechiness": 0.3,
-            "loudness": -6.57,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4sm7xhaW2PT4iLuTtXaKa1",
@@ -42639,21 +26693,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-09",
-          "addedAt": "2025-06-12T13:26:13Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.809,
-            "valence": 0.706,
-            "tempo": 92.7,
-            "acousticness": 0.258,
-            "instrumentalness": 0.0167,
-            "liveness": 0.099,
-            "speechiness": 0.285,
-            "loudness": -4.06,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-12T13:26:13Z"
         },
         {
           "id": "3wdV4OJ37JdoLyUJMm50UW",
@@ -42679,21 +26719,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-24",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.778,
-            "energy": 0.661,
-            "valence": 0.717,
-            "tempo": 103.4,
-            "acousticness": 0.361,
-            "instrumentalness": 0.0038,
-            "liveness": 0.059,
-            "speechiness": 0.154,
-            "loudness": -6.32,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4hTOd5RMnefcxm4Rvbxj5F",
@@ -42719,21 +26745,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-13",
-          "addedAt": "2025-06-13T20:12:35Z",
-          "features": {
-            "danceability": 0.652,
-            "energy": 0.886,
-            "valence": 0.445,
-            "tempo": 98.5,
-            "acousticness": 0.181,
-            "instrumentalness": 0.0031,
-            "liveness": 0.137,
-            "speechiness": 0.275,
-            "loudness": -8.17,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-13T20:12:35Z"
         },
         {
           "id": "5BLQKcKyZgLJ24Bo5jK79q",
@@ -42753,21 +26765,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-13",
-          "addedAt": "2025-11-17T16:28:23Z",
-          "features": {
-            "danceability": 0.795,
-            "energy": 0.701,
-            "valence": 0.756,
-            "tempo": 112.0,
-            "acousticness": 0.259,
-            "instrumentalness": 0.0126,
-            "liveness": 0.199,
-            "speechiness": 0.3,
-            "loudness": -5.97,
-            "key": 11,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-17T16:28:23Z"
         },
         {
           "id": "33JLwddCW0iFllmesjf4ew",
@@ -42785,21 +26783,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-14",
-          "addedAt": "2025-11-15T20:14:44Z",
-          "features": {
-            "danceability": 0.627,
-            "energy": 0.818,
-            "valence": 0.585,
-            "tempo": 100.7,
-            "acousticness": 0.113,
-            "instrumentalness": 0.0074,
-            "liveness": 0.167,
-            "speechiness": 0.193,
-            "loudness": -4.33,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-15T20:14:44Z"
         },
         {
           "id": "0qlu7Te2J2BuAGFcwb3rjn",
@@ -42822,21 +26806,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-11T00:10:08Z",
-          "features": {
-            "danceability": 0.644,
-            "energy": 0.679,
-            "valence": 0.583,
-            "tempo": 102.7,
-            "acousticness": 0.01,
-            "instrumentalness": 0.0895,
-            "liveness": 0.221,
-            "speechiness": 0.12,
-            "loudness": -6.06,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-11T00:10:08Z"
         },
         {
           "id": "58cWj2jnd4e6vYBhEcuniK",
@@ -42854,21 +26824,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-12",
-          "addedAt": "2025-11-14T07:40:44Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.662,
-            "valence": 0.424,
-            "tempo": 90.0,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0648,
-            "liveness": 0.294,
-            "speechiness": 0.3,
-            "loudness": -7.19,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-14T07:40:44Z"
         },
         {
           "id": "2tJnnTCNuzXMKVn1ZUdpIo",
@@ -42886,21 +26842,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-11-01",
-          "addedAt": "2025-11-12T18:49:58Z",
-          "features": {
-            "danceability": 0.729,
-            "energy": 0.738,
-            "valence": 0.718,
-            "tempo": 112.1,
-            "acousticness": 0.094,
-            "instrumentalness": 0.0457,
-            "liveness": 0.27,
-            "speechiness": 0.3,
-            "loudness": -4.93,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-12T18:49:58Z"
         },
         {
           "id": "1Yf58S4QQwxqYSJZm5JxmA",
@@ -42913,7 +26855,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 68,
           "artistPopularity": 71,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afrobeats",
             "afropiano",
             "afrobeat",
@@ -42925,21 +26867,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-05",
-          "addedAt": "2025-09-14T18:37:24Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.754,
-            "valence": 0.537,
-            "tempo": 127.4,
-            "acousticness": 0.049,
-            "instrumentalness": 0.0288,
-            "liveness": 0.216,
-            "speechiness": 0.204,
-            "loudness": -6.64,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-09-14T18:37:24Z"
         },
         {
           "id": "2prjlTWj6WwuQPzU0bx7tX",
@@ -42960,21 +26888,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-09-10",
-          "addedAt": "2025-11-10T11:38:22Z",
-          "features": {
-            "danceability": 0.682,
-            "energy": 0.839,
-            "valence": 0.563,
-            "tempo": 111.6,
-            "acousticness": 0.157,
-            "instrumentalness": 0.0679,
-            "liveness": 0.177,
-            "speechiness": 0.205,
-            "loudness": -4.26,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-10T11:38:22Z"
         },
         {
           "id": "1licHZRZ0tJUZ44VzRkawQ",
@@ -42992,21 +26906,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-16",
-          "addedAt": "2025-11-01T16:25:21Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.704,
-            "valence": 0.564,
-            "tempo": 103.8,
-            "acousticness": 0.268,
-            "instrumentalness": 0.1132,
-            "liveness": 0.248,
-            "speechiness": 0.3,
-            "loudness": -4.49,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-11-01T16:25:21Z"
         },
         {
           "id": "4ACbff3fw2FkJ0xtJWilck",
@@ -43031,21 +26931,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-07-10",
-          "addedAt": "2025-07-24T16:48:10Z",
-          "features": {
-            "danceability": 0.711,
-            "energy": 0.735,
-            "valence": 0.5,
-            "tempo": 107.9,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0137,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -7.38,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-07-24T16:48:10Z"
         },
         {
           "id": "65cRt4uGMzo51AzXqptVsX",
@@ -43072,21 +26958,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-06-18",
-          "addedAt": "2025-06-19T22:24:40Z",
-          "features": {
-            "danceability": 0.792,
-            "energy": 0.873,
-            "valence": 0.759,
-            "tempo": 107.4,
-            "acousticness": 0.075,
-            "instrumentalness": 0.0384,
-            "liveness": 0.166,
-            "speechiness": 0.3,
-            "loudness": -3.75,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-06-19T22:24:40Z"
         },
         {
           "id": "6mSjg7wEv4MLKtc2KqgJAE",
@@ -43111,21 +26983,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.636,
-            "energy": 0.665,
-            "valence": 0.661,
-            "tempo": 111.3,
-            "acousticness": 0.133,
-            "instrumentalness": 0.1247,
-            "liveness": 0.222,
-            "speechiness": 0.177,
-            "loudness": -6.46,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "0UKX2OlSnobdX77f0Y1jok",
@@ -43152,21 +27010,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-28",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.719,
-            "energy": 0.609,
-            "valence": 0.57,
-            "tempo": 98.4,
-            "acousticness": 0.118,
-            "instrumentalness": 0.0055,
-            "liveness": 0.076,
-            "speechiness": 0.243,
-            "loudness": -8.41,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "3qS4spuVywoeh9uGIpRuQh",
@@ -43189,21 +27033,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-10",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.737,
-            "energy": 0.739,
-            "valence": 0.465,
-            "tempo": 106.1,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0422,
-            "liveness": 0.091,
-            "speechiness": 0.19,
-            "loudness": -3.07,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4DREBgUie15tAPq9KQqe2c",
@@ -43228,21 +27058,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.671,
-            "energy": 0.781,
-            "valence": 0.539,
-            "tempo": 104.0,
-            "acousticness": 0.129,
-            "instrumentalness": 0.0325,
-            "liveness": 0.05,
-            "speechiness": 0.252,
-            "loudness": -5.9,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "6n6J0mZb0ltWlt2AqobHVd",
@@ -43267,21 +27083,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-29",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.612,
-            "energy": 0.841,
-            "valence": 0.571,
-            "tempo": 119.0,
-            "acousticness": 0.062,
-            "instrumentalness": 0.0589,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.67,
-            "key": 2,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "5GyaXqMfcIGHfmTUITFacS",
@@ -43309,21 +27111,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-18",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.847,
-            "valence": 0.56,
-            "tempo": 131.0,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0977,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -7.03,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4otA4JHWkokv4qAj1Pp2U5",
@@ -43348,21 +27136,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-21",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.613,
-            "energy": 0.75,
-            "valence": 0.718,
-            "tempo": 115.0,
-            "acousticness": 0.373,
-            "instrumentalness": 0.108,
-            "liveness": 0.086,
-            "speechiness": 0.3,
-            "loudness": -5.53,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "1k51Q6GFWBbsaWlBB2gnzo",
@@ -43387,21 +27161,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-25",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.789,
-            "valence": 0.724,
-            "tempo": 128.0,
-            "acousticness": 0.296,
-            "instrumentalness": 0.0294,
-            "liveness": 0.262,
-            "speechiness": 0.213,
-            "loudness": -6.55,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "7LZkMeX1k8PXQJ0SVYn1A5",
@@ -43429,21 +27189,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-13",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.568,
-            "energy": 0.799,
-            "valence": 0.7,
-            "tempo": 92.4,
-            "acousticness": 0.267,
-            "instrumentalness": 0.0074,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.6,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "52ZxqHSe1HesJPwuuBiW4U",
@@ -43467,21 +27213,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.747,
-            "energy": 0.743,
-            "valence": 0.595,
-            "tempo": 127.1,
-            "acousticness": 0.064,
-            "instrumentalness": 0.15,
-            "liveness": 0.063,
-            "speechiness": 0.3,
-            "loudness": -3.63,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "5rFZHAhav5kGsSAKtQHRHq",
@@ -43505,21 +27237,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-04",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.848,
-            "valence": 0.47,
-            "tempo": 90.0,
-            "acousticness": 0.208,
-            "instrumentalness": 0.0366,
-            "liveness": 0.133,
-            "speechiness": 0.3,
-            "loudness": -4.95,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "2j8n2hpZlEMvtrjJ7n0ZIy",
@@ -43545,21 +27263,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-22",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.744,
-            "energy": 0.549,
-            "valence": 0.68,
-            "tempo": 117.5,
-            "acousticness": 0.336,
-            "instrumentalness": 0.0082,
-            "liveness": 0.101,
-            "speechiness": 0.165,
-            "loudness": -5.89,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "3ZR7IlqBPK8TrJyZYfFX9L",
@@ -43585,21 +27289,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-12-05",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.639,
-            "energy": 0.895,
-            "valence": 0.648,
-            "tempo": 112.8,
-            "acousticness": 0.227,
-            "instrumentalness": 0.0621,
-            "liveness": 0.171,
-            "speechiness": 0.281,
-            "loudness": -3.88,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "0OWPr4POCQ7iH9BGmTxOZV",
@@ -43615,7 +27305,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -43625,21 +27315,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.768,
-            "energy": 0.762,
-            "valence": 0.662,
-            "tempo": 113.1,
-            "acousticness": 0.272,
-            "instrumentalness": 0.0264,
-            "liveness": 0.05,
-            "speechiness": 0.278,
-            "loudness": -5.83,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "5nmYNuBSh99LNDdZ0iSe2O",
@@ -43664,21 +27340,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-21",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.638,
-            "energy": 0.706,
-            "valence": 0.605,
-            "tempo": 111.2,
-            "acousticness": 0.212,
-            "instrumentalness": 0.0914,
-            "liveness": 0.219,
-            "speechiness": 0.298,
-            "loudness": -3.57,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "3RMr94P81nO3GtW9MfqNp5",
@@ -43694,7 +27356,7 @@ window.AFROBEATS_DATA = {
             "afrobeats",
             "nigerian drill",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropiano",
             "afropop",
             "afro adura"
@@ -43704,21 +27366,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-31",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.821,
-            "energy": 0.798,
-            "valence": 0.62,
-            "tempo": 112.9,
-            "acousticness": 0.114,
-            "instrumentalness": 0.0667,
-            "liveness": 0.222,
-            "speechiness": 0.188,
-            "loudness": -5.72,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "07eJSSPcNlkR34wVlkrCcY",
@@ -43734,33 +27382,19 @@ window.AFROBEATS_DATA = {
             "afro adura",
             "afrobeats",
             "afrobeat",
-            "alté",
+            "alt\u00e9",
             "afropop",
             "afropiano",
             "nigerian drill",
             "afro soul",
-            "fújì"
+            "f\u00faj\u00ec"
           ],
           "artistId": "7kK5badbqOjd8WlT2XWMeM",
           "playlistPosition": 31,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-11",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.695,
-            "energy": 0.692,
-            "valence": 0.565,
-            "tempo": 119.8,
-            "acousticness": 0.132,
-            "instrumentalness": 0.0363,
-            "liveness": 0.218,
-            "speechiness": 0.218,
-            "loudness": -4.19,
-            "key": 1,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "2hODYSmDyWMu2C2XN4bgOV",
@@ -43784,21 +27418,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.63,
-            "energy": 0.868,
-            "valence": 0.59,
-            "tempo": 97.9,
-            "acousticness": 0.045,
-            "instrumentalness": 0.1095,
-            "liveness": 0.085,
-            "speechiness": 0.169,
-            "loudness": -6.68,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "7mdvPu1ZAOIgMzr3sfpAqk",
@@ -43822,21 +27442,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-26",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.656,
-            "valence": 0.61,
-            "tempo": 108.6,
-            "acousticness": 0.172,
-            "instrumentalness": 0.0257,
-            "liveness": 0.35,
-            "speechiness": 0.241,
-            "loudness": -4.91,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "2v7r3nItoWRbCQBS1qFQnD",
@@ -43862,21 +27468,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-13",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.756,
-            "valence": 0.702,
-            "tempo": 111.0,
-            "acousticness": 0.254,
-            "instrumentalness": 0.0141,
-            "liveness": 0.191,
-            "speechiness": 0.115,
-            "loudness": -6.6,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4XHrQHvHWlE0RldeG8Nslq",
@@ -43900,21 +27492,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-07",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.807,
-            "energy": 0.721,
-            "valence": 0.647,
-            "tempo": 121.8,
-            "acousticness": 0.193,
-            "instrumentalness": 0.0891,
-            "liveness": 0.074,
-            "speechiness": 0.175,
-            "loudness": -3.51,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "13VXuHw3O8Yt7VwRIDqSo4",
@@ -43941,21 +27519,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-08",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.555,
-            "energy": 0.764,
-            "valence": 0.655,
-            "tempo": 110.3,
-            "acousticness": 0.084,
-            "instrumentalness": 0.094,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 1,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4WnlAkJ3S0r6C7ofHy6kNP",
@@ -43980,21 +27544,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-15",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.611,
-            "energy": 0.785,
-            "valence": 0.62,
-            "tempo": 99.9,
-            "acousticness": 0.205,
-            "instrumentalness": 0.0572,
-            "liveness": 0.224,
-            "speechiness": 0.3,
-            "loudness": -4.64,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "2YwBdxvMFsWUSCaL1U6xIg",
@@ -44018,21 +27568,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-20",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.762,
-            "energy": 0.597,
-            "valence": 0.615,
-            "tempo": 105.0,
-            "acousticness": 0.076,
-            "instrumentalness": 0.0263,
-            "liveness": 0.195,
-            "speechiness": 0.105,
-            "loudness": -5.31,
-            "key": 7,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "6NOrpcicPUh2eaj8bAD44u",
@@ -44055,21 +27591,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-07",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.738,
-            "energy": 0.612,
-            "valence": 0.736,
-            "tempo": 100.8,
-            "acousticness": 0.331,
-            "instrumentalness": 0.0125,
-            "liveness": 0.109,
-            "speechiness": 0.3,
-            "loudness": -4.62,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "4uLBwGnr1U3ctcDZrnVEgK",
@@ -44096,21 +27618,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-11",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.69,
-            "energy": 0.824,
-            "valence": 0.8,
-            "tempo": 135.0,
-            "acousticness": 0.293,
-            "instrumentalness": 0.0418,
-            "liveness": 0.267,
-            "speechiness": 0.226,
-            "loudness": -3.53,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "7fA7mrYaXVDVVGCAV65NRN",
@@ -44135,21 +27643,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-06-27",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.717,
-            "energy": 0.581,
-            "valence": 0.704,
-            "tempo": 128.6,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0267,
-            "liveness": 0.131,
-            "speechiness": 0.3,
-            "loudness": -5.06,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "6CSbf15NZhlB39CAjDU16b",
@@ -44176,21 +27670,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-04-02",
-          "addedAt": "2025-05-31T07:43:41Z",
-          "features": {
-            "danceability": 0.611,
-            "energy": 0.805,
-            "valence": 0.504,
-            "tempo": 111.5,
-            "acousticness": 0.103,
-            "instrumentalness": 0.0158,
-            "liveness": 0.172,
-            "speechiness": 0.113,
-            "loudness": -6.71,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-31T07:43:41Z"
         },
         {
           "id": "2h558TTybu7IK1lylTI4Uu",
@@ -44203,7 +27683,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 1,
           "artistPopularity": 3,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro soul"
           ],
           "artistId": "7BXatN3mB4rAllCGNGNqDD",
@@ -44211,21 +27691,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-21",
-          "addedAt": "2025-05-24T09:02:09Z",
-          "features": {
-            "danceability": 0.714,
-            "energy": 0.655,
-            "valence": 0.571,
-            "tempo": 110.8,
-            "acousticness": 0.09,
-            "instrumentalness": 0.0351,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -4.16,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:09Z"
         },
         {
           "id": "3sGzOGl9dXxIr7WQRKsygl",
@@ -44243,21 +27709,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-26",
-          "addedAt": "2025-05-24T09:02:44Z",
-          "features": {
-            "danceability": 0.689,
-            "energy": 0.562,
-            "valence": 0.636,
-            "tempo": 104.7,
-            "acousticness": 0.21,
-            "instrumentalness": 0.0374,
-            "liveness": 0.35,
-            "speechiness": 0.21,
-            "loudness": -8.8,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:44Z"
         },
         {
           "id": "069FSHizU5MRPqNgY7d01x",
@@ -44277,25 +27729,11 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-11-11",
-          "addedAt": "2025-05-24T09:02:46Z",
-          "features": {
-            "danceability": 0.79,
-            "energy": 0.741,
-            "valence": 0.884,
-            "tempo": 99.4,
-            "acousticness": 0.2,
-            "instrumentalness": 0.0607,
-            "liveness": 0.224,
-            "speechiness": 0.251,
-            "loudness": -6.16,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:46Z"
         },
         {
           "id": "6gyfFXosOewKQDLIeJhkz5",
-          "title": "Mövie",
+          "title": "M\u00f6vie",
           "artist": "JEMIYO",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
@@ -44304,28 +27742,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 4,
           "artistPopularity": 1,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "6uQH4UQMMq9H6Fxd97rXlK",
           "playlistPosition": 46,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-11-28",
-          "addedAt": "2025-05-24T09:02:52Z",
-          "features": {
-            "danceability": 0.715,
-            "energy": 0.672,
-            "valence": 0.75,
-            "tempo": 116.9,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0247,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -6.48,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:52Z"
         },
         {
           "id": "7tadKuljmK94dxH3uDxRIk",
@@ -44346,21 +27770,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-12-09",
-          "addedAt": "2025-05-24T09:02:54Z",
-          "features": {
-            "danceability": 0.61,
-            "energy": 0.893,
-            "valence": 0.576,
-            "tempo": 105.5,
-            "acousticness": 0.092,
-            "instrumentalness": 0.1209,
-            "liveness": 0.209,
-            "speechiness": 0.3,
-            "loudness": -5.57,
-            "key": 6,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:54Z"
         },
         {
           "id": "0cW9i4KnBLWlT7LIbgl4ie",
@@ -44374,28 +27784,14 @@ window.AFROBEATS_DATA = {
           "artistPopularity": 3,
           "artistGenres": [
             "afro r&b",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "3iM6bT0Hx5tGFY0RtCmHZy",
           "playlistPosition": 48,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-10-26",
-          "addedAt": "2025-05-24T09:02:55Z",
-          "features": {
-            "danceability": 0.665,
-            "energy": 0.691,
-            "valence": 0.791,
-            "tempo": 108.0,
-            "acousticness": 0.18,
-            "instrumentalness": 0.1302,
-            "liveness": 0.152,
-            "speechiness": 0.3,
-            "loudness": -4.82,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:55Z"
         },
         {
           "id": "30YhIpvcTWEeRNcWx4ETy8",
@@ -44408,7 +27804,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 7,
           "artistPopularity": 32,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro adura",
             "afropiano",
             "afrobeats"
@@ -44418,21 +27814,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-05-24T09:02:56Z",
-          "features": {
-            "danceability": 0.688,
-            "energy": 0.621,
-            "valence": 0.785,
-            "tempo": 114.6,
-            "acousticness": 0.034,
-            "instrumentalness": 0.1134,
-            "liveness": 0.05,
-            "speechiness": 0.3,
-            "loudness": -3.71,
-            "key": 4,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:56Z"
         },
         {
           "id": "2uGsomCdAhXrpHddz92Jxr",
@@ -44445,7 +27827,7 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 1,
           "artistPopularity": 9,
           "artistGenres": [
-            "alté",
+            "alt\u00e9",
             "afro soul"
           ],
           "artistId": "7FKxTA9hAgEnLHgAlV23q3",
@@ -44453,21 +27835,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2021-10-22",
-          "addedAt": "2025-05-24T09:02:56Z",
-          "features": {
-            "danceability": 0.696,
-            "energy": 0.856,
-            "valence": 0.585,
-            "tempo": 110.7,
-            "acousticness": 0.216,
-            "instrumentalness": 0.05,
-            "liveness": 0.071,
-            "speechiness": 0.111,
-            "loudness": -5.26,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:56Z"
         },
         {
           "id": "5CUf11nAo5i3N3SBXtU8sS",
@@ -44485,21 +27853,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-05-20",
-          "addedAt": "2025-05-24T09:02:57Z",
-          "features": {
-            "danceability": 0.75,
-            "energy": 0.838,
-            "valence": 0.437,
-            "tempo": 104.0,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0108,
-            "liveness": 0.096,
-            "speechiness": 0.136,
-            "loudness": -5.15,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:57Z"
         },
         {
           "id": "7DHUnUAZiC122SAhZHIZfU",
@@ -44517,21 +27871,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-29",
-          "addedAt": "2025-05-24T09:02:58Z",
-          "features": {
-            "danceability": 0.666,
-            "energy": 0.716,
-            "valence": 0.72,
-            "tempo": 110.9,
-            "acousticness": 0.039,
-            "instrumentalness": 0.105,
-            "liveness": 0.131,
-            "speechiness": 0.26,
-            "loudness": -6.36,
-            "key": 11,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:58Z"
         },
         {
           "id": "4S4uExrxerockyMUKxL1Wb",
@@ -44549,26 +27889,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-16",
-          "addedAt": "2025-05-24T09:02:59Z",
-          "features": {
-            "danceability": 0.786,
-            "energy": 0.74,
-            "valence": 0.715,
-            "tempo": 93.8,
-            "acousticness": 0.217,
-            "instrumentalness": 0.0094,
-            "liveness": 0.078,
-            "speechiness": 0.3,
-            "loudness": -6.83,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:02:59Z"
         },
         {
           "id": "69Qs9ksZEpzJcXuMJGJrwA",
           "title": "Runaway",
-          "artist": "Jolá",
+          "artist": "Jol\u00e1",
           "artistCountry": "Nigeria",
           "regionGroup": "West Africa",
           "diaspora": false,
@@ -44581,21 +27907,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-09-29",
-          "addedAt": "2025-05-24T09:03:00Z",
-          "features": {
-            "danceability": 0.702,
-            "energy": 0.652,
-            "valence": 0.477,
-            "tempo": 135.0,
-            "acousticness": 0.23,
-            "instrumentalness": 0.0428,
-            "liveness": 0.35,
-            "speechiness": 0.15,
-            "loudness": -4.69,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:00Z"
         },
         {
           "id": "796yTQNpGtCtHUjE9T45wb",
@@ -44610,28 +27922,14 @@ window.AFROBEATS_DATA = {
           "artistGenres": [
             "afroswing",
             "uk r&b",
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "4xmdEe1IbHagV1hruBQ7k9",
           "playlistPosition": 55,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-02-22",
-          "addedAt": "2025-05-24T09:03:01Z",
-          "features": {
-            "danceability": 0.606,
-            "energy": 0.644,
-            "valence": 0.547,
-            "tempo": 115.4,
-            "acousticness": 0.38,
-            "instrumentalness": 0.0598,
-            "liveness": 0.199,
-            "speechiness": 0.253,
-            "loudness": -4.74,
-            "key": 0,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:01Z"
         },
         {
           "id": "0Ej6njCcz9NsUPptqdqrKf",
@@ -44649,21 +27947,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-06-23",
-          "addedAt": "2025-05-24T09:03:02Z",
-          "features": {
-            "danceability": 0.713,
-            "energy": 0.708,
-            "valence": 0.9,
-            "tempo": 115.2,
-            "acousticness": 0.085,
-            "instrumentalness": 0.0301,
-            "liveness": 0.164,
-            "speechiness": 0.3,
-            "loudness": -5.37,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:02Z"
         },
         {
           "id": "31uRVhJPkf8tKWIIdTB1ZX",
@@ -44683,21 +27967,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-05-24T09:03:03Z",
-          "features": {
-            "danceability": 0.824,
-            "energy": 0.656,
-            "valence": 0.653,
-            "tempo": 123.9,
-            "acousticness": 0.329,
-            "instrumentalness": 0.0168,
-            "liveness": 0.219,
-            "speechiness": 0.197,
-            "loudness": -5.45,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:03Z"
         },
         {
           "id": "4UTsfUuY9o2e42mdszzX5p",
@@ -44715,21 +27985,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-05-02",
-          "addedAt": "2025-05-24T09:03:03Z",
-          "features": {
-            "danceability": 0.57,
-            "energy": 0.799,
-            "valence": 0.739,
-            "tempo": 115.8,
-            "acousticness": 0.259,
-            "instrumentalness": 0.0335,
-            "liveness": 0.297,
-            "speechiness": 0.3,
-            "loudness": -4.99,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:03Z"
         },
         {
           "id": "4qh1YRMS84xTfD4OXeuf2Z",
@@ -44751,21 +28007,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-02",
-          "addedAt": "2025-05-24T09:03:04Z",
-          "features": {
-            "danceability": 0.634,
-            "energy": 0.74,
-            "valence": 0.655,
-            "tempo": 119.5,
-            "acousticness": 0.256,
-            "instrumentalness": 0.0151,
-            "liveness": 0.079,
-            "speechiness": 0.3,
-            "loudness": -4.29,
-            "key": 8,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:04Z"
         },
         {
           "id": "28ENrmsOfr100JeaKWyqOh",
@@ -44785,21 +28027,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-10-27",
-          "addedAt": "2025-05-24T09:03:05Z",
-          "features": {
-            "danceability": 0.684,
-            "energy": 0.644,
-            "valence": 0.534,
-            "tempo": 107.6,
-            "acousticness": 0.047,
-            "instrumentalness": 0.0547,
-            "liveness": 0.202,
-            "speechiness": 0.252,
-            "loudness": -5.95,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:05Z"
         },
         {
           "id": "3DlA2ynNZE3uSRLIxkecI0",
@@ -44817,21 +28045,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-08-02",
-          "addedAt": "2025-05-24T09:03:05Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.737,
-            "valence": 0.427,
-            "tempo": 99.7,
-            "acousticness": 0.22,
-            "instrumentalness": 0.0172,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.98,
-            "key": 3,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:05Z"
         },
         {
           "id": "0zmHtjhFIAcqtuJe8ehu7m",
@@ -44853,21 +28067,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-23",
-          "addedAt": "2025-05-24T09:03:06Z",
-          "features": {
-            "danceability": 0.661,
-            "energy": 0.747,
-            "valence": 0.619,
-            "tempo": 126.5,
-            "acousticness": 0.191,
-            "instrumentalness": 0.0206,
-            "liveness": 0.178,
-            "speechiness": 0.139,
-            "loudness": -6.22,
-            "key": 10,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:06Z"
         },
         {
           "id": "0MX53xGyr9XIOpBZSEQprD",
@@ -44885,21 +28085,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-07-12",
-          "addedAt": "2025-05-24T09:03:07Z",
-          "features": {
-            "danceability": 0.85,
-            "energy": 0.644,
-            "valence": 0.586,
-            "tempo": 112.3,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0496,
-            "liveness": 0.088,
-            "speechiness": 0.209,
-            "loudness": -3.0,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:07Z"
         },
         {
           "id": "2B8s8CWvNjYIb2aXBvjS0t",
@@ -44912,28 +28098,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 0,
           "artistPopularity": 5,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "7HgyJrftDM9DDIwK4ztJoM",
           "playlistPosition": 64,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-02-06",
-          "addedAt": "2025-05-24T09:03:08Z",
-          "features": {
-            "danceability": 0.777,
-            "energy": 0.629,
-            "valence": 0.545,
-            "tempo": 113.6,
-            "acousticness": 0.123,
-            "instrumentalness": 0.0032,
-            "liveness": 0.193,
-            "speechiness": 0.3,
-            "loudness": -6.67,
-            "key": 10,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:08Z"
         },
         {
           "id": "34NfpVV6oZVK5Wh41P718E",
@@ -44951,26 +28123,12 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-01-15",
-          "addedAt": "2025-05-24T09:03:10Z",
-          "features": {
-            "danceability": 0.756,
-            "energy": 0.698,
-            "valence": 0.643,
-            "tempo": 118.7,
-            "acousticness": 0.162,
-            "instrumentalness": 0.0379,
-            "liveness": 0.169,
-            "speechiness": 0.213,
-            "loudness": -5.13,
-            "key": 9,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:10Z"
         },
         {
           "id": "0fz4OPIWodwQRELiMcmQgX",
           "title": "Shoulda Been",
-          "artist": "Gisèle",
+          "artist": "Gis\u00e8le",
           "artistCountry": "France",
           "regionGroup": "Western Europe",
           "diaspora": true,
@@ -44986,21 +28144,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-05-12",
-          "addedAt": "2025-05-24T09:03:11Z",
-          "features": {
-            "danceability": 0.746,
-            "energy": 0.637,
-            "valence": 0.521,
-            "tempo": 102.3,
-            "acousticness": 0.139,
-            "instrumentalness": 0.0132,
-            "liveness": 0.069,
-            "speechiness": 0.08,
-            "loudness": -5.71,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:11Z"
         },
         {
           "id": "2XFx1UALZC5CnaTqLsQTgR",
@@ -45013,28 +28157,14 @@ window.AFROBEATS_DATA = {
           "trackPopularity": 3,
           "artistPopularity": 18,
           "artistGenres": [
-            "alté"
+            "alt\u00e9"
           ],
           "artistId": "5pdOkU7g3RF9dE7NrEYmxW",
           "playlistPosition": 67,
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-11-24",
-          "addedAt": "2025-05-24T09:03:12Z",
-          "features": {
-            "danceability": 0.711,
-            "energy": 0.737,
-            "valence": 0.552,
-            "tempo": 117.3,
-            "acousticness": 0.298,
-            "instrumentalness": 0.0738,
-            "liveness": 0.054,
-            "speechiness": 0.15,
-            "loudness": -3.39,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:12Z"
         },
         {
           "id": "0HemWpuqmvSsFE0XtNgsZn",
@@ -45054,21 +28184,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-03-06",
-          "addedAt": "2025-05-24T09:03:13Z",
-          "features": {
-            "danceability": 0.672,
-            "energy": 0.672,
-            "valence": 0.432,
-            "tempo": 94.8,
-            "acousticness": 0.041,
-            "instrumentalness": 0.0482,
-            "liveness": 0.222,
-            "speechiness": 0.3,
-            "loudness": -7.39,
-            "key": 0,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:13Z"
         },
         {
           "id": "1biFfMXL3rCjEetHXuZ3iK",
@@ -45086,21 +28202,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-16",
-          "addedAt": "2025-05-24T09:03:14Z",
-          "features": {
-            "danceability": 0.699,
-            "energy": 0.618,
-            "valence": 0.35,
-            "tempo": 112.4,
-            "acousticness": 0.156,
-            "instrumentalness": 0.0614,
-            "liveness": 0.212,
-            "speechiness": 0.3,
-            "loudness": -6.06,
-            "key": 2,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:14Z"
         },
         {
           "id": "7iZJJaP4uWWn9QyKCRKisN",
@@ -45121,21 +28223,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-01-31",
-          "addedAt": "2025-05-24T09:03:14Z",
-          "features": {
-            "danceability": 0.718,
-            "energy": 0.694,
-            "valence": 0.542,
-            "tempo": 107.9,
-            "acousticness": 0.4,
-            "instrumentalness": 0.0473,
-            "liveness": 0.21,
-            "speechiness": 0.177,
-            "loudness": -4.55,
-            "key": 9,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:14Z"
         },
         {
           "id": "1eQELcCQdNwOFAbam0pFVR",
@@ -45153,21 +28241,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2024-04-19",
-          "addedAt": "2025-05-24T09:03:15Z",
-          "features": {
-            "danceability": 0.838,
-            "energy": 0.572,
-            "valence": 0.565,
-            "tempo": 120.2,
-            "acousticness": 0.128,
-            "instrumentalness": 0.0493,
-            "liveness": 0.102,
-            "speechiness": 0.259,
-            "loudness": -5.5,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:15Z"
         },
         {
           "id": "3WLzIKMYEQkGAM4vw8UzWX",
@@ -45188,21 +28262,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-16",
-          "addedAt": "2025-05-24T09:03:17Z",
-          "features": {
-            "danceability": 0.745,
-            "energy": 0.838,
-            "valence": 0.817,
-            "tempo": 109.3,
-            "acousticness": 0.06,
-            "instrumentalness": 0.0526,
-            "liveness": 0.35,
-            "speechiness": 0.3,
-            "loudness": -5.59,
-            "key": 5,
-            "mode": 0,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:17Z"
         },
         {
           "id": "6hYdDmcru6IWVZQBFTjPpk",
@@ -45220,21 +28280,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-01-27",
-          "addedAt": "2025-05-24T09:03:17Z",
-          "features": {
-            "danceability": 0.712,
-            "energy": 0.805,
-            "valence": 0.732,
-            "tempo": 128.3,
-            "acousticness": 0.113,
-            "instrumentalness": 0.0615,
-            "liveness": 0.325,
-            "speechiness": 0.164,
-            "loudness": -6.77,
-            "key": 8,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:17Z"
         },
         {
           "id": "1q2Jr1q9Fgvr8QP7aCNfGF",
@@ -45252,21 +28298,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2022-01-19",
-          "addedAt": "2025-05-24T09:03:18Z",
-          "features": {
-            "danceability": 0.692,
-            "energy": 0.819,
-            "valence": 0.74,
-            "tempo": 114.3,
-            "acousticness": 0.035,
-            "instrumentalness": 0.0097,
-            "liveness": 0.314,
-            "speechiness": 0.215,
-            "loudness": -5.7,
-            "key": 5,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:18Z"
         },
         {
           "id": "5q5yOe7be6wZI9PO27mwaO",
@@ -45284,21 +28316,7 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2023-07-21",
-          "addedAt": "2025-05-24T09:03:20Z",
-          "features": {
-            "danceability": 0.626,
-            "energy": 0.729,
-            "valence": 0.64,
-            "tempo": 116.9,
-            "acousticness": 0.344,
-            "instrumentalness": 0.0118,
-            "liveness": 0.078,
-            "speechiness": 0.3,
-            "loudness": -5.23,
-            "key": 4,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-05-24T09:03:20Z"
         },
         {
           "id": "5JcvfzZ35f20UcFMozJJrg",
@@ -45316,28 +28334,14 @@ window.AFROBEATS_DATA = {
           "albumLabel": "Unknown",
           "labelType": "Unknown",
           "albumReleaseDate": "2025-05-24",
-          "addedAt": "2025-10-11T05:33:07Z",
-          "features": {
-            "danceability": 0.633,
-            "energy": 0.516,
-            "valence": 0.497,
-            "tempo": 96.6,
-            "acousticness": 0.349,
-            "instrumentalness": 0.0139,
-            "liveness": 0.176,
-            "speechiness": 0.3,
-            "loudness": -3.68,
-            "key": 7,
-            "mode": 1,
-            "time_signature": 4
-          }
+          "addedAt": "2025-10-11T05:33:07Z"
         }
       ]
     }
   ],
   "runMetadata": {
     "startedAt": "2025-11-19T00:09:24Z",
-    "generatedAt": "2025-11-19T00:41:25Z",
+    "generatedAt": "2025-11-20T22:16:39Z",
     "playlistCount": 14,
     "missingArtists": [],
     "skippedPlaylists": {},
