@@ -9,6 +9,11 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+try:
+    import pycountry  # type: ignore
+except ImportError:  # pragma: no cover - optional dependency
+    pycountry = None
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = REPO_ROOT / "data" / "processed" / "afrobeats_playlists.json"
 MAJOR_LABEL_KEYWORDS = (
@@ -30,6 +35,58 @@ MAJOR_LABEL_KEYWORDS = (
     "emi",
     "capitol",
 )
+
+COUNTRY_CODE_OVERRIDES = {
+    "Congo": "CG",
+    "Congo - Brazzaville": "CG",
+    "Congo - Kinshasa": "CD",
+    "Côte d'Ivoire": "CI",
+    "Ivory Coast": "CI",
+    "South Korea": "KR",
+    "North Korea": "KP",
+    "United States": "US",
+    "United Kingdom": "GB",
+    "UK": "GB",
+    "Russia": "RU",
+    "Vietnam": "VN",
+    "Taiwan": "TW",
+    "Hong Kong": "HK",
+    "UAE": "AE",
+    "United Arab Emirates": "AE",
+    "Trinidad & Tobago": "TT",
+    "Trinidad and Tobago": "TT",
+    "Martinique": "MQ",
+    "Réunion": "RE",
+    "Guadeloupe": "GP",
+}
+
+
+def country_code_from_name(name: str | None) -> str | None:
+    if not name:
+        return None
+    normalized = name.strip()
+    if not normalized or normalized.lower() == "unknown":
+        return None
+    override = COUNTRY_CODE_OVERRIDES.get(normalized)
+    if override:
+        return override
+    if pycountry is None:
+        return None
+    try:
+        match = pycountry.countries.search_fuzzy(normalized)[0]
+        return match.alpha_2
+    except (LookupError, AttributeError):
+        return None
+
+
+def country_to_flag(name: str | None) -> str:
+    code = country_code_from_name(name)
+    if not code:
+        return ""
+    try:
+        return "".join(chr(ord("🇦") + ord(letter) - ord("A")) for letter in code.upper())
+    except ValueError:
+        return ""
 
 
 def classify_label(label: str | None) -> str:
@@ -138,13 +195,13 @@ def build_region_chart(df: pd.DataFrame) -> px.bar:
     return fig
 
 
-def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -> px.choropleth | None:
+def aggregate_country_footprint(df: pd.DataFrame) -> pd.DataFrame:
     clean = (
         df.assign(artist_country=df["artist_country"].fillna("Unknown").astype(str).str.strip())
         .loc[lambda frame: frame["artist_country"].ne("Unknown") & frame["artist_country"].ne("")]
     )
     if clean.empty:
-        return None
+        return pd.DataFrame()
 
     aggregates = (
         clean.groupby(["artist_country", "region_group"])
@@ -156,17 +213,28 @@ def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -
         )
         .reset_index()
     )
-
     aggregates["avg_popularity"] = aggregates["avg_popularity"].round(1)
     aggregates["Diaspora share (%)"] = (aggregates["diaspora_share"] * 100).round(0)
+    return aggregates
+
+
+def build_region_map(
+    df: pd.DataFrame,
+    *,
+    background_color: str | None = None,
+    aggregates: pd.DataFrame | None = None,
+) -> px.choropleth | None:
+    aggregates = aggregates if aggregates is not None else aggregate_country_footprint(df)
+    if aggregates is None or aggregates.empty:
+        return None
 
     vibrant_scale = [
-        (0.0, "#2b83ba"),
-        (0.2, "#80bfab"),
-        (0.4, "#abdda4"),
-        (0.6, "#fdae61"),
-        (0.8, "#f46d43"),
-        (1.0, "#d53e4f"),
+        (0.0, "#0b7285"),
+        (0.15, "#1aa59a"),
+        (0.35, "#3ad38f"),
+        (0.55, "#fee45a"),
+        (0.75, "#f08c00"),
+        (1.0, "#d00000"),
     ]
 
     fig = px.choropleth(
@@ -182,6 +250,7 @@ def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -
             "avg_popularity": True,
             "Diaspora share (%)": True,
         },
+        custom_data=["region_group", "playlists", "avg_popularity", "Diaspora share (%)"],
         color_continuous_scale=vibrant_scale,
         labels={
             "tracks": "Tracks",
@@ -196,11 +265,19 @@ def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -
 
     fig.update_layout(
         margin=dict(l=10, r=10, t=60, b=10),
-        coloraxis_colorbar=dict(title="Tracks"),
+        coloraxis_colorbar=dict(title="Tracks", len=0.4, yanchor="top", y=0.95),
         height=520,
     )
 
-    fig.update_traces(marker_line_color="rgba(255, 255, 255, 0.35)", marker_line_width=0.4)
+    fig.update_traces(
+        marker_line_color="rgba(255, 255, 255, 0.45)",
+        marker_line_width=0.7,
+        hovertemplate=(
+            "<b>%{location}</b><br>Region: %{customdata[0]}<br>Tracks: %{z}<br>"
+            "Playlists: %{customdata[1]}<br>Avg popularity: %{customdata[2]}<br>"
+            "Diaspora share: %{customdata[3]}%<extra></extra>"
+        ),
+    )
 
     if background_color:
         fig.update_layout(paper_bgcolor=background_color, plot_bgcolor=background_color)
@@ -211,6 +288,7 @@ def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -
             projection_type="natural earth",
             landcolor="rgba(255, 255, 255, 0.12)",
             oceancolor="rgba(0, 0, 0, 0)",
+            showlakes=False,
         )
     else:
         fig.update_geos(
@@ -219,6 +297,7 @@ def build_region_map(df: pd.DataFrame, *, background_color: str | None = None) -
             projection_type="natural earth",
             landcolor="rgba(38, 38, 47, 1)",
             oceancolor="rgba(18, 18, 24, 1)",
+            showlakes=False,
         )
 
     return fig
@@ -502,9 +581,44 @@ def main() -> None:
     )
 
     theme_background = st.get_option("theme.backgroundColor")
-    region_map_fig = build_region_map(filtered, background_color=theme_background)
+    country_overview = aggregate_country_footprint(filtered)
+    region_map_fig = build_region_map(
+        filtered,
+        background_color=theme_background,
+        aggregates=country_overview,
+    )
     if region_map_fig:
         st.plotly_chart(region_map_fig, use_container_width=True)
+        if not country_overview.empty:
+            st.markdown("#### Country callouts")
+            st.caption(
+                "Use the quick digest below to locate key contributor countries before hovering on the map."
+            )
+            top_rows = country_overview.sort_values("tracks", ascending=False).head(12)
+            callout_cols = st.columns(3)
+            max_tracks = max(top_rows["tracks"].tolist() or [1])
+            for idx, (_, row) in enumerate(top_rows.iterrows()):
+                col = callout_cols[idx % len(callout_cols)]
+                with col:
+                    flag = country_to_flag(row["artist_country"])
+                    title = f"{flag} {row['artist_country']}".strip()
+                    diaspora_value = row["Diaspora share (%)"]
+                    diaspora_text = (
+                        f"{int(diaspora_value):d}% diaspora"
+                        if pd.notna(diaspora_value)
+                        else "—"
+                    )
+                    playlists_value = int(row["playlists"]) if not pd.isna(row["playlists"]) else 0
+                    st.metric(
+                        label=title,
+                        value=f"{int(row['tracks'])} tracks",
+                        delta=diaspora_text,
+                        delta_color="off",
+                    )
+                    st.caption(
+                        f"Playlists: {playlists_value} • Avg popularity: {row['avg_popularity']:.0f}"
+                    )
+                    st.progress(min(row["tracks"] / max_tracks, 1.0))
     else:
         st.info("Artist country metadata unavailable for the map.")
 

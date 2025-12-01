@@ -1,3 +1,72 @@
+(() => {
+  const toggle = document.getElementById("nav-toggle");
+  const menu = document.querySelector("[data-nav-menu]");
+  const backdrop = document.querySelector("[data-nav-backdrop]");
+  if (!toggle || !menu) {
+    return;
+  }
+
+  function setOpen(isOpen) {
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    menu.classList.toggle("is-open", isOpen);
+    document.body.classList.toggle("nav-open", isOpen);
+    if (backdrop) {
+      backdrop.hidden = !isOpen;
+    }
+  }
+
+  toggle.addEventListener("click", () => {
+    const willOpen = !menu.classList.contains("is-open");
+    setOpen(willOpen);
+  });
+
+  if (backdrop) {
+    backdrop.addEventListener("click", () => setOpen(false));
+  }
+
+  menu.addEventListener("click", (event) => {
+    const target = event.target;
+    if (target instanceof HTMLElement && target.tagName === "A") {
+      setOpen(false);
+    }
+  });
+})();
+
+(() => {
+  const toggle = document.getElementById("filters-toggle");
+  const panel = document.getElementById("filters");
+  const backdrop = document.querySelector("[data-filters-backdrop]");
+  if (!toggle || !panel) {
+    return;
+  }
+
+  function setOpen(isOpen) {
+    panel.classList.toggle("is-open", isOpen);
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    document.body.classList.toggle("filters-open", isOpen);
+    if (backdrop) {
+      backdrop.hidden = !isOpen;
+    }
+  }
+
+  toggle.addEventListener("click", () => {
+    const willOpen = !panel.classList.contains("is-open");
+    setOpen(willOpen);
+  });
+
+  if (backdrop) {
+    backdrop.addEventListener("click", () => setOpen(false));
+  }
+
+  const mq = window.matchMedia("(min-width: 901px)");
+  const handleBreakpoint = (event) => {
+    if (event.matches) {
+      setOpen(false);
+    }
+  };
+  mq.addEventListener("change", handleBreakpoint);
+})();
+
 (async () => {
   const dataset = window.AFROBEATS_DATA;
   if (!dataset || !Array.isArray(dataset.playlists)) {
@@ -105,6 +174,8 @@
   const regionButtonMap = new Map();
   const countryButtonMap = new Map();
 
+  const quickViewSelect = document.getElementById("quick-view-select");
+
   const allTracks = dataset.playlists.flatMap((playlist) => playlist.tracks || []);
   const trackYears = allTracks.map((track) => track.releaseYear).filter((year) => typeof year === "number");
   const minYearValue = Math.min(...trackYears);
@@ -126,6 +197,7 @@
   const quickViewPresets = [
     {
       id: QUICK_VIEW_DEFAULT_ID,
+      label: "All placements",
       summary: "Full dataset across every curator, region, and release year.",
       apply: () => {
         resetFilters();
@@ -133,6 +205,7 @@
     },
     {
       id: "current-cycle",
+      label: "Current cycle",
       summary: "Focus on the most recent five release years to study current rotations.",
       apply: () => {
         resetFilters();
@@ -142,6 +215,7 @@
     },
     {
       id: "diaspora-wave",
+      label: "Diaspora wave",
       summary: "Diaspora-only lens anchored to the freshest six-year window.",
       apply: () => {
         resetFilters();
@@ -152,6 +226,7 @@
     },
     {
       id: "archive-dig",
+      label: "Archive dig",
       summary: "Lean into the earliest catalogue years to inspect historical gatekeeping.",
       apply: () => {
         resetFilters();
@@ -234,10 +309,16 @@
     }
   }
 
+  function syncQuickViewSelect(value) {
+    if (!quickViewSelect) return;
+    quickViewSelect.value = value || "custom";
+  }
+
   function setActiveQuickView(id) {
     state.activeQuickView = id;
     if (!quickViewButtons.length) {
       updateQuickViewStatus();
+      syncQuickViewSelect(id);
       return;
     }
     quickViewButtons.forEach((button) => {
@@ -246,28 +327,56 @@
       button.setAttribute("aria-pressed", String(isActive));
     });
     updateQuickViewStatus();
+    syncQuickViewSelect(id);
   }
 
   function clearActiveQuickView() {
-    if (!state.activeQuickView) {
-      return;
-    }
     state.activeQuickView = null;
     quickViewButtons.forEach((button) => {
       button.classList.remove("is-active");
       button.setAttribute("aria-pressed", "false");
     });
     updateQuickViewStatus();
+    syncQuickViewSelect("custom");
   }
 
   function initQuickViewPresets() {
     if (!quickViewButtons.length) {
+      if (quickViewSelect) {
+        quickViewSelect.innerHTML = [
+          '<option value="custom">Custom view</option>',
+          ...quickViewPresets.map((preset) => `<option value="${preset.id}">${preset.label}</option>`)
+        ].join("");
+      }
       return;
     }
     quickViewRegistry.clear();
     quickViewPresets.forEach((preset) => {
       quickViewRegistry.set(preset.id, preset);
     });
+
+    if (quickViewSelect) {
+      quickViewSelect.innerHTML = [
+        '<option value="custom">Custom view</option>',
+        ...quickViewPresets.map((preset) => `<option value="${preset.id}">${preset.label}</option>`)
+      ].join("");
+      quickViewSelect.addEventListener("change", (event) => {
+        const selectedId = event.target.value;
+        if (selectedId === "custom") {
+          clearActiveQuickView();
+          return;
+        }
+        const preset = quickViewRegistry.get(selectedId);
+        if (!preset) {
+          clearActiveQuickView();
+          return;
+        }
+        preset.apply();
+        syncFilterControls();
+        setActiveQuickView(preset.id);
+        updateDashboard();
+      });
+    }
 
     quickViewButtons.forEach((button) => {
       button.addEventListener("click", () => {
@@ -1097,19 +1206,19 @@
 
         return `
           <tr>
-            <td>
+            <td data-label="Playlist">
               <div style="display:flex; flex-direction:column; gap:0.35rem;">
                 <strong>${playlist.name}</strong>
                 <span class="tag">Launched ${playlist.launchYear}</span>
               </div>
             </td>
-            <td>${playlist.curator}</td>
-            <td>${formatNumber(playlist.followerCount)}</td>
-            <td>${uniqueRegions}</td>
-            <td>${formatPercent(diasporaCount, totalTracks)}</td>
-            <td>${formatPercent(nigeriaCount, totalTracks)}</td>
-            <td>${avgPopularity}</td>
-            <td>${medianPosition}</td>
+            <td data-label="Curator">${playlist.curator}</td>
+            <td data-label="Followers">${formatNumber(playlist.followerCount)}</td>
+            <td data-label="Unique regions">${uniqueRegions}</td>
+            <td data-label="Diaspora share">${formatPercent(diasporaCount, totalTracks)}</td>
+            <td data-label="Nigeria share">${formatPercent(nigeriaCount, totalTracks)}</td>
+            <td data-label="Avg popularity">${avgPopularity}</td>
+            <td data-label="Median position">${medianPosition}</td>
           </tr>
         `;
       })
@@ -1263,22 +1372,22 @@
             const firstAddedDisplay = row.firstAdded ? formatDate(row.firstAdded) : "--";
             return `
               <tr>
-                <td>
+                <td data-label="Playlist">
                   <div class="table-stack">
                     <strong>${row.playlistName}</strong>
                     ${launchTag}
                   </div>
                 </td>
-                <td>
+                <td data-label="Curator">
                   <div class="table-stack">
                     <span>${row.curator || "--"}</span>
                     <span class="tag">${row.curatorType || "Unknown"}</span>
                   </div>
                 </td>
-                <td>${row.trackCount}</td>
-                <td>${medianDisplay}</td>
-                <td>${formatNumber(row.followerCount || 0)}</td>
-                <td>${firstAddedDisplay}</td>
+                <td data-label="Tracks">${row.trackCount}</td>
+                <td data-label="Median position">${medianDisplay}</td>
+                <td data-label="Followers">${formatNumber(row.followerCount || 0)}</td>
+                <td data-label="First added">${firstAddedDisplay}</td>
               </tr>
             `;
           })
@@ -1302,16 +1411,16 @@
             const popularityDisplay = typeof track.trackPopularity === "number" ? track.trackPopularity : "--";
             return `
               <tr>
-                <td>${track.title || "--"}</td>
-                <td>
+                <td data-label="Track">${track.title || "--"}</td>
+                <td data-label="Playlist">
                   <div class="table-stack">
                     <span>${track.playlistName || "--"}</span>
                     <span class="tag">${track.playlistCuratorType || "Unknown"}</span>
                   </div>
                 </td>
-                <td>${positionDisplay}</td>
-                <td>${popularityDisplay}</td>
-                <td>${track.addedAt ? formatDate(track.addedAt) : "--"}</td>
+                <td data-label="Position">${positionDisplay}</td>
+                <td data-label="Popularity">${popularityDisplay}</td>
+                <td data-label="Added">${track.addedAt ? formatDate(track.addedAt) : "--"}</td>
               </tr>
             `;
           });
@@ -1517,12 +1626,12 @@
           const diasporaArtistShare = formatPercent(artist.diasporaPlacements, artist.trackCount);
           return `
             <tr>
-              <td>${artist.name}</td>
-              <td>${artist.trackCount}</td>
-              <td>${artist.playlists.size}</td>
-              <td>${avgArtistPopularity !== null ? avgArtistPopularity.toFixed(1) : "--"}</td>
-              <td>${medianArtistPosition !== null ? medianArtistPosition.toFixed(0) : "--"}</td>
-              <td>${diasporaArtistShare}</td>
+              <td data-label="Artist">${artist.name}</td>
+              <td data-label="Placements">${artist.trackCount}</td>
+              <td data-label="Playlists">${artist.playlists.size}</td>
+              <td data-label="Avg popularity">${avgArtistPopularity !== null ? avgArtistPopularity.toFixed(1) : "--"}</td>
+              <td data-label="Median position">${medianArtistPosition !== null ? medianArtistPosition.toFixed(0) : "--"}</td>
+              <td data-label="Diaspora share">${diasporaArtistShare}</td>
             </tr>
           `;
         });
@@ -1541,22 +1650,22 @@
           const launchTag = playlist.launchYear ? `<span class="tag">Launched ${playlist.launchYear}</span>` : "";
           return `
             <tr>
-              <td>
+              <td data-label="Playlist">
                 <div class="table-stack">
                   <strong>${playlist.name}</strong>
                   ${launchTag}
                 </div>
               </td>
-              <td>
+              <td data-label="Curator">
                 <div class="table-stack">
                   <span>${playlist.curator}</span>
                   <span class="tag">${playlist.curatorType}</span>
                 </div>
               </td>
-              <td>${playlist.trackCount}</td>
-              <td>${playlist.artists.size}</td>
-              <td>${medianPlaylistPosition !== null ? medianPlaylistPosition.toFixed(0) : "--"}</td>
-              <td>${formatNumber(playlist.followers || 0)}</td>
+              <td data-label="Track placements">${playlist.trackCount}</td>
+              <td data-label="Unique artists">${playlist.artists.size}</td>
+              <td data-label="Median position">${medianPlaylistPosition !== null ? medianPlaylistPosition.toFixed(0) : "--"}</td>
+              <td data-label="Followers">${formatNumber(playlist.followers || 0)}</td>
             </tr>
           `;
         });
