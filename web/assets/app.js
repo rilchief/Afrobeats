@@ -28,6 +28,7 @@
     nigeriaShare: document.getElementById("nigeria-share"),
     diasporaShare: document.getElementById("diaspora-share"),
     diversityScore: document.getElementById("diversity-score"),
+    filterSummary: document.getElementById("filter-summary"),
     playlistTable: document.getElementById("playlist-table"),
     emptyState: document.getElementById("empty-state"),
     regionChart: document.getElementById("region-chart"),
@@ -36,6 +37,10 @@
     curatorChart: document.getElementById("curator-chart"),
     exposureChart: document.getElementById("exposure-chart")
   };
+
+  const loadingOverlay = document.getElementById("dashboard-loading");
+  const quickViewStatus = document.getElementById("quick-view-status");
+  const quickViewButtons = Array.from(document.querySelectorAll("[data-quick-view]"));
 
   const artistElements = {
     search: document.getElementById("artist-search"),
@@ -117,6 +122,46 @@
 
   const dateFormatter = new Intl.DateTimeFormat(undefined, { day: "2-digit", month: "short", year: "numeric" });
 
+  const QUICK_VIEW_DEFAULT_ID = "all-placements";
+  const quickViewPresets = [
+    {
+      id: QUICK_VIEW_DEFAULT_ID,
+      summary: "Full dataset across every curator, region, and release year.",
+      apply: () => {
+        resetFilters();
+      }
+    },
+    {
+      id: "current-cycle",
+      summary: "Focus on the most recent five release years to study current rotations.",
+      apply: () => {
+        resetFilters();
+        state.minYear = Math.max(maxYearValue - 5, minYearValue);
+        state.maxYear = maxYearValue;
+      }
+    },
+    {
+      id: "diaspora-wave",
+      summary: "Diaspora-only lens anchored to the freshest six-year window.",
+      apply: () => {
+        resetFilters();
+        state.diasporaOnly = true;
+        state.minYear = Math.max(maxYearValue - 6, minYearValue);
+        state.maxYear = maxYearValue;
+      }
+    },
+    {
+      id: "archive-dig",
+      summary: "Lean into the earliest catalogue years to inspect historical gatekeeping.",
+      apply: () => {
+        resetFilters();
+        const legacyCeiling = Math.min(minYearValue + 8, maxYearValue);
+        state.maxYear = Math.max(legacyCeiling, state.minYear);
+      }
+    }
+  ];
+  const quickViewRegistry = new Map();
+
   const artistIndex = buildArtistIndex(dataset.playlists);
   const regionIndex = buildRegionIndex(dataset.playlists);
   const countryIndex = buildCountryIndex(dataset.playlists);
@@ -132,8 +177,116 @@
     selectedRegion: regionIndex.defaultRegion || regionIndex.list[0] || null,
     regionQuery: "",
     selectedCountry: countryIndex.defaultCountry || countryIndex.list[0] || null,
-    countryQuery: ""
+    countryQuery: "",
+    activeQuickView: null
   };
+
+  function syncFilterControls() {
+    if (elements.search) {
+      elements.search.value = state.search;
+    }
+    if (elements.minYear) {
+      elements.minYear.value = state.minYear;
+    }
+    if (elements.maxYear) {
+      elements.maxYear.value = state.maxYear;
+    }
+    if (elements.diasporaOnly) {
+      elements.diasporaOnly.checked = state.diasporaOnly;
+    }
+  }
+
+  function resetFilters() {
+    state.search = "";
+    state.curatorTypes = new Set(uniqueCuratorTypes);
+    state.minYear = minYearValue;
+    state.maxYear = maxYearValue;
+    state.diasporaOnly = false;
+    state.selectedArtistId = null;
+    state.artistQuery = "";
+    state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
+    state.regionQuery = "";
+    state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
+    state.countryQuery = "";
+    syncFilterControls();
+    if (elements.curatorTypes) {
+      elements.curatorTypes.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
+        checkbox.checked = true;
+      });
+    }
+    if (artistElements.search) {
+      artistElements.search.value = "";
+    }
+    if (regionElements.search) {
+      regionElements.search.value = "";
+    }
+    if (countryElements.search) {
+      countryElements.search.value = "";
+    }
+  }
+
+  function updateQuickViewStatus() {
+    if (!quickViewStatus) return;
+    if (state.activeQuickView && quickViewRegistry.has(state.activeQuickView)) {
+      quickViewStatus.textContent = quickViewRegistry.get(state.activeQuickView).summary;
+    } else {
+      quickViewStatus.textContent = "Custom view active — mix filters freely.";
+    }
+  }
+
+  function setActiveQuickView(id) {
+    state.activeQuickView = id;
+    if (!quickViewButtons.length) {
+      updateQuickViewStatus();
+      return;
+    }
+    quickViewButtons.forEach((button) => {
+      const isActive = button.dataset.quickView === id;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+    updateQuickViewStatus();
+  }
+
+  function clearActiveQuickView() {
+    if (!state.activeQuickView) {
+      return;
+    }
+    state.activeQuickView = null;
+    quickViewButtons.forEach((button) => {
+      button.classList.remove("is-active");
+      button.setAttribute("aria-pressed", "false");
+    });
+    updateQuickViewStatus();
+  }
+
+  function initQuickViewPresets() {
+    if (!quickViewButtons.length) {
+      return;
+    }
+    quickViewRegistry.clear();
+    quickViewPresets.forEach((preset) => {
+      quickViewRegistry.set(preset.id, preset);
+    });
+
+    quickViewButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const { quickView } = button.dataset;
+        const preset = quickViewRegistry.get(quickView);
+        if (!preset) {
+          return;
+        }
+        preset.apply();
+        syncFilterControls();
+        setActiveQuickView(preset.id);
+        updateDashboard();
+      });
+    });
+
+    setActiveQuickView(QUICK_VIEW_DEFAULT_ID);
+  }
+
+  let hasRenderedInitialView = false;
 
   let currentFilteredState = { playlists: [], tracks: [] };
 
@@ -229,12 +382,14 @@
 
   function attachListeners() {
     elements.search.addEventListener("input", (event) => {
+      clearActiveQuickView();
       state.search = event.target.value.trim().toLowerCase();
       updateDashboard();
     });
 
     elements.curatorTypes.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
       checkbox.addEventListener("change", (event) => {
+        clearActiveQuickView();
         const value = event.target.value;
         if (event.target.checked) {
           state.curatorTypes.add(value);
@@ -251,6 +406,7 @@
     });
 
     elements.minYear.addEventListener("change", (event) => {
+      clearActiveQuickView();
       const value = Number(event.target.value) || minYearValue;
       state.minYear = Math.max(minYearValue, Math.min(value, state.maxYear));
       event.target.value = state.minYear;
@@ -258,6 +414,7 @@
     });
 
     elements.maxYear.addEventListener("change", (event) => {
+      clearActiveQuickView();
       const value = Number(event.target.value) || maxYearValue;
       state.maxYear = Math.min(maxYearValue, Math.max(value, state.minYear));
       event.target.value = state.maxYear;
@@ -265,43 +422,14 @@
     });
 
     elements.diasporaOnly.addEventListener("change", (event) => {
+      clearActiveQuickView();
       state.diasporaOnly = event.target.checked;
       updateDashboard();
     });
 
     elements.reset.addEventListener("click", () => {
-      state.search = "";
-      state.curatorTypes = new Set(uniqueCuratorTypes);
-      state.minYear = minYearValue;
-      state.maxYear = maxYearValue;
-      state.diasporaOnly = false;
-      state.selectedArtistId = null;
-      state.artistQuery = "";
-      state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
-      state.regionQuery = "";
-      state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
-      state.countryQuery = "";
-
-      elements.search.value = "";
-      elements.minYear.value = minYearValue;
-      elements.maxYear.value = maxYearValue;
-      elements.diasporaOnly.checked = false;
-      elements.curatorTypes.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
-        checkbox.checked = true;
-      });
-
-      if (artistElements.search) {
-        artistElements.search.value = "";
-      }
-
-      if (regionElements.search) {
-        regionElements.search.value = "";
-      }
-
-      if (countryElements.search) {
-        countryElements.search.value = "";
-      }
-
+      resetFilters();
+      setActiveQuickView(QUICK_VIEW_DEFAULT_ID);
       updateDashboard();
     });
 
@@ -914,6 +1042,32 @@
     const diversityScores = playlists.map((playlist) => new Set(playlist.filteredTracks.map((track) => track.regionGroup)).size);
     const avgDiversity = diversityScores.length ? average(diversityScores).toFixed(1) : "0";
     elements.diversityScore.textContent = avgDiversity;
+
+    if (elements.filterSummary) {
+      if (!tracks.length) {
+        elements.filterSummary.textContent = "No playlists match the current filters. Reset or pick another quick view.";
+      } else {
+        const taggedRegions = tracks
+          .map((track) => track.regionGroup || "Unknown")
+          .filter((region) => region && region !== "Unknown");
+        const uniqueRegionCount = new Set(taggedRegions).size;
+        const regionCopy = uniqueRegionCount
+          ? `${uniqueRegionCount} region${uniqueRegionCount === 1 ? "" : "s"}`
+          : "no tagged regions";
+        const releaseYears = tracks
+          .map((track) => track.releaseYear)
+          .filter((year) => typeof year === "number");
+        let releaseCopy = "across unknown release years";
+        if (releaseYears.length) {
+          const minRelease = Math.min(...releaseYears);
+          const maxRelease = Math.max(...releaseYears);
+          releaseCopy = minRelease === maxRelease ? `from ${minRelease}` : `from ${minRelease} to ${maxRelease}`;
+        }
+        const playlistLabel = playlists.length === 1 ? "playlist" : "playlists";
+        const trackLabel = tracks.length === 1 ? "track" : "tracks";
+        elements.filterSummary.textContent = `Showing ${playlists.length} ${playlistLabel} spanning ${regionCopy} with ${tracks.length} ${trackLabel} ${releaseCopy}.`;
+      }
+    }
   }
 
   function renderPlaylistTable(playlists) {
@@ -1815,6 +1969,13 @@
     updateArtistInspectorView();
     updateRegionSpotlight();
     updateCountrySpotlight();
+
+    if (!hasRenderedInitialView) {
+      hasRenderedInitialView = true;
+      if (loadingOverlay) {
+        requestAnimationFrame(() => loadingOverlay.classList.add("is-hidden"));
+      }
+    }
   }
 
   initFilters();
@@ -1823,6 +1984,7 @@
   initCountrySpotlight();
   attachListeners();
   initMetadata();
+  initQuickViewPresets();
   updateDashboard();
   initChartTabs();
 

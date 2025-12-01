@@ -411,21 +411,20 @@ def main() -> None:
         diaspora_only = st.checkbox("Diaspora artists only", value=False)
 
         if run_metadata:
-            st.markdown("---")
-            st.subheader("Dataset run metadata")
-            started = run_metadata.get("startedAt", "Unknown")
-            generated = run_metadata.get("generatedAt", "Unknown")
-            playlist_total = run_metadata.get("playlistCount") or playlists_df.shape[0]
-            artist_detail_count = run_metadata.get("artistDetailsFetched")
-            st.write(f"Started: {started}")
-            st.write(f"Generated: {generated}")
-            st.write(f"Playlists collected: {playlist_total}")
-            if artist_detail_count is not None:
-                st.write(f"Artist detail records fetched: {artist_detail_count}")
-            missing = run_metadata.get("missingArtists") or []
-            if missing:
-                st.write("Missing artist metadata:")
-                st.write(", ".join(missing))
+            with st.expander("Dataset run metadata", expanded=False):
+                started = run_metadata.get("startedAt", "Unknown")
+                generated = run_metadata.get("generatedAt", "Unknown")
+                playlist_total = run_metadata.get("playlistCount") or playlists_df.shape[0]
+                artist_detail_count = run_metadata.get("artistDetailsFetched")
+                st.write(f"Started: {started}")
+                st.write(f"Generated: {generated}")
+                st.write(f"Playlists collected: {playlist_total}")
+                if artist_detail_count is not None:
+                    st.write(f"Artist detail records fetched: {artist_detail_count}")
+                missing = run_metadata.get("missingArtists") or []
+                if missing:
+                    st.write("Missing artist metadata:")
+                    st.write(", ".join(missing))
 
     filtered = tracks_df.copy()
 
@@ -475,6 +474,33 @@ def main() -> None:
     sub_col2.metric("Mean artist popularity", "N/A" if pd.isna(avg_artist_popularity) else f"{avg_artist_popularity:.1f}")
     sub_col3.metric("Major label share", format_share(major_label_share))
 
+    tagged_regions = (
+        filtered["region_group"].fillna("Unknown").astype(str).str.strip()
+    )
+    tagged_regions = tagged_regions[tagged_regions.str.lower().ne("unknown")]
+    unique_region_count = int(tagged_regions.nunique()) if not tagged_regions.empty else 0
+
+    release_years = filtered["release_year"].dropna().astype(int)
+    if release_years.empty:
+        release_window = "unknown release window"
+    else:
+        release_start = int(release_years.min())
+        release_end = int(release_years.max())
+        release_window = f"{release_start}" if release_start == release_end else f"{release_start} – {release_end}"
+
+    focus_tokens = []
+    if diaspora_only:
+        focus_tokens.append("diaspora artists only")
+    if search_text:
+        focus_tokens.append(f"playlist keyword '{search_text}'")
+    focus_copy = f" Focus: {', '.join(focus_tokens)}." if focus_tokens else ""
+
+    st.info(
+        f"{playlist_count} playlists / {track_count} tracks | "
+        f"{unique_region_count} tagged region{'s' if unique_region_count != 1 else ''} | releases {release_window}."
+        f"{focus_copy}"
+    )
+
     theme_background = st.get_option("theme.backgroundColor")
     region_map_fig = build_region_map(filtered, background_color=theme_background)
     if region_map_fig:
@@ -482,30 +508,60 @@ def main() -> None:
     else:
         st.info("Artist country metadata unavailable for the map.")
 
-    chart_col1, chart_col2 = st.columns(2)
-    with chart_col1:
-        st.plotly_chart(build_region_chart(filtered), use_container_width=True)
-    with chart_col2:
-        release_fig = build_release_year_chart(filtered)
-        if release_fig:
-            st.plotly_chart(release_fig, use_container_width=True)
-        else:
-            st.info("Release year metadata unavailable for this selection.")
-
+    region_chart = build_region_chart(filtered)
+    release_fig = build_release_year_chart(filtered)
     popularity_fig = build_popularity_chart(filtered)
-    if popularity_fig:
-        st.plotly_chart(popularity_fig, use_container_width=True)
-    else:
-        st.info("Popularity data unavailable for this selection.")
-
-    st.plotly_chart(build_curator_chart(filtered), use_container_width=True)
-
+    curator_fig = build_curator_chart(filtered)
     exposure_fig = build_exposure_chart(filtered)
-    if exposure_fig:
-        st.plotly_chart(exposure_fig, use_container_width=True)
+
+    mix_tab, timeline_tab, concentration_tab = st.tabs(
+        ["Regional mix", "Release & popularity", "Curator & exposure"]
+    )
+
+    with mix_tab:
+        st.plotly_chart(region_chart, use_container_width=True)
+
+    with timeline_tab:
+        trend_cols = st.columns(2)
+        with trend_cols[0]:
+            if release_fig:
+                st.plotly_chart(release_fig, use_container_width=True)
+            else:
+                st.info("Release year metadata unavailable for this selection.")
+        with trend_cols[1]:
+            if popularity_fig:
+                st.plotly_chart(popularity_fig, use_container_width=True)
+            else:
+                st.info("Popularity data unavailable for this selection.")
+
+    with concentration_tab:
+        st.plotly_chart(curator_fig, use_container_width=True)
+        if exposure_fig:
+            st.plotly_chart(exposure_fig, use_container_width=True)
+        else:
+            st.info("No recurring artist data for this slice.")
 
     summary = playlist_summary(filtered, playlists_df)
     st.subheader("Playlist breakdown")
+    if not summary.empty:
+        sort_columns = summary.columns.tolist()
+        default_sort_index = sort_columns.index("Followers") if "Followers" in sort_columns else 0
+        sort_field = st.selectbox(
+            "Sort playlists by",
+            sort_columns,
+            index=default_sort_index,
+            key="playlist_sort_by",
+            help="Reorder the summary table without exporting to Excel first."
+        )
+        sort_direction = st.radio(
+            "Order",
+            ("Descending", "Ascending"),
+            horizontal=True,
+            key="playlist_sort_order"
+        )
+        summary = summary.sort_values(sort_field, ascending=(sort_direction == "Ascending"))
+    else:
+        st.caption("No playlists to summarise with the current filters.")
     st.dataframe(summary, use_container_width=True)
 
     with st.expander("Preview filtered tracks"):

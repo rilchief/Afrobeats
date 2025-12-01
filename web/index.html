@@ -110,6 +110,16 @@
               <span>Diaspora focus</span>
             </label>
           </div>
+          <p class="filters-hint">Filters apply instantly&mdash;mix search, curator groups, and release years to isolate a slice of the ecosystem.</p>
+          <div class="quick-view-panel" role="group" aria-label="Quick view presets">
+            <button type="button" class="quick-view-btn is-active" data-quick-view="all-placements" aria-pressed="true">All placements</button>
+            <button type="button" class="quick-view-btn" data-quick-view="current-cycle" aria-pressed="false">Current cycle</button>
+            <button type="button" class="quick-view-btn" data-quick-view="diaspora-wave" aria-pressed="false">Diaspora wave</button>
+            <button type="button" class="quick-view-btn" data-quick-view="archive-dig" aria-pressed="false">Archive dig</button>
+          </div>
+          <p id="quick-view-status" class="filters-hint quick-view-status" role="status" aria-live="polite">
+            Full dataset in view. Layer additional filters anytime.
+          </p>
           <details class="filter-accordion" open>
             <summary>Curator lenses</summary>
             <div class="filter-accordion-body">
@@ -135,12 +145,17 @@
         </aside>
 
     <div class="dashboard-main-column">
+      <div id="dashboard-loading" class="loading-overlay" role="status" aria-live="polite">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <p>Warming up charts and spotlights…</p>
+      </div>
       <div class="spotlight-grid">
       <section class="panel artist-panel" aria-label="Artist lookup">
         <div class="artist-panel-header">
           <div>
             <h2>Artist lookup</h2>
             <p>Search an artist to see where they appear across the filtered playlists.</p>
+            <p class="panel-hint">Tip: begin typing to auto-complete; follower reach reflects playlist combinations after filters.</p>
           </div>
           <div class="artist-search-control">
             <label for="artist-search" class="sr-only">Search artist</label>
@@ -149,7 +164,7 @@
             <button id="artist-clear" type="button" class="ghost-button">Clear</button>
           </div>
         </div>
-        <div id="artist-empty" class="empty-state">
+        <div id="artist-empty" class="empty-state" role="status" aria-live="polite">
           Start typing an artist's name to surface their placements.
         </div>
         <div id="artist-results" class="artist-results" hidden>
@@ -223,6 +238,7 @@
           <div>
             <h2>Regional spotlight</h2>
             <p>Dive into a region to inspect playlist reach, top artists, and diaspora balance.</p>
+            <p class="panel-hint">Navigate via the tabs or search box; every metric respects the active filters.</p>
           </div>
           <div class="region-search-control">
             <label for="region-search" class="sr-only">Search region</label>
@@ -231,7 +247,7 @@
           </div>
         </div>
         <div id="region-tabs" class="region-tabs" role="tablist" aria-label="Regions"></div>
-        <div id="region-empty" class="empty-state">Pick a region to reveal its stats.</div>
+        <div id="region-empty" class="empty-state" role="status" aria-live="polite">Pick a region to reveal its stats.</div>
         <div id="region-content" class="region-results" hidden>
           <div class="region-meta">
             <div>
@@ -304,6 +320,7 @@
           <div>
             <h2>Country spotlight</h2>
             <p>Track how specific countries surface across playlists to spot emerging footholds.</p>
+            <p class="panel-hint">Search for any artist homeland to reveal which playlists drive its footprint.</p>
           </div>
           <div class="country-search-control">
             <label for="country-search" class="sr-only">Search country</label>
@@ -312,7 +329,7 @@
           </div>
         </div>
         <div id="country-tabs" class="country-tabs" role="tablist" aria-label="Countries"></div>
-        <div id="country-empty" class="empty-state">Pick a country to track its footprint.</div>
+        <div id="country-empty" class="empty-state" role="status" aria-live="polite">Pick a country to track its footprint.</div>
         <div id="country-content" class="country-results" hidden>
           <div class="country-meta">
             <div>
@@ -419,6 +436,9 @@
             <span class="card-subtitle">avg. unique regions per playlist</span>
           </article>
         </section>
+        <p id="filter-summary" class="filter-summary" role="status" aria-live="polite">
+          Showing the full dataset. Adjust filters or quick views to narrate a specific storyline.
+        </p>
 
         <article class="panel chart-panel spotlight" aria-label="Regional representation spotlight">
           <div>
@@ -452,7 +472,7 @@
               <tbody id="playlist-table"></tbody>
             </table>
           </div>
-          <div id="empty-state" class="empty-state" hidden>
+          <div id="empty-state" class="empty-state" hidden role="status" aria-live="polite">
             No playlists match the filters. Adjust the search to see results.
           </div>
         </section>
