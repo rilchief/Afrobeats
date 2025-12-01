@@ -401,6 +401,9 @@ def build_track_payload(
         "releaseYear": parse_release_year(track.get("album")),
         "trackPopularity": track.get("popularity"),
         "artistPopularity": (artist_info.get("popularity") if artist_info else None),
+        "artistFollowers": (
+            (artist_info.get("followers") or {}).get("total") if artist_info else None
+        ),
         "artistGenres": artist_info.get("genres") if artist_info else [],
         "artistId": primary_artist_id,
         "playlistPosition": position,

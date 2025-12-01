@@ -21,7 +21,7 @@
       </div>
       <ul class="nav-links">
         <li><a href="#dashboard-main">Dashboard</a></li>
-        <li><a href="http://localhost:8501" target="_blank" class="streamlit-link">📊 Streamlit Analytics</a></li>
+        <li><a href="http://localhost:8501" target="_blank" rel="noopener noreferrer" class="streamlit-link">📊 Streamlit Analytics</a></li>
         <li><a href="data.js" download>Data</a></li>
         <li><button id="theme-toggle" type="button" class="theme-toggle-btn" title="Toggle theme">🌙 Neo</button></li>
       </ul>
@@ -31,59 +31,53 @@
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <div class="hero-badge">MSc Computing & Data Science Dissertation</div>
-      <h1 class="hero-title">Afrobeats Playlist Gatekeeping Observatory</h1>
-      <p class="hero-subtitle">
-        An Interactive Data Analysis Platform Examining Regional Representation and Gatekeeping Patterns in Spotify's Afrobeats Ecosystem
-      </p>
-      <div class="hero-meta">
-        <div class="hero-meta-item">
-          <span class="meta-label">Author</span>
-          <span class="meta-value">MSc Candidate</span>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="hero-badge">MSc Computing & Data Science Dissertation</div>
+          <h1 class="hero-title">Afrobeats Playlist Gatekeeping Observatory</h1>
+          <p class="hero-subtitle">
+            An interactive observatory surfacing regional representation, curator concentration, and gatekeeping patterns across Spotify's Afrobeats ecosystem.
+          </p>
+          <ul class="hero-pills" aria-label="Project metadata">
+            <li>Author: MSc Candidate</li>
+            <li>Institution: University Research Project</li>
+            <li>Cohort: 2024–2025</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#dashboard-main">Explore Dashboard</a>
+            <a class="btn btn-streamlit" href="http://localhost:8501" target="_blank" rel="noopener noreferrer">📊 Streamlit Analytics</a>
+            <a class="btn btn-outline" href="data.js" download>Download Dataset</a>
+          </div>
         </div>
-        <div class="hero-meta-item">
-          <span class="meta-label">Institution</span>
-          <span class="meta-value">University Research Project</span>
+        <div class="hero-insight" aria-label="Latest data refresh">
+          <div class="hero-insight-header">
+            <p class="hero-insight-kicker">Live ingest snapshot</p>
+            <h3>Data health</h3>
+            <p class="hero-insight-copy">Track the freshness of Spotify pulls before diving into the dashboard.</p>
+          </div>
+          <div class="status-metrics hero-status">
+            <article>
+              <span class="status-label">Generated</span>
+              <strong id="data-generated">--</strong>
+            </article>
+            <article>
+              <span class="status-label">Ingestion started</span>
+              <strong id="data-started">--</strong>
+            </article>
+            <article>
+              <span class="status-label">Playlists captured</span>
+              <strong id="dataset-playlist-count">--</strong>
+            </article>
+            <article>
+              <span class="status-label">Missing artist metadata</span>
+              <strong id="dataset-missing-count">--</strong>
+            </article>
+          </div>
         </div>
-        <div class="hero-meta-item">
-          <span class="meta-label">Year</span>
-          <span class="meta-value">2024-2025</span>
-        </div>
-      </div>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#dashboard-main">Explore Dashboard</a>
-        <a class="btn btn-streamlit" href="http://localhost:8501" target="_blank">📊 Open Streamlit Analytics</a>
-        <a class="btn btn-outline" href="data.js" download>Download Dataset</a>
       </div>
     </div>
     <div class="hero-decoration"></div>
   </header>
-
-  <!-- Dataset Status Panel -->
-  <section class="section status-section">
-    <div class="container-wide">
-      <div class="panel status-strip" aria-label="Dataset status">
-        <div class="status-metrics">
-          <div>
-            <span class="status-label">Generated</span>
-            <strong id="data-generated">--</strong>
-          </div>
-          <div>
-            <span class="status-label">Ingestion started</span>
-            <strong id="data-started">--</strong>
-          </div>
-          <div>
-            <span class="status-label">Playlists captured</span>
-            <strong id="dataset-playlist-count">--</strong>
-          </div>
-          <div>
-            <span class="status-label">Artists missing metadata</span>
-            <strong id="dataset-missing-count">--</strong>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Interactive Dashboard -->
   <section id="dashboard-main" class="section dashboard-section">
@@ -99,40 +93,49 @@
       
       <div class="dashboard-grid">
         <aside id="filters" class="panel filters-panel" aria-label="Dashboard filters">
-          <h3 class="filters-title">Dashboard Filters</h3>
-      <div class="filter-group">
-        <h3>Search playlist</h3>
-        <input type="search" id="search" placeholder="Type a playlist name" aria-label="Search playlists" />
-      </div>
-
-      <div class="filter-group">
-        <h3>Curator type</h3>
-        <div id="curator-types" class="checkbox-list"></div>
-      </div>
-
-      <div class="filter-group">
-        <h3>Release year range</h3>
-        <label>
-          From
-          <input type="number" id="min-year" min="2005" max="2030" step="1" />
-        </label>
-        <label>
-          To
-          <input type="number" id="max-year" min="2005" max="2030" step="1" />
-        </label>
-      </div>
-
-      <div class="filter-group">
-        <h3>Diaspora focus</h3>
-        <label>
-          <input type="checkbox" id="diaspora-only" /> Highlight diaspora-led tracks
-        </label>
-      </div>
-
-      <button id="reset-filters" type="button" class="btn-reset">Reset filters</button>
-    </aside>
+          <div class="filters-head">
+            <div>
+              <h3 class="filters-title">Insight controls</h3>
+              <p>Blend curator lenses, release windows, and diaspora focus without scrolling away from the data.</p>
+            </div>
+            <button id="reset-filters" type="button" class="ghost-button">Reset</button>
+          </div>
+          <div class="filter-pills">
+            <label class="filters-field" aria-label="Search playlist">
+              <span>Search playlist</span>
+              <input type="search" id="search" placeholder="Type a playlist name" />
+            </label>
+            <label class="toggle-pill">
+              <input type="checkbox" id="diaspora-only" />
+              <span>Diaspora focus</span>
+            </label>
+          </div>
+          <details class="filter-accordion" open>
+            <summary>Curator lenses</summary>
+            <div class="filter-accordion-body">
+              <p>Select which playlist owners remain in scope.</p>
+              <div id="curator-types" class="checkbox-list"></div>
+            </div>
+          </details>
+          <details class="filter-accordion" open>
+            <summary>Release year window</summary>
+            <div class="filter-accordion-body">
+              <div class="filter-range">
+                <label>
+                  From
+                  <input type="number" id="min-year" min="2005" max="2030" step="1" />
+                </label>
+                <label>
+                  To
+                  <input type="number" id="max-year" min="2005" max="2030" step="1" />
+                </label>
+              </div>
+            </div>
+          </details>
+        </aside>
 
     <div class="dashboard-main-column">
+      <div class="spotlight-grid">
       <section class="panel artist-panel" aria-label="Artist lookup">
         <div class="artist-panel-header">
           <div>
@@ -175,11 +178,15 @@
               <strong id="artist-metric-position">--</strong>
             </article>
             <article class="card">
-              <h4>Follower reach</h4>
+              <h4>Spotify followers</h4>
+              <strong id="artist-metric-spotify-followers">--</strong>
+            </article>
+            <article class="card">
+              <h4>Playlist reach</h4>
               <strong id="artist-metric-followers">0</strong>
             </article>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -194,7 +201,7 @@
               <tbody id="artist-playlist-rows"></tbody>
             </table>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -259,7 +266,7 @@
               <strong id="region-metric-followers">0</strong>
             </article>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -274,7 +281,7 @@
               <tbody id="region-artist-rows"></tbody>
             </table>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -340,7 +347,7 @@
               <strong id="country-metric-followers">0</strong>
             </article>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -355,7 +362,7 @@
               <tbody id="country-artist-rows"></tbody>
             </table>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>
@@ -372,6 +379,7 @@
           </div>
         </div>
       </section>
+      </div>
 
       <section class="tabbed-content" aria-label="Dashboard insights" data-tab-root>
 
@@ -427,7 +435,7 @@
               Compare reach, regional diversity, and diaspora visibility. Metrics reflect the current filter selection.
             </p>
           </div>
-          <div class="table-wrapper">
+          <div class="table-wrapper table-scroll">
             <table>
               <thead>
                 <tr>

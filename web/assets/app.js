@@ -50,6 +50,7 @@
     metricTracks: document.getElementById("artist-metric-tracks"),
     metricPopularity: document.getElementById("artist-metric-popularity"),
     metricPosition: document.getElementById("artist-metric-position"),
+    metricSpotifyFollowers: document.getElementById("artist-metric-spotify-followers"),
     metricFollowers: document.getElementById("artist-metric-followers"),
     playlistRows: document.getElementById("artist-playlist-rows"),
     trackRows: document.getElementById("artist-track-rows")
@@ -501,6 +502,7 @@
             defaultCountry: track.artistCountry || "Unknown",
             defaultRegion: track.regionGroup || "Unknown",
             diaspora: Boolean(track.diaspora),
+            followers: typeof track.artistFollowers === "number" ? track.artistFollowers : null,
             aliases: new Set()
           });
         }
@@ -516,6 +518,10 @@
         }
 
         entry.diaspora = entry.diaspora || Boolean(track.diaspora);
+
+        if (typeof track.artistFollowers === "number" && track.artistFollowers > 0) {
+          entry.followers = track.artistFollowers;
+        }
 
         if (track.artist) {
           entry.aliases.add(track.artist);
@@ -1037,6 +1043,13 @@
     const avgPopularity = popularityValues.length ? average(popularityValues) : null;
     const medianPosition = positionValues.length ? median(positionValues) : null;
     const followerReach = playlistRows.reduce((total, row) => total + (row.followerCount || 0), 0);
+    const followerValueFromTracks = artistTracks.find((track) => typeof track.artistFollowers === "number");
+    const spotifyFollowers =
+      typeof artistMeta.followers === "number"
+        ? artistMeta.followers
+        : followerValueFromTracks && typeof followerValueFromTracks.artistFollowers === "number"
+          ? followerValueFromTracks.artistFollowers
+          : null;
 
     artistElements.empty.hidden = true;
     artistElements.results.hidden = false;
@@ -1076,6 +1089,10 @@
     }
     if (artistElements.metricPosition) {
       artistElements.metricPosition.textContent = medianPosition !== null ? medianPosition.toFixed(0) : "--";
+    }
+    if (artistElements.metricSpotifyFollowers) {
+      artistElements.metricSpotifyFollowers.textContent =
+        typeof spotifyFollowers === "number" ? formatNumber(spotifyFollowers) : "--";
     }
     if (artistElements.metricFollowers) {
       artistElements.metricFollowers.textContent = formatNumber(followerReach);
@@ -1340,7 +1357,6 @@
     if (countryElements.artistRows) {
       const artistRows = Array.from(artistSummaries.values())
         .sort((a, b) => b.trackCount - a.trackCount || a.name.localeCompare(b.name))
-        .slice(0, 20)
         .map((artist) => {
           const avgArtistPopularity = artist.popularity.length ? average(artist.popularity) : null;
           const medianArtistPosition = artist.positions.length ? median(artist.positions) : null;
