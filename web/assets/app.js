@@ -107,6 +107,9 @@
     exposureChart: document.getElementById("exposure-chart")
   };
 
+  const playlistTracksPanel = document.getElementById("playlist-tracks-panel");
+  const playlistTracksRows = document.getElementById("playlist-tracks-rows");
+
   const loadingOverlay = document.getElementById("dashboard-loading");
   const quickViewStatus = document.getElementById("quick-view-status");
   const quickViewButtons = Array.from(document.querySelectorAll("[data-quick-view]"));
@@ -1179,10 +1182,37 @@
     }
   }
 
+  let selectedPlaylistId = null;
+
+  function renderPlaylistTracks(playlist) {
+    if (!playlistTracksPanel || !playlistTracksRows) return;
+    if (!playlist) {
+      playlistTracksPanel.hidden = true;
+      playlistTracksRows.innerHTML = "";
+      return;
+    }
+    const rows = playlist.filteredTracks
+      .map((track) => {
+        return `
+          <tr>
+            <td>${track.title}</td>
+            <td>${track.artist}</td>
+            <td>${track.playlistPosition ?? "--"}</td>
+            <td>${typeof track.trackPopularity === "number" ? track.trackPopularity : "--"}</td>
+            <td>${track.regionGroup || "Unknown"}</td>
+          </tr>
+        `;
+      })
+      .join("");
+    playlistTracksRows.innerHTML = rows;
+    playlistTracksPanel.hidden = !rows;
+  }
+
   function renderPlaylistTable(playlists) {
     if (!playlists.length) {
       elements.playlistTable.innerHTML = "";
       elements.emptyState.hidden = false;
+      renderPlaylistTracks(null);
       return;
     }
 
@@ -1205,7 +1235,7 @@
         const medianPosition = positionValues.length ? median(positionValues).toFixed(0) : "--";
 
         return `
-          <tr>
+          <tr data-playlist-id="${playlist.id}">
             <td data-label="Playlist">
               <div style="display:flex; flex-direction:column; gap:0.35rem;">
                 <strong>${playlist.name}</strong>
@@ -1225,6 +1255,16 @@
       .join("");
 
     elements.playlistTable.innerHTML = rows;
+
+    // Attach click handler to each playlist row
+    elements.playlistTable.querySelectorAll("tr[data-playlist-id]").forEach((row) => {
+      row.addEventListener("click", () => {
+        const playlistId = row.getAttribute("data-playlist-id");
+        selectedPlaylistId = playlistId;
+        const playlist = playlists.find((p) => p.id === playlistId);
+        renderPlaylistTracks(playlist || null);
+      });
+    });
   }
 
   function resolveArtistId(query) {
