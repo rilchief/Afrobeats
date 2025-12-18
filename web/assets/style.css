@@ -1871,6 +1871,108 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+.playlist-picker {
+	border: 1px solid var(--border);
+	border-radius: 18px;
+	padding: 0.85rem 1rem;
+	background: rgba(255, 255, 255, 0.02);
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.playlist-picker-label {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	color: var(--muted);
+	font-weight: 600;
+}
+
+.playlist-picker-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	align-items: center;
+}
+
+.playlist-picker-row input[type="search"] {
+	flex: 1 1 260px;
+	padding: 0.6rem 0.75rem;
+	border-radius: 12px;
+	border: 1px solid var(--border);
+	background: rgba(255, 255, 255, 0.04);
+	color: var(--text);
+	min-width: 220px;
+}
+
+.spotify-embed-frame {
+	border-radius: 12px;
+	border: 0;
+}
+
+.playlist-breakdown-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	gap: 1rem;
+	align-items: flex-start;
+	margin-top: 1rem;
+}
+
+.playlist-breakdown-left,
+.playlist-breakdown-right {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.playlist-breakdown-metrics {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 0.75rem;
+}
+
+.breakdown-card {
+	border: 1px solid var(--border);
+	border-radius: 18px;
+	padding: 0.9rem 1rem;
+	background: rgba(255, 255, 255, 0.02);
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.breakdown-card .label {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: var(--muted);
+	font-weight: 600;
+}
+
+.breakdown-card .value {
+	font-size: 1.15rem;
+	font-weight: 700;
+}
+
+.breakdown-card .subvalue {
+	font-size: 0.9rem;
+	color: var(--muted);
+}
+
+.playlist-embed-dashboard {
+	grid-column: 1 / -1;
+	border-radius: 18px;
+	border: 1px solid var(--border);
+	padding: 0.75rem 0.9rem 0.9rem;
+	background: rgba(255, 255, 255, 0.02);
+}
+
+.playlist-embed-dashboard iframe {
+	margin-top: 0.5rem;
+	border-radius: 16px;
+}
+
 .chart-panel h3 {
 	margin: 0;
 	font-size: 1.05rem;
@@ -2019,6 +2121,18 @@ footer {
 
 	.status-strip {
 		align-items: flex-start;
+	}
+
+	.playlist-breakdown-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.playlist-breakdown-metrics {
+		grid-template-columns: 1fr;
+	}
+
+	.playlist-embed-dashboard iframe {
+		height: 152px;
 	}
 
 	.artist-panel-header {

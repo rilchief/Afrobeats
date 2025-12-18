@@ -1,3 +1,20 @@
+const SPOTIFY_PLAYLIST_IDS = {
+  "afrobeats-hits": "25Y75ozl2aI0NylFToefO5",
+  "afrobeats-2026": "5myeBzohhCVewaK2Thqmo5",
+  "ginja": "4XtoXt98uSrnUbMz7JtWZk",
+  "viral-afrobeats": "6ebiO5veMmbIWL5aGvalgQ",
+  "top-afrobeats-hits": "0RChPss4CYl5LTfK0CRgOZ",
+  "afrobeats-gold": "1UFBYLsMwB2q0EypxWdBLO",
+  "top-picks-afrobeats": "1ynsIf7ZgpEFxIvuDBlUcK",
+  "afrobeats-hits-indie": "2DfNaw9Z1nuddjI6NczTXS",
+  "afro-nation-united": "0tbbV39e1yP4GsJ3HXSXgG",
+  "hits-radio-afrobeats": "62Hmju3toBooBrDAHTQxg5",
+  "afro-fusion-afrikan-radar": "3zCyA7HZGqHvAhzqVuclMu",
+  "afrobeats-central-hypetribe": "7jVpY2zB7NXUwlYHNVFc2g",
+  "feel-good-afrobeats": "7MPu2vwkQJDnIS4hAOu2Q6",
+  "afrobeats-now": "3yyH2cPh5dctpFwsns9B2Z"
+};
+
 (() => {
   const toggle = document.getElementById("nav-toggle");
   const menu = document.querySelector("[data-nav-menu]");
@@ -243,6 +260,225 @@
   const artistIndex = buildArtistIndex(dataset.playlists);
   const regionIndex = buildRegionIndex(dataset.playlists);
   const countryIndex = buildCountryIndex(dataset.playlists);
+
+  const playlistEmbedElements = {
+    dashboardIframe: document.getElementById("playlist-embed-iframe-dashboard"),
+    dashboardContainer: document.getElementById("playlist-embed-dashboard")
+  };
+
+  const dashboardPlaylistElements = {
+    input: document.getElementById("dashboard-playlist-search"),
+    options: document.getElementById("dashboard-playlist-options"),
+    clear: document.getElementById("dashboard-playlist-clear"),
+    status: document.getElementById("dashboard-playlist-status"),
+    metrics: document.getElementById("playlist-breakdown-metrics"),
+    prompt: document.getElementById("playlist-breakdown-prompt"),
+    empty: document.getElementById("empty-state")
+  };
+
+  function setEmbedForPlaylistInternalId(internalId) {
+    const spotifyId = internalId ? SPOTIFY_PLAYLIST_IDS[internalId] : undefined;
+    if (!spotifyId) {
+      if (playlistEmbedElements.dashboardContainer) {
+        playlistEmbedElements.dashboardContainer.hidden = true;
+      }
+      return;
+    }
+
+    const url = `https://open.spotify.com/embed/playlist/${spotifyId}?utm_source=generator`;
+
+    if (playlistEmbedElements.dashboardIframe) {
+      playlistEmbedElements.dashboardIframe.src = url;
+    }
+    if (playlistEmbedElements.dashboardContainer) {
+      playlistEmbedElements.dashboardContainer.hidden = false;
+    }
+  }
+
+  function clearDashboardPlaylistSelection() {
+    selectedPlaylistId = null;
+    if (dashboardPlaylistElements.input) {
+      dashboardPlaylistElements.input.value = "";
+    }
+    if (dashboardPlaylistElements.status) {
+      dashboardPlaylistElements.status.textContent = "Type a playlist name to see its breakdown.";
+    }
+    if (dashboardPlaylistElements.metrics) {
+      dashboardPlaylistElements.metrics.hidden = true;
+      dashboardPlaylistElements.metrics.innerHTML = "";
+    }
+    if (dashboardPlaylistElements.prompt) {
+      dashboardPlaylistElements.prompt.hidden = false;
+    }
+    renderPlaylistTracks(null);
+    if (playlistEmbedElements.dashboardContainer) {
+      playlistEmbedElements.dashboardContainer.hidden = true;
+    }
+    if (playlistEmbedElements.dashboardIframe) {
+      playlistEmbedElements.dashboardIframe.src = "";
+    }
+  }
+
+  function renderDashboardPlaylistMetrics(playlist) {
+    if (!dashboardPlaylistElements.metrics || !dashboardPlaylistElements.prompt) return;
+    if (!playlist) {
+      dashboardPlaylistElements.metrics.hidden = true;
+      dashboardPlaylistElements.metrics.innerHTML = "";
+      dashboardPlaylistElements.prompt.hidden = false;
+      return;
+    }
+
+    const tracks = playlist.filteredTracks || [];
+    const totalTracks = tracks.length;
+    const diasporaCount = tracks.filter((track) => track.diaspora).length;
+    const nigeriaCount = tracks.filter((track) => track.artistCountry === "Nigeria").length;
+    const uniqueRegions = new Set(tracks.map((track) => track.regionGroup || "Unknown")).size;
+
+    const popularityValues = tracks
+      .map((track) => track.trackPopularity)
+      .filter((value) => typeof value === "number");
+    const avgPopularity = popularityValues.length ? average(popularityValues).toFixed(0) : "--";
+
+    const positionValues = tracks
+      .map((track) => track.playlistPosition)
+      .filter((value) => typeof value === "number");
+    const medianPosition = positionValues.length ? median(positionValues).toFixed(0) : "--";
+
+    dashboardPlaylistElements.metrics.innerHTML = `
+      <div class="breakdown-card">
+        <span class="label">Playlist</span>
+        <span class="value">${playlist.name}</span>
+        <span class="subvalue">${playlist.curator}</span>
+      </div>
+      <div class="breakdown-card">
+        <span class="label">Followers</span>
+        <span class="value">${formatNumber(playlist.followerCount)}</span>
+        <span class="subvalue">Launched ${playlist.launchYear ?? "--"}</span>
+      </div>
+      <div class="breakdown-card">
+        <span class="label">Unique regions</span>
+        <span class="value">${uniqueRegions}</span>
+        <span class="subvalue">Across ${totalTracks} track${totalTracks === 1 ? "" : "s"}</span>
+      </div>
+      <div class="breakdown-card">
+        <span class="label">Diaspora share</span>
+        <span class="value">${formatPercent(diasporaCount, totalTracks)}</span>
+        <span class="subvalue">Nigeria share ${formatPercent(nigeriaCount, totalTracks)}</span>
+      </div>
+      <div class="breakdown-card">
+        <span class="label">Avg popularity</span>
+        <span class="value">${avgPopularity}</span>
+        <span class="subvalue">Median position ${medianPosition}</span>
+      </div>
+    `;
+    dashboardPlaylistElements.metrics.hidden = false;
+    dashboardPlaylistElements.prompt.hidden = true;
+  }
+
+  function resolvePlaylistByName(query, playlists) {
+    if (!query) return null;
+    const normalized = query.trim().toLowerCase();
+    if (!normalized) return null;
+    const exact = playlists.find((p) => String(p.name || "").trim().toLowerCase() === normalized);
+    if (exact) return exact;
+    const partial = playlists.find((p) => String(p.name || "").toLowerCase().includes(normalized));
+    return partial || null;
+  }
+
+  function populateDashboardPlaylistOptions(playlists) {
+    if (!dashboardPlaylistElements.options) return;
+    dashboardPlaylistElements.options.innerHTML = "";
+    const names = playlists
+      .map((p) => p && p.name)
+      .filter(Boolean)
+      .map((name) => String(name))
+      .sort((a, b) => a.localeCompare(b));
+
+    names.forEach((name) => {
+      const option = document.createElement("option");
+      option.value = name;
+      dashboardPlaylistElements.options.appendChild(option);
+    });
+  }
+
+  function applyDashboardPlaylistSelection(playlists, rawName) {
+    const playlist = resolvePlaylistByName(rawName, playlists);
+    if (!playlist) {
+      if (dashboardPlaylistElements.status) {
+        dashboardPlaylistElements.status.textContent = "No matching playlist in the current filters.";
+      }
+      renderDashboardPlaylistMetrics(null);
+      renderPlaylistTracks(null);
+      if (playlistEmbedElements.dashboardContainer) {
+        playlistEmbedElements.dashboardContainer.hidden = true;
+      }
+      return;
+    }
+
+    selectedPlaylistId = playlist.id;
+    if (dashboardPlaylistElements.input) {
+      dashboardPlaylistElements.input.value = playlist.name;
+    }
+    if (dashboardPlaylistElements.status) {
+      dashboardPlaylistElements.status.textContent = `Selected: ${playlist.name}`;
+    }
+    renderDashboardPlaylistMetrics(playlist);
+    renderPlaylistTracks(playlist);
+    setEmbedForPlaylistInternalId(playlist.id);
+  }
+
+  function renderDashboardPlaylistSection(playlists) {
+    if (dashboardPlaylistElements.empty) {
+      dashboardPlaylistElements.empty.hidden = playlists.length > 0;
+    }
+
+    populateDashboardPlaylistOptions(playlists);
+
+    if (!playlists.length) {
+      clearDashboardPlaylistSelection();
+      if (dashboardPlaylistElements.status) {
+        dashboardPlaylistElements.status.textContent = "No playlists match the current filters.";
+      }
+      return;
+    }
+
+    if (!selectedPlaylistId) {
+      renderDashboardPlaylistMetrics(null);
+      renderPlaylistTracks(null);
+      if (playlistEmbedElements.dashboardContainer) {
+        playlistEmbedElements.dashboardContainer.hidden = true;
+      }
+      return;
+    }
+
+    const playlist = playlists.find((p) => p.id === selectedPlaylistId) || null;
+    if (!playlist) {
+      clearDashboardPlaylistSelection();
+      return;
+    }
+
+    renderDashboardPlaylistMetrics(playlist);
+    renderPlaylistTracks(playlist);
+    setEmbedForPlaylistInternalId(playlist.id);
+  }
+
+  if (dashboardPlaylistElements.clear) {
+    dashboardPlaylistElements.clear.addEventListener("click", () => {
+      clearDashboardPlaylistSelection();
+    });
+  }
+
+  if (dashboardPlaylistElements.input) {
+    dashboardPlaylistElements.input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        applyDashboardPlaylistSelection(currentFilteredState?.playlists || [], dashboardPlaylistElements.input.value);
+      }
+    });
+    dashboardPlaylistElements.input.addEventListener("change", () => {
+      applyDashboardPlaylistSelection(currentFilteredState?.playlists || [], dashboardPlaylistElements.input.value);
+    });
+  }
 
   const state = {
     search: "",
@@ -1263,6 +1499,9 @@
         selectedPlaylistId = playlistId;
         const playlist = playlists.find((p) => p.id === playlistId);
         renderPlaylistTracks(playlist || null);
+        if (playlist && playlist.id) {
+          setEmbedForPlaylistInternalId(playlist.id);
+        }
       });
     });
   }
@@ -2104,7 +2343,7 @@
       charts.exposure.data.datasets[0].data = [];
       charts.exposure.update();
 
-      renderPlaylistTable([]);
+      renderDashboardPlaylistSection([]);
       updateCards(filteredPlaylists, filteredTracks);
       updateArtistInspectorView();
       updateRegionSpotlight();
@@ -2114,7 +2353,7 @@
 
     updateCards(filteredPlaylists, filteredTracks);
     updateCharts(filteredTracks, filteredPlaylists);
-    renderPlaylistTable(filteredPlaylists);
+    renderDashboardPlaylistSection(filteredPlaylists);
     updateArtistInspectorView();
     updateRegionSpotlight();
     updateCountrySpotlight();
