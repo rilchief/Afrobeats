@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
 	position: relative;
-	padding: 6rem 3vw 5rem;
+	padding: 5rem 3vw 4rem;
 	overflow: hidden;
 	background: linear-gradient(135deg, #0b0e11 0%, #1a1f2e 50%, #0b0e11 100%);
 }
@@ -269,17 +269,14 @@ h1, h2, h3, h4, h5, h6 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	gap: 2rem;
-	align-items: stretch;
+	/* Prevent the right-side panel from stretching to match the title column height. */
+	align-items: start;
 }
 
 .hero-copy {
 	display: flex;
 	flex-direction: column;
 	gap: 1.25rem;
-}
-
-.hero-copy .hero-actions {
-	justify-content: flex-start;
 }
 
 .hero-pills {
@@ -308,6 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: var(--shadow-lg);
 	-webkit-backdrop-filter: blur(24px);
 	backdrop-filter: blur(24px);
+	align-self: start;
 }
 
 .hero-insight-header {
@@ -352,14 +350,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.1rem;
 }
 
 .hero-subtitle {
 	font-size: clamp(1.05rem, 2vw, 1.25rem);
 	color: var(--muted);
 	line-height: 1.6;
-	margin: 1.5rem auto 2rem;
+	margin: 1.5rem auto 1.4rem;
 	max-width: 750px;
 }
 
@@ -396,13 +394,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-.hero-actions {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 1rem;
-	margin-top: 2.5rem;
-}
 
 .hero-decoration {
 	position: absolute;
