@@ -152,6 +152,7 @@ const SPOTIFY_PLAYLIST_IDS = {
 
   const regionElements = {
     search: document.getElementById("region-search"),
+    options: document.getElementById("region-options"),
     clear: document.getElementById("region-clear"),
     tabs: document.getElementById("region-tabs"),
     empty: document.getElementById("region-empty"),
@@ -171,6 +172,7 @@ const SPOTIFY_PLAYLIST_IDS = {
 
   const countryElements = {
     search: document.getElementById("country-search"),
+    options: document.getElementById("country-options"),
     clear: document.getElementById("country-clear"),
     tabs: document.getElementById("country-tabs"),
     empty: document.getElementById("country-empty"),
@@ -285,7 +287,7 @@ const SPOTIFY_PLAYLIST_IDS = {
       return;
     }
 
-    const url = `https://open.spotify.com/embed/playlist/${spotifyId}?utm_source=generator`;
+    const url = `https://open.spotify.com/embed/playlist/${spotifyId}?utm_source=generator&theme=0`;
 
     if (playlistEmbedElements.dashboardIframe) {
       playlistEmbedElements.dashboardIframe.src = url;
@@ -1997,6 +1999,10 @@ const SPOTIFY_PLAYLIST_IDS = {
       return;
     }
 
+    if (countryElements.options) {
+      countryElements.options.innerHTML = countryIndex.list.map((country) => `<option value="${country}"></option>`).join("");
+    }
+
     if (!state.selectedCountry) {
       state.selectedCountry = countryIndex.defaultCountry || countryIndex.list[0] || null;
     }
@@ -2027,6 +2033,75 @@ const SPOTIFY_PLAYLIST_IDS = {
     });
 
     updateCountrySpotlight();
+  }
+
+  function initSpotlightModeToggle() {
+    const regionView = document.getElementById("spotlight-region-view");
+    const countryView = document.getElementById("spotlight-country-view");
+    const toggle = document.getElementById("spotlight-toggle");
+    const regionBtn = document.getElementById("spotlight-mode-region");
+    const countryBtn = document.getElementById("spotlight-mode-country");
+    if (!regionView || !countryView || !toggle || !regionBtn || !countryBtn) return;
+
+    const STORAGE_KEY = "spotlightMode";
+
+    function applyMode(mode) {
+      const normalized = mode === "country" ? "country" : "region";
+      const isRegion = normalized === "region";
+      regionView.hidden = !isRegion;
+      countryView.hidden = isRegion;
+
+      regionBtn.classList.toggle("is-active", isRegion);
+      countryBtn.classList.toggle("is-active", !isRegion);
+      regionBtn.setAttribute("aria-selected", String(isRegion));
+      countryBtn.setAttribute("aria-selected", String(!isRegion));
+      regionBtn.setAttribute("tabindex", isRegion ? "0" : "-1");
+      countryBtn.setAttribute("tabindex", !isRegion ? "0" : "-1");
+
+      try {
+        localStorage.setItem(STORAGE_KEY, normalized);
+      } catch {
+        // ignore storage failures
+      }
+
+      // Ensure visible spotlight reflects the latest filtered state.
+      if (isRegion) {
+        updateRegionSpotlight();
+      } else {
+        updateCountrySpotlight();
+      }
+
+      // Bring the Spotlight header + mode toggle into view so the user sees
+      // the correct tab list and autocomplete immediately after switching.
+      const spotlightPanel = toggle.closest(".spotlight-panel");
+      if (spotlightPanel && typeof spotlightPanel.scrollIntoView === "function") {
+        spotlightPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      // Focus the active search control for quicker discovery.
+      const targetInput = isRegion ? regionElements.search : countryElements.search;
+      if (targetInput && typeof targetInput.focus === "function") {
+        targetInput.focus({ preventScroll: true });
+      }
+    }
+
+    toggle.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-spotlight-mode]");
+      if (!button) return;
+      const mode = button.dataset.spotlightMode;
+      applyMode(mode);
+    });
+
+    let initialMode = "region";
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved === "country" || saved === "region") {
+        initialMode = saved;
+      }
+    } catch {
+      // ignore storage failures
+    }
+    applyMode(initialMode);
   }
 
   function showRegionPrompt(message) {
@@ -2273,6 +2348,10 @@ const SPOTIFY_PLAYLIST_IDS = {
       return;
     }
 
+    if (regionElements.options) {
+      regionElements.options.innerHTML = regionIndex.list.map((region) => `<option value="${region}"></option>`).join("");
+    }
+
     if (!state.selectedRegion) {
       state.selectedRegion = regionIndex.defaultRegion || regionIndex.list[0] || null;
     }
@@ -2370,6 +2449,7 @@ const SPOTIFY_PLAYLIST_IDS = {
   initArtistLookup();
   initRegionSpotlight();
   initCountrySpotlight();
+  initSpotlightModeToggle();
   attachListeners();
   initMetadata();
   initQuickViewPresets();

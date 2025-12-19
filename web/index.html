@@ -246,166 +246,191 @@
         </div>
       </section>
 
-      <section class="panel region-panel" aria-label="Regional spotlight">
-        <div class="region-panel-header">
+      <section class="panel spotlight-panel" aria-label="Regional and country spotlight">
+        <div class="spotlight-panel-header">
           <div>
-            <h2>Regional spotlight</h2>
-            <p>Dive into a region to inspect playlist reach, top artists, and diaspora balance.</p>
-            <p class="panel-hint">Navigate via the tabs or search box; every metric respects the active filters.</p>
+            <h2>Spotlight</h2>
+            <p>Switch between regional and country breakdowns under the same filters.</p>
           </div>
-          <div class="region-search-control">
-            <label for="region-search" class="sr-only">Search region</label>
-            <input type="search" id="region-search" name="region-search" placeholder="Search region" autocomplete="off" />
-            <button id="region-clear" type="button" class="ghost-button">Clear</button>
+          <div id="spotlight-toggle" class="spotlight-toggle" role="tablist" aria-label="Spotlight mode">
+            <button id="spotlight-mode-region" type="button" role="tab" aria-selected="true" tabindex="0" class="is-active" data-spotlight-mode="region">Region</button>
+            <button id="spotlight-mode-country" type="button" role="tab" aria-selected="false" tabindex="-1" data-spotlight-mode="country">Country</button>
           </div>
         </div>
-        <div id="region-tabs" class="region-tabs" role="tablist" aria-label="Regions"></div>
-        <div id="region-empty" class="empty-state" role="status" aria-live="polite">Pick a region to reveal its stats.</div>
-        <div id="region-content" class="region-results" hidden>
-          <div class="region-meta">
-            <div>
-              <h3 id="region-name">Region</h3>
-              <p id="region-summary" class="region-summary">Summary</p>
-            </div>
-            <div id="region-flags" class="region-flags"></div>
-          </div>
-          <div class="cards region-metrics">
-            <article class="card">
-              <h4>Tracks</h4>
-              <strong id="region-metric-tracks">0</strong>
-            </article>
-            <article class="card">
-              <h4>Unique artists</h4>
-              <strong id="region-metric-artists">0</strong>
-            </article>
-            <article class="card">
-              <h4>Playlists</h4>
-              <strong id="region-metric-playlists">0</strong>
-            </article>
-            <article class="card">
-              <h4>Avg popularity</h4>
-              <strong id="region-metric-popularity">--</strong>
-            </article>
-            <article class="card">
-              <h4>Diaspora share</h4>
-              <strong id="region-metric-diaspora">0%</strong>
-            </article>
-            <article class="card">
-              <h4>Follower reach</h4>
-              <strong id="region-metric-followers">0</strong>
-            </article>
-          </div>
-          <div class="table-wrapper table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>Artist</th>
-                  <th>Placements</th>
-                  <th>Playlists</th>
-                  <th>Avg popularity</th>
-                  <th>Median position</th>
-                  <th>Diaspora share</th>
-                </tr>
-              </thead>
-              <tbody id="region-artist-rows"></tbody>
-            </table>
-          </div>
-          <div class="table-wrapper table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>Playlist</th>
-                  <th>Curator</th>
-                  <th>Track placements</th>
-                  <th>Unique artists</th>
-                  <th>Median position</th>
-                  <th>Followers</th>
-                </tr>
-              </thead>
-              <tbody id="region-playlist-rows"></tbody>
-            </table>
-          </div>
-        </div>
-      </section>
 
-      <section class="panel country-panel" aria-label="Country spotlight">
-        <div class="country-panel-header">
-          <div>
-            <h2>Country spotlight</h2>
-            <p>Track how specific countries surface across playlists to spot emerging footholds.</p>
-            <p class="panel-hint">Search for any artist homeland to reveal which playlists drive its footprint.</p>
+        <div id="spotlight-region-view" class="region-panel" data-spotlight-view="region">
+          <div class="region-panel-header">
+            <div>
+              <p>Dive into a region to inspect playlist reach, top artists, and diaspora balance.</p>
+              <p class="panel-hint">Navigate via the tabs or search box; every metric respects the active filters.</p>
+            </div>
+            <div class="region-search-control">
+              <label for="region-search" class="sr-only">Search region</label>
+              <input type="search" id="region-search" name="region-search" placeholder="Search region" autocomplete="off" list="region-options" />
+              <datalist id="region-options"></datalist>
+              <button id="region-clear" type="button" class="ghost-button">Clear</button>
+            </div>
           </div>
-          <div class="country-search-control">
-            <label for="country-search" class="sr-only">Search country</label>
-            <input type="search" id="country-search" name="country-search" placeholder="Search country" autocomplete="off" />
-            <button id="country-clear" type="button" class="ghost-button">Clear</button>
+          <div id="region-tabs" class="region-tabs" role="tablist" aria-label="Regions"></div>
+          <div id="region-empty" class="empty-state" role="status" aria-live="polite">Pick a region to reveal its stats.</div>
+          <div id="region-content" class="region-results" hidden>
+            <div class="region-meta">
+              <div>
+                <h3 id="region-name">Region</h3>
+                <p id="region-summary" class="region-summary">Summary</p>
+              </div>
+              <div id="region-flags" class="region-flags"></div>
+            </div>
+            <div class="cards region-metrics">
+              <article class="card">
+                <h4>Tracks</h4>
+                <strong id="region-metric-tracks">0</strong>
+              </article>
+              <article class="card">
+                <h4>Unique artists</h4>
+                <strong id="region-metric-artists">0</strong>
+              </article>
+              <article class="card">
+                <h4>Playlists</h4>
+                <strong id="region-metric-playlists">0</strong>
+              </article>
+              <article class="card">
+                <h4>Avg popularity</h4>
+                <strong id="region-metric-popularity">--</strong>
+              </article>
+              <article class="card">
+                <h4>Diaspora share</h4>
+                <strong id="region-metric-diaspora">0%</strong>
+              </article>
+              <article class="card">
+                <h4>Follower reach</h4>
+                <strong id="region-metric-followers">0</strong>
+              </article>
+            </div>
+              <details class="spotlight-details" open>
+                <summary>Top artists</summary>
+                <div class="table-wrapper table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Artist</th>
+                        <th>Placements</th>
+                        <th>Playlists</th>
+                        <th>Avg popularity</th>
+                        <th>Median position</th>
+                        <th>Diaspora share</th>
+                      </tr>
+                    </thead>
+                    <tbody id="region-artist-rows"></tbody>
+                  </table>
+                </div>
+              </details>
+              <details class="spotlight-details">
+                <summary>Top playlists</summary>
+                <div class="table-wrapper table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Playlist</th>
+                        <th>Curator</th>
+                        <th>Track placements</th>
+                        <th>Unique artists</th>
+                        <th>Median position</th>
+                        <th>Followers</th>
+                      </tr>
+                    </thead>
+                    <tbody id="region-playlist-rows"></tbody>
+                  </table>
+                </div>
+              </details>
           </div>
         </div>
-        <div id="country-tabs" class="country-tabs" role="tablist" aria-label="Countries"></div>
-        <div id="country-empty" class="empty-state" role="status" aria-live="polite">Pick a country to track its footprint.</div>
-        <div id="country-content" class="country-results" hidden>
-          <div class="country-meta">
+
+        <div id="spotlight-country-view" class="country-panel" data-spotlight-view="country" hidden>
+          <div class="country-panel-header">
             <div>
-              <h3 id="country-name">Country</h3>
-              <p id="country-summary" class="country-summary">Summary</p>
+              <p>Track how specific countries surface across playlists to spot emerging footholds.</p>
+              <p class="panel-hint">Search for any artist homeland to reveal which playlists drive its footprint.</p>
             </div>
-            <div id="country-flags" class="country-flags"></div>
+            <div class="country-search-control">
+              <label for="country-search" class="sr-only">Search country</label>
+              <input type="search" id="country-search" name="country-search" placeholder="Search country" autocomplete="off" list="country-options" />
+              <datalist id="country-options"></datalist>
+              <button id="country-clear" type="button" class="ghost-button">Clear</button>
+            </div>
           </div>
-          <div class="cards country-metrics">
-            <article class="card">
-              <h4>Tracks</h4>
-              <strong id="country-metric-tracks">0</strong>
-            </article>
-            <article class="card">
-              <h4>Unique artists</h4>
-              <strong id="country-metric-artists">0</strong>
-            </article>
-            <article class="card">
-              <h4>Playlists</h4>
-              <strong id="country-metric-playlists">0</strong>
-            </article>
-            <article class="card">
-              <h4>Avg popularity</h4>
-              <strong id="country-metric-popularity">--</strong>
-            </article>
-            <article class="card">
-              <h4>Diaspora share</h4>
-              <strong id="country-metric-diaspora">0%</strong>
-            </article>
-            <article class="card">
-              <h4>Follower reach</h4>
-              <strong id="country-metric-followers">0</strong>
-            </article>
-          </div>
-          <div class="table-wrapper table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>Artist</th>
-                  <th>Placements</th>
-                  <th>Playlists</th>
-                  <th>Avg popularity</th>
-                  <th>Median position</th>
-                  <th>Diaspora share</th>
-                </tr>
-              </thead>
-              <tbody id="country-artist-rows"></tbody>
-            </table>
-          </div>
-          <div class="table-wrapper table-scroll">
-            <table>
-              <thead>
-                <tr>
-                  <th>Playlist</th>
-                  <th>Curator</th>
-                  <th>Track placements</th>
-                  <th>Unique artists</th>
-                  <th>Median position</th>
-                  <th>Followers</th>
-                </tr>
-              </thead>
-              <tbody id="country-playlist-rows"></tbody>
-            </table>
+          <div id="country-tabs" class="country-tabs" role="tablist" aria-label="Countries"></div>
+          <div id="country-empty" class="empty-state" role="status" aria-live="polite">Pick a country to track its footprint.</div>
+          <div id="country-content" class="country-results" hidden>
+            <div class="country-meta">
+              <div>
+                <h3 id="country-name">Country</h3>
+                <p id="country-summary" class="country-summary">Summary</p>
+              </div>
+              <div id="country-flags" class="country-flags"></div>
+            </div>
+            <div class="cards country-metrics">
+              <article class="card">
+                <h4>Tracks</h4>
+                <strong id="country-metric-tracks">0</strong>
+              </article>
+              <article class="card">
+                <h4>Unique artists</h4>
+                <strong id="country-metric-artists">0</strong>
+              </article>
+              <article class="card">
+                <h4>Playlists</h4>
+                <strong id="country-metric-playlists">0</strong>
+              </article>
+              <article class="card">
+                <h4>Avg popularity</h4>
+                <strong id="country-metric-popularity">--</strong>
+              </article>
+              <article class="card">
+                <h4>Diaspora share</h4>
+                <strong id="country-metric-diaspora">0%</strong>
+              </article>
+              <article class="card">
+                <h4>Follower reach</h4>
+                <strong id="country-metric-followers">0</strong>
+              </article>
+            </div>
+              <details class="spotlight-details" open>
+                <summary>Top artists</summary>
+                <div class="table-wrapper table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Artist</th>
+                        <th>Placements</th>
+                        <th>Playlists</th>
+                        <th>Avg popularity</th>
+                        <th>Median position</th>
+                        <th>Diaspora share</th>
+                      </tr>
+                    </thead>
+                    <tbody id="country-artist-rows"></tbody>
+                  </table>
+                </div>
+              </details>
+              <details class="spotlight-details">
+                <summary>Top playlists</summary>
+                <div class="table-wrapper table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Playlist</th>
+                        <th>Curator</th>
+                        <th>Track placements</th>
+                        <th>Unique artists</th>
+                        <th>Median position</th>
+                        <th>Followers</th>
+                      </tr>
+                    </thead>
+                    <tbody id="country-playlist-rows"></tbody>
+                  </table>
+                </div>
+              </details>
           </div>
         </div>
       </section>
@@ -498,36 +523,36 @@
             </div>
 
             <div class="playlist-breakdown-right">
-              <div class="table-wrapper table-scroll" id="playlist-tracks-panel" hidden>
-                <h3 class="panel-subtitle">Tracks in selected playlist</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Track</th>
-                      <th>Artist</th>
-                      <th>Position</th>
-                      <th>Popularity</th>
-                      <th>Region</th>
-                    </tr>
-                  </thead>
-                  <tbody id="playlist-tracks-rows"></tbody>
-                </table>
+              <div id="playlist-embed-dashboard" class="playlist-embed-dashboard" hidden>
+                <h3 class="panel-subtitle">Play selected playlist on Spotify</h3>
+                <iframe
+                  id="playlist-embed-iframe-dashboard"
+                  class="spotify-embed-frame"
+                  src=""
+                  width="100%"
+                  height="352"
+                  frameborder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  title="Spotify playlist player (dashboard)"
+                ></iframe>
               </div>
             </div>
 
-            <div id="playlist-embed-dashboard" class="playlist-embed-dashboard" hidden>
-              <h3 class="panel-subtitle">Play selected playlist on Spotify</h3>
-              <iframe
-                id="playlist-embed-iframe-dashboard"
-                class="spotify-embed-frame"
-                src=""
-                width="100%"
-                height="152"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-                title="Spotify playlist player (dashboard)"
-              ></iframe>
+            <div class="table-wrapper table-scroll" id="playlist-tracks-panel" hidden>
+              <h3 class="panel-subtitle">Tracks in selected playlist</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Track</th>
+                    <th>Artist</th>
+                    <th>Position</th>
+                    <th>Popularity</th>
+                    <th>Region</th>
+                  </tr>
+                </thead>
+                <tbody id="playlist-tracks-rows"></tbody>
+              </table>
             </div>
           </div>
         </section>
