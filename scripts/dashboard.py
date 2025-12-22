@@ -36,6 +36,13 @@ MAJOR_LABEL_KEYWORDS = (
     "capitol",
 )
 
+COUNTRY_COLOR_SEQUENCE = (
+    px.colors.qualitative.Alphabet
+    + px.colors.qualitative.Dark24
+    + px.colors.qualitative.Set3
+    + px.colors.qualitative.Bold
+)
+
 COUNTRY_CODE_OVERRIDES = {
     "Congo": "CG",
     "Congo - Brazzaville": "CG",
@@ -228,20 +235,11 @@ def build_region_map(
     if aggregates is None or aggregates.empty:
         return None
 
-    vibrant_scale = [
-        (0.0, "#0b7285"),
-        (0.15, "#1aa59a"),
-        (0.35, "#3ad38f"),
-        (0.55, "#fee45a"),
-        (0.75, "#f08c00"),
-        (1.0, "#d00000"),
-    ]
-
     fig = px.choropleth(
         aggregates,
         locations="artist_country",
         locationmode="country names",
-        color="tracks",
+        color="artist_country",
         hover_name="artist_country",
         hover_data={
             "region_group": True,
@@ -250,8 +248,14 @@ def build_region_map(
             "avg_popularity": True,
             "Diaspora share (%)": True,
         },
-        custom_data=["region_group", "playlists", "avg_popularity", "Diaspora share (%)"],
-        color_continuous_scale=vibrant_scale,
+        custom_data=[
+            "region_group",
+            "tracks",
+            "playlists",
+            "avg_popularity",
+            "Diaspora share (%)",
+        ],
+        color_discrete_sequence=COUNTRY_COLOR_SEQUENCE,
         labels={
             "tracks": "Tracks",
             "playlists": "Playlists",
@@ -265,7 +269,6 @@ def build_region_map(
 
     fig.update_layout(
         margin=dict(l=10, r=10, t=60, b=10),
-        coloraxis_colorbar=dict(title="Tracks", len=0.4, yanchor="top", y=0.95),
         height=520,
     )
 
@@ -273,9 +276,9 @@ def build_region_map(
         marker_line_color="rgba(255, 255, 255, 0.45)",
         marker_line_width=0.7,
         hovertemplate=(
-            "<b>%{location}</b><br>Region: %{customdata[0]}<br>Tracks: %{z}<br>"
-            "Playlists: %{customdata[1]}<br>Avg popularity: %{customdata[2]}<br>"
-            "Diaspora share: %{customdata[3]}%<extra></extra>"
+            "<b>%{location}</b><br>Region: %{customdata[0]}<br>Tracks: %{customdata[1]}<br>"
+            "Playlists: %{customdata[2]}<br>Avg popularity: %{customdata[3]}<br>"
+            "Diaspora share: %{customdata[4]}%<extra></extra>"
         ),
     )
 
