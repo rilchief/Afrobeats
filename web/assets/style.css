@@ -2055,7 +2055,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .playlist-breakdown-grid {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
 	gap: 1rem;
 	align-items: flex-start;
 	margin-top: 1rem;
@@ -2109,21 +2109,63 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0.75rem 0.9rem 0.9rem;
 	background: var(--panel);
 	box-shadow: var(--shadow-sm);
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
 }
 
-/* When the tracks table sits below both columns, let it span full width. */
+/* Tracks table spans the full width beneath the breakdown metrics. */
 #playlist-tracks-panel {
 	grid-column: 1 / -1;
 }
 
+@media (min-width: 721px) {
+	#playlist-tracks-panel table {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	#playlist-tracks-panel th:nth-child(1),
+	#playlist-tracks-panel td:nth-child(1) {
+		width: 34%;
+	}
+
+	#playlist-tracks-panel th:nth-child(3),
+	#playlist-tracks-panel td:nth-child(3) {
+		width: 96px;
+		text-align: right;
+	}
+
+	#playlist-tracks-panel th:nth-child(4),
+	#playlist-tracks-panel td:nth-child(4) {
+		width: 110px;
+		text-align: right;
+	}
+
+	#playlist-tracks-panel th:nth-child(5),
+	#playlist-tracks-panel td:nth-child(5) {
+		width: 160px;
+	}
+
+	#playlist-tracks-panel td:nth-child(1),
+	#playlist-tracks-panel td:nth-child(2) {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
 .playlist-embed-dashboard iframe {
-	margin-top: 0.6rem;
-	height: 352px;
+	margin-top: 0;
+	flex: 1 1 auto;
+	min-height: 480px;
+	height: 480px;
 }
 
 @media (max-width: 600px) {
 	.playlist-embed-dashboard iframe {
-		height: 420px;
+		min-height: 520px;
+		height: 520px;
 	}
 }
 
@@ -2285,8 +2327,14 @@ footer {
 		grid-template-columns: 1fr;
 	}
 
+	/* On small screens, let the tracks panel span the full width again. */
+	#playlist-tracks-panel {
+		grid-column: 1 / -1;
+	}
+
 	.playlist-embed-dashboard iframe {
-		height: 152px;
+		min-height: 420px;
+		height: 420px;
 	}
 
 	.artist-panel-header {

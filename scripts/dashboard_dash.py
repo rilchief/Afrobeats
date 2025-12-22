@@ -22,6 +22,13 @@ MAJOR_LABEL_KEYWORDS = (
     "motown", "republic", "emi", "capitol",
 )
 
+COUNTRY_COLOR_SEQUENCE = (
+    px.colors.qualitative.Alphabet
+    + px.colors.qualitative.Dark24
+    + px.colors.qualitative.Set3
+    + px.colors.qualitative.Bold
+)
+
 # Helper functions
 def classify_label(label: str | None) -> str:
     if not label:
@@ -546,11 +553,20 @@ def update_dashboard(search_text, curator_types, regions, labels, year_range, di
     }).reset_index()
     country_data.columns = ['country', 'tracks', 'avg_popularity']
     
-    map_fig = px.choropleth(country_data, locations='country', locationmode='country names',
-                           color='tracks', hover_data=['avg_popularity'],
-                           title='Global Footprint by Country',
-                           template='plotly_dark',
-                           color_continuous_scale='Viridis')
+    map_fig = px.choropleth(
+        country_data,
+        locations='country',
+        locationmode='country names',
+        color='country',
+        hover_name='country',
+        hover_data={
+            'tracks': True,
+            'avg_popularity': True,
+        },
+        title='Global Footprint by Country',
+        template='plotly_dark',
+        color_discrete_sequence=COUNTRY_COLOR_SEQUENCE,
+    )
     map_fig.update_layout(paper_bgcolor='rgba(19,24,33,0.95)', plot_bgcolor='rgba(19,24,33,0.95)')
     
     # Popularity chart
