@@ -4,7 +4,7 @@
 Write-Host "Starting Afrobeats Playlist Observatory - Streamlit Dashboard" -ForegroundColor Cyan
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "Dashboard will open at: http://localhost:8501" -ForegroundColor Green
+Write-Host "Dashboard will open at: http://localhost:8501/" -ForegroundColor Green
 Write-Host "Press Ctrl+C to stop the server" -ForegroundColor Yellow
 Write-Host ""
 

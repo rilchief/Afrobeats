@@ -29,6 +29,8 @@ COUNTRY_COLOR_SEQUENCE = (
     + px.colors.qualitative.Bold
 )
 
+GLOBAL_FOOTPRINT_COLOR_SCALE = px.colors.sequential.Turbo
+
 # Helper functions
 def classify_label(label: str | None) -> str:
     if not label:
@@ -557,7 +559,7 @@ def update_dashboard(search_text, curator_types, regions, labels, year_range, di
         country_data,
         locations='country',
         locationmode='country names',
-        color='country',
+        color='tracks',
         hover_name='country',
         hover_data={
             'tracks': True,
@@ -565,7 +567,7 @@ def update_dashboard(search_text, curator_types, regions, labels, year_range, di
         },
         title='Global Footprint by Country',
         template='plotly_dark',
-        color_discrete_sequence=COUNTRY_COLOR_SEQUENCE,
+        color_continuous_scale=GLOBAL_FOOTPRINT_COLOR_SCALE,
     )
     map_fig.update_layout(paper_bgcolor='rgba(19,24,33,0.95)', plot_bgcolor='rgba(19,24,33,0.95)')
     

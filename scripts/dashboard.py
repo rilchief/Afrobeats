@@ -43,6 +43,8 @@ COUNTRY_COLOR_SEQUENCE = (
     + px.colors.qualitative.Bold
 )
 
+GLOBAL_FOOTPRINT_COLOR_SCALE = px.colors.sequential.Turbo
+
 COUNTRY_CODE_OVERRIDES = {
     "Congo": "CG",
     "Congo - Brazzaville": "CG",
@@ -239,7 +241,7 @@ def build_region_map(
         aggregates,
         locations="artist_country",
         locationmode="country names",
-        color="artist_country",
+        color="tracks",
         hover_name="artist_country",
         hover_data={
             "region_group": True,
@@ -255,7 +257,7 @@ def build_region_map(
             "avg_popularity",
             "Diaspora share (%)",
         ],
-        color_discrete_sequence=COUNTRY_COLOR_SEQUENCE,
+        color_continuous_scale=GLOBAL_FOOTPRINT_COLOR_SCALE,
         labels={
             "tracks": "Tracks",
             "playlists": "Playlists",
