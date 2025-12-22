@@ -43,8 +43,6 @@ COUNTRY_COLOR_SEQUENCE = (
     + px.colors.qualitative.Bold
 )
 
-GLOBAL_FOOTPRINT_COLOR_SCALE = px.colors.sequential.Turbo
-
 COUNTRY_CODE_OVERRIDES = {
     "Congo": "CG",
     "Congo - Brazzaville": "CG",
@@ -232,16 +230,24 @@ def build_region_map(
     *,
     background_color: str | None = None,
     aggregates: pd.DataFrame | None = None,
+    color_map: Dict[str, str] | None = None,
 ) -> px.choropleth | None:
     aggregates = aggregates if aggregates is not None else aggregate_country_footprint(df)
     if aggregates is None or aggregates.empty:
         return None
 
+    if color_map is None:
+        countries = sorted(aggregates["artist_country"].astype(str).unique())
+        color_map = {
+            country: COUNTRY_COLOR_SEQUENCE[idx % len(COUNTRY_COLOR_SEQUENCE)]
+            for idx, country in enumerate(countries)
+        }
+
     fig = px.choropleth(
         aggregates,
         locations="artist_country",
         locationmode="country names",
-        color="tracks",
+        color="artist_country",
         hover_name="artist_country",
         hover_data={
             "region_group": True,
@@ -257,7 +263,7 @@ def build_region_map(
             "avg_popularity",
             "Diaspora share (%)",
         ],
-        color_continuous_scale=GLOBAL_FOOTPRINT_COLOR_SCALE,
+        color_discrete_map=color_map,
         labels={
             "tracks": "Tracks",
             "playlists": "Playlists",
@@ -587,43 +593,44 @@ def main() -> None:
 
     theme_background = st.get_option("theme.backgroundColor")
     country_overview = aggregate_country_footprint(filtered)
+    country_color_map: Dict[str, str] | None = None
+    if not country_overview.empty:
+        countries_sorted = sorted(country_overview["artist_country"].astype(str).unique())
+        country_color_map = {
+            country: COUNTRY_COLOR_SEQUENCE[idx % len(COUNTRY_COLOR_SEQUENCE)]
+            for idx, country in enumerate(countries_sorted)
+        }
     region_map_fig = build_region_map(
         filtered,
         background_color=theme_background,
         aggregates=country_overview,
+        color_map=country_color_map,
     )
     if region_map_fig:
-        st.plotly_chart(region_map_fig, use_container_width=True)
-        if not country_overview.empty:
-            st.markdown("#### Country callouts")
-            st.caption(
-                "Use the quick digest below to locate key contributor countries before hovering on the map."
-            )
-            top_rows = country_overview.sort_values("tracks", ascending=False).head(12)
-            callout_cols = st.columns(3)
-            max_tracks = max(top_rows["tracks"].tolist() or [1])
-            for idx, (_, row) in enumerate(top_rows.iterrows()):
-                col = callout_cols[idx % len(callout_cols)]
-                with col:
-                    flag = country_to_flag(row["artist_country"])
-                    title = f"{flag} {row['artist_country']}".strip()
-                    diaspora_value = row["Diaspora share (%)"]
-                    diaspora_text = (
-                        f"{int(diaspora_value):d}% diaspora"
-                        if pd.notna(diaspora_value)
-                        else "—"
+        map_col, legend_col = st.columns([4, 1])
+        with map_col:
+            st.plotly_chart(region_map_fig, use_container_width=True)
+        if not country_overview.empty and country_color_map is not None:
+            with legend_col:
+                st.markdown("#### Country legend")
+                st.caption("Each country is shown with its map colour and track count.")
+                legend_df = country_overview[["artist_country", "tracks"]].copy()
+                legend_df = legend_df.sort_values("tracks", ascending=False)
+                for _, row in legend_df.iterrows():
+                    country = str(row["artist_country"])
+                    tracks_val = int(row["tracks"]) if not pd.isna(row["tracks"]) else 0
+                    color_hex = country_color_map.get(country, "#888888")
+                    flag = country_to_flag(country)
+                    label_text = f"{flag} {country}".strip()
+                    st.markdown(
+                        f"<div style='display:flex;align-items:center;margin-bottom:4px;'>"
+                        f"<div style='width:14px;height:14px;border-radius:3px;"
+                        f"background-color:{color_hex};margin-right:6px;"
+                        f"border:1px solid rgba(255,255,255,0.6);'></div>"
+                        f"<span style='font-size:0.85rem;'>{label_text} — {tracks_val} tracks</span>"
+                        f"</div>",
+                        unsafe_allow_html=True,
                     )
-                    playlists_value = int(row["playlists"]) if not pd.isna(row["playlists"]) else 0
-                    st.metric(
-                        label=title,
-                        value=f"{int(row['tracks'])} tracks",
-                        delta=diaspora_text,
-                        delta_color="off",
-                    )
-                    st.caption(
-                        f"Playlists: {playlists_value} • Avg popularity: {row['avg_popularity']:.0f}"
-                    )
-                    st.progress(min(row["tracks"] / max_tracks, 1.0))
     else:
         st.info("Artist country metadata unavailable for the map.")
 
