@@ -607,30 +607,7 @@ def main() -> None:
         color_map=country_color_map,
     )
     if region_map_fig:
-        map_col, legend_col = st.columns([4, 1])
-        with map_col:
-            st.plotly_chart(region_map_fig, use_container_width=True)
-        if not country_overview.empty and country_color_map is not None:
-            with legend_col:
-                st.markdown("#### Country legend")
-                st.caption("Each country is shown with its map colour and track count.")
-                legend_df = country_overview[["artist_country", "tracks"]].copy()
-                legend_df = legend_df.sort_values("tracks", ascending=False)
-                for _, row in legend_df.iterrows():
-                    country = str(row["artist_country"])
-                    tracks_val = int(row["tracks"]) if not pd.isna(row["tracks"]) else 0
-                    color_hex = country_color_map.get(country, "#888888")
-                    flag = country_to_flag(country)
-                    label_text = f"{flag} {country}".strip()
-                    st.markdown(
-                        f"<div style='display:flex;align-items:center;margin-bottom:4px;'>"
-                        f"<div style='width:14px;height:14px;border-radius:3px;"
-                        f"background-color:{color_hex};margin-right:6px;"
-                        f"border:1px solid rgba(255,255,255,0.6);'></div>"
-                        f"<span style='font-size:0.85rem;'>{label_text} — {tracks_val} tracks</span>"
-                        f"</div>",
-                        unsafe_allow_html=True,
-                    )
+        st.plotly_chart(region_map_fig, use_container_width=True)
     else:
         st.info("Artist country metadata unavailable for the map.")
 
