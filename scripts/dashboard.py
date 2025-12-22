@@ -191,14 +191,30 @@ def build_region_chart(df: pd.DataFrame) -> px.bar:
         .count()
         .sort_values(ascending=False)
     )
+    region_df = region_counts.reset_index()
+    region_df.columns = ["region", "tracks"]
     fig = px.bar(
-        region_counts,
-        x=region_counts.index,
-        y=region_counts.values,
-        labels={"x": "Region", "y": "Tracks"},
+        region_df,
+        x="region",
+        y="tracks",
+        color="tracks",
+        color_continuous_scale="Viridis",
+        labels={"region": "Region", "tracks": "Tracks"},
         title="Regional representation",
+        template="plotly_dark",
     )
-    fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
+    fig.update_traces(
+        marker_line_width=0,
+        hovertemplate="<b>%{x}</b><br>Tracks: %{y:,}<extra></extra>",
+    )
+    fig.update_layout(
+        margin=dict(l=10, r=10, t=60, b=10),
+        coloraxis_showscale=False,
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis=dict(showgrid=False),
+        yaxis=dict(showgrid=True, gridcolor="rgba(255,255,255,0.1)"),
+    )
     return fig
 
 
@@ -322,13 +338,28 @@ def build_release_year_chart(df: pd.DataFrame) -> px.histogram | None:
         clean,
         x="release_year",
         color="curator_type",
-        nbins=20,
+        nbins=25,
         barmode="overlay",
-        opacity=0.7,
+        opacity=0.75,
+        color_discrete_sequence=px.colors.qualitative.Bold,
         labels={"release_year": "Release year", "count": "Tracks", "curator_type": "Curator type"},
         title="Release year distribution",
+        template="plotly_dark",
     )
-    fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
+    fig.update_traces(
+        marker_line_width=0.5,
+        marker_line_color="rgba(255,255,255,0.3)",
+        hovertemplate="<b>Year: %{x}</b><br>Tracks: %{y}<extra></extra>",
+    )
+    fig.update_layout(
+        margin=dict(l=10, r=10, t=60, b=10),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis=dict(showgrid=False),
+        yaxis=dict(showgrid=True, gridcolor="rgba(255,255,255,0.1)"),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        bargap=0.1,
+    )
     return fig
 
 
@@ -340,10 +371,26 @@ def build_popularity_chart(df: pd.DataFrame) -> px.box | None:
         clean,
         x="curator_type",
         y="track_popularity",
+        color="curator_type",
+        color_discrete_sequence=px.colors.qualitative.Vivid,
         labels={"curator_type": "Curator type", "track_popularity": "Track popularity"},
         title="Track popularity by curator type",
+        template="plotly_dark",
+        points="outliers",
     )
-    fig.update_layout(showlegend=False, margin=dict(l=10, r=10, t=60, b=10))
+    fig.update_traces(
+        marker=dict(opacity=0.6, size=4),
+        line=dict(width=1.5),
+        hovertemplate="<b>%{x}</b><br>Popularity: %{y}<extra></extra>",
+    )
+    fig.update_layout(
+        showlegend=False,
+        margin=dict(l=10, r=10, t=60, b=10),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis=dict(showgrid=False),
+        yaxis=dict(showgrid=True, gridcolor="rgba(255,255,255,0.1)"),
+    )
     return fig
 
 
@@ -352,7 +399,7 @@ def build_exposure_chart(df: pd.DataFrame) -> px.bar | None:
         df.groupby("artist")["playlist_id"]
         .nunique()
         .sort_values(ascending=False)
-        .head(10)
+        .head(15)
     )
     if exposure.empty:
         return None
@@ -363,10 +410,28 @@ def build_exposure_chart(df: pd.DataFrame) -> px.bar | None:
         x="playlist_count",
         y="artist",
         orientation="h",
+        color="playlist_count",
+        color_continuous_scale="Sunset",
         labels={"playlist_count": "Playlists", "artist": "Artist"},
         title="Top recurring artists across playlists",
+        template="plotly_dark",
     )
-    fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
+    fig.update_traces(
+        marker_line_width=0,
+        hovertemplate="<b>%{y}</b><br>Appears in %{x} playlists<extra></extra>",
+        texttemplate="%{x}",
+        textposition="outside",
+        textfont=dict(size=10, color="rgba(255,255,255,0.8)"),
+    )
+    fig.update_layout(
+        margin=dict(l=10, r=10, t=60, b=10),
+        coloraxis_showscale=False,
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis=dict(showgrid=True, gridcolor="rgba(255,255,255,0.1)"),
+        yaxis=dict(showgrid=False),
+        height=450,
+    )
     return fig
 
 
@@ -378,15 +443,34 @@ def build_curator_chart(df: pd.DataFrame) -> px.bar:
         .sort_values(ascending=False)
         * 100
     )
+    curator_df = pivot.reset_index()
+    curator_df.columns = ["curator_type", "nigeria_share"]
     fig = px.bar(
-        pivot,
-        x=pivot.index,
-        y=pivot.values,
-        labels={"x": "Curator type", "y": "Nigeria share (%)"},
+        curator_df,
+        x="curator_type",
+        y="nigeria_share",
+        color="nigeria_share",
+        color_continuous_scale="Oranges",
+        labels={"curator_type": "Curator type", "nigeria_share": "Nigeria share (%)"},
         title="Nigeria share by curator type",
         range_y=[0, 100],
+        template="plotly_dark",
     )
-    fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
+    fig.update_traces(
+        marker_line_width=0,
+        hovertemplate="<b>%{x}</b><br>Nigeria share: %{y:.1f}%<extra></extra>",
+        texttemplate="%{y:.0f}%",
+        textposition="outside",
+        textfont=dict(size=11, color="rgba(255,255,255,0.9)"),
+    )
+    fig.update_layout(
+        margin=dict(l=10, r=10, t=60, b=10),
+        coloraxis_showscale=False,
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis=dict(showgrid=False),
+        yaxis=dict(showgrid=True, gridcolor="rgba(255,255,255,0.1)"),
+    )
     return fig
 
 
