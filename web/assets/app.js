@@ -1169,7 +1169,7 @@ const SPOTIFY_PLAYLIST_IDS = {
             {
               label: "Tracks",
               data: [],
-              backgroundColor: "rgba(108, 99, 255, 0.75)",
+              backgroundColor: [],
               borderRadius: 8
             }
           ]
@@ -1197,7 +1197,7 @@ const SPOTIFY_PLAYLIST_IDS = {
             {
               label: "Average popularity",
               data: [],
-              backgroundColor: "rgba(255, 180, 0, 0.75)",
+              backgroundColor: [],
               borderRadius: 8
             }
           ]
@@ -1236,7 +1236,7 @@ const SPOTIFY_PLAYLIST_IDS = {
             {
               label: "% of tracks featuring Nigerian artists",
               data: [],
-              backgroundColor: "rgba(108, 99, 255, 0.75)",
+              backgroundColor: [],
               borderRadius: 8
             }
           ]
@@ -1272,7 +1272,7 @@ const SPOTIFY_PLAYLIST_IDS = {
             {
               label: "Track placements",
               data: [],
-              backgroundColor: "rgba(46, 204, 113, 0.7)",
+              backgroundColor: [],
               borderRadius: 8
             }
           ]
@@ -1320,8 +1320,17 @@ const SPOTIFY_PLAYLIST_IDS = {
       .filter((year) => !Number.isNaN(year))
       .sort((a, b) => a - b);
     const releaseValues = releaseLabels.map((year) => releaseCounts[String(year)]);
+    const maxRelease = Math.max(...releaseValues, 1);
+    const releaseColors = releaseValues.map((val) => {
+      const ratio = val / maxRelease;
+      const r = Math.round(54 + ratio * (244 - 54));
+      const g = Math.round(162 + ratio * (114 - 162));
+      const b = Math.round(235 + ratio * (182 - 235));
+      return `rgba(${r}, ${g}, ${b}, 0.85)`;
+    });
     charts.release.data.labels = releaseLabels;
     charts.release.data.datasets[0].data = releaseValues;
+    charts.release.data.datasets[0].backgroundColor = releaseColors;
     charts.release.update();
 
     const popularityByRegion = playlists.reduce((acc, playlist) => {
@@ -1344,8 +1353,19 @@ const SPOTIFY_PLAYLIST_IDS = {
     });
 
     popularityEntries.sort((a, b) => b.averagePopularity - a.averagePopularity);
-    charts.popularity.data.labels = popularityEntries.map((entry) => entry.region);
-    charts.popularity.data.datasets[0].data = popularityEntries.map((entry) => entry.averagePopularity);
+    const popularityLabels = popularityEntries.map((entry) => entry.region);
+    const popularityValues = popularityEntries.map((entry) => entry.averagePopularity);
+    const maxPopularity = Math.max(...popularityValues, 1);
+    const popularityColors = popularityValues.map((val) => {
+      const ratio = val / maxPopularity;
+      const r = Math.round(255 - ratio * 80);
+      const g = Math.round(140 + ratio * 60);
+      const b = Math.round(0 + ratio * 80);
+      return `rgba(${r}, ${g}, ${b}, 0.9)`;
+    });
+    charts.popularity.data.labels = popularityLabels;
+    charts.popularity.data.datasets[0].data = popularityValues;
+    charts.popularity.data.datasets[0].backgroundColor = popularityColors;
     charts.popularity.update();
 
     const curatorGroups = playlists.reduce((acc, playlist) => {
@@ -1366,8 +1386,17 @@ const SPOTIFY_PLAYLIST_IDS = {
       if (!group.total) return 0;
       return Math.round((group.nigeria / group.total) * 100);
     });
+    const maxCurator = Math.max(...curatorValues, 1);
+    const curatorColors = curatorValues.map((val) => {
+      const ratio = val / maxCurator;
+      const r = Math.round(253);
+      const g = Math.round(203 + ratio * (87 - 203));
+      const b = Math.round(110 + ratio * (20 - 110));
+      return `rgba(${r}, ${g}, ${b}, 0.9)`;
+    });
     charts.curator.data.labels = curatorLabels;
     charts.curator.data.datasets[0].data = curatorValues;
+    charts.curator.data.datasets[0].backgroundColor = curatorColors;
     charts.curator.update();
 
     const artistExposure = playlists.reduce((acc, playlist) => {
@@ -1386,8 +1415,19 @@ const SPOTIFY_PLAYLIST_IDS = {
     const topArtists = Object.values(artistExposure)
       .sort((a, b) => b.count - a.count)
       .slice(0, 8);
-    charts.exposure.data.labels = topArtists.map((artist) => artist.name);
-    charts.exposure.data.datasets[0].data = topArtists.map((artist) => artist.count);
+    const exposureLabels = topArtists.map((artist) => artist.name);
+    const exposureValues = topArtists.map((artist) => artist.count);
+    const maxExposure = Math.max(...exposureValues, 1);
+    const exposureColors = exposureValues.map((val) => {
+      const ratio = val / maxExposure;
+      const r = Math.round(46 + ratio * (22 - 46));
+      const g = Math.round(204 + ratio * (160 - 204));
+      const b = Math.round(113 + ratio * (133 - 113));
+      return `rgba(${r}, ${g}, ${b}, 0.9)`;
+    });
+    charts.exposure.data.labels = exposureLabels;
+    charts.exposure.data.datasets[0].data = exposureValues;
+    charts.exposure.data.datasets[0].backgroundColor = exposureColors;
     charts.exposure.update();
   }
 
