@@ -187,6 +187,7 @@ def format_share(value: float | None) -> str:
 def build_region_chart(df: pd.DataFrame) -> px.bar:
     region_counts = (
         df.assign(region_group=df["region_group"].fillna("Unknown"))
+        .loc[lambda frame: frame["region_group"].ne("Unknown")]
         .groupby("region_group")["track_id"]
         .count()
         .sort_values(ascending=False)

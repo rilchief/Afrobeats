@@ -1297,10 +1297,21 @@ const SPOTIFY_PLAYLIST_IDS = {
     ensureCharts();
 
     const regionCounts = sumCounts(allTracks, (track) => track.regionGroup);
-    const regionLabels = Object.keys(regionCounts).sort();
+    const regionLabels = Object.keys(regionCounts)
+      .filter((key) => key && key !== "Unknown")
+      .sort((a, b) => regionCounts[b] - regionCounts[a]);
     const regionValues = regionLabels.map((key) => regionCounts[key]);
+    const maxVal = Math.max(...regionValues, 1);
+    const regionColors = regionValues.map((val) => {
+      const ratio = val / maxVal;
+      const r = Math.round(68 + ratio * (253 - 68));
+      const g = Math.round(1 + ratio * (231 - 1));
+      const b = Math.round(84 + ratio * (37 - 84));
+      return `rgba(${r}, ${g}, ${b}, 0.85)`;
+    });
     charts.region.data.labels = regionLabels;
     charts.region.data.datasets[0].data = regionValues;
+    charts.region.data.datasets[0].backgroundColor = regionColors;
     charts.region.update();
 
     const releaseCounts = sumCounts(allTracks, (track) => track.releaseYear);
