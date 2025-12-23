@@ -36,7 +36,7 @@ switch ($choice) {
         Write-Host ""
         Write-Host "🚀 Launching Both Dashboards..." -ForegroundColor Cyan
         Write-Host "📍 Streamlit: http://localhost:8501" -ForegroundColor Yellow
-        Write-Host "📍 Dash: http://localhost:8050" -ForegroundColor Yellow
+        Write-Host "📍 Dash: http://localhnost:8050" -ForegroundColor Yellow
         Write-Host "⌨️  Close this window to stop both" -ForegroundColor Magenta
         Write-Host ""
         
