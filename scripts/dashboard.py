@@ -730,6 +730,105 @@ def main() -> None:
         else:
             st.info("No recurring artist data for this slice.")
 
+    st.subheader("Artist detail lens")
+    artist_names = (
+        filtered["artist"].dropna().astype(str).str.strip().sort_values().unique().tolist()
+    )
+    if not artist_names:
+        st.caption("No artists available for the current filters.")
+    else:
+        selected_artist = st.selectbox(
+            "Search or select an artist (respects filters)",
+            artist_names,
+            key="artist_detail_select",
+        )
+
+        artist_slice = filtered[filtered["artist"] == selected_artist].copy()
+
+        origin_series = (
+            artist_slice["artist_country"]
+            .dropna()
+            .astype(str)
+            .str.strip()
+        )
+        origin_series = origin_series[origin_series.str.lower() != "unknown"]
+        origin = origin_series.mode().iat[0] if not origin_series.empty else "Unknown"
+
+        diaspora_flag = bool(artist_slice["diaspora"].any())
+        playlist_count_artist = int(artist_slice["playlist_id"].nunique())
+        placement_count = int(artist_slice.shape[0])
+        median_position = artist_slice["playlist_position"].median()
+        avg_track_pop_artist = artist_slice["track_popularity"].mean()
+
+        a_col1, a_col2, a_col3, a_col4, a_col5 = st.columns(5)
+        a_col1.metric("Origin", origin)
+        a_col2.metric("Diaspora", "Yes" if diaspora_flag else "No")
+        a_col3.metric("Playlists", playlist_count_artist)
+        a_col4.metric("Total placements", placement_count)
+        a_col5.metric(
+            "Median position",
+            "N/A" if pd.isna(median_position) else f"{median_position:.0f}",
+        )
+
+        a_sub1, a_sub2 = st.columns(2)
+        a_sub1.metric(
+            "Average track popularity",
+            "N/A" if pd.isna(avg_track_pop_artist) else f"{avg_track_pop_artist:.1f}",
+        )
+
+        ts_df = artist_slice.dropna(subset=["release_year"]).copy()
+        if not ts_df.empty:
+            ts_df["release_year"] = pd.to_numeric(ts_df["release_year"], errors="coerce")
+            ts_df = ts_df.dropna(subset=["release_year"])
+        time_series_fig = None
+        if not ts_df.empty:
+            time_series = (
+                ts_df.groupby("release_year")["track_id"]
+                .count()
+                .reset_index(name="placements")
+                .sort_values("release_year")
+            )
+            time_series_fig = px.line(
+                time_series,
+                x="release_year",
+                y="placements",
+                markers=True,
+                labels={"release_year": "Release year", "placements": "Track placements"},
+                title="Appearances over time (by release year)",
+                template="plotly_dark",
+            )
+            time_series_fig.update_layout(margin=dict(l=10, r=10, t=60, b=10))
+
+        with st.expander("Artist placements and timeline", expanded=False):
+            if time_series_fig is not None:
+                st.plotly_chart(time_series_fig, use_container_width=True)
+            else:
+                st.caption("No release year data available to build a timeline for this artist.")
+
+            placements_cols = [
+                "playlist_name",
+                "playlist_position",
+                "track_title",
+                "track_popularity",
+                "release_year",
+                "added_at",
+            ]
+            available_cols = [col for col in placements_cols if col in artist_slice.columns]
+            if available_cols:
+                placements_view = artist_slice[available_cols].rename(
+                    columns={
+                        "playlist_name": "Playlist",
+                        "playlist_position": "Position",
+                        "track_title": "Track",
+                        "track_popularity": "Track popularity",
+                        "release_year": "Release year",
+                        "added_at": "Added at",
+                    }
+                ).sort_values(["Playlist", "Position"], ascending=[True, True])
+                st.dataframe(placements_view, use_container_width=True)
+            else:
+                st.caption("No placement fields available to display for this artist.")
+
     summary = playlist_summary(filtered, playlists_df)
     st.subheader("Playlist breakdown")
     if not summary.empty:
